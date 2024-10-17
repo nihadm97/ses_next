@@ -83,7 +83,7 @@ function MapExample() {
 
     // Load Google Maps script
     const script = document.createElement("script");
-    script.src = `https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY`; // Replace with your API key
+    script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyCCe1GY0OvpuFL5ojUrIwWgH2-AXaQN2Cg`; // Replace with your API key
     script.async = true;
     script.defer = true;
     script.onload = loadGoogleMaps;
