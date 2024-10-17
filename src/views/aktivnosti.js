@@ -15,7 +15,7 @@ import slika2 from '@/views/images/stem2.jpg';
 import slika3 from '@/views/images/stem3.jpg';
 import slika4 from '@/views/images/stem4.jpg';
 import slika5 from '@/views/images/stem5.jpg';
-/*import dan1 from '@/views/images/dan1.jpg';*/
+/*import dan1 from '@/views/images/dan1.jpg';
 import dan2 from '@/views/images/dan2.jpg';
 import dan3 from '@/views/images/dan3.jpg';
 import dan4 from '@/views/images/dan4.jpg';
@@ -23,7 +23,7 @@ import dan5 from '@/views/images/dan5.jpg';
 import dan6 from '@/views/images/dan6.jpg';
 import dan7 from '@/views/images/dan7.jpg';
 import dan8 from '@/views/images/dan8.jpg';
-import dan9 from '@/views/images/dan9.jpg';
+import dan9 from '@/views/images/dan9.jpg';*/
 import spars2 from '@/views/images/spars2.jpg';
 import spars3 from '@/views/images/spars3.jpg';
 import spars4 from '@/views/images/spars4.jpg';
@@ -10050,6 +10050,7 @@ Kustos muzeja g-din Nermin Pustahija, prezentirao je učenicama i učenicima, iz
             </div>
             </div>
           </section>
+    {/*
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
@@ -10062,6 +10063,9 @@ Kustos muzeja g-din Nermin Pustahija, prezentirao je učenicama i učenicima, iz
                   <Carousel interval="10000" transitionTime="1000" infiniteLoop>
                       
                     
+                  <div>
+                        <Image src={dan1} alt="" />
+                    </div>
                     <div>
                         <Image src={dan2} alt="" />
                     </div>
@@ -10112,7 +10116,7 @@ Kustos muzeja g-din Nermin Pustahija, prezentirao je učenicama i učenicima, iz
               </div>
             </div>
             </div>
-          </section>
+          </section>*/}
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
