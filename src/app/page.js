@@ -220,7 +220,7 @@ export default function Index() {
               <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
                 <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
                   <div className="py-5 flex-auto">
-                  <Carousel interval="10000" transitionTime="1000" infiniteLoop>
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
                       
                   <div>
                         <Image src={erasmus0} alt="" />

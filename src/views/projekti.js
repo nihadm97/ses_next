@@ -82,7 +82,7 @@ const Projekti = () => {
               <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
                 <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
                   <div className="py-5 flex-auto">
-                  <Carousel interval="1000" transitionTime="10000" infiniteLoop>
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
                       
                   <div>
                         <Image src={green1} alt="" />
@@ -175,7 +175,7 @@ Specijalna nagrada žirija je također otišla u ruke učenicama i učenicima na
               <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
                 <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
                   <div className="py-5 flex-auto">
-                  <Carousel interval="10000" transitionTime="1000" infiniteLoop>
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
                       
                   <div>
                         <Image src={kamp1} alt="" />
@@ -238,7 +238,7 @@ Uvjereni smo da će se iz brojnih zanimljivih i kreativnih aktivnosti sa kampa i
               <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
                 <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
                   <div className="py-5 flex-auto">
-                  <Carousel interval="10000" transitionTime="1000" infiniteLoop>
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
                       
                   <div>
                         <Image src={mu1} alt="" />
@@ -292,7 +292,7 @@ eTwinning projekti su ključni za pružanje autentičnih i motivirajućih iskust
               <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
                 <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
                   <div className="py-5 flex-auto">
-                  <Carousel interval="10000" transitionTime="1000" infiniteLoop>
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
                       
                   <div>
                         <Image src={erasmus0} alt="" />
@@ -385,7 +385,7 @@ Sigurni smo da će i učenice/učenici škola učesnica, pored projektnih aktivn
               <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
                 <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
                   <div className="py-5 flex-auto">
-                  <Carousel interval="10000" transitionTime="1000" infiniteLoop>
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
                       
                     <div>
                         <img src="https://firebasestorage.googleapis.com/v0/b/obavijesti-b3310.appspot.com/o/Stednja%202.jpg?alt=media&token=b5134740-bd9e-48e1-9307-da1e948139ee" alt="" />
@@ -434,7 +434,7 @@ Sigurni smo da će i učenice/učenici škola učesnica, pored projektnih aktivn
               <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
                 <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
                   <div className="py-5 flex-auto">
-                  <Carousel interval="10000" transitionTime="1000" infiniteLoop>
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
                       
                     <div>
                         <Image src={medijske0} alt="" />
@@ -482,7 +482,7 @@ Sigurni smo da će i učenice/učenici škola učesnica, pored projektnih aktivn
               <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
                 <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
                   <div className="py-5 flex-auto">
-                  <Carousel interval="10000" transitionTime="1000" infiniteLoop>
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
                       
                     <div>
                         <Image src={asa1} alt="" />
@@ -527,7 +527,7 @@ Sigurni smo da će i učenice/učenici škola učesnica, pored projektnih aktivn
               <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
                 <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
                   <div className="py-5 flex-auto">
-                  <Carousel interval="10000" transitionTime="1000" infiniteLoop>
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
                       
                     <div>
                         <Image src={slika1} alt="" />
@@ -573,7 +573,7 @@ Sigurni smo da će i učenice/učenici škola učesnica, pored projektnih aktivn
               <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
                 <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
                   <div className="py-5 flex-auto">
-                  <Carousel interval="10000" transitionTime="1000" infiniteLoop>
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
                       {obj.slike.map(slika  => 
                     <div>
                         <img src={slika} alt="" />

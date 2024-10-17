@@ -47,30 +47,27 @@ export default function Menu() {
                     </Link>
                   </li>
                   <li className="nav-item">
-                  <a
-                    className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                    href="https://sites.google.com/ses.edu.ba/srednjaekonomskakola-etwinning/o-etwinningu"
-                    target="_blank"
-                    rel="noreferrer"
-                    >
-                        ETWINNING
-                  
-                  </a>
-                  </li>
-                  <li className="nav-item">
-                    <Link
+                  <Link
                       className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                      href="/erasmus"
+                      href="/greentech"
                     >
-                      ERASMUS +
+                      GREEN TECH
                     </Link>
                   </li>
                   <li className="nav-item">
                     <Link
                       className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                      href="/aktivnosti"
+                      href="/openfuture"
                     >
-                      AKTIVNOSTI
+                      OPEN FUTURE
+                    </Link>
+                  </li>
+                  <li className="nav-item">
+                    <Link
+                      className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
+                      href="/projekti"
+                    >
+                      PROJEKTI
                     </Link>
                   </li>
                   <li className="flex items-center">
