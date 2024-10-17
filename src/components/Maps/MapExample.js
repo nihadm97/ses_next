@@ -6,8 +6,8 @@ function MapExample() {
   useEffect(() => {
     const loadGoogleMaps = () => {
       if (window.google) {
-        const lat = 43.85435222461072; // Use number instead of string
-        const lng = 18.393654375636082; // Use number instead of string
+        const lat = 43.85369871157572; // Use number instead of string
+        const lng = 18.392301846566106; // Use number instead of string
         const myLatlng = new window.google.maps.LatLng(lat, lng);
         const mapOptions = {
           zoom: 18,
