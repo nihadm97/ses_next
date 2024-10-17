@@ -3059,25 +3059,24 @@ html {
   @media screen and (min-width: 1024px) {
     #div{ margin-top: 35%; }   /* hide it on larger screens */
   }
+  /*
   @media screen and (min-width: 640px) {
     #pocetna {
-      /* background-image: url(skola.gif); */
+       background-image: url(skola.gif); 
     }
   }
   @media screen and (max-width: 640px) {
     #pocetna {
       background-image: url(VideoP.webp);
     }
-  }
+  }*/
+
   .backgroundVideo {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
+    top: 0;
+    left: 0;
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    object-fit: cover; /* Ensures the video covers the entire area */
     z-index: -1; /* Behind other content */
-    transform: translate(-50%, -50%);
-  }
-  
+}

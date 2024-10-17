@@ -1057,7 +1057,7 @@ Dio učeničkih radova koji govore o miru u svijetu, proslijeđen je Evropskom c
 </span>
                   </div>
                   <div className="w-full md:w-9/12 ml-auto mr-auto px-4" style={{paddingBottom: "5%"}}>    
-                  <video src="@/views/images/senka.mp4" width="800" height="600" controls="controls" className="w-full align-middle rounded-lg"/> 
+                  <video src="/senka.mp4" width="800" height="600" controls="controls" className="w-full align-middle rounded-lg"/> 
                   
           
                
@@ -1719,7 +1719,7 @@ Iskrene čestitke i životne staze popločane najvišim uspjesima, svim srcem va
 </span>
                   </div>
                   <div className="w-full md:w-9/12 ml-auto mr-auto px-4" style={{paddingBottom: "5%"}}>    
-                  <video src="@/views/images/dodjela24.mp4" width="800" height="600" controls="controls" className="w-full align-middle rounded-lg"/> 
+                  <video src="/dodjela24.mp4" width="800" height="600" controls="controls" className="w-full align-middle rounded-lg"/> 
                   
           
                
@@ -5162,7 +5162,7 @@ U cilju prikupljanja informacija o fakultetima i donošenju što kvalitetnije od
 </span>
                   </div>
                   <div className="w-full md:w-9/12 ml-auto mr-auto px-4" style={{paddingBottom: "5%"}}>    
-                  <video src="@/views/images/radi.mp4" width="800" height="600" controls="controls" className="w-full align-middle rounded-lg"/> 
+                  <video src="/radi.mp4" width="800" height="600" controls="controls" className="w-full align-middle rounded-lg"/> 
           
                
            </div>
@@ -6241,7 +6241,7 @@ Bosno i Hercegovino, jedina nam domovino, sretan ti Dan nezavisnosti!</p>
 </span>
                   </div>
                   <div className="w-full md:w-9/12 ml-auto mr-auto px-4" style={{paddingBottom: "5%"}}>    
-                  <video src="@/views/images/priredba.mp4" width="800" height="600" controls="controls" className="w-full align-middle rounded-lg"/> 
+                  <video src="/priredba.mp4" width="800" height="600" controls="controls" className="w-full align-middle rounded-lg"/> 
                
            </div>
                 </div>
@@ -6364,7 +6364,7 @@ Recite i vi – STOP NASILJU i učinimo svijet boljim mjestom, jer nasilje  nika
 </span>
                   </div>
                   <div className="w-full md:w-9/12 ml-auto mr-auto px-4" style={{paddingBottom: "5%"}}>    
-                  <video src="@/views/images/pink.mp4" width="800" height="600" controls="controls" className="w-full align-middle rounded-lg"/> 
+                  <video src="/pink.mp4" width="800" height="600" controls="controls" className="w-full align-middle rounded-lg"/> 
                
            </div>
                 </div>
@@ -6498,7 +6498,7 @@ Projekat UPOZNAJ PRIVREDU KANTONA SARAJEVO, Indira Zeković, prof.</p>
               <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
                 <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
                   <div className="py-5 flex-auto">
-                  <video src="@/views/images/40g.mp4" width="800" height="600" controls="controls" className="w-full align-middle rounded-lg"/>
+                  <video src="/40g.mp4" width="800" height="600" controls="controls" className="w-full align-middle rounded-lg"/>
                     </div>
                   </div>
                 </div>
@@ -6916,7 +6916,7 @@ Preporučujemo da svakako posjetite muzejsku postavku <i><b>Sarajevo 1878-1918!<
 </span>
                   </div>
                   <div className="w-full md:w-9/12 ml-auto mr-auto px-4" style={{paddingBottom: "5%"}}>   
-                  <video src="@/views/images/muza1.mp4" width="800" height="600" controls="controls" className="w-full align-middle rounded-lg"/> 
+                  <video src="/muza1.mp4" width="800" height="600" controls="controls" className="w-full align-middle rounded-lg"/> 
                
            </div>
                 </div>
@@ -7911,7 +7911,7 @@ Zahvaljujemo se JU Odgojni centar KS i predavaču Adnanu Džeparu, stručnom sav
 </span>
                   </div>
                   <div className="w-full md:w-9/12 ml-auto mr-auto px-4" style={{paddingBottom: "5%"}}>    
-                  <video src="@/views/images/videoplesadd.mp4" width="800" height="600" controls="controls" className="w-full align-middle rounded-lg"/>
+                  <video src="/videoplesadd.mp4" width="800" height="600" controls="controls" className="w-full align-middle rounded-lg"/>
                
            </div>
                 </div>
@@ -8583,7 +8583,7 @@ Uslijedio je internacionalni turnir WDSF NORTH MACEDONIA OPEN DANCE 2023, koji j
                   </div>
                   <div className="w-full md:w-9/12 ml-auto mr-auto px-4" style={{paddingBottom: "5%"}}>    
                
-               <video src="@/views/images/ples1.mp4" width="800" height="600" controls="controls" className="w-full align-middle rounded-lg"/>
+               <video src="/ples1.mp4" width="800" height="600" controls="controls" className="w-full align-middle rounded-lg"/>
            </div>
                 </div>
               </div>
@@ -9676,7 +9676,7 @@ Cilj Nacionalnog dana svjesnosti o bibliotekama je podsjetiti građanke i građa
                   </div>
                   <div className="w-full md:w-9/12 ml-auto mr-auto px-4" style={{paddingBottom: "5%"}}>    
                
-               <video src="@/views/images/videojabuka1.mp4" width="800" height="600" controls="controls" className="w-full align-middle rounded-lg"/>
+               <video src="/videojabuka1.mp4" width="800" height="600" controls="controls" className="w-full align-middle rounded-lg"/>
            </div>
                 </div>
               </div>

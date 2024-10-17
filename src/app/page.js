@@ -53,6 +53,20 @@ export default function Index() {
   }, []);
   const sortirani = [...users].sort((a, b) => b.Broj - a.Broj);
   const sortirani1 = [...users1].sort((a, b) => b.Broj - a.Broj);
+
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768); // Set the breakpoint for mobile screens
+    };
+
+    handleResize(); // Check screen size on component mount
+    window.addEventListener('resize', handleResize); // Add event listener on resize
+
+    return () => window.removeEventListener('resize', handleResize); // Clean up
+  }, []);
+  
   return (
     <>
       <section id="pocetna" className="header relative  flex h-screen bg-center" style={{
@@ -61,6 +75,11 @@ export default function Index() {
                 
         <UpisNavbar fixed/>
         <video src="/ses.mp4"  width="800" height="600" className="backgroundVideo" autoPlay loop muted/>
+        <video src="/VideoP.mp4"  className="backgroundVideo block md:hidden"
+        autoPlay
+        loop
+        muted/>
+      
         <div className="container flex flex-wrap absolute">
       
 

@@ -69,7 +69,7 @@ export default function Nastava() {
             </ul>
           </div>
           <div className="w-full md:w-4/12 ml-auto mr-auto px-4">
-          <video src="/PrviRazred.mov"  className="max-w-full rounded-lg shadow-lg" autoPlay loop muted/>
+          <video src="/PrviRazred.mp4"  className="max-w-full rounded-lg shadow-lg" autoPlay loop muted/>
           </div>
         </div>
       </div>
@@ -100,7 +100,7 @@ export default function Nastava() {
           <div  data-aos="fade-in" className="container mx-auto px-4 text-center md:text-left" style={{marginBottom: "10%"}}>
             <div className="items-center flex flex-wrap">
               <div className="w-full md:w-4/12 ml-auto mr-auto px-4">
-              <video src="/DrugiRazred.mov"  className="max-w-full rounded-lg shadow-lg" autoPlay loop muted/>
+              <video src="/DrugiRazred.mp4"  className="max-w-full rounded-lg shadow-lg" autoPlay loop muted/>
 
               </div>
               <div className="w-full md:w-5/12 ml-auto mr-auto px-4">
@@ -200,7 +200,7 @@ export default function Nastava() {
                 </ul>
               </div>
               <div className="w-full md:w-4/12 ml-auto mr-auto px-4">
-              <video src="/TreciRazred.mov"  className="max-w-full rounded-lg shadow-lg" autoPlay loop muted/>
+              <video src="/TreciRazred.mp4"  className="max-w-full rounded-lg shadow-lg" autoPlay loop muted/>
 
               </div>
             </div>
@@ -232,7 +232,7 @@ export default function Nastava() {
           <div  data-aos="fade-in" className="container mx-auto px-4">
             <div className="items-center flex flex-wrap">
               <div className="w-full md:w-4/12 ml-auto mr-auto px-4">
-              <video src="/CetvrtiRazred.mov"  className="max-w-full rounded-lg shadow-lg" autoPlay loop muted/>
+              <video src="/CetvrtiRazred.mp4"  className="max-w-full rounded-lg shadow-lg" autoPlay loop muted/>
 
               </div>
               <div className="w-full md:w-5/12 ml-auto mr-auto px-4 text-center md:text-left">

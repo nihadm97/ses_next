@@ -3055,6 +3055,7 @@ select {
 @media screen and (min-width: 1024px) {
   #div{ margin-top: 35%; }   /* hide it on larger screens */
 }
+/*
 @media screen and (min-width: 640px) {
   #pocetna {
     background-image: url(skola.gif);
@@ -3064,4 +3065,4 @@ select {
   #pocetna {
     background-image: url(VideoP.webp);
   }
-}
+}*/
