@@ -15,7 +15,7 @@ import slika2 from '@/views/images/stem2.jpg';
 import slika3 from '@/views/images/stem3.jpg';
 import slika4 from '@/views/images/stem4.jpg';
 import slika5 from '@/views/images/stem5.jpg';
-import dan1 from '@/views/images/dan1.jpg';
+/*import dan1 from '@/views/images/dan1.jpg';*/
 import dan2 from '@/views/images/dan2.jpg';
 import dan3 from '@/views/images/dan3.jpg';
 import dan4 from '@/views/images/dan4.jpg';
@@ -10061,9 +10061,7 @@ Kustos muzeja g-din Nermin Pustahija, prezentirao je učenicama i učenicima, iz
                   <div className="py-5 flex-auto">
                   <Carousel interval="10000" transitionTime="1000" infiniteLoop>
                       
-                    <div>
-                        <Image src={dan1} alt="" />
-                    </div>
+                    
                     <div>
                         <Image src={dan2} alt="" />
                     </div>
