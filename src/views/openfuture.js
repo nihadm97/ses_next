@@ -35,6 +35,15 @@ import newsletter1 from '@/views/images/Newsletter1.png';
 import newsletter2 from '@/views/images/letter2.jpg';
 import newsletter3 from '@/views/images/newsletter3.jpg';
 
+import sendi1 from '@/views/images/1.jpg';
+import sendi2 from '@/views/images/2.jpg';
+import sendi3 from '@/views/images/3.jpg';
+import sendi4 from '@/views/images/4.jpg';
+import sendi5 from '@/views/images/5.jpg';
+import sendi6 from '@/views/images/6.png';
+import sendi7 from '@/views/images/7.png';
+import sendi8 from '@/views/images/8.png';
+
 const OpenFuture = () => {
   useEffect(() => {
     AOS.init({duration: 2000});
@@ -43,7 +52,88 @@ const OpenFuture = () => {
   return (
     <>
     <Menu fixed/>
-    
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+          <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+    <h6 className="text-xl mb-1 font-semibold uppercase mr-2">Predstavljanje dobrih praksi – VET škola:
+Srednja ekonomska škola predstavila svoje projekte na Erasmus+ Info danu
+ </h6>
+    <Image src={eu} width="50" height="50" alt="" />
+</span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={sendi1} alt="" />
+                    </div>
+                    <div>
+                        <Image src={sendi2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={sendi3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={sendi4} alt="" />
+                    </div>
+                    <div>
+                        <Image src={sendi5} alt="" />
+                    </div>
+                    <div>
+                        <Image src={sendi6} alt="" />
+                    </div>
+                    <div>
+                        <Image src={sendi7} alt="" />
+                    </div>
+                    <div>
+                        <Image src={sendi8} alt="" />
+                    </div>
+                    
+                    
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+
+                  <p className="mb-4 text-blueGray-500">
+                  Erasmus+ Info dan održan je 16. i 17. oktobra 2024. godine u Parlamentarnoj skupštini Bosne i Hercegovine, u organizaciji Ministarstva civilnih poslova BiH i Ureda za Erasmus+ program. Dvodnevni događaj okupio je učesnike iz oblasti obrazovanja iz cijele BiH. 
+</p> 
+<p className="mb-4 text-blueGray-500">
+U uvodnom obraćanju prisutnima su se obratili zamjenik ambasadora Delegacije Evropske unije u BiH, Adebayo Babajide, ministrica Civilnih poslova Bosne i Hercegovine,            
+dr. sc. Dubravka Bošnjak, i šef Erasmus+ ureda u Bosni i Hercegovini, Suad Muhibić.
+</p> 
+<p className="mb-4 text-blueGray-500">
+Profesorica Senida Čeljo imala je čast predstaviti dva Erasmus+ projekta na kojima trenutno radi Srednja ekonomska škola, Sarajevo: 
+</p> 
+<p className="mb-4 text-blueGray-500">
+1. Green Tech Entrepreneurship Challenge Hub (G-Tech) sa partnerima: Lean Startup (Hrvatska), GEA College - Fakultet za poduzetništvo (Ljubljana), Internacionalni Burch Univerzitet (Sarajevo), Fab Lab (Sarajevo) i Elektrostrojarska škola (Varaždin).
+</p> 
+<p className="mb-4 text-blueGray-500">
+2. Open Future sa partnerima: Naučni centar za kreativni razvoj Ideall (Novi Sad), Ekonomska i upravna škola (Osijek) i Srednja mješovita škola „Danilo Kiš“ (Budva).</p>
+<p className="mb-4 text-blueGray-500">
+Srednja ekonomska škola, zajedno s direktoricom Amirom Kadrispahić, profesorima koji rade na projektima i svojim partnerima, dobila je čestitke i pohvale za izvanredan rad i spremnost da drugima prenesu svoja iskustva.</p> 
+<p className="mb-4 text-blueGray-500">
+Ovi projekti jačanja kapaciteta temelje se na međunarodnoj saradnji i multilateralnim partnerstvima organizacija aktivnih u području stručnog obrazovanja i obuke (VET) u zemljama članicama EU, kao i u trećim zemljama pridruženim programu i onima koje nisu.</p> 
+<p className="mb-4 text-blueGray-500">
+Uspješna suradnja i angažman učenika i profesora u međunarodnim projektima dodatno potvrđuju našu posvećenost pružanju kvalitetnog obrazovanja i osnaživanju budućih generacija.</p> 
+        
+</span>
+                  </div>
+                  <div className="w-full md:w-9/12 ml-auto mr-auto px-4" style={{paddingBottom: "5%"}}>    
+               
+           </div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full justify-center items-center">
           <div className="container mx-auto px-4 justify-center items-center">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">

@@ -847,6 +847,21 @@ import mirr2 from '@/views/images/mirr2.jpg';
 import mirr3 from '@/views/images/mirr3.jpg';
 import mirr4 from '@/views/images/mirr4.jpg';
 
+import sreb1 from '@/views/images/sreb1.jpg';
+import sreb2 from '@/views/images/sreb2.jpg';
+import sreb3 from '@/views/images/sreb3.jpg';
+import sreb4 from '@/views/images/sreb4.jpg';
+import sreb5 from '@/views/images/sreb5.jpg';
+import sreb6 from '@/views/images/sreb6.jpg';
+import sreb7 from '@/views/images/sreb7.jpg';
+
+import car1 from '@/views/images/car1.jpg';
+import car2 from '@/views/images/car2.jpg';
+import car3 from '@/views/images/car3.jpg';
+import car4 from '@/views/images/car4.jpg';
+import car5 from '@/views/images/car5.jpg';
+import car6 from '@/views/images/car6.jpg';
+
 const Aktivnosti = () => {
   useEffect(() => {
     AOS.init({duration: 2000});
@@ -866,6 +881,158 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+    
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">,,Dan otvorenih vrata” u Carinskoj ispostavi Sarajevo, Rajlovac
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={car1} alt="" />
+                    </div>
+                    <div>
+                        <Image src={car2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={car3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={car4} alt="" />
+                    </div>
+                    <div>
+                        <Image src={car5} alt="" />
+                    </div>
+                    <div>
+                        <Image src={car6} alt="" />
+                    </div>
+
+
+                    
+                   
+                                
+                    
+                    
+          
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  <p className="mb-4 text-blueGray-500">
+                  Učenici/ce III4, IV1 i IV2 razreda i Indira Zeković, prof. su posjetili/e Carinsku ispostavu Regionalnog ureda Sarajevo, Rajlovac, u utorak, 22. oktobra. </p>
+<p className="mb-4 text-blueGray-500">
+U Carinskoj ispostavi Sarajevo učenicima/ama je prezentiran kompletan proces carinjenja robe, od ulaska kamiona u carinski terminal preko predaje i pregleda dokumentacije do fizičkog pregleda robe na kamionu i konačnog carinjenja iste. Prisustvovali smo realnom procesu carinjenja koji su obavili uposlenici Carinske ispostave.</p>
+<p className="mb-4 text-blueGray-500">
+Učenicima/cama su prezentirane mogućnosti  skener vozila, koje se  koristi u borbi protiv krijumčarenja roba, objašnjene nadležnosti, organizaciona struktura Carinskog terminala, saradnja sa drugim institucijama zakonodavne, sudske, izvršne vlasti u borbi protiv ilegalne trgovine i svih oblika carinskih ili poreskih prevara, relevantna legislativa u ovoj oblasti, uloga i nadležnost carinskih organa u sprovođenju mjera zaštite intelektualne svojine, carinska tarifa, informatički aspekti carinskih procedura, zabrane, ograničenja, oslobađanja u ovoj oblasti, skladišna logistika za sve vrste roba …</p>
+<p className="mb-4 text-blueGray-500">
+Učenici/ce su pokazali/e stanovit interes za  sve aspekte djelovanja Carinarnice. Uposlenici/ce Carinske ispostave su sa puno entuzijazma odgovorili/e na pitanja učenika/ca.
+Zahvaljujemo uposlenicima/cama Carinskog terminala Rajlovac za vrhunski profesionalizam u realizaciji  edukativne radionice i izuzetan doprinos razvoju stručnih kompetencija naših učenika!
+</p>
+<p className="mb-4 text-blueGray-500">
+Projekat UPOZNAJ PRIVREDU KANTONA SARAJEVO,  Indira Zeković, prof.</p>
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Posjeta Memorijalnom centru Srebrenica - Potočari
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={sreb1} alt="" />
+                    </div>
+                    <div>
+                        <Image src={sreb2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={sreb3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={sreb4} alt="" />
+                    </div>
+                    <div>
+                        <Image src={sreb5} alt="" />
+                    </div>
+                    <div>
+                        <Image src={sreb6} alt="" />
+                    </div>
+                    <div>
+                        <Image src={sreb7} alt="" />
+                    </div>
+
+                    
+                   
+                                
+                    
+                    
+          
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  <p className="mb-4 text-blueGray-500">
+                  Učenici i učenice drugih razreda i njihovi/e  razrednici/ce posjetili/e su Memorijalni centar Srebrenica – Potočari, u utorak, 22. oktobra. Posjeta je realizirana u okviru projekta "Njegovanje kulture sjećanja - posjeta učenika drugih razreda srednjih škola Memorijalnom centru Srebrenica – Potočari", Ministarstva za obrazovanje, nauku i mlade Kantona Sarajevo.</p>
+<p className="mb-4 text-blueGray-500">
+Profesorica historije Azemina Hujdur je za vrijeme putovanja, učenicima/ama prenijela historijske činjenice vezane za period agresije na Bosnu i Hercegovinu, od 1992. do 1995. godine, s posebnim osvrtom na događaje koji su prethodili 11.7.1995. godine, zatim na dan pada Srebrenice, kao i na događaje koji su uslijedili nakon pada Srebrenice.</p>
+<p className="mb-4 text-blueGray-500">
+Na šehidskom mezarju Memorijalnog centra Srebrenica – Potočari kustosi su održali historijski čas i organizovani su obilasci šehidskog mezarja. Učenici/ce su obišli/e i muzejske postavke: "Spomen-sobu", "Srebrenički genocid - neuspjeh međunarodne zajednice", "Projekt usmene historije", "Životi iza polja smrti" i "Koraci onih koji (ni)su prešli".
+</p>
+<p className="mb-4 text-blueGray-500">
+U multimedijalnoj Sali, prisutnima je prikazan dokumentarni film o genocidu u Srebrenici, planirani programski dio naše posjete.</p>
+<p className="mb-4 text-blueGray-500">
+Posjeta učenika/ca Memorijalnom centru ima veliki značaj za edukaciju mladih o prošlosti i historijskim činjenicama u vezi sa genocidom u Srebrenici. Pitanje istine i empatije za žrtve jeste elementarno pitanje vrijednosti, na kojem se temelji razlika između dobra i zla, te kao takvo predstavlja izuzetno važnu temu za školske institucije, koje kreiraju vrijednosne profile novih generacija. Bila je ovo i prilika za najdublje saučešće i solidarnost sa svim porodicama i preživjelima koji su izgubili svoje voljene. Njihova bol i patnja ne smiju biti zaboravljeni! Neka Srebrenica svima bude podsjetnik da se treba čuvati mržnje, da prihvatimo vjerske, kulturne, jezičke i sve druge različitosti kao prirodne!</p>
+<p className="mb-4 text-blueGray-500">
+Naši učenici/ce, profesori/ce su sa dubokim poštovanjem i pijetetom, odali počast žrtvama genocida u Srebrenici, jednom od najtragičnijih događaja u modernoj historiji. Ovaj stravičan zločin ostavio je neizbrisiv trag u srcima porodica, prijatelja i zajednica koje su pogođene, kao i u kolektivnoj svijesti bošnjačkog naroda i cijele Bosne i Hercegovine. </p>
+<p className="mb-4 text-blueGray-500">
+Da se nikada i nikome ne dogodi Srebrenica!</p>
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
