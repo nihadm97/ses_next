@@ -61,6 +61,16 @@ import sendi6 from '@/views/images/6.png';
 import sendi7 from '@/views/images/7.png';
 import sendi8 from '@/views/images/8.png';
 
+import ste1 from '@/views/images/ste1.jpg';
+import ste2 from '@/views/images/ste2.jpg';
+import ste3 from '@/views/images/ste3.jpg';
+import ste4 from '@/views/images/ste4.jpg';
+import ste5 from '@/views/images/ste5.jpg';
+import ste6 from '@/views/images/ste6.jpg';
+import ste7 from '@/views/images/ste7.jpg';
+import ste8 from '@/views/images/ste8.jpg';
+
+
 const Projekti = () => {
   useEffect(() => {
     AOS.init({duration: 2000});
@@ -80,6 +90,110 @@ const Projekti = () => {
   return (
     <>
     <ProjektiNavbar fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+          <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+    <h6 className="text-xl mb-1 font-semibold uppercase mr-2">SVJETSKI DAN ŠTEDNJE – 31. 10. 2024. GODINE
+ </h6>
+</span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={ste1} alt="" />
+                    </div>
+                    <div>
+                        <Image src={ste2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={ste3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={ste4} alt="" />
+                    </div>
+                    <div>
+                        <Image src={ste5} alt="" />
+                    </div>
+                    <div>
+                        <Image src={ste6} alt="" />
+                    </div>
+                    <div>
+                        <Image src={ste7} alt="" />
+                    </div>
+                    <div>
+                        <Image src={ste8} alt="" />
+                    </div>
+                    
+                    
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+
+                  <p className="mb-4 text-blueGray-500">
+                  Učenici Srednje ekonomske škole, Sarajevo ponosno obilježavaju Svjetski dan štednje, uprkos svim izazovima koji nas prate. Naša marljivost i predanost radu pokazali su da nas čak ni trenutna situacija sa čestim dojavama bombi nisu spriječile da, kao tim, organizujemo ovaj značajan događaj.</p> 
+<p className="mb-4 text-blueGray-500">
+Pripreme su bile prilagođene okolnostima, pa smo sve aktivnosti, probe i vježbanje organizovali putem Meet-a preko Google učionice. Upravo na taj način smo se uspjeli povezati, vježbati i na kraju uspješno izvesti cijeli program, pokazujući snagu naše upornosti i timskog duha, te koliko smo predani i prilagodljivi.
+</p> 
+<p className="mb-4 text-blueGray-500">
+Ovaj poseban dan pruža priliku da se kroz bogat program edukujemo o važnim finansijskim temama. Naši učenici su naučili šta je štednja, kako štediti na pravi način, te na koji način štednja utiče na našu sigurniju budućnost. Osim toga, obradili smo i teme poput vrijednosnih papira, investicijskih fondova i životnog osiguranja, dajući nam vrijedna znanja koja će nam koristiti u svakodnevnom životu.</p> 
+<p className="mb-4 text-blueGray-500">
+Uz edukativni dio, pripremili smo i zabavni program, koji uključuje pjesmu i igrokaz, dodajući ovom danu posebnu atmosferu i radost. Raditi zajedno kao ekipa u ovakvom okruženju, čak i na daljinu, uvijek je inspirativno i zanimljivo. Drago nam je što smo uspjeli još jednom pokazati da zajedničkim trudom možemo ostvariti sve što zamislimo.</p> 
+<p className="mb-4 text-blueGray-500">
+Profesorice Sanda Dupovac i Amra Hodžić sa učenicima:</p>
+<p className="mb-4 text-blueGray-500">
+II3 <br></br>
+Hanadi Čoko,
+Damir Konjhodžić,
+Asja Hadžić,
+Amna Alimajstorović,
+Hana Šehić,
+Berina Hebib,
+Sajra Smajić,
+Sajra Kadrić,
+</p> 
+<p className="mb-4 text-blueGray-500">
+II1<br></br>
+
+Davud Pamuk,
+Ajna Halilović,
+Lejla Nogo,
+Hanadi Oručević,
+Omar Mekić,
+Ema Kuloglija,
+</p> 
+<p className="mb-4 text-blueGray-500">
+IV6<br></br>
+
+Murtić Ajla,
+Kulovac Kerim,
+Anjum Sara,
+Selimović Adna,
+Mašić Emela,
+Kopić Emir,
+Hurem Irma,
+Džejna Uglješa,
+Subašić Amina.
+
+</p>        
+</span>
+                  </div>
+                  <div className="w-full md:w-9/12 ml-auto mr-auto px-4" style={{paddingBottom: "5%"}}>    
+               
+           </div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
           <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>

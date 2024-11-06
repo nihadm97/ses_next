@@ -862,6 +862,26 @@ import car4 from '@/views/images/car4.jpg';
 import car5 from '@/views/images/car5.jpg';
 import car6 from '@/views/images/car6.jpg';
 
+import juju1 from '@/views/images/juju1.jpg';
+import juju2 from '@/views/images/juju2.jpg';
+
+import aga1 from '@/views/images/aga1.jpg';
+import aga2 from '@/views/images/aga2.jpg';
+import aga3 from '@/views/images/aga3.jpg';
+import aga4 from '@/views/images/aga4.jpg';
+import aga5 from '@/views/images/aga5.jpg';
+import aga6 from '@/views/images/aga6.jpg';
+
+import bomba1 from '@/views/images/bomba1.jpg';
+import bomba2 from '@/views/images/bomba2.jpg';
+import bomba3 from '@/views/images/bomba3.jpg';
+import bomba4 from '@/views/images/bomba4.jpg';
+import bomba5 from '@/views/images/bomba5.jpg';
+import bomba6 from '@/views/images/bomba6.jpg';
+import bomba7 from '@/views/images/bomba7.jpg';
+import bomba8 from '@/views/images/bomba8.jpg';
+
+
 const Aktivnosti = () => {
   useEffect(() => {
     AOS.init({duration: 2000});
@@ -881,7 +901,238 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
-    
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Dani medijske i informacijske pismenosti
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={bomba1} alt="" />
+                    </div>
+                    <div>
+                        <Image src={bomba2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={bomba3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={bomba4} alt="" />
+                    </div>
+                    <div>
+                        <Image src={bomba5} alt="" />
+                    </div>
+                    <div>
+                        <Image src={bomba6} alt="" />
+                    </div>
+                    <div>
+                        <Image src={bomba7} alt="" />
+                    </div>
+                    <div>
+                        <Image src={bomba8} alt="" />
+                    </div>
+                    
+
+
+                    
+                   
+                                
+                    
+                    
+          
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  <p className="mb-4 text-blueGray-500">
+  Četvrta po redu kampanja <strong>Dani medijske i informacijske pismenosti</strong> koju organizuje Regulatorna agencija za komunikaciju u saradnji i uz učešće organizacija i institucija okupljenih u Mrežu za medijsku i informacijsku pismenost trajala je u periodu od 26. 10. do 05. 11. 2024. godine širom Bosne i Hercegovine, pod sloganom <strong>Digitalno snažni</strong>.
+</p>
+<p className="mb-4 text-blueGray-500">
+  Pojam medijske pismenosti definisan je na Konferenciji o medijskoj pismenosti 1992. godine (Nacional Leadreship Conference on Media Literacy, 199) kao sposobnost pristupa, analize, vrednovanja i odašiljanja poruka posredstvom medija.
+</p>
+<p className="mb-4 text-blueGray-500">
+  Učenice i učenici prvog razreda naše škole, uz podršku profesora Emira Ustavdića, bili/e su u prilici prisustvovati on line predavanju gospodina Žustra Tahira, višestruko nagrađivanog novinara televizije NNOVA BH. Tahir je održao predavanje na temu <strong>Medijska pismenost- kako nastaju vijesti?</strong>
+Podtema je bila: <strong>Dojava o bombama u školama, online nastava i kako novinari reaguju i pripremaju navedene vijesti.</strong> Predavanje je bilo izuzetno inspirativno, a učenice i učenici su s radošću postavljali mnogobrojna pitanja.
+</p>
+<p className="mb-4 text-blueGray-500">
+  Profesorica Lejla Hujdur zajedno sa učenicama i učenicima I3 razreda, posjetila je Europe House, koja je bila centralno mjesto obilježavanja <strong>Dana medijske i informacijske pismenosti</strong>.
+</p>
+<p className="mb-4 text-blueGray-500">
+  Učenice i učenici su u pratnji profesorice obišle/i promotivne štandove organizacija i udruẓ̌enja koja se bave medijskom pismenošću, sigurnošću na internetu, uz aktivno učešće u radionicama i interaktivnim predavanjima.
+</p>
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Edukacija u Agenciji za bankarstvo Federacije BiH (FBA) na Svjetski dan štednje
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={aga1} alt="" />
+                    </div>
+                    <div>
+                        <Image src={aga2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={aga3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={aga4} alt="" />
+                    </div>
+                    <div>
+                        <Image src={aga5} alt="" />
+                    </div>
+                    <div>
+                        <Image src={aga6} alt="" />
+                    </div>
+                    
+
+
+                    
+                   
+                                
+                    
+                    
+          
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  <p className="mb-4 text-blueGray-500">
+                  Učenici/ce II5, II2 i II1 razreda i Indira Zeković, prof. prisustvovali/e su stručnom predavanju u Agenciji za bankarstvo, u četvrtak, 31. oktobra 2024. godine. 
+Admil Nukić, u svojstvu pomoćnika direktora za superviziju banaka, prezentirao nam je  brojne aspekte djelovanja Agencije. 
+</p>
+<p className="mb-4 text-blueGray-500">
+FBA je  samostalna, nezavisna i neprofitna institucija za nadzor i licenciranje banaka. Od osnivanja FBA je dala puni doprinos reformi bankarskog sistema.  Ključna uloga FBA je  održavanje i očuvanje stabilnosti bankarskog sistema.</p>
+<p className="mb-4 text-blueGray-500">
+Fokus djelovanja FBA je  stvaranje jakog i stabilnog bankarskog, mikrokreditnog i lizing sistema, tržišno orijentisanog i oslonjenog na međunarodne standarde poslovanja i supervizije (nadzora) banaka, mikrokreditnih organizacija i lizing društava. Sljedeći dio  predavanja odnosio se na organizacione aspekte ove institucije.</p>
+<p className="mb-4 text-blueGray-500">
+U daljem toku sesije prezentirani su nam zadaci FBA definirani Zakonom o Agenciji za bankarstvo. FBA izdaje dozvole za osnivanje i rad banaka, nadzire poslovanje banaka, ukida dozvole za rad banaka, donosi podzakonske akte kojima se reguliše rad banaka, pokreće, upravlja  i nadzire postupke privremene uprave, likvidacije, stečaja, saniranja banaka, ...
+</p>
+<p className="mb-4 text-blueGray-500">
+Agencija za bankarstvo FBiH  je dio evropske mreže regulatora i supervizora, u punom kapacitetu. Zahvaljujući stalnom jačanju supervizorskih kapaciteta, FBA može dati podršku drugim regulatornim supervizorskim tijelima u regionu i šire. U prilici su da umjesto traženja podrške i pomoći, FBA daje podršku drugim supervizorima i regulatorima u specifičnim oblastima regulative i supervizije. 
+</p>
+<p className="mb-4 text-blueGray-500">
+Edukacija je bila interaktivna. Učenici/ce su pokazali/e stanovit interes za konkretna supervizorska  iskustva FBA. Agencija kontinuirano prati rizike i promjene koje mogu uticati na ekonomske prilike i stanje bankarskog sistema, a prije svega na rizike koji se odnose na značajan rast kamatnih stopa. Sa ciljem očuvanja stabilnosti tržišta i bankarskog sistema, Agencija je donosila odluke kojima su se nastojali ograničiti rizici i posljedice makroekonomskih mjera i poremećaja na vanjskim tržištima. Održan je opšti nivo kamatnih stopa na tržištu uz dominantno izbjegavanje povećanja nivoa kamatnih stopa od strane banaka i zaštićeni  interesi Federacije BiH i svih klijenata u bankarskom sistemu Federacije BiH i otklonjeni svi rizici i prijetnje po finansijski sistem. Učenicima /cama  su objašnjeni  ključni pojmovi finansijske pismenosti sa ciljem podsticanja mladih na razmišljanje o važnosti štednje i odgovornog upravljanja finansijama.</p>
+<p className="mb-4 text-blueGray-500">
+Zahvaljujemo se uposlenicima FBA za izniman doprinos unapređenju finansijskih kompetencija naših učenika. </p>
+<p className="mb-4 text-blueGray-500">
+Projekat UPOZNAJ PRIVREDU KANTONA SARAJEVO, Indira Zeković, prof.</p>
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Predstava “Ro i Juju” u Narodnom pozorištu Sarajevo
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={juju1} alt="" />
+                    </div>
+                    <div>
+                        <Image src={juju2} alt="" />
+                    </div>
+                    
+
+
+                    
+                   
+                                
+                    
+                    
+          
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  <p className="mb-4 text-blueGray-500">
+  Učenici i učenice trećih i četvrtih razreda, pogledali/e su predstavu <strong>Ro i Juju</strong> u Narodnom pozorištu Sarajevo u utorak, 22. oktobra.
+</p>
+<p className="mb-4 text-blueGray-500">
+  Ova predstava je dekonstrukcija Šekspirove tragedije <strong>Romeo i Julija</strong> u stilu pozorišnog klauna, gdje se kroz humor i emocije istražuju duboke ljudske istine. Najpoznatijoj tragediji stavljena je najmanja pozorišna maska na nos. Ova maska ništa ne skriva, ona otkriva bit čovjeka, prikazuje ga u svoj njegovoj (ne)savršenosti.
+</p>
+<p className="mb-4 text-blueGray-500">
+  <strong>Ro i Juju</strong> otkrivaju jedno drugo i podsjećaju nas na ljubav, čistu i iskrenu.
+</p>
+<p className="mb-4 text-blueGray-500">
+  Rediteljica, Lee Delong navodi: <strong>U Ro i Juju, ljubav pobjeđuje, ne u smrti, ne u prkosu, već u slavlju, u radosnom slavlju ljubavi.</strong>
+</p>
+<p className="mb-4 text-blueGray-500">
+  Projekat Pozorište i film za sve generacije, Ermina Muratović, prof.
+</p>
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
