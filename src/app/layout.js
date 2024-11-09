@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
-        <SpeedInsights sampleRate={0.1}/>
+        <SpeedInsights sampleRate={0.5}/>
       </body>
     </html>
   );
