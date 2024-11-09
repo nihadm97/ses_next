@@ -10593,6 +10593,7 @@ Kustos muzeja g-din Nermin Pustahija, prezentirao je učenicama i učenicima, iz
             </div>
             </div>
           </section>
+      {/*    
     {sortirani.map(obj  => 
       <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
@@ -10634,7 +10635,7 @@ Kustos muzeja g-din Nermin Pustahija, prezentirao je učenicama i učenicima, iz
             </div>
           </section>
           
-)}
+)}*/}
     <Footer />
     </>
   )

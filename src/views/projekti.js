@@ -767,6 +767,7 @@ Sigurni smo da će i učenice/učenici škola učesnica, pored projektnih aktivn
             </div>
             </div>
           </section>
+          {/*
     {sortirani.map(obj  => 
       <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
@@ -808,7 +809,7 @@ Sigurni smo da će i učenice/učenici škola učesnica, pored projektnih aktivn
             </div>
           </section>
           
-)}
+)}*/}
     <Footer />
     </>
   )

@@ -1,4 +1,5 @@
 import { SpeedInsights } from '@vercel/speed-insights/next';
+
 import localFont from "next/font/local";
 import "./globals.css";
 
@@ -13,6 +14,7 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
+
 export const metadata = {
   title: "JU Srednja ekonomska škola, Sarajevo",
   description: "Čovjekov je odgoj ogledalo u kojem pokazuje svoj portret. Podučavanje je profesija koja podučava sve druge profesije.",
@@ -25,7 +27,7 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
-        <SpeedInsights />
+        <SpeedInsights sampleRate={0.1}/>
       </body>
     </html>
   );
