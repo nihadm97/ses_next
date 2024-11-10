@@ -881,6 +881,15 @@ import bomba6 from '@/views/images/bomba6.jpg';
 import bomba7 from '@/views/images/bomba7.jpg';
 import bomba8 from '@/views/images/bomba8.jpg';
 
+import cov1 from '@/views/images/cov1.jpg';
+import cov2 from '@/views/images/cov2.jpg';
+import cov3 from '@/views/images/cov3.jpg';
+import cov4 from '@/views/images/cov4.jpg';
+import cov5 from '@/views/images/cov5.jpg';
+import cov6 from '@/views/images/cov6.jpg';
+
+import emin1 from '@/views/images/emin1.jpg';
+import emin2 from '@/views/images/emin2.jpg';
 
 const Aktivnosti = () => {
   useEffect(() => {
@@ -901,6 +910,141 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">EMIN DEMIĆ OSVOJIO BRONZANE MEDALJE NA <b>EUROPEAN CUP EX YU  BELGRADE OPEN 2024  i PODGORICA EUROPEAN CUP OPEN 2024  </b>
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={emin1} alt="" />
+                    </div>
+                    <div>
+                        <Image src={emin2} alt="" />
+                    </div>
+                   
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  <p className="mb-4 text-blueGray-500">
+                  Emin Demić, učenik I2 odjeljenja, perspektivni je tekvandoista, višestruki federalni prvak, prošlogodišnji državni prvak i balkanski prvak. Taekwondo je korejska borilačka vještina koja se uglavnom bazira na samoodbrani. Danas se taekwondo smatra jednom od najpopularnijih borilačkih vještina i sportova.                   </p>
+<p className="mb-4 text-blueGray-500">
+EUROPEAN CUP EX YU BELGRADE OPEN 2024, SERBIA,  je održan 7. septembra. EX YU  OPEN 2024 je bodovni turnir, donosi duple bodove i doprinio je Eminovom usponu na evropskoj rang listi. Nastupio je u konkurenciji  osam takmičara iz različitih država. Prva mu je godina nastupa u kategoriji juniora, svi su stariji od njega i ovo su odlični rezultati nakon operacije šake. </p>
+<p className="mb-4 text-blueGray-500">
+EUROPEAN CUP PODGORICA 2024  OPEN, MONTENEGRO je održan od 5. do 6. oktobra. Postignuti rezultati na turniru su mu donijeli nove bodove na evropskoj rang listi. U njegovoj kategoriji učestovalo je 10 takmičara iz raznih država. 
+</p>
+<p className="mb-4 text-blueGray-500">
+Nastupao je u borbama u kategoriji do 68 kg i osvojio bronzano odličje na oba takmičenja! </p>
+<p className="mb-4 text-blueGray-500">
+Na Svjetskom prvenstvu za kadete 2023. godine zauzeo je 5. mjesto i bio najbolji muški predstavnik BiH. Među rezultatima koji se izdvajaju su: Ramus Skopje Open G1 E1 – zlato Slovenija Open G1 E1 – zlato, Bosna Open G1 E1 – zlato, Beograd Trophy G1 E1 – srebro, Crna Gora Open G1 E1 – bronza, Hrvarska Open G1 E1 – bronza, Balkansko prvenstvo u Albaniji – bronza. Eminov talent, ljubav prema sportu, predanost i posvećenost donose rezultate. </p>
+<p className="mb-4 text-blueGray-500">
+Čestitamo našem Eminu Demiću na postignutim rezultatima! Želimo mu mnogo sreće na sljedećim turnirima i da ponosno ponese zastavu Bosne i Hercegovine na pobjedničkim mjestima! </p>
+<p className="mb-4 text-blueGray-500">
+Ponosni smo na našeg Emina Demića!</p>
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">IZLOŽBA <b>ČOVJEK JE ČOVJEK</b>
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={cov1} alt="" />
+                    </div>
+                    <div>
+                        <Image src={cov2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={cov3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={cov4} alt="" />
+                    </div>
+                    <div>
+                        <Image src={cov5} alt="" />
+                    </div>
+                    <div>
+                        <Image src={cov6} alt="" />
+                    </div>
+                    
+
+
+                    
+                   
+                                
+                    
+                    
+          
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  <p className="mb-4 text-blueGray-500">
+                  U susret obilježavanju Svjetskog dana mentalnog zdravlja, Institut za populaciju i razvoj u partnerstvu sa Federalnim ministarstvom zdravstva i Ministarstvom zdravlja i socijalne zaštite Republike Srpske, a pod pokroviteljstvom Ambasade Švicarske u BiH, organizovao je izložbu pod nazivom <b>Čovjek je čovjek</b>
+                  </p>
+<p className="mb-4 text-blueGray-500">
+Učenice i učenici III5 odjeljenja, u pratnji profesorice Selme Jusić i profesora Edina Selmanovića, u ponedjeljak, 14.10.2024. godine, posjetile/i su izložbu u izložbenom prostoru Europe House u Sarajevu.
+</p>
+<p className="mb-4 text-blueGray-500">
+Izložba <b>Čovjek je čovjek</b> je fotodokumentarna izložba koja prikazuje isječke iz života ljudi s mentalnim poremećajima, čiji je autor Armin Smailović. Ovom izložbom se šalje poruka nade da je oporavak moguć ako postoji adekvatna podrška i ukoliko se potraži u pravo vrijeme. Autor izložbe je, od marta 2019. godine, proveo više od mjesec dana u druženju i razgovoru sa njima, u zajednicama u kojima žive. Iz toga su nastale te fotografije, koje pričaju svoju priču. To su osobe koje su oporavljene, nakon dugotrajnih liječenja i višestrukih hospitalizacija. Na početku je to radio bez kamere, kako bi ih što bolje upoznao.
+
+</p>
+<p className="mb-4 text-blueGray-500">
+Za vrijeme fotografisanja Smailović je posjetio devet različitih udruženja korisnika i centra za mentalno zdravlje u Banjoj Luci, Tuzli, Vitezu, Mrkonjić Gradu, Baraćima, Sarajevu i Doboju, te kroz fotografije prikazao njihov život, borbu, napredak i oporavak.
+</p>
+
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
