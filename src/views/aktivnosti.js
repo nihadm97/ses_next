@@ -891,6 +891,14 @@ import cov6 from '@/views/images/cov6.jpg';
 import emin1 from '@/views/images/emin1.jpg';
 import emin2 from '@/views/images/emin2.jpg';
 
+import goethe1 from '@/views/images/Goethe1.jpg';
+import goethe2 from '@/views/images/Goethe2.jpg';
+import goethe3 from '@/views/images/Goethe3.jpg';
+import goethe4 from '@/views/images/Goethe4.jpg';
+import goethe5 from '@/views/images/Goethe5.jpg';
+import goethe6 from '@/views/images/Goethe6.jpg';
+
+
 const Aktivnosti = () => {
   useEffect(() => {
     AOS.init({duration: 2000});
@@ -910,6 +918,71 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Filmska večer u GOETHE-INSTITUTU
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={goethe1} alt="" />
+                    </div>
+                    <div>
+                        <Image src={goethe2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={goethe3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={goethe4} alt="" />
+                    </div>
+                    <div>
+                        <Image src={goethe5} alt="" />
+                    </div>
+                    <div>
+                        <Image src={goethe6} alt="" />
+                    </div>
+                   
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  <p className="mb-4 text-blueGray-500">
+                  Učenici/ce IV1 odjeljenja Lejla Ferizaj, Tarik Karić, Iris Mulavdić, Larisa Kasapović, Elmin Berilo, Imran Čolpa i profesorica njemačkog jezika Ermana Kanlić prisustvovali/e su izuzetno prijatnoj filmskoj večeri, u Goethe-institutu, povodom 35. godišnjice pada Berlinskog zida, u srijedu, 13. novembra. </p>
+                   <p className="mb-4 text-blueGray-500">
+                   Berlinski zid podigla je u avgustu, 1961. komunistička vlada Istočne Njemačke kako bi spriječila bijeg svojih građana na Zapad. Pao je 9. novembra 1989., kada su građani Istočnog Berlina počeli masovno prelaziti u Zapadni Berlin. Događaj je bio vrhunac višemjesečnih mirnih protesta i doveo je do ponovnog ujedinjenja Njemačke 1990. godine. Bio je to historijski događaj za Evropu, ali i za cijeli svijet. Uslijedila je  promjena cjelokupne evropske scene u geopolitičkom, sociološkom i ekonomskom pogledu. Proces otvaranja <b>željezne zavjese</b>  dao je snažan impuls stvaranju ujedinjene Europe. 
+                   </p>
+<p className="mb-4 text-blueGray-500">
+Projekcija njemačkog filmskog klasika Good bye, Lenin upriličena je u okviru ciklusa <b>East-West Side Stories</b>. Uslijedilo je druženje na zabavi <b>Good Bye, DDR</b>  uz hitove istočnonjemačkog rocka i popa. Za sve prisutne pripremljen je kviz o poznavanju DDR-a i kulinarski specijaliteti tog vremena. </p>
+<p className="mb-4 text-blueGray-500">
+Goethe-Institut je priredio Festival njemačkog filma pod naslovom <b>Mapping Heimat</b> od 14. do 19. novembra, u kinu Meeting Point. Biće prikazano šest vrhunskih njemačkih filmskih ostvarenja iz posljednje tri godine, koja govore o gubitku domovine, osjećajima prema domovini, prošlosti i sadašnjosti, porodici i prijateljstvu, mržnji i ljubavi u Njemačkoj nekada i danas. U festivalskom programu su i najnoviji igrani filmovi poznatih njemačkih savremenih režisera kao što su Fatih Akin i Christian Petzold, najistaknutiji filmovi sa Berlinalea, historijske drame koje se bave temom DDR-a, te dva društveno-kritička filma o mladima. </p>
+
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
