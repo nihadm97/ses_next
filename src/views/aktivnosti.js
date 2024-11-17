@@ -898,6 +898,13 @@ import goethe4 from '@/views/images/Goethe4.jpg';
 import goethe5 from '@/views/images/Goethe5.jpg';
 import goethe6 from '@/views/images/Goethe6.jpg';
 
+import tal1 from '@/views/images/tal1.webp';
+import tal2 from '@/views/images/tal2.webp';
+import tal3 from '@/views/images/tal3.webp';
+import tal4 from '@/views/images/tal4.webp';
+
+import srednjo1 from '@/views/images/srednjo1.jpg';
+import srednjo2 from '@/views/images/srednjo2.jpg';
 
 const Aktivnosti = () => {
   useEffect(() => {
@@ -918,6 +925,127 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Međunarodni dan srednjoškolaca 
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={srednjo1} alt="" />
+                    </div>
+                    <div>
+                        <Image src={srednjo2} alt="" />
+                    </div>
+                    
+                   
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  <p className="mb-4 text-blueGray-500">
+                  U nedjelju, 17. novembra 2024. obilježava se Međunarodni dan srednjoškolaca, poseban dan za sve srednjoškolce diljem svijeta. Međunarodni dan srednjoškolaca obilježava se u spomen na hrabrost, dostojanstvo i herojstvo praških studenata/ica i srednjoškolaca/ki, koji/e su  protestvovali/e protiv nacističke okupacije svoje zemlje 17. novembra 1939.                   </p>
+                   <p className="mb-4 text-blueGray-500">
+                   Ovaj dan je povezan s Deklaracijom o pravima srednjoškolaca  koju je donio Organizacijski ured za evropske udruge učenika – OBESSU. Diljem Europe pokrenuta je kampanja pod nazivom <b>Light on the rights</b>, koja promiče Deklaraciju, odnosno prava i obaveze srednjoškolaca/ki.                   </p>
+<p className="mb-4 text-blueGray-500">
+Dužnost roditelja i odgajatelja, ali i svih društvenih činilaca je kreirati kvalitetne podsticaje i uslove u okruženju, kako bi zadovoljili potrebe mladih na svim područjima potrebnim za njihovo kvalitetno odrastanje!</p>
+<p className="mb-4 text-blueGray-500">
+Neka <b>Međunarodni dan srednjoškolaca</b> pokrene širu zajednicu, sve nas koja imamo ulogu  i odgovornost za odgoj i obrazovanje djece, da učinimo sve da izgradimo okruženje koje njeguje cjelovit razvoj ličnosti mladih, razvija njihove talente, znanja, vještine, stavove, kreativnost, marljivost, istrajnost, empatiju i osnažuje ih da postanu samopuzdani, zadovoljni, kompetentni i moralno odgovorni građani u društvu! </p>
+<p className="mb-4 text-blueGray-500">
+Mi odrasli ne smijemo zaboraviti da smo mi modeli ponašanja od kojih dijete uči! Potrebno je da osvijestimo svoje postupke, komunikaciju i aktivno radimo na svojim kompetencijama, jer se tek tada može reći da smo zaista usmjereni na mlade i cilj-oblikovanje njihove ličnosti u samopouzdane, zadovoljne i kompetentne osobe.</p>
+<p className="mb-4 text-blueGray-500">
+Na kraju, podcrtajmo da je dijete subjekt ličnog razvoja, jer je pravo na lično učešće i odlučivanje  djeteta o svom odgoju zajamčeno Konvencijom o pravima djeteta (1989.), čime je osigurana njegovu ravnopravnost u odnosu na odrasle u društvu što rezultira zadovoljnom zajednicom djece i odraslih. Kvalitetan partnerski odnos ključ je za ostvarenje cjelovitog razvoja djeteta i sretno odrastanje u zajednici s odraslima!</p>
+<p className="mb-4 text-blueGray-500">
+Svim učenicima i učenicama naše škole, čestitamo njihov Dan!</p>
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+          <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">ZLATAN HADŽIĆ BRILJIRAO NA SUPERTALENTU
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={tal1} alt="" />
+                    </div>
+                    <div>
+                        <Image src={tal2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={tal3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={tal4} alt="" />
+                    </div>
+
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  <p className="mb-4 text-blueGray-500">
+                  Zlatan Hadžić, učenik I6  odjeljenja, perspektivni  gitarista Pop Rock Škole Sarajevo učestvovao je na Supertalent 2024, Reality, Hrvatska, 10. novembra. </p>                 
+                    <p className="mb-4 text-blueGray-500">
+                    Ekipa 2, Pop Rock Škole Sarajevo , Senior Band: Zlatan, Nejla, Ivan, Matej, Tarik,Elma, Jasmin Fajić mentor, imala je briljantan nastup u Supertalent zabavnoj emisiji  10. novembra! Ostavili su nas sve bez daha!
+                   </p>
+<p className="mb-4 text-blueGray-500">
+Supertalent show hrvatska je inačica međunarodnog talent showa Got talent  koja se prikazuje od 2009. godine.
+Dio je međunarodno poznatoga serijala Got talent. Riječ je o emisiji koja preko audicija traži talente uključujući sport, pjevanje, sviranje, ples, glumu,, te  ostale mnogobrojne  vještine i talenate.</p>
+<p className="mb-4 text-blueGray-500">
+U proteklih deset sezona Supertalent  je, kao jedan od najdugovječnijih i najuspješnijih zabavnih emisija, postao sinonim za vrhunsku zabavu, ali i potragu za talentima.
+</p>
+<p className="mb-4 text-blueGray-500">
+Sve čestitke za našeg Zlatana i senior ekipu Pop Rock Škole Sarajevo!</p>
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
