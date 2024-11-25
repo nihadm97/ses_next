@@ -906,6 +906,19 @@ import tal4 from '@/views/images/tal4.webp';
 import srednjo1 from '@/views/images/srednjo1.jpg';
 import srednjo2 from '@/views/images/srednjo2.jpg';
 
+import prir1 from '@/views/images/prir1.jpg';
+import prir2 from '@/views/images/prir2.jpg';
+import prir3 from '@/views/images/prir3.jpg';
+import prir4 from '@/views/images/prir4.jpg';
+import prir5 from '@/views/images/prir5.jpg';
+import prir6 from '@/views/images/prir6.jpg';
+import prir7 from '@/views/images/prir7.jpg';
+import prir8 from '@/views/images/prir8.jpg';
+import prir9 from '@/views/images/prir9.jpg';
+import prir10 from '@/views/images/prir10.jpg';
+import prir11 from '@/views/images/prir11.jpg';
+
+
 const Aktivnosti = () => {
   useEffect(() => {
     AOS.init({duration: 2000});
@@ -925,6 +938,93 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Sretan Dan državnosti, Bosno i Hercegovino!
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={prir1} alt="" />
+                    </div>
+                    <div>
+                        <Image src={prir2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={prir3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={prir4} alt="" />
+                    </div>
+                    <div>
+                        <Image src={prir5} alt="" />
+                    </div>
+                    <div>
+                        <Image src={prir6} alt="" />
+                    </div>
+                    <div>
+                        <Image src={prir7} alt="" />
+                    </div>
+                    <div>
+                        <Image src={prir8} alt="" />
+                    </div>
+                    <div>
+                        <Image src={prir9} alt="" />
+                    </div>
+                    <div>
+                        <Image src={prir10} alt="" />
+                    </div>
+                    <div>
+                        <Image src={prir11} alt="" />
+                    </div>
+
+                    
+                   
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  <p className="mb-4 text-blueGray-500">
+                  U četvrtak, 21. novembra, održana je svečanost u auli škole povodom Dana državnosti Bosne i Hercegovine za roditelje, učenice, učenike, profesorice, profesore, uposlenice i uposlenike naše škole. </p>
+                   <p className="mb-4 text-blueGray-500">
+                   Obilježili smo ovaj izuzetan dan, prisjećajući se vrijednosti slobode, zajedništva i ljubavi prema našoj domovini. Na današnji dan, 25. novembra 1943. godine, na prvom zasjedanju ZAVNOBiH-a, donesena je odluka kojom je potvrđena državnost Bosne i Hercegovine. Odlukom na ovom zasjedanju, Bosna i Hercegovina je definisana kao jedinstvena i nedjeljiva država u kojoj će svi narodi imati ista prava. Ovim danom slavimo bogatu historiju naše zemlje i njen put ka očuvanju suvereniteta i jedinstva. Prisutnim se obratila direktorica naše škole g-đa Amira Kadrispahić, poručivši: <i>Bosna i Hercegovina je dom mnogih naroda, kultura i tradicija. Upravo ta raznolikost čini našu domovinu posebnom i bogatom, a Dan državnosti je prilika da istaknemo ljepotu tolerancije, suživota i zajedništva.</i> </p>
+<p className="mb-4 text-blueGray-500">
+Učenica Amina Gibović, svoju ljubav prema domovini izrazila je svojim literarnim radom <b>Domovina u srcu</b>, uz muzičku pratnju učenika Zlatana Hadžića. Školski hor izveo je sevdalinku <b>Bosno moja</b>, u koju je stala sva duša drevne i lijepe zemlje Bosne. Sevdalinka je jedan od najprepoznatljivijih elemenata kulturnog nasljeđa BiH, spomenik nacionalne kulture koju baštine svi, a sevdah se često povezuje sa posebnim stanjem duhovne dubine. Stihovi i note sevdalinke <b>Bosno moja</b>, zablistali su poput bisera sa dna mora  i ispunili neizrecivom ljepotom sve prisutne. Snažan aplauz  dobila je i dramska sekcija izvedbom predstave <b>Oblaci</b>. Uslijedio je baletski ples naših učenica Berine Hebib i Zerine Zec.  Adla Šurković nas je oduševila svojim recitalom <b>Naša Bosna i Hercegovina</b>, uz muzičku pratnju Zlatana Hadžića. Mnogo energetskog naboja donio je nastup Riane Jarkoč i njenog plesnog partnera Anura Berbića, u plesnoj tački  <b>Rock and roll</b>. Hor je izvedbom numere <b>Da Bog da</b> impresionirao prisutne. </p>
+<p className="mb-4 text-blueGray-500">
+Mladi predstavljaju snagu, energiju i potencijal svake zemlje. Otvoreni su za različitosti i često preispituju ustaljene norme. Oni su most između tradicije i modernog doba, čuvajući vrijednosti prošlosti, ali istovremeno i uvodeći inovacije koje donosi budućnost. Kao društvo imamo odgovornost da ih osnažimo, inspirišemo i uključimo, kako nastavnim, tako i vannastavnim aktivnostima, sve  kako bi podstakli njihove raznolike interese, želju za znanjem, otkrivanjem, istraživanjem i kritičkim mišljenjem. Samoaktivnost, samoinicijativa, i potvrđivanje u različitim područjima i vidovima rada, učenja i življenja put je do ostvarenja savremenog koncepta vaspitanja, put do stvaralačke i kreativne ličnosti. Škola ovog vijeka mora biti sposobna dati posebno mjesto poučavanju umjetničkih vrijednosti i predmeta da bi potaknula kreativnost djece, koja je važan atribut ljudske vrste, jer kreativnost je naša nada! </p>
+<p className="mb-4 text-blueGray-500">
+Zahvaljujemo našim učenicima/ama, profesorima/cama, uposlenicima/ama za izuzetnu svečanost povodom Dana državnosti! Bila je ovo svečanost snage i ljepote naše mladosti! </p>
+<p className="mb-4 text-blueGray-500">
+Završimo porukom  našeg rahmetli Abdulaha Sidrana: <b>Ona je i starija i pametnija od svakog svog naroda. Ako se mora odgovarati na neprirodno pitanje kome Bosna pripada, onda geslo i formula opstanka treba da glasi: Bosna pripada onima koji pripadaju njoj, koji je priznaju i poštuju u svakom njenom aspektu i segmentu i prihvataju obavezu da je, primljenu od predaka, potomcima predaju bolju i ljepšu.</b></p>
+<p className="mb-4 text-blueGray-500">
+Želimo Vam da ovaj praznik provedete u radosti, ponosu i nadi u svijetlu budućnost voljene nam domovine, Bosne i Hercegovine! </p>
+<p className="mb-4 text-blueGray-500">
+Sretan Vam <b>Dan državnosti</b>!</p>
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
