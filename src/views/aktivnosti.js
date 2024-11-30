@@ -918,6 +918,12 @@ import prir9 from '@/views/images/prir9.jpg';
 import prir10 from '@/views/images/prir10.jpg';
 import prir11 from '@/views/images/prir11.jpg';
 
+import sas1 from '@/views/images/sas1.jpg';
+import sas2 from '@/views/images/sas2.jpg';
+import sas3 from '@/views/images/sas3.jpg';
+import sas4 from '@/views/images/sas4.jpg';
+import sas5 from '@/views/images/sas5.jpg';
+import sas6 from '@/views/images/sas6.jpg';
 
 const Aktivnosti = () => {
   useEffect(() => {
@@ -938,6 +944,73 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">NA 10. SAJMU BOSANSKOHERCEGOVAČKE PRIVREDE U SKENDERIJI
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={sas1} alt="" />
+                    </div>
+                    <div>
+                        <Image src={sas2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={sas3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={sas4} alt="" />
+                    </div>
+                    <div>
+                        <Image src={sas5} alt="" />
+                    </div>
+                    <div>
+                        <Image src={sas6} alt="" />
+                    </div>
+                    
+
+                    
+                   
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  <p className="mb-4 text-blueGray-500">
+                  Ovogodišnji, deseti po redu, jubilarni sajam bosanskohercegovačke privrede se održava u gradskoj dvorani <i>Mirza Delibašić</i>, Centar <i>Skenderija</i>, Sarajevo. Otvoren je za posjetioce od 28.novembra do 1. decembra 2024. godine. Učenici  i učenice  I2, I4, II2, II3, III5 odjeljenja, profesorice Amra Hodžić, Alma Živojević, Merima Likić i Lejla Avdagić posjetili/e su u petak, 29. novembra Sajam BH privrede.</p>
+                   <p className="mb-4 text-blueGray-500">
+                   Sajam se održava pod sloganom: <b>Domaći proizvod u službi građana Bosne i Hercegovine</b>. Sajam svojim djelovanjem promovira i doprinosi konkurentnosti i razvoju ekonomije Bosne i Hercegovine. Organizator Sajma je osmislio promotivne aktivnosti koje nude priliku izlagačima da prezentiraju najnovija domaća i regionalna tehnološka i kreativna dostignuća. Prilika je ovo  za promociju poduzetništva, saradnje,  šansa za nove poslovne prilike, ali i za upoznavanje stručne i druge javnosti s mogućnostima ulaganja i podsticajnim mjerama. Stručno edukativni program održava se na centralnom prezentacionom prostoru dvorane. Centar Skenderija i Privredna/Gospodarska komora FBiH, obezbijedili su izložbeni prostor na sajmu za kompanije učesnice projekta Privredne komore FBiH <b>JA BIH NAŠE</b>, na kojem se učesnici projekta mogu predstaviti  putem svojih proizvoda, kataloga, prezentacija i sl.</p>
+<p className="mb-4 text-blueGray-500">
+Ovogodišnji Sajam je za naše učenike/ce bio prilika da se upoznaju sa sajmom kao oblikom izlaganja proizvoda, kao instrumentom i alatom za okupljanje privrednika i jačanje mreže poslovnih komunikacija, sa ulogom sajamske industrije u ekonomiji. Sajmovi su postali sve uticajniji u marketingu. Mjesta su prodaje i promocije proizvoda, okupljališta poslovnih ljudi, trgovaca i distributera, proizvođača, mjesta kontakta s posjetiocima tržišta i svim zainteresiranim u proizvodu. </p>
+<p className="mb-4 text-blueGray-500">
+Sarajevski sajam nije samo komercijalni, već i značajan društveni događaj, koji je vrijedilo posjetiti.</p>
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
