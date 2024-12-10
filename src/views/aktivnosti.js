@@ -927,6 +927,8 @@ import sas6 from '@/views/images/sas6.jpg';
 
 import romania from '@/views/images/romania.jpg';
 
+import demic1 from '@/views/images/demic1.jpg';
+import demic2 from '@/views/images/demic2.jpg';
 
 const Aktivnosti = () => {
   useEffect(() => {
@@ -947,6 +949,61 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Taekwondo Balkan Championship, Oradea 2024, Romania: Emin Demić osvojio srebro!
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={demic1} alt="" />
+                    </div>
+                    <div>
+                        <Image src={demic2} alt="" />
+                    </div>
+                    
+
+                    
+                   
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  <p className="mb-4 text-blueGray-500">
+                  Prošlog vikenda, od 29. novembra do 1.decembra, u gradu Oradea, Rumunija, održano je Balkansko prvenstvo u olimpijskom sportu taekwondo. Emin Demić, učenik I2 razreda, napravio još jedan odličan iskorak u sportskoj karijeri osvojivši srebrnu medalju na Regional Championship, Oradea 2024, Romania!</p>
+                   <p className="mb-4 text-blueGray-500">
+                   Emin Demić, talentovani sportista Taekwondo kluba Novi grad, pokazao je izvanrednu volju, motivaciju i borbenost izborivši se za srebrnu medalju na ovom prestižnom turniru. Nastupio je u kategoriji do 68 kg. Bio je najmlađi učesnik, u veoma jakoj konkurenciji 13 takmičara iz više zemalja. U finalnoj borbi protiv predstavnika Italije ostvario je drugo mjesto, sa malom razlikom 2:1 u rundama. Turnir je bio bodovni, te su mu rezultati sa ovog turnira donijeli nove bodove na Evropskoj rang listi. Uspjeh je još značajniji jer je Emin imao tromjesečnu pauzu zbog operacije šake. Ova medalja je kontinuitet njegovih izvrsnih rezultata o kojima smo pisali u prethodnom postu posvećenim Eminovim bronzanim medaljama sa takmičenja  EUROPEAN CUP EX YU  BELGRADE OPEN 2024  i PODGORICA EUROPEAN CUP OPEN 2024. </p>
+<p className="mb-4 text-blueGray-500">
+Taekwondo klub Novi Grad, Sarajevo,  posljednjih godina bilježi odlične rezultate širom regiona, Evrope, a izuzetan u nizu talentovanih sportista ovog kluba je i  Emin Demić. Impresivna je njegova borbenost, atraktivne nožne tehnike i brzina. </p>
+<p className="mb-4 text-blueGray-500">
+Čestitamo Emine! Nastavi tako i želimo ti da nastupaš za reprezentaciju Bosne i Hercegovine na svjetskom prvenstvu ili Olimpijadi!</p>
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
