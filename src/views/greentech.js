@@ -32,6 +32,12 @@ import sendi6 from '@/views/images/6.png';
 import sendi7 from '@/views/images/7.png';
 import sendi8 from '@/views/images/8.png';
 
+import smion1 from '@/views/images/smion1.jpg';
+import smion2 from '@/views/images/smion2.jpg';
+import smion3 from '@/views/images/smion3.jpg';
+import logo9 from '@/views/images/logo9.png';
+import logo10 from '@/views/images/logo10.png';
+
 const GreenTech = () => {
   useEffect(() => {
     AOS.init({duration: 2000});
@@ -40,6 +46,79 @@ const GreenTech = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+          <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+          <Image src={logo9} width="200" height="200" alt="" />
+
+    <h6 className="text-xl mb-1 font-semibold uppercase mr-2">PARTNERI ERASMUS+ G-TECH PROJEKTA OKUPLJENI U LJUBLJANI
+ </h6>
+    <Image src={logo10} width="200" height="200" alt="" />
+</span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={smion1} alt="" />
+                    </div>
+                    <div>
+                        <Image src={smion2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={smion3} alt="" />
+                    </div>
+                   
+                    
+                    
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+
+                  <p className="mb-4 text-blueGray-500">
+                  Dana 2. decembra 2024. godine, u prostorijama Gea Collegea u Ljubljani, održan je sastanak projekta <b>Green Tech Entrepreneurship Challenge Hub</b>. Sastanak je okupio partnere i organizatore iz Slovenije, Hrvatske i Bosne i Hercegovine s ciljem usklađivanja strategija, jačanja saradnje i planiranja narednih koraka.</p> 
+<p className="mb-4 text-blueGray-500">
+Učesnici su analizirali dosadašnje rezultate, razgovarali o izazovima i definisali sljedeće korake za uspješno završavanje projekta. Poseban fokus bio je na pripremama za finalni izazov koji će uključiti 225 učenika iz 15 škola.
+</p> 
+<p className="mb-4 text-blueGray-500">
+Našu školu na sastanku predstavljale su profesorice Senida Čeljo i Lejla Avdagić. Srednja ekonomska škola, Sarajevo, na čelu sa direktoricom Amirom Kadrispahić i timom profesora, uspješno realizuje sve aktivnosti predviđene projektnim planom, potvrđujući svoju posvećenost inovacijama i kvalitetnom obrazovanju.</p> 
+<p className="mb-4 text-blueGray-500">
+Ključni uspjesi:
+</p> 
+<p className="mb-4 text-blueGray-500">
+Razvijene inovativne platforme i kurikulumi</p> 
+<p className="mb-4 text-blueGray-500">
+Saradnja s industrijskim partnerima na kvalitetnim izazovima</p> 
+<p className="mb-4 text-blueGray-500">
+Promocija zelenog poduzetništva u obrazovanju mladih</p> 
+<p className="mb-4 text-blueGray-500">
+Dan je protekao u znaku produktivnih razgovora, razmjene ideja i stvaranja važnih veza. Ovakvi događaji potvrđuju koliko su timski rad i inovacije ključni za postizanje značajnih rezultata.
+</p>
+<p className="mb-4 text-blueGray-500">
+Radujemo se budućim uspjesima!
+</p>
+<p className="mb-4 text-blueGray-500">
+G-Tech, ERASMUS + projekat je finansijski podržan od strane Evropske unije.
+</p>
+        
+</span>
+                  </div>
+                  <div className="w-full md:w-9/12 ml-auto mr-auto px-4" style={{paddingBottom: "5%"}}>    
+               
+           </div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
           <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
