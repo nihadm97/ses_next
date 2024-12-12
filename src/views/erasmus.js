@@ -71,8 +71,9 @@ const Erasmus = () => {
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
           <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-          <Image src={logo9} width="200" height="200" alt="" />
-
+<div className="big-screen-only md:hidden">
+      <Image src={logo9} width="200" height="200" alt="" />
+    </div>
     <h6 className="text-xl mb-1 font-semibold uppercase mr-2">PARTNERI ERASMUS+ G-TECH PROJEKTA OKUPLJENI U LJUBLJANI
  </h6>
     <Image src={logo10} width="200" height="200" alt="" />
