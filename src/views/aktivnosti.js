@@ -952,6 +952,70 @@ const Aktivnosti = () => {
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Na Mašinskom fakultetu promocija STEAM nauka: <b>Postani svjestan-inspiriši se</b>
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={steam1} alt="" />
+                    </div>
+                    <div>
+                        <Image src={steam2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={steam3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={steam4} alt="" />
+                    </div>
+                    <div>
+                        <Image src={steam5} alt="" />
+                    </div>
+                    
+
+                    
+                   
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  <p className="mb-4 text-blueGray-500">
+                  Učenici/ce četvrtog razreda, matematičkog izbornog područja, zajedno sa  profesoricom Aidom Šahović i profesorom Nihadom Mehmedovićem prisustvovali su u Švedskom amfiteatru 1, Mašinskog fakulteta u Sarajevu, promociji STEAM nauka pod nazivom <b>Postani svjestan-inspiriši se</b>. Događaj je organiziran u sklopu projekta <b>Popularizacija STEAM obrazovanja kod mladih</b>, u saradnji s CRPIT-om (Centar za razvoj i promociju inovatorstva, tehnike i informacionih tehnologija), u srijedu, 4. decembra 2024. godine. </p>
+                   <p className="mb-4 text-blueGray-500">
+                   STEAM obrazovanje je obrazovni model koji integriše znanja iz nauke, tehnologije, inženjerstva, umjetnosti i matematike. U 21. stoljeću, jedna je od najvažnijih oblasti obrazovanja, ne samo zbog važnosti pomenute četiri oblasti nauke u tehnološki razvijenom svijetu, već i za profesionalni prosperitet pojedinca, te društva u cjelini. Podstiče interes djece za tehnologiju i inovacije, te ih kroz praktično učenje priprema za buduće radno mjesto. Kao inovativna obrazovna metoda, može učiniti da učenici uživaju u procesu učenja i budu spremni da istražuju i duboko uče.</p>
+<p className="mb-4 text-blueGray-500">
+Učenici su imali priliku, kroz prezentacije, predavanja i diskusiju, upoznati se sa uspješnim poduzetničkim projektima osoba koje su kroz svoje obrazovanje razvijale sveobuhvatne kompetencije. Ovom aktivnošću se želi kod mladih razviti kritičko razmišljanje, inovativnost, kreativnost, vještine rješavanja problema, esencijalne kompetencije za suočavanje sa izazovima savremenog svijeta. Uslijedio je obilazak laboratorija Mašinskog fakulteta. Učenici/ce su pratnji studenata/ica Mašinskog fakulteta obišli/e nekoliko laboratorija  i kabineta i dobili/e nove informacije o akademskoj edukaciji iz glavnih područja mašinskog inženjerstva, uključujući proizvodni inženjering, industrijski inženjering i menadžment, energetiku, procesnu tehniku i okolinsko inženjerstvo, tehnologije drveta, motore i vozila, odbrambene tehnologije, mašinske konstrukcije kao i računarsko inženjerstvo. Mašinski fakultet Univerziteta u Sarajevu, kroz dinamičan i interdisciplinaran nastavni program, nastoji pružiti svojim studentima vrhunsku edukaciju, istraživačke projekte i saradnju sa inostranim fakultetima, institutima i preduzećima. </p>
+<p className="mb-4 text-blueGray-500">
+Zahvaljujemo Mašinskom fakultetu za priliku da naši učenici/ce prisusustvuju ovom izuzetnom događaju. </p>
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
               <h6 className="text-xl mb-1 font-semibold text-center uppercase">Taekwondo Balkan Championship, Oradea 2024, Romania: Emin Demić osvojio srebro!
 
 
