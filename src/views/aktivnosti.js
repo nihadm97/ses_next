@@ -930,6 +930,12 @@ import romania from '@/views/images/romania.jpg';
 import demic1 from '@/views/images/demic1.jpg';
 import demic2 from '@/views/images/demic2.jpg';
 
+import steam1 from '@/views/images/steam1.jpg';
+import steam2 from '@/views/images/steam2.jpg';
+import steam3 from '@/views/images/steam3.jpg';
+import steam4 from '@/views/images/steam4.jpg';
+import steam5 from '@/views/images/steam5.jpg';
+
 const Aktivnosti = () => {
   useEffect(() => {
     AOS.init({duration: 2000});
