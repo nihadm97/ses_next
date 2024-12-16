@@ -936,6 +936,17 @@ import steam3 from '@/views/images/steam3.jpg';
 import steam4 from '@/views/images/steam4.jpg';
 import steam5 from '@/views/images/steam5.jpg';
 
+import poslova1 from '@/views/images/poslova1.jpg';
+import poslova2 from '@/views/images/poslova2.jpg';
+import poslova3 from '@/views/images/poslova3.jpg';
+
+import nauke1 from '@/views/images/nauke1.jpg';
+import nauke2 from '@/views/images/nauke2.jpg';
+import nauke3 from '@/views/images/nauke3.jpg';
+import nauke4 from '@/views/images/nauke4.jpg';
+import nauke5 from '@/views/images/nauke5.jpg';
+
+
 const Aktivnosti = () => {
   useEffect(() => {
     AOS.init({duration: 2000});
@@ -955,6 +966,136 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Dan nauke: Science4YOUth u HUB-u
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={nauke1} alt="" />
+                    </div>
+                    <div>
+                        <Image src={nauke2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={nauke3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={nauke4} alt="" />
+                    </div>
+                    <div>
+                        <Image src={nauke5} alt="" />
+                    </div>
+                    
+
+                    
+                   
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  <p className="mb-4 text-blueGray-500">
+                  Učenici/ce I3, II5 razreda i pomoćnica direktorice Edina Kopić, prof. hemije, su u četvrtak, 12. decembra, prisustvovali edukativnim radionicama i predavanjima upriličenim u povodu Dana nauke Federacije Bosne i Hercegovine u Homework HUB-u.</p>
+                   <p className="mb-4 text-blueGray-500">
+                   Homework HUB i JU Međunarodni centar za djecu i omladinu Novo Sarajevo obilježili su Dan nauke Federacije Bosne i Hercegovine, 12. decembar. Na taj dan, 1975. godine, Vladimir Prelog iz Sarajeva, u Stockholmu, primio je Nobelovu nagradu za hemiju, jedno od najprestižnijih priznanja u svijetu nauke. </p>
+<p className="mb-4 text-blueGray-500">
+Tim povodom organizirani su raznovrsni edukativni sadržaji za učenike/ce od prvih razreda osnovne škole, do učenika/ca svih razreda srednjih škola.</p>
+<p className="mb-4 text-blueGray-500">
+Učesnici/ce imali/e su priliku da čuju inspirativne životne priče i istraže revolucionarna otkrića Marie Curie, fizičarke i hemičarke, dvostruke dobitnice Nobelove nagrade i Nikole Tesle, pronalazača, naučnika i inženjera, zaslužnog za više od 700 pronalazaka, naizmjenične struje, bežične komunikacije, lasera, x-zraka, radara, rasvjete, robotike,...</p>
+<p className="mb-4 text-blueGray-500">
+Posebno su bili zanimljivi eksperimenti sa HUB fizičarkom Eminom Huko i hemičarkom Dalilom Lokvančić, a zabavno je bilo i okušati se  u kvizu znanja: <b>Ko želi biti naučnik/ca?</b></p>
+                   <p className="mb-4 text-blueGray-500">
+                   HUB naučnik  Afan Ribić je učenike/ce upoznao sa mikroskopom i 3D printerom. 3D print predstavlja revolucionarne tehnologije u proizvodnji koje nose ogroman tržišni potencijal i predstavljaju esencijalan faktor koji će imati značajne implikacije na budućnost ljudskog društva. Ove tehnologije otvaraju nove mogućnosti za inovacije, personalizaciju proizvoda i optimizaciju proizvodnih procesa, mijenjaju način dizajniranja, proizvodnje i korišćenja objekata u različitim industrijama. Naravno, učenici/ce bili/e su puni zanimljivih pitanja. Kreativnost i znanje demonstrirali su  kroz izuzetne likovne radove.</p>
+<p className="mb-4 text-blueGray-500">
+Uslijedilo je prikazivanje jedne od epizoda emisije <b>Nauka Z</b>, koja je realizovana u saradnji sa Udruženjem Building New Lives i uz podršku Ministarstva za nauku, visoko obrazovanje i mlade Kantona Sarajevo.  </p>
+<p className="mb-4 text-blueGray-500">
+Ovaj značajan događaj koji je okupio preko 350 učesnika/ca, imao je za cilj popularizaciju nauke i obrazovanja među mladima, te jačanje njihovih kapaciteta. Realiziran je uz podršku Europe House i Federalnog ministarstva obrazovanja i nauke.</p>
+<p className="mb-4 text-blueGray-500">
+Bila je ovo izuzetna promocija znanja, nauke i budućnosti mladih!</p>
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Sajam poslova <b>Gledaj sebi posla</b> u hotelu <b>Hills</b>
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={poslova1} alt="" />
+                    </div>
+                    <div>
+                        <Image src={poslova2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={poslova3} alt="" />
+                    </div>
+                    
+
+                    
+                   
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  <p className="mb-4 text-blueGray-500">
+                  Federalno ministarstvo rada i socijalne politike uz podršku Federalnog zavoda za zapošljavanje, Fonda za profesionalnu rehabilitaciju i zapošljavanje osoba sa invaliditetom i organizacijom UN Women je organizovalo, po prvi put, Sajam poslova <b>Gledaj sebi posla</b>, 10. i 11. decembra, u hotelu Hills.</p>
+                   <p className="mb-4 text-blueGray-500">
+                   Sajam je okupio više od sto kompanija iz različitih sektora. Profesorica njemačkog jezika Ermana Kanlić i učenici/ce IV1 razreda posjetili/e su sajam. </p>
+<p className="mb-4 text-blueGray-500">
+Posjetioci sajma su imali priliku da prisustvuju besplatnim radionicama vezano za pripreme za intervju  i apliciranje na željeno radno mjesto, te radionici namijenjenoj nezaposlenim ženama koje žele ostvariti dodatni prihod, ali i povećati svoju produktivnost kroz razvoj profesionalnih vještina. U sklopu Sajma poslova <b>Gledaj sebi posla</b> biće omogućene i dodatne konsultacije o pripremi CV-a ili pripremi za intervju sa poslodavcima. Sajam je koncipiran kao platforma za dijalog i saradnju svih aktera tržišta rada. Radionice i panel-diskusije prilika su da  se steknu nova znanja i informacije koje će koristiti i poslodavcima i osobama koje traže posao. U fokusu je stvaranje stabilnog, održivog  i inkluzivnog tržišta rada, koje će osigurati jednake mogućnosti za sve, uključujući žene i osobe sa invaliditetom, što je od esencijalnog značaja za održivi ekonomski razvoj i stabilnost zajednice.  </p>
+<p className="mb-4 text-blueGray-500">
+Ustanovljena je besplatna web aplikaciju sajamposlova.fmrsp.gov.ba gdje će poslodavci tokom cijele godine objavljivati otvorena radna mjesta u kompanijama, a svi registrovani korisnici će moći besplatno aplicirati na otvorena radna mjesta.</p>
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
