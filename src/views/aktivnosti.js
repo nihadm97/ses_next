@@ -946,6 +946,11 @@ import nauke3 from '@/views/images/nauke3.jpg';
 import nauke4 from '@/views/images/nauke4.jpg';
 import nauke5 from '@/views/images/nauke5.jpg';
 
+import izlozba from '@/views/images/izlozba.jpg';
+import izlozba1 from '@/views/images/izlozba1.jpg';
+import izlozba2 from '@/views/images/izlozba2.jpg';
+import izlozba3 from '@/views/images/izlozba3.jpg';
+import izlozba4 from '@/views/images/izlozba4.jpg';
 
 const Aktivnosti = () => {
   useEffect(() => {
@@ -966,6 +971,66 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Na izložbi <b>Fotografije</b> Danila Krstanovića
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={izlozba} alt="" />
+                    </div>
+                    <div>
+                        <Image src={izlozba1} alt="" />
+                    </div>
+                    <div>
+                        <Image src={izlozba2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={izlozba3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={izlozba4} alt="" />
+                    </div>
+                    
+
+                    
+                   
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  <p className="mb-4 text-blueGray-500">
+                  Učenici/ce II5 odjeljenja su u srijedu, 11. decembra 2024. godine, u pratnji profesorice historije Azemine Hujdur, posjetili/e izložbu Fotografije, autora Danila Krstanovića, dugogodišnjeg fotoreportera Oslobođenja, agencije Reuters i drugih uglednih medijskih kuća. Svjetsku afirmaciju je stekao  fotografijama  Sarajeva pod opsadom, od 1992. do 1995. godine.</p>
+                   <p className="mb-4 text-blueGray-500">
+                   Izložba je postavljena u Galeriji Općine Novi Grad, Sarajevo i realizirana u saradnji sa Umjetničkom galerijom Bosne i Hercegovine.</p>
+<p className="mb-4 text-blueGray-500">
+Izložbenu postavku čini 28 fotografija koje su dio zbirke, darovane Umjetničkoj galeriji Bosne i Hercegovine. Fotografije su iz perioda agresije na našu domovinu, zabilježene objektivom autora, jedinstvenog hroničara opkoljenog Sarajeva. Učenici/ce su imali/e priliku vidjeti trenutke iz  svakodnevnog života stanovnika opkoljenog Sarajeva. Svaka fotografija, jedinstvena je priča o Sarajlijama, njihovoj snazi, dostojanstvu, nesalomljivom duhu, otporu i nadi, ali i preživljavanju u izuzetno teškim, ratnim uslovima.</p>
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
