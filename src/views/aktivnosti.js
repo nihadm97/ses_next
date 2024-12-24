@@ -952,6 +952,11 @@ import izlozba2 from '@/views/images/izlozba2.jpg';
 import izlozba3 from '@/views/images/izlozba3.jpg';
 import izlozba4 from '@/views/images/izlozba4.jpg';
 
+import web1 from '@/views/images/web1.jpg';
+import web2 from '@/views/images/web2.jpg';
+import web3 from '@/views/images/web3.jpg';
+import web4 from '@/views/images/web4.jpg';
+
 const Aktivnosti = () => {
   useEffect(() => {
     AOS.init({duration: 2000});
@@ -971,6 +976,76 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Web programiranje na Prirodno-matematičkom fakultetu
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={web1} alt="" />
+                    </div>
+                    <div>
+                        <Image src={web2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={web3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={web4} alt="" />
+                    </div>
+                    
+                    
+
+                    
+                   
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  <p className="mb-4 text-blueGray-500">
+                  Učenici/ce izborne nastave matematike i profesor Nihad Mehmedović prisustvovali/e su u ponedjeljak, 23. decembra, predavanju iz predmeta Web programiranje na Prirodno-matematičkom fakultetu Univerziteta u Sarajevu, zajedno sa studentima prve godine studija, odsjek za matematičke i kompjuterske nauke.
+</p>
+                   <p className="mb-4 text-blueGray-500">
+                   Tema predavanja je bila kreirati igricu koja se može igrati preko web pretraživača te su učenici/ce i studenti/ce sa profesorom dr. Seadom Delalićem kreirali/e igricu <b>𝑰𝒌𝒔 𝑶𝒌𝒔</b>.
+</p>
+<p className="mb-4 text-blueGray-500">
+Na početku časa se krenulo od prazne web stranice i do kraja predavanja su zajedničkim radom učenici/ce, studenti/ce i profesor došli do potpuno funkcionalne igrice. Ishod ove posjete je bio predstaviti učenicima srednje škole šta radi web programer i koja su glavna zaduženja web programera. 
+</p>
+<p className="mb-4 text-blueGray-500">
+Sve više firmi prelazi na elektronsko poslovanje, otvaraju svoje korporativne domene, postavljaju web prezentacije, promovišu svoje proizvode preko interneta, pokreću online prodaju. Najnoviji trendovi su u znaku potpunog prelaska na web bazirana softverska rešenja. Dovoljan je samo browser i dobra internet konekcija! Glavnu rolu na tehničkom dijelu ovog posla vodiće upravo web programeri i developeri. Njihov  zadatak je da podignu internet sajtove, povežu ih na odgovarajuću bazu podataka, omoguće automatizaciju objavljivanja sadržaja kreirajući Content Management Systems, pišu web servlets, kreiraju web services, ostvare komunikaciju na internetu, kreiraju web aplikacije različitih namjena, ostvare tehničke preduslove za online prodaju i promociju, vode računa o bezbjednosti sajtova i web servera, rade optimizaciju postojećih web aplikacija i slično.
+</p>
+<p className="mb-4 text-blueGray-500">
+Daljinsko očitavanje potrošnje struje i gasa,  daljinsko upravljanje poslovanjem posredstvom interneta, rad iz bežičnog kućnog okruženja i slično, neki su od primjera šta nas očekuje u budućnosti. Zahtijevaće kompetentne kadrove za njihovu implementaciju i održavanje, spremne da odgovore svim izazovima modernog poslovanja. 
+</p>
+<p className="mb-4 text-blueGray-500">
+Ovo su šanse i prostor za razvoj web programera!
+</p>
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
