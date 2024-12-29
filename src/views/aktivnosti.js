@@ -957,6 +957,19 @@ import web2 from '@/views/images/web2.jpg';
 import web3 from '@/views/images/web3.jpg';
 import web4 from '@/views/images/web4.jpg';
 
+import naz1 from '@/views/images/naz1.jpg';
+import naz2 from '@/views/images/naz2.jpg';
+import naz3 from '@/views/images/naz3.jpg';
+import naz4 from '@/views/images/naz4.jpg';
+import naz5 from '@/views/images/naz5.jpg';
+import naz6 from '@/views/images/naz6.jpg';
+
+import rod1 from '@/views/images/rod1.jpg';
+import rod2 from '@/views/images/rod2.jpg';
+import rod3 from '@/views/images/rod3.jpg';
+import rod4 from '@/views/images/rod4.jpg';
+import rod5 from '@/views/images/rod5.jpg';
+
 const Aktivnosti = () => {
   useEffect(() => {
     AOS.init({duration: 2000});
@@ -976,6 +989,135 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Naši učenici i učenice donijeli radost najmlađima u Centru Vladimir Nazor
+
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={naz1} alt="" />
+                    </div>
+                    <div>
+                        <Image src={naz2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={naz3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={naz4} alt="" />
+                    </div>
+                    <div>
+                        <Image src={naz5} alt="" />
+                    </div>
+                    <div>
+                        <Image src={naz6} alt="" />
+                    </div>
+
+                    
+
+                    
+                   
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  <p className="mb-4 text-blueGray-500">
+                  U prazničnom duhu solidarnosti i ljubavi, već tradicionalno u Centru Vladimir Nazor, naši učenici i učenice su učestvovali u  akciji pripremanja i podjele novogodišnjih paketića za najmlađe učenike, a inicijativa je pokrenuta od strane Vijeća učenika. </p>
+                   <p className="mb-4 text-blueGray-500">
+                   Posjetu Centru i podjelu paketića uveličali su članice i članovi horske sekcije naše škole izvedbom numera koje su uvećale radost druženja sa divnim mališanima, a čija radost i oduševljenje nisu izostali ni pri izvedbi predstave <i>Ledena kraljica</i> koju su izveli članovi i članice naše dramske sekcije.</p>
+<p className="mb-4 text-blueGray-500">
+Raduje nas da smo imali čast širiti ideje zajedništva i radosti u našoj zajednici.</p>
+<p className="mb-4 text-blueGray-500">
+Učenice i učenici su s osmijehom dijelili paketiće, a mališani su im uzvratili iskrenom zahvalnošću i radošću.</p>
+<p className="mb-4 text-blueGray-500">
+Ova lijepa gesta nije obradovala samo djecu, već je i naše učenice i učenike podsjetila na važnost darivanja i međusobnog pomaganja.</p>
+<p className="mb-4 text-blueGray-500">
+Hvala našim dragim učenicama i učenicima što su svojim trudom i pažnjom uljepšali praznične dane onima kojima je to najpotrebnije!</p>
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+          <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Predavanje za roditelje
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={rod1} alt="" />
+                    </div>
+                    <div>
+                        <Image src={rod3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={rod4} alt="" />
+                    </div>
+                    <div>
+                        <Image src={rod5} alt="" />
+                    </div>
+                    
+                    
+
+                    
+                   
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  <p className="mb-4 text-blueGray-500">
+                  Predstavnici PU Novo Sarajevo su, 27.11.2024. godine, održali predavanje za roditelje na temu "Lažne dojave o postavljanju minsko-eksplozivnih naprava u školama".</p>
+                   <p className="mb-4 text-blueGray-500">
+                   Cilj predavanja je bio da se roditelji upoznaju o ozbiljnosti navedene pojave, te o zakonskim aktima koja tretiraju čin lažnih dojavljivanja, kao i o krivičnoj odgovornosti, kako djece, tako i roditelja.</p>
+<p className="mb-4 text-blueGray-500">
+Posebna pažnja je posvećena uputi roditeljima da više komuniciraju sa svojom djecom, provjeravaju s kim se druže u stvarnom i virtuelnom svijetu, te provjeravaju njihove naloge na društvenim mrežama.</p>
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
