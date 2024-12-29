@@ -974,6 +974,14 @@ import bom1 from '@/views/images/bom1.jpg';
 import bom2 from '@/views/images/bom2.jpg';
 import bom3 from '@/views/images/bom3.jpg';
 
+import bam1 from '@/views/images/bam1.jpg';
+import bam2 from '@/views/images/bam2.jpg';
+import bam3 from '@/views/images/bam3.jpg';
+import bam4 from '@/views/images/bam4.jpg';
+import bam5 from '@/views/images/bam5.jpg';
+import bam6 from '@/views/images/bam6.jpg';
+import bam7 from '@/views/images/bam7.jpg';
+
 const Aktivnosti = () => {
   useEffect(() => {
     AOS.init({duration: 2000});
@@ -993,6 +1001,91 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Finansijska edukacija u Centralnoj banci Bosne i Hercegovine
+
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={bam1} alt="" />
+                    </div>
+                    <div>
+                        <Image src={bam2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={bam3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={bam4} alt="" />
+                    </div>
+                    <div>
+                        <Image src={bam5} alt="" />
+                    </div>
+                    <div>
+                        <Image src={bam6} alt="" />
+                    </div>
+                    <div>
+                        <Image src={bam7} alt="" />
+                    </div>
+
+                    
+
+                    
+                   
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  <p className="mb-4 text-blueGray-500">
+                  Učenici/ce nekoliko odjeljenja naše škole i profesorica Indira Zeković su u četvrtak, 26. decembra, prisustvovali/e predavanju u Centralnoj banci Bosne i Hercegovine, zajedno sa učenicima/cama i profesoricama Srednje poslovno-komercijalne i trgovačke škole, Sarajevo. </p>
+                   <p className="mb-4 text-blueGray-500">
+                   Uvažena guvernerka Centralne banke Bosne i Hercegovine i redovna profesorica Ekonomskog fakulteta u Sarajevu, dr. Jasmina Selimović,  srdačno je dočekala i pozdravila učenike/ce uz želje za lična i profesionalna postignuća.</p>
+<p className="mb-4 text-blueGray-500">
+U uvodnoj riječi, guvernerka je, sa puno entuzijazma i energije, ukazala na potrebu dosljednog i istrajnog rada na sticanju stručnih znanja, vještina i kompetencija, kako bi mladi ostvarili svoju ličnost i optimalan razvoj svih svojih kreativnih potencijala. Moderno društvo proživljava brze promjene i zahtijeva obrazovanje koje će više ubrzati društvene promjene, posebno one koje omogućavaju brži razvoj u društvu i društva u cjelini te osposobiti generacije za aktivno i odgovorno učešće u demokratskom razvoju našeg društva.</p>
+<p className="mb-4 text-blueGray-500">
+Ukazala je na imperativ  cjeloživotnog, permanentnog učenja, radi osposobljavanja za život i rad u promjenjivom društveno-kulturnom kontekstu prema zahtjevima tržišne ekonomije, savremenih informacijsko-komunikacijskih tehnologija i naučnih spoznaja i dostignuća, ali i, naglasila je, sa dubokim društvenim osjećajem i odgovornošću za očuvanje i daljnji razvoj društva Bosne i Hercegovine.</p>
+<p className="mb-4 text-blueGray-500">
+Bila je ovo snažna i motivirajuća poruka našoj mladosti u stilu Roberta Frosta: <b>Ja nisam učitelj nego onaj koji budi</b>.</p>
+<p className="mb-4 text-blueGray-500">
+Uslijedilo je interaktivno predavanje dr. Emine Žunić Dželihodžić na temu <b>Mjere zaštite domaćeg tržišta i valute koje sprovodi CB BiH</b>.
+</p>
+<p className="mb-4 text-blueGray-500">
+U najkraćem, sadržaji edukacije su se odnosili na način rada Centralne banke, definiran Zakonom o CBBiH, koji je  jasno  definisao parametre monetarne politike BiH, te aranžman valutnog odbora (Currency Board). CBBiH i dalje mora održati svoju nezavisnost i profesionalno djelovanje. Valuta BiH, konvertibilna marka, je stabilna i konvertibilna a to su preduvjeti finansijske stabilnosti zemlje i ekonomskog napretka. СВВіН kao vlasnik RTGS sistema i žiro kliringa će i dalje osiguravati stabilnost platnih sistema i njihovo funkcionisanje. Bankarski sistem BiH je stabilan i dovoljno kapitaliziran. </p>
+<p className="mb-4 text-blueGray-500">
+CBBiH je pokrenula, samostalno i u saradnji s partnerskim organizacijama, niz aktivnosti na podizanju nivoa finansijske edukacije i inkluzije stanovništva u Bosni i Hercegovini. CBBiH predsjedava Stalnim odborom za finansijsku stabilnost i koordinira djelatnosti entitetskih agencija za bankarstvo, te tako ima značajnu ulogu u održavanju finansijske stabilnosti u državi. Sva navedena tijela, uz Agenciju za osiguranje depozita Bosne i Hercegovine, predstavljaju mrežu finansijske stabilnosti i dužni su činiti sve da bi tu stabilnost i održali.</p>
+<p className="mb-4 text-blueGray-500">
+Magazin <b>Banke i Biznis u BiH</b> dodijelio je Centralnoj banci Bosne i Hercegovine posebno priznanje <b>Zlatni BAM</b> za financijsku edukaciju i inkluziju. Ovo priznanje dodijeljeno je Centralnoj banci Bosne i Hercegovine za angažman i aktivnosti koje već duži niz godina poduzima i provodi na polju financijske edukacije mladih u osnovnim i srednjim školama u Bosni i Hercegovini. Jedan od projekata koje realizira u srednjim školama je projekat <b>Educiraj edukatora</b> u kojem nastavnici i učenici prolaze treninge o finansijskom upravljanju i prenose znanje vršnjacima u svojim školama, kroz ovaj projekat, predavanja i prezentacije, te obilježavanjem Svjetske sedmice novca i Svjetskog dana štednje. </p>
+<p className="mb-4 text-blueGray-500">
+Zavaljujemo uvaženoj guvernerki dr. Jasmini Selimović za srdačan doček naših učenika/ca i uposlenicima/cama Centralne banke za vrhunski profesionalizam u organizaciji finansijske edukacije  i  izuzetan doprinos unapređenju finansijskih znanja i kompetencija naših učenika.</p>
+<p className="mb-4 text-blueGray-500">
+Projekat <b>Upoznaj privredu Kantona Sarajevo</b>, Indira Zeković, prof.</p>
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
