@@ -982,6 +982,16 @@ import bam5 from '@/views/images/bam5.jpg';
 import bam6 from '@/views/images/bam6.jpg';
 import bam7 from '@/views/images/bam7.jpg';
 
+import bura1 from '@/views/images/bura1.jpg';
+import bura2 from '@/views/images/bura2.jpg';
+import bura3 from '@/views/images/bura3.jpg';
+import bura4 from '@/views/images/bura4.jpg';
+import bura5 from '@/views/images/bura5.jpg';
+import bura6 from '@/views/images/bura6.jpg';
+import bura7 from '@/views/images/bura7.jpg';
+import bura8 from '@/views/images/bura8.jpg';
+import bura9 from '@/views/images/bura9.jpg';
+
 const Aktivnosti = () => {
   useEffect(() => {
     AOS.init({duration: 2000});
@@ -1001,6 +1011,95 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Posjeta Internacionalnom Burch univerzitetu
+
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={bura1} alt="" />
+                    </div>
+                    <div>
+                        <Image src={bura2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={bura3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={bura4} alt="" />
+                    </div>
+                    <div>
+                        <Image src={bura5} alt="" />
+                    </div>
+                    <div>
+                        <Image src={bura6} alt="" />
+                    </div>
+                    <div>
+                        <Image src={bura7} alt="" />
+                    </div>
+                    <div>
+                        <Image src={bura8} alt="" />
+                    </div>
+                    <div>
+                        <Image src={bura9} alt="" />
+                    </div>
+                    
+
+                    
+
+                    
+                   
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+Učenice i učenici četvrtog razreda, u pratnji direktorice Amire Kadrispahić, pomoćnice direktorice Edine Kopić, profesorica: Suvade Trako, Alme Avdić, Alme Karamujić, Senide Čeljo i profesora Emira Ustavdića su u petak, 13.12.2024. godine posjetili Internacionalni Burch Univerzitet. </p>
+<p className="mb-4 text-blueGray-500">
+Tokom posjete, učenice i učenici su upoznati sa programima studija, uključujući informacijske tehnologije, grafički dizajn i multimediju, menadžment, elektrotehniku, bankarstvo i finansije, digitalne komunikacije i odnose s javnošću, međunarodne odnose i druge studije.</p>
+<p className="mb-4 text-blueGray-500">
+Također, učenicama i učenicima je prezentiran program finansiranja i stipendiranja studenata, te kriteriji za evaluaciju. Posebnu pažnju naših učenica i učenika je privukla informacija da se na prijemnom ispitu može osvojiti i do 100% stipendije za studij na izabranom odsjeku IBU-a. Prije polaganja prijemnog ispita, fakultet pruža pripremnu nastavu za prijemni ispit.</p>
+<p className="mb-4 text-blueGray-500">
+Internacionalni Burch univerzitet stavlja naglasak na akademska postignuća, podstičući i inspirišući studente da postanu najbolja verzija sebe. Njeguju i razvijaju snažne i otporne pojedince koji razmišljaju samostalno, posjeduju kreativnost i s entuzijazmom prihvataju rješavanje problema.
+</p>
+<p className="mb-4 text-blueGray-500">
+Kao organizacija, usmjereni su ka budućnosti i prepoznavanju potrebe za prilagođavanjem svijetu koji se stalno mijenja pod uticajem tehnologije. Njihov kurikulum je prilagođen da sadrži snažan digitalni element, podržan vrhunskom nastavom iz oblasti ICT-a i najnovijom tehnologijom u učionicama.</p>
+<p className="mb-4 text-blueGray-500">
+IBU ima kontinuiranu podršku grupacije Stirling Education, britanske obrazovne ustanove u njihovim profesionalnim nastojanjima da studentima pruže inovativne metode učenja, uslove za naučno-istraživački rad, kroz razvoj modernih studijskih programa. </p>
+<p className="mb-4 text-blueGray-500">
+Dodatno, Univerzitet ima i Startup Inkubator, gdje studentice i studenti koje/i imaju poslovne ideje i žele ih razviti, mogu to učiniti uz pomoć profesora, koji su mentori u cijelom osnivanju kompanije.</p>
+<p className="mb-4 text-blueGray-500">
+Ljubazni domaćini su, pored nezaboravnog prijema, pripremili i koktel za sve prisutne. </p>
+<p className="mb-4 text-blueGray-500">
+Zahvaljujemo kolektivu Burch Univerziteta za izuzetan doček i kontinuiranu saradnju, a posebno dekanu Fakulteta za ekonomiju i društvene nauke IBU-a, prof. dr. Irfanu Djedoviću, koji svojom harizmom i toplinom izaziva posebnu radost i oduševljenje!</p>
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
