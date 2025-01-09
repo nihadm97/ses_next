@@ -992,6 +992,20 @@ import bura7 from '@/views/images/bura7.jpg';
 import bura8 from '@/views/images/bura8.jpg';
 import bura9 from '@/views/images/bura9.jpg';
 
+import prvo1 from '@/views/images/prvo1.jpg';
+import prvo2 from '@/views/images/prvo2.jpg';
+import prvo3 from '@/views/images/prvo3.jpg';
+import prvo4 from '@/views/images/prvo4.jpg';
+import prvo5 from '@/views/images/prvo5.jpg';
+import prvo6 from '@/views/images/prvo6.jpg';
+import prvo7 from '@/views/images/prvo7.jpg';
+import prvo8 from '@/views/images/prvo8.jpg';
+import prvo9 from '@/views/images/prvo9.jpg';
+import prvo10 from '@/views/images/prvo10.jpg';
+import prvo11 from '@/views/images/prvo11.jpg';
+import prvo12 from '@/views/images/prvo12.jpg';
+import prvo13 from '@/views/images/prvo13.jpg';
+
 const Aktivnosti = () => {
   useEffect(() => {
     AOS.init({duration: 2000});
@@ -1011,6 +1025,104 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Na izložbi <b>Retroperspective 70 </b>
+
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={prvo1} alt="" />
+                    </div>
+                    <div>
+                        <Image src={prvo2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={prvo3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={prvo4} alt="" />
+                    </div>
+                    <div>
+                        <Image src={prvo5} alt="" />
+                    </div>
+                    <div>
+                        <Image src={prvo6} alt="" />
+                    </div>
+                    <div>
+                        <Image src={prvo7} alt="" />
+                    </div>
+                    <div>
+                        <Image src={prvo8} alt="" />
+                    </div>
+                    <div>
+                        <Image src={prvo9} alt="" />
+                    </div>
+                    <div>
+                        <Image src={prvo10} alt="" />
+                    </div>
+                    <div>
+                        <Image src={prvo11} alt="" />
+                    </div>
+                    <div>
+                        <Image src={prvo12} alt="" />
+                    </div>
+                    <div>
+                        <Image src={prvo13} alt="" />
+                    </div>
+                    
+
+                    
+
+                    
+                   
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+Profesorica historije Azemina Hujdur i učenice/i I6 odjeljenja su u petak, 20. decembra 2024. godine posjetile/i izložbu <b>Retrospektive 70</b>, postavljenu u Historijskom muzeju Bosne i Hercegovine.</p>
+<p className="mb-4 text-blueGray-500">
+Izložba <b>RETROPERSPECTIVE 70</b> je otvorena u povodu obilježavanja sedamdesete godišnjice postojanja i djelovanja <b>Udruženja likovnih umjetnika primijenjenih umjetnosti i dizajnera u Bosni i Hercegovini (ULUPUBiH)</b>. Tematizira prošlost Bosne i Hercegovine kroz prizmu umjetnosti i dizajna, omogućava dublju spoznaju utjecaja političkog i društvenog konteksta na razvoj umjetnosti i dizajna u Bosni i Hercegovini i naglašava  značaj ULUPUBIH-a u razvoju Bosne i Hercegovine. Nije riječ samo o historijskom pregledu prošlih sedam decenija, već  i izvanrednom svjedočanstvu našeg zajedničkog nasljeđa, kreativnosti i strasti prema umjetnosti i dizajnu. </p>
+<p className="mb-4 text-blueGray-500">
+Učenice/ce su imale/i jedinstvenu priliku pogledati razvoj <b>ULUPUBiH</b> udruženja, od njegovih najranijih početaka do danas. Od prve osnivačke skupštine, razvoja samog udruženja, uticaja na razvoj i osnivanje važnih kulturnih i obrazovnih institucija, kao što su  <b>Galerija Collegium Artisticum, Akademija likovnih umjetnosti</b> u Sarajevu, te rješavanju svih vizuelnih izazova oblikovanja Olimpijade ZOI 84. </p>
+<p className="mb-4 text-blueGray-500">
+Na izložbi su simbolično predstavljeni i radovi sedamdeset aktuelnih članova udruženja iz sekcija primijenjene umjetnosti i dizajna. Prilika je ovo i za  podsjećanje na pionire udruženja, ali i sve one koji su dali doprinos njegovom razvoju, bilo kroz umjetnička djela, kreativne ideje ili dosljednu podršku zajednici. Njihova vizija  inspiriše i danas!</p>
+<p className="mb-4 text-blueGray-500">
+Projekat je podržan od strane Ministarstva kulture i sporta Kantona Sarajevo i Grada Sarajevo, te brojnih sponzora i prijatelja projekta.</p>
+<p className="mb-4 text-blueGray-500">
+Umjetnost i dizajn mijenjaju svijet! Nude nam nove načine razmišljanja, inspiraciju i mogućnosti za izražavanje! Pokreću kreativni um i potiču nove ideje i perspektive! </p>
+<p className="mb-4 text-blueGray-500">
+Nadamo se da će ova izložba inspirirati i educirati naše učenike/ce. Neka ova izložba bude podsjetnik na značaj umjetnosti i dizajna u našem društvu i inspiracija da gradimo društvo u kojem kreativnost i znanje imaju ključnu rolu!</p>
+<p className="mb-4 text-blueGray-500">
+Učenice/i su pogledale/e i stalnu postavku Muzeja, <b>Opkoljeno Sarajevo</b>. </p>
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
