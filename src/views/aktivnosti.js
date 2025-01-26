@@ -1011,6 +1011,11 @@ import poro2 from '@/views/images/poro2.jpg';
 import poro3 from '@/views/images/poro3.jpg';
 import poro4 from '@/views/images/poro4.jpg';
 
+import nejra1 from '@/views/images/nejra1.jpg';
+import nejra2 from '@/views/images/nejra2.jpg';
+import nejra3 from '@/views/images/nejra3.jpg';
+import nejra4 from '@/views/images/nejra4.jpg';
+
 const Aktivnosti = () => {
   useEffect(() => {
     AOS.init({duration: 2000});
@@ -1030,6 +1035,82 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Obilježavanje Međunarodnog dana obrazovanja
+
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={nejra1} alt="" />
+                    </div>
+                    <div>
+                        <Image src={nejra2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={nejra3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={nejra4} alt="" />
+                    </div>
+
+                    
+
+                    
+
+                    
+                   
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+Povodom Međunarodnog dana obrazovanja, 24. januara 2025. godine, naše učenice Nejra Šatara i Naida Džekman,zajedno sa profesoricama Senidom Čeljo, Lamijom Šabanović i pedagogicom Delilom Ramić, učestvovale su na IV konferenciji “Quo vadis, academia?”
+</p>
+<p className="mb-4 text-blueGray-500">
+Konferencija, organizovana u saradnji Homework HUB-a, JU Međunarodnog centra za djecu i omladinu Novo Sarajevo i Verlab instituta, okupila je preko 90 učesnika iz škola i drugih institucija Kantona Sarajevo. Cilj događaja bio je unapređenje obrazovnog sistema kroz inovacije, digitalizaciju i povezivanje teorijskih znanja s praktičnim izazovima.</p>
+<p className="mb-4 text-blueGray-500">
+Poseban doprinos konferenciji dao je hakaton takmičenje – prvo takve vrste u našoj regiji za nastavnike i učenike. Učesnici, podijeljeni u timove, rješavali su zadatke vezane za obrazovne izazove u modernom društvu. Paralelno s hakatonom, održana je i panel-diskusija na kojoj su učestvovali istaknuti stručnjaci iz oblasti obrazovanja, uključujući predstavnike Ministarstva za nauku, visoko obrazovanje i mlade KS, Instituta za preduniverzitetsko obrazovanje KS i organizacije COI StepByStep.</p>
+<p className="mb-4 text-blueGray-500">
+Zaključci sa konferencije istakli su važnost prilagođavanja obrazovanja zahtjevima 21. vijeka kroz:</p>
+<p className="mb-4 text-blueGray-500">
+Digitalizaciju i implementaciju savremenih tehnologija.</p>
+<p className="mb-4 text-blueGray-500">
+Povezivanje teorije i prakse u obrazovanju.</p>
+<p className="mb-4 text-blueGray-500">
+Kontinuiranu mentorsku podršku nastavnicima.</p>
+<p className="mb-4 text-blueGray-500">
+Jačanje saradnje svih aktera obrazovnog sistema.</p>
+<p className="mb-4 text-blueGray-500">
+Zahvaljujemo organizatorima na prilici da učestvujemo u ovom značajnom događaju, koji promoviše inovativnost, zajednički rad i doprinosi unapređenju obrazovnog sistema.</p>
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">

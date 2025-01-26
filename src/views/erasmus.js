@@ -60,6 +60,14 @@ import smion3 from '@/views/images/smion3.jpg';
 import logo9 from '@/views/images/logo9.png';
 import logo10 from '@/views/images/logo10.png';
 
+import odmah1 from '@/views/images/odmah1.jpg';
+import odmah2 from '@/views/images/odmah2.jpg';
+import odmah3 from '@/views/images/odmah3.jpg';
+import odmah4 from '@/views/images/odmah4.jpg';
+import odmah5 from '@/views/images/odmah5.jpg';
+import odmah6 from '@/views/images/odmah6.jpg';
+import odmah7 from '@/views/images/odmah7.jpg';
+
 const Erasmus = () => {
   useEffect(() => {
     AOS.init({duration: 2000});
@@ -68,6 +76,91 @@ const Erasmus = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+          <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+    <h6 className="text-xl mb-1 font-semibold uppercase mr-2">Predstavnice Srednje ekonomske škole, Sarajevo na stručno-edukativnim treninzima u Ljubljani i Varaždinu
+ </h6>
+    <Image src={logo10} width="200" height="200" alt="" />
+</span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={odmah1} alt="" />
+                    </div>
+                    <div>
+                        <Image src={odmah2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={odmah3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={odmah4} alt="" />
+                    </div>
+                    <div>
+                        <Image src={odmah5} alt="" />
+                    </div>
+                    <div>
+                        <Image src={odmah6} alt="" />
+                    </div>
+                    <div>
+                        <Image src={odmah7} alt="" />
+                    </div>
+                    
+                    
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+
+                  <p className="mb-4 text-blueGray-500">
+                  U okviru projektnih aktivnosti profesorice Srednje ekonomske škole Sarajevo, Alma Karamujić i Indira Zeković, bile su dio tima od 30 profesorica i profesora iz Bosne i Hercegovine koji su učestvovali u stručnim trenizima u okviru Erasmus+ projekta GTECH (Green Tech Entrepreneurship Challenge Hub).</p>
+                  <p className="mb-4 text-blueGray-500">
+                  Ovaj značajan projekt finansiran je od strane Evropske unije i ima za cilj unapređenje kapaciteta nastavnika i učenika srednjih stručnih škola, te promociju poduzetništva i inovacija u oblasti zelenih tehnologija.</p>
+                  <p className="mb-4 text-blueGray-500">
+                  Mobilnosti su održane u dva ključna centra:</p> 
+<p className="mb-4 text-blueGray-500">
+•	<b>Ljubljana (20. i 21. januar 2025.)</b> – Domaćin je bio Gea College, koji je profesorima i profesoricama pružio priliku za profesionalni razvoj kroz obuke o učenju zasnovanom na izazovima, poduzetništvu i stvaranju veza s industrijom.
+</p> 
+<p className="mb-4 text-blueGray-500">
+•	<b>Varaždin (22.–24. januar 2025.)</b> – Elektrostrojarska škola Varaždin organizovala je praktične aktivnosti usmjerene na razvijanje vještina potrebnih za zelenu ekonomiju budućnosti. Nastavnici su imali priliku obići kompanija kao što su Solvis i Mobilisis, koje su podijelile svoje priče o održivom poslovanju.
+</p> 
+<p className="mb-4 text-blueGray-500">
+Srednja ekonomska škola, Sarajevo se zahvaljuje svojim partnerima projekta: Gea College, Elektrostrojarska škola Varaždin, na izvanrednoj organizaciji treninga, kao i ostalim partnerima koji su dali svoj doprinos u cjelokupnoj pripremi za ovaj događaj.</p> 
+<p className="mb-4 text-blueGray-500">
+Projekt partneri: </p> 
+<p className="mb-4 text-blueGray-500">
+Smion 
+</p>
+<p className="mb-4 text-blueGray-500">
+FabLab B&H </p>
+<p className="mb-4 text-blueGray-500">
+International Burch University </p>
+<p className="mb-4 text-blueGray-500">
+GEA College </p>
+<p className="mb-4 text-blueGray-500">
+Elektrostrojarska škola Varaždin </p>
+<p className="mb-4 text-blueGray-500">
+Srednja ekonomska škola, Sarajevo </p>  
+</span>
+                  </div>
+                  <div className="w-full md:w-9/12 ml-auto mr-auto px-4" style={{paddingBottom: "5%"}}>    
+               
+           </div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
           <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
