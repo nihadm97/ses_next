@@ -1084,25 +1084,23 @@ const Aktivnosti = () => {
  
                   
 <p className="mb-4 text-blueGray-500">
-Povodom Međunarodnog dana obrazovanja, 24. januara 2025. godine, naše učenice Nejra Šatara i Naida Džekman,zajedno sa profesoricama Senidom Čeljo, Lamijom Šabanović i pedagogicom Delilom Ramić, učestvovale su na IV konferenciji “Quo vadis, academia?”
-</p>
+Povodom Međunarodnog dana obrazovanja, 24. januara 2025. godine, naše učenice Nejra Šatara i Naida Džekman, zajedno sa profesoricama Senidom Čeljo, Lamijom Šabanović i pedagogicom Delilom Ramić, učestvovale su na IV konferenciji <b>Quo vadis, academia?</b></p>
 <p className="mb-4 text-blueGray-500">
 Konferencija, organizovana u saradnji Homework HUB-a, JU Međunarodnog centra za djecu i omladinu Novo Sarajevo i Verlab instituta, okupila je preko 90 učesnika iz škola i drugih institucija Kantona Sarajevo. Cilj događaja bio je unapređenje obrazovnog sistema kroz inovacije, digitalizaciju i povezivanje teorijskih znanja s praktičnim izazovima.</p>
 <p className="mb-4 text-blueGray-500">
-Poseban doprinos konferenciji dao je hakaton takmičenje – prvo takve vrste u našoj regiji za nastavnike i učenike. Učesnici, podijeljeni u timove, rješavali su zadatke vezane za obrazovne izazove u modernom društvu. Paralelno s hakatonom, održana je i panel-diskusija na kojoj su učestvovali istaknuti stručnjaci iz oblasti obrazovanja, uključujući predstavnike Ministarstva za nauku, visoko obrazovanje i mlade KS, Instituta za preduniverzitetsko obrazovanje KS i organizacije COI StepByStep.</p>
+Poseban doprinos konferenciji dalo je hakaton takmičenje – prvo takve vrste u našoj regiji za nastavnike i učenike. Učesnici, podijeljeni u timove, rješavali su zadatke vezane za obrazovne izazove u modernom društvu. Paralelno s <b>hakatonom</b>, održana je i panel-diskusija na kojoj su učestvovali istaknuti stručnjaci iz oblasti obrazovanja, uključujući predstavnike Ministarstva za nauku, visoko obrazovanje i mlade KS, Instituta za preduniverzitetsko obrazovanje KS i organizacije COI StepByStep.</p>
 <p className="mb-4 text-blueGray-500">
-Zaključci sa konferencije istakli su važnost prilagođavanja obrazovanja zahtjevima 21. vijeka kroz:</p>
+Zaključcima sa konferencije podcrtana je važnost prilagođavanja obrazovanja zahtjevima 21. vijeka kroz:</p>
 <p className="mb-4 text-blueGray-500">
-Digitalizaciju i implementaciju savremenih tehnologija.</p>
+Digitalizaciju i implementaciju savremenih tehnologija,</p>
 <p className="mb-4 text-blueGray-500">
-Povezivanje teorije i prakse u obrazovanju.</p>
+Povezivanje teorije i prakse u obrazovanju,</p>
 <p className="mb-4 text-blueGray-500">
-Kontinuiranu mentorsku podršku nastavnicima.</p>
+Kontinuiranu mentorsku podršku nastavnicima,</p>
 <p className="mb-4 text-blueGray-500">
 Jačanje saradnje svih aktera obrazovnog sistema.</p>
 <p className="mb-4 text-blueGray-500">
-Zahvaljujemo organizatorima na prilici da učestvujemo u ovom značajnom događaju, koji promoviše inovativnost, zajednički rad i doprinosi unapređenju obrazovnog sistema.</p>
-
+Zahvaljujemo organizatorima na prilici da učestvujemo na ovom značajnom događaju, koji promoviše inovativnost, zajednički rad i doprinosi unapređenju obrazovnog sistema.</p>
 </span>
                   </div>
                  
