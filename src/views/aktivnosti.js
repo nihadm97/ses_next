@@ -1018,6 +1018,11 @@ import nejra4 from '@/views/images/nejra4.jpg';
 
 import smion from '@/views/images/smion.jpg';
 
+import vol1 from '@/views/images/vol1.jpg';
+import vol2 from '@/views/images/vol2.jpg';
+import vol3 from '@/views/images/vol3.jpg';
+import vol4 from '@/views/images/vol4.jpg';
+
 const Aktivnosti = () => {
   useEffect(() => {
     AOS.init({duration: 2000});
@@ -1037,6 +1042,169 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Naučno-stručna konferencija i sajam inovacija i inovativnosti INN&TECH
+
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={inn1} alt="" />
+                    </div>
+                    <div>
+                        <Image src={inn2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={inn3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={inn4} alt="" />
+                    </div>
+                    <div>
+                        <Image src={inn5} alt="" />
+                    </div>
+                    <div>
+                        <Image src={inn6} alt="" />
+                    </div>
+                    
+
+                    
+
+                    
+                   
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+U organizaciji Centra za razvoj i promociju inovatorstva, tehnike i informacionih tehnologija – CRPIT Sarajevo i podršku i pokroviteljstvo Federalnog ministarstva obrazovanja i nauke i Ministarstva za nauku, visoko obrazovanje i mlade Kantona Sarajevo u utorak, 14. januara 2025. godine, u hotelu Hills, održana je 8. naučno-stručna konferencija i 3. sajam inovacija i inovativnosti INN&TECH. </p>
+<p className="mb-4 text-blueGray-500">
+Događaj je i ove godine okupio brojne paneliste, inovatore, poduzetnike, investitore, profesore i nastavnike iz škola u Kantonu Sarajevo, ali i šire, te studente i učenike koji su imali priliku predstaviti svoje inovacije i ostvariti dragocjene kontakte za realizaciju i finalizaciju svojih inovacija. </p>
+<p className="mb-4 text-blueGray-500">
+Paralelno s konferencijom, održan je i 3. Sajam inovacija i inovativnosti. Jedan od ciljeva  sajma, između ostalog, je promocija bosanskohercegovačkih inovacija i inovatora, te podsticanje mladih da ispolje svoje ideje,  inovativnost i kreativni potencijal. Sajam je organizovan u četiri kategorije: inovatori, studenti inovatori, učenici osnovnih škola i učenici srednjih škola. Posjetitelji Sajma inovacija i inovativnosti su imali priliku vidjeti najnovija dostignuća bosanskohercegovačkih inovatora, od učenika osnovnih i srednjih škola do iskusnih poduzetnika.</p>
+<p className="mb-4 text-blueGray-500">
+Fokus ovogodišnje konferencije je na digitalnoj transformaciji i inovativnim primjenama novih tehnologija u obrazovanju, nauci i poduzetništvu. Jedna od važnih tema konferencije je vještačka inteligencija, njena upotreba u nastavi, s naglaskom na  etičke i pedagoške izazove kojih svi profesionalci koji rade sa djecom i mladima moraju biti svjesni kada je u pitanju AI. </p>
+<p className="mb-4 text-blueGray-500">
+Na sajmu, našu školu predstavio je učenik prvog razreda Zlatan Hadžić, sa svojom aplikacijom <b>Transformacija obrazovanja</b>.  Aplikacija koristi umjetnu inteligenciju kako bi profesorima olakšala posao i učinila nastavu interaktivnijom i efikasnijom. Profesori mogu praviti pripreme za časove, kreirati kvizove i testove. Umjetna inteligencija pomaže da se sadržaji prilagode potrebama učenika. AI osnažuje nastavnike da kreiraju personalizirane puteve učenja za učenike, pomažući učiteljima u izradi prilagođenih planova lekcija. Podiže podučavanje od generaliziranog pristupa do modela usmjerenog na učenika, gdje se rješavaju jedinstvene potrebe učenja svakog učenika. Nastavnici stiču uvid u jake i slabe strane učenika, omogućavajući ciljanu intervenciju. </p>
+<p className="mb-4 text-blueGray-500">
+Konferenciji su, iz naše škole, prisustvovali  profesor Sandi Tafro, te profesorice Lejla Hujdur i Azemina Hujdur. </p>
+<p className="mb-4 text-blueGray-500">
+Održavanje konferencije INN&TECH i Sajma inovacija i inovativnosti ima višestruk značaj za konkurentniji privredni sektor i kvalitetnije obrazovanje! Inovatori se ne rađaju, oni se njeguju i školuju od osnovnog obrazovanja! Imperativ je sinergija obrazovnog, privrednog i naučnog sektora, a sve u cilju konkurentnog i ekonomski stabilnog društva!</p>
+<p className="mb-4 text-blueGray-500">
+INN&TECH konferencija i sajam nisu samo platforma za  promociju i razvoj inovatorstva već i važan iskorak ka budućnosti! </p>
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Naučno-popularni projekat  PMF-a: Volim matematiku
+
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={vol1} alt="" />
+                    </div>
+                    <div>
+                        <Image src={vol2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={vol3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={vol4} alt="" />
+                    </div>
+
+                    
+
+                    
+
+                    
+                   
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+Ideja kreatora projekta <b>Volim matematiku</b> je predstaviti značaj i ljepotu matematike, pokrenuti kreativnost i znatiželju, otkriti ljepotu matematike na interaktivan način!</p>
+<p className="mb-4 text-blueGray-500">
+Projekat je i promocija <b>hands-on</b> pristupa matematici. Intencije su razvoj analitičkog i kritičkog mišljenja kod učenika/ca osnovnih i srednjih škola, njihovih nastavnika/ca i profesora/ica, edukacija učenika/ca, nastavnika/ca i studenata/ica za kreiranje matematičkih modela i simulacija, unapređenje metodičko-didaktičkih kompetencija nastavnika/ca matematike u osnovim i srednjim školama kroz peer-to-peer radionice, edukacija o korištenju <b>IKT u nastavi</b> (kroz primjere dobre prakse), jačanje konekcija onih koji vole i koriste matematiku, poticanje interakcije učenika/ca, nastavnika/ca, profesora/ica i naučnika/ca okupljenih oko matematičkih tema, edukacija učenika/ca iz oblasti primjene matematike u savremenom društvu, detekcija problema i detekcija koraka ka unapređenju nastave matematike, skretanje pažnje šire društvene zajednice na esencijalnu ulogu matematike i matematičkog obrazovanja u nauci i tehnologiji…
+</p>
+<p className="mb-4 text-blueGray-500">
+Naučno-popularni projekat <b>Volim matematiku</b> se već treću godinu održava u organizaciji odsjeka za matematičke i kompjuterske nauke PMF-a UNSA i Udruženja matematičara KS. Na svečanom otvaranju prisutnima su se obratili: prof. dr. Nusret Drešković, dekan PMF-a UNSA, prof. dr. Zenan Šabanac, šef Odsjeka za matematičke i kompjuterske nauke i predsjednik Skupštine Udruženja matematičara KS, Benjamin Hedžić, savjetnik ministrice Jasne Duraković za predškolsko, osnovno i srednje obrazovanje i prof. dr. Lejla Smajlović, voditeljica projekta <b>Volim matematiku</b>.</p>
+<p className="mb-4 text-blueGray-500">
+Pokrovitelj projekta <b>Volim matematiku</b> je Federalno ministarstvo obrazovanja i nauke. Partneri projekta su Univerzitet u Sarajevu, Prirodno-matematički fakultet i Univerzitetski tele-informatički centar.  Sponzori projekta su Logosoft (zlatni sponzor), Raiffeisen banka, InfoStudio i Klika.</p>/p>
+<p className="mb-4 text-blueGray-500">
+Kroz radionice za učenike/ce i nastavnike/ce, realizira se interakcija različitih skupina i diskusija o nastavi matematike sa različitih aspekata, ulozi i značaju matematike u poslovnom okruženju, te prisutnosti matematike u svijetu  oko nas.  </p>
+<p className="mb-4 text-blueGray-500">
+U okviru radionice <b>Dobre prakse u nastavi matematike</b> održane 23. i 24. januara, priređeno je šest interaktivnih sesija gdje su učesnici kroz radionice:</p>
+<p className="mb-4 text-blueGray-500">
+Isprobali digitalne alate za interaktivniju nastavu <b>Plickers, Robocompass i Curipod</b></p>
+<p className="mb-4 text-blueGray-500">
+Osmislili projektne zadatke za učenike koji omogućavaju dublje razumijevanje matematičkih koncepata kroz praktičan rad</p>
+<p className="mb-4 text-blueGray-500">
+Podcrtali razlike između proceduralnog i konceptualnog modela nastave, sa naglaskom na primjenu <b>konceptualnog pristupa</b> u nastavi.
+</p>
+<p className="mb-4 text-blueGray-500">
+Na radionicama su učestvovali nastavnici/ce i profesori/ce iz Kantona Sarajevo, ali i iz drugih gradova, Konjica, Bugojna, Visokog, Kaknja i Istočnog Sarajeva. Projekat uključuje matematičke igre, kvizove, zagonetke, centralni događaj obilježavanja Dana matematike, te izložbe matematičkih eksperimenata, gdje su matematički pojmovi i rezultati prezentirani kroz matematičke eksperimente. </p>
+<p className="mb-4 text-blueGray-500">
+Naše profesorice matematike Lejla Hujdur i Aida Šahović su učestvovale na ovom dvodnevnom profesionalnom usavršavanju za korištenje novih tehnologija, inovativnih alata i metoda u nastavi matematike. Bila je ovo i prilika da podijele svoja iskustva i ideje sa drugim kolegama. Profesorica Lejla Hujdur je održala izlaganje na temu <b>Projektni zadaci u nastavi matematike</b>, demonstrirajući kako projektna nastava kod učenika podstiče kreativnost i timski rad i može transformirati obrazovanje čineći ga dinamičnijim i relevantnijim za stvarni svijet. Učenici postaju aktivni sudionici učenja preuzimajući odgovornost za vlastiti napredak dok saradnja, istraživanje i praktična primjena znanja omogućavaju razvijanje kompetencija za budućnost.</p>
+<p className="mb-4 text-blueGray-500">
+Završimo sa čuvenom izrekom Galilea Galileja: Priroda je ogromna knjiga u kojoj je napisana nauka. Ona je stalno otvorena pred našim očima, ali je čovjek ne može razumjeti ukoliko prethodno ne nauči jezik i slova kojim je napisana. A napisana je jezikom matematike!</p>
+<p className="mb-4 text-blueGray-500">
+Učinimo sve, svi učesnici obrazovnog procesa iz matematike, da naša djeca uče matematiku na njima razumljiv i zanimljiv način, u okruženju koje će poticati samostalnost, kreativnost i upornost!</p>
+<p className="mb-4 text-blueGray-500">
+Projekat <b>Volim matematiku</b> se nastavlja u mjesecu februaru i martu. </p>
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
