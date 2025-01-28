@@ -730,6 +730,13 @@ import turci8 from '@/views/images/turci8.jpg';
 import turci9 from '@/views/images/turci9.jpg';
 import turci10 from '@/views/images/turci10.jpg';
 
+import inn1 from '@/views/images/inn1.jpg';
+import inn2 from '@/views/images/inn2.jpg';
+import inn3 from '@/views/images/inn3.jpg';
+import inn4 from '@/views/images/inn4.jpg';
+import inn5 from '@/views/images/inn5.jpg';
+import inn6 from '@/views/images/inn6.jpg';
+
 import ista1 from '@/views/images/ista1.jpg';
 import ista2 from '@/views/images/ista2.jpg';
 import ista3 from '@/views/images/ista3.jpg';
@@ -1175,7 +1182,7 @@ Projekat je i promocija <b>hands-on</b> pristupa matematici. Intencije su razvoj
 <p className="mb-4 text-blueGray-500">
 Naučno-popularni projekat <b>Volim matematiku</b> se već treću godinu održava u organizaciji odsjeka za matematičke i kompjuterske nauke PMF-a UNSA i Udruženja matematičara KS. Na svečanom otvaranju prisutnima su se obratili: prof. dr. Nusret Drešković, dekan PMF-a UNSA, prof. dr. Zenan Šabanac, šef Odsjeka za matematičke i kompjuterske nauke i predsjednik Skupštine Udruženja matematičara KS, Benjamin Hedžić, savjetnik ministrice Jasne Duraković za predškolsko, osnovno i srednje obrazovanje i prof. dr. Lejla Smajlović, voditeljica projekta <b>Volim matematiku</b>.</p>
 <p className="mb-4 text-blueGray-500">
-Pokrovitelj projekta <b>Volim matematiku</b> je Federalno ministarstvo obrazovanja i nauke. Partneri projekta su Univerzitet u Sarajevu, Prirodno-matematički fakultet i Univerzitetski tele-informatički centar.  Sponzori projekta su Logosoft (zlatni sponzor), Raiffeisen banka, InfoStudio i Klika.</p>/p>
+Pokrovitelj projekta <b>Volim matematiku</b> je Federalno ministarstvo obrazovanja i nauke. Partneri projekta su Univerzitet u Sarajevu, Prirodno-matematički fakultet i Univerzitetski tele-informatički centar.  Sponzori projekta su Logosoft (zlatni sponzor), Raiffeisen banka, InfoStudio i Klika.</p>
 <p className="mb-4 text-blueGray-500">
 Kroz radionice za učenike/ce i nastavnike/ce, realizira se interakcija različitih skupina i diskusija o nastavi matematike sa različitih aspekata, ulozi i značaju matematike u poslovnom okruženju, te prisutnosti matematike u svijetu  oko nas.  </p>
 <p className="mb-4 text-blueGray-500">
