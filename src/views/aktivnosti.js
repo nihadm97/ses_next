@@ -1016,6 +1016,8 @@ import nejra2 from '@/views/images/nejra2.jpg';
 import nejra3 from '@/views/images/nejra3.jpg';
 import nejra4 from '@/views/images/nejra4.jpg';
 
+import smion from '@/views/images/smion.jpg';
+
 const Aktivnosti = () => {
   useEffect(() => {
     AOS.init({duration: 2000});
@@ -1035,6 +1037,85 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Post Mobility Conference:  G-TECH </h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={smion} alt="" />
+                  </div>               
+                            
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+S velikim zadovoljstvom vas obavještavamo da će se <b>Post Mobility Conference 2025</b> održati u:
+<b>petak, 31. januara 2025. godine, u prostorijama Srednje ekonomske škole, Sarajevo.🕛 Od 10:00 do 13:00 sati</b>
+</p>
+<p className="mb-4 text-blueGray-500">
+U okviru Erasmus+ programa kroz projekat GTECH (Green Tech Entrepreneurship Challenge Hub), više od 30 profesora iz Bosne i Hercegovine učestvovalo je u stručnim treninzima u Ljubljani i Varaždinu.
+Cilj projekta, koji je finansiran od strane Evropske unije, jeste unapređenje kapaciteta nastavnika i učenika srednjih stručnih škola te promocija poduzetništva i inovacija u oblasti zelenih tehnologija.
+</p>
+<p className="mb-4 text-blueGray-500">
+Post-mobiliti konferencija okupit će učesnike i partnere projekta kako bi podijelili stečena iskustva, diskutovali o rezultatima treninga i istražili buduće mogućnosti saradnje između obrazovnih ustanova i industrije. Konferencija također naglašava značaj stručnog obrazovanja u kontekstu digitalne transformacije i održivog razvoja.
+</p>
+<p className="mb-4 text-blueGray-500">
+<b>Projekat G - TECH se implementiran u saradnji s partnerima:</b>
+</p>
+<p className="mb-4 text-blueGray-500">
+1.	Smion-Hrvatska</p>
+<p className="mb-4 text-blueGray-500">
+2.	FabLab Bosna i Hercegovina</p>
+<p className="mb-4 text-blueGray-500">
+3.	International Burch University- Bosna i Hercegovina</p>
+<p className="mb-4 text-blueGray-500">
+4.	Gea College- Slovenija</p>
+<p className="mb-4 text-blueGray-500">
+5.	Srednja Ekonomska Škola Sarajevo - Bosna i Hercegovina</p>
+<p className="mb-4 text-blueGray-500">
+6.	Elektrostrojarska škola Varaždin – Hrvatska</p>
+<p className="mb-4 text-blueGray-500">
+<b>AGENDA</b></p>
+<p className="mb-4 text-blueGray-500">
+9:00-10:00      Registracija učesnika  </p>
+<p className="mb-4 text-blueGray-500">
+10:00-10:10    Svečano otvaranje konferencije – Amira Kadrispahić, direktorica Srednje ekonomske škole Sarajevo  </p>
+<p className="mb-4 text-blueGray-500">
+10:10- 10:20   O projektu GTECH – Inovacije u obrazovanju i tehnologiji – prof. Senida Čeljo, Srednja ekonomska škola Sarajevo  </p>
+<p className="mb-4 text-blueGray-500">
+10:20-11:00    Prezentacija iskustava učesnika Mobility training-a u Sloveniji i Hrvatskoj</p>
+<p className="mb-4 text-blueGray-500">
+11:00-11:20    Q&A</p>
+<p className="mb-4 text-blueGray-500">
+11:20- 12:30   Networking - work café metoda</p>
+<p className="mb-4 text-blueGray-500">
+12:30-12:40    FollowUp aktivnosti - Emira Ćejvanović, International Burch University</p>
+<p className="mb-4 text-blueGray-500">
+12:40                Druženje </p>
+<p className="mb-4 text-blueGray-500">
+<b>Pozivamo Vas da prisustvujete ovom značajnom događaju i podijelite priču o inovacijama i obrazovnom napretku koje su ostvarili učesnici G-TECH projekta.</b></p>
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
