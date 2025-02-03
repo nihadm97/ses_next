@@ -1049,6 +1049,7 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+    
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
