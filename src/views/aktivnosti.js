@@ -1119,9 +1119,9 @@ Bio je to jedan sasvim običan dan, poput svih drugih. Otišao je u školu, kao 
 <p className="mb-4 text-blueGray-500">
 Ali da li se taj dan završio na isti način za sve? Da li su svi učenici svoj dan završili u toplom domu, okruženi ljubavlju svoje porodice? Vraćajući se iz škole, iz Katoličkog školskog centra u Sarajevu, šesnaestogodišnji <b>Denis Mrnjavac</b> tragično je izgubio život 6. februara 2008. godine, u gradskom prevozu. Njegovo ubistvo, počinjeno od strane maloljetnih nasilnika, potreslo je cijelo društvo u Bosni i Hercegovini. Taj čin postao je tragičan simbol borbe protiv vršnjačkog nasilja. Iako su svi bili duboko potreseni tim nemilosrdnim događajem, društvo je nastavilo pasivno posmatrati vršnjačko nasilje, kao da nije ništa vidjelo, kao da ništa nije čulo. U tom trenutku, svi smo zažmirili na jedno oko, zatvorili uši na krikove i udarce, i, što je najgore, zatrovali svoja srca i duše. Nakon tog okrutnog čina, poslije tužne i bolne istine, jedna majka izgubila je svoju polovinu srca, dio nje je zauvijek otišao, otišao na neko bolje mjesto, gledajući ovaj surovi, oholi i nepravedni svijet. </p>
 <p className="mb-4 text-blueGray-500">
-Ovaj događaj mora ostati trajni podsjetnik za sve nas: <b>da ne okrenemo leđa nasilju, da ne postanemo ravnodušni</b>. Jer sutra bi Denis moga biti tvoja sestra, tvoj brat, rođak ili prijatelj... </p>
+Ovaj događaj mora ostati trajni podsjetnik za sve nas: <b>da ne okrenemo leđa nasilju, da ne postanemo ravnodušni</b>. Jer sutra bi Denis mogao biti tvoja sestra, tvoj brat, rođak ili prijatelj... </p>
 <p className="mb-4 text-blueGray-500">
-<b>Budimo ti koji ćemo reagovati, koji ćemo stati u zaštitu, i koji ćemo sačuvati ljudskost u svijetu koji se prečesto zaboravi.</b> </p>
+<b>Budimo ti koji će reagovati, koji će stati u zaštitu, i koji će sačuvati ljudskost u svijetu koji se prečesto zaboravi.</b> </p>
 <p className="mb-4 text-blueGray-500">
 Emina Karić, učenica II2</p>
 </span>
