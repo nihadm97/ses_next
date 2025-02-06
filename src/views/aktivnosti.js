@@ -15,6 +15,8 @@ import slika2 from '@/views/images/stem2.jpg';
 import slika3 from '@/views/images/stem3.jpg';
 import slika4 from '@/views/images/stem4.jpg';
 import slika5 from '@/views/images/stem5.jpg';
+import logo10 from '@/views/images/logo10.png';
+
 /*import dan1 from '@/views/images/dan1.jpg';
 import dan2 from '@/views/images/dan2.jpg';
 import dan3 from '@/views/images/dan3.jpg';
@@ -639,6 +641,18 @@ import vece16 from '@/views/images/vece15.jpg';
 import kasse1 from '@/views/images/kasse1.jpg';
 import kasse2 from '@/views/images/kasse2.jpg';
 
+import huba1 from '@/views/images/huba1.jpg';
+import huba2 from '@/views/images/huba2.jpg';
+import huba3 from '@/views/images/huba3.jpg';
+import huba4 from '@/views/images/huba4.jpg';
+import huba5 from '@/views/images/huba5.jpg';
+import huba6 from '@/views/images/huba6.jpg';
+import huba7 from '@/views/images/huba7.jpg';
+import huba8 from '@/views/images/huba8.jpg';
+import huba9 from '@/views/images/huba9.jpg';
+import huba10 from '@/views/images/huba10.jpg';
+import huba11 from '@/views/images/huba11.jpg';
+
 import nab1 from '@/views/images/nab1.jpg';
 import nab2 from '@/views/images/nab2.jpg';
 import nab3 from '@/views/images/nab3.jpg';
@@ -1030,6 +1044,11 @@ import vol2 from '@/views/images/vol2.jpg';
 import vol3 from '@/views/images/vol3.jpg';
 import vol4 from '@/views/images/vol4.jpg';
 
+import emir from '@/views/images/emir.jpg';
+
+import denis1 from '@/views/images/denis1.jpg';
+import denis2 from '@/views/images/denis2.jpg';
+
 const Aktivnosti = () => {
   useEffect(() => {
     AOS.init({duration: 2000});
@@ -1049,7 +1068,213 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
-    
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Ne okreći glavu
+
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={denis1} alt="" />
+                    </div>
+                    <div>
+                        <Image src={denis2} alt="" />
+                    </div>
+
+                    
+
+                    
+
+                    
+                   
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+Danas 6.februara 2025. godine, navršava se 17 godina od smrti <b>Denisa Mrnjavca</b>, koja je nastupila kao posljedica napada i teškog ranjavanja, dan ranije, od strane vršnjaka, u punom tramvaju ljudi, bez reakcije, dok trojica mladića bez ikakvog povoda, napadaju dječaka od 16 godina.</p>
+<p className="mb-4 text-blueGray-500">
+U znak sjećanja na Denisa, danas 6. februara, u našoj školi pokrećemo kampanju simboličnog naziva <b>Ne okreći glavu</b>, kojom ćemo otpočeti čitav niz aktivnosti koje uključuju radionice i predavanja za učenike, a kao završetak kampanje obilježavanje <b>Dana ružičastih majica</b>, čime ćemo zaokružiti naše aktivnosti u mjesecu februaru koji je označen <b>mjesecom borbe protiv vršnjačkog nasilja</b>.</p>
+<p className="mb-4 text-blueGray-500">
+Bio je to jedan sasvim običan dan, poput svih drugih. Otišao je u školu, kao i svi njegovi vršnjaci, boravio u bezbrižnoj klupi, prateći nastavu, uživao u svojoj užini i družio se s prijateljima, baš kao i oni... </p>
+<p className="mb-4 text-blueGray-500">
+Ali da li se taj dan završio na isti način za sve? Da li su svi učenici svoj dan završili u toplom domu, okruženi ljubavlju svoje porodice? Vraćajući se iz škole, iz Katoličkog školskog centra u Sarajevu, šesnaestogodišnji <b>Denis Mrnjavac</b> tragično je izgubio život 6. februara 2008. godine, u gradskom prevozu. Njegovo ubistvo, počinjeno od strane maloljetnih nasilnika, potreslo je cijelo društvo u Bosni i Hercegovini. Taj čin postao je tragičan simbol borbe protiv vršnjačkog nasilja. Iako su svi bili duboko potreseni tim nemilosrdnim događajem, društvo je nastavilo pasivno posmatrati vršnjačko nasilje, kao da nije ništa vidjelo, kao da ništa nije čulo. U tom trenutku, svi smo zažmirili na jedno oko, zatvorili uši na krikove i udarce, i, što je najgore, zatrovali svoja srca i duše. Nakon tog okrutnog čina, poslije tužne i bolne istine, jedna majka izgubila je svoju polovinu srca, dio nje je zauvijek otišao, otišao na neko bolje mjesto, gledajući ovaj surovi, oholi i nepravedni svijet. </p>
+<p className="mb-4 text-blueGray-500">
+Ovaj događaj mora ostati trajni podsjetnik za sve nas: <b>da ne okrenemo leđa nasilju, da ne postanemo ravnodušni</b>. Jer sutra bi Denis moga biti tvoja sestra, tvoj brat, rođak ili prijatelj... </p>
+<p className="mb-4 text-blueGray-500">
+<b>Budimo ti koji ćemo reagovati, koji ćemo stati u zaštitu, i koji ćemo sačuvati ljudskost u svijetu koji se prečesto zaboravi.</b> </p>
+<p className="mb-4 text-blueGray-500">
+Emina Karić, učenica II2</p>
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+          <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Naučno-stručna konferencija i sajam inovacija i inovativnosti INN&TECH
+
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={emir} alt="" />
+                    </div>
+
+                    
+
+                    
+
+                    
+                   
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+Naši profesori nastavljaju s profesionalnim usavršavanjem
+</p>
+<p className="mb-4 text-blueGray-500">
+U cilju unapređenja nastavnog procesa i primjene savremenih metoda u obrazovanju, naš profesor Emir Ustavdić je učestvovao na obuci <b>𝑼𝑴𝒊𝑫 - 𝑼𝒄̌𝒊, 𝒎𝒊𝒔𝒍𝒊 𝒊 𝒅𝒋𝒆𝒍𝒖𝒋</b>! za nastavno i stručno osoblje srednjih škola u organizaciji <b>𝑰𝒏𝒔𝒕𝒊𝒕𝒖𝒕𝒂 𝒛𝒂 𝒓𝒂𝒛𝒗𝒐𝒋 𝒎𝒍𝒂𝒅𝒊𝒉 𝑲𝑼𝑳𝑻</b>. Kroz interaktivne sesije, razmjenu iskustava i praktične primjere, tokom tri modula polaznici su stekli su nova znanja i vještine koje će doprinijeti kvalitetnijem i inspirativnijem učenju za naše učenike.
+</p>
+<p className="mb-4 text-blueGray-500">
+Ulaganje u kontinuirano obrazovanje nastavnika znači i ulaganje u bolju budućnost naših đaka!
+</p>
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+<section data-aos="fade-in" className="pb-20 bg-white w-full">
+                  <div className="container mx-auto px-4">
+                  <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+            <h6 className="text-xl mb-1 font-semibold uppercase mr-2">GTECH POST MOBILITY KONFERENCIJA U SREDNJOJ EKONOMSKOJ ŠKOLI, SARAJEVO
+         </h6>
+            <Image src={logo10} width="200" height="200" alt="" />
+        </span>
+                    <div className="flex flex-wrap">
+                      <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                        <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                          <div className="py-5 flex-auto">
+                          <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                              
+                          <div>
+                                <Image src={huba1} alt="" />
+                            </div>
+                            <div>
+                                <Image src={huba2} alt="" />
+                            </div>
+                            <div>
+                                <Image src={huba3} alt="" />
+                            </div>
+                            <div>
+                                <Image src={huba4} alt="" />
+                            </div>
+                            <div>
+                                <Image src={huba5} alt="" />
+                            </div>
+                            <div>
+                                <Image src={huba6} alt="" />
+                            </div>
+                            <div>
+                                <Image src={huba7} alt="" />
+                            </div>
+                            <div>
+                                <Image src={huba8} alt="" />
+                            </div>
+                            <div>
+                                <Image src={huba9} alt="" />
+                            </div>
+                            <div>
+                                <Image src={huba10} alt="" />
+                            </div>
+                            <div>
+                                <Image src={huba11} alt="" />
+                            </div>
+                            
+                            
+                            
+                        </Carousel>
+                            </div>
+                          </div>
+                        </div>
+                      <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                        <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                          <div className="px-4 py-5 flex-auto">
+                          <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+        
+                          <p className="mb-4 text-blueGray-500">
+                          U Srednjoj ekonomskoj školi, Sarajevo, 31. januara 2025. godine, održana je <b>GTECH Post Mobility Konferencija</b>, koja je okupila 88 profesorica i profesora, kao i direktorica i direktora iz Bosne i Hercegovine u dinamičnoj razmjeni znanja i iskustava. Događaj je pratilo i 20 učenika/ca naše škole. </p>
+                          <p className="mb-4 text-blueGray-500">
+                          <b>GTECH projekat obuhvata</b>: razvoj inovativnih nastavnih metoda, podršku nastavnicima/cama kroz obuke i razmjenu najboljih praksi, te osnaživanje učenika/ca da postanu lideri budućih tehnoloških promjena. </p>
+                          <p className="mb-4 text-blueGray-500">
+                          U okviru projektnih aktivnosti, <b>Post Mobility konferencija</b> okupila je učesnike i partnere projekta koji su podijelili stečena iskustva s treninga u Ljubljani i Varaždinu, prenoseći ih kolegicama i kolegama koji su došli iz više bosanskohercegovačkih gradova. </p> 
+        <p className="mb-4 text-blueGray-500">
+        Poseban fokus konferencije bio je na učenju zasnovanom na izazovima (Challenge Based Learning), metodologiji koja motiviše nastavnike/ce i učenike/ce da rješavaju stvarne probleme i primjenjuju stečeno znanje u praksi. Kroz ovu metodu, u okviru GTECH projekta, u maju 2025. godine biće organizovano takmičenje za 200 učenika/ca koji će rješavati izazove postavljene od strane 10 kompanija.
+        </p> 
+        <p className="mb-4 text-blueGray-500">
+        Konferenciju je pozdravnim govorom otvorila direktorica Amira Kadrispahić, koja je istakla važnost GTECH projekta ne samo za školu, već i za širu obrazovnu zajednicu. GTECH projekat predstavila je <b>prof. Senida Čeljo</b>, naglasivši značaj metoda aktivnog učenja i <b>vodeći interaktivnu World Café radionicu</b>. 
+        </p> 
+        <p className="mb-4 text-blueGray-500">
+        Učesnici/ce Mobility treninga podijelili su svoja iskustva putem prezentacija, predstavili stečena znanja i vještine, te istaknuli ključne metode i alate primjenjive u nastavi.
+Tokom radionice diskusije su bile usmjerene na integraciju zelenih tehnologija, inovativnih nastavnih metoda i poduzetništva u stručno obrazovanje, s ciljem pripreme učenika/ca za digitalnu transformaciju i održivi razvoj.
+</p> 
+        <p className="mb-4 text-blueGray-500">
+        Na kraju konferencije, svim učesnicima su uručeni certifikati. Veliko hvala @fablab_sarajevo i svim učesnicima, partnerima koji su doprinijeli uspjehu ovog događaja!</p> 
+         
+        </span>
+                          </div>
+                          <div className="w-full md:w-9/12 ml-auto mr-auto px-4" style={{paddingBottom: "5%"}}>    
+                       
+                   </div>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                  </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
