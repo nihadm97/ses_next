@@ -1175,7 +1175,7 @@ Emina Karić, učenica II2</p>
 Naši profesori nastavljaju s profesionalnim usavršavanjem
 </p>
 <p className="mb-4 text-blueGray-500">
-U cilju unapređenja nastavnog procesa i primjene savremenih metoda u obrazovanju, naš profesor Emir Ustavdić je učestvovao na obuci <b>𝑼𝑴𝒊𝑫 - 𝑼𝒄̌𝒊, 𝒎𝒊𝒔𝒍𝒊 𝒊 𝒅𝒋𝒆𝒍𝒖𝒋</b>! za nastavno i stručno osoblje srednjih škola u organizaciji <b>𝑰𝒏𝒔𝒕𝒊𝒕𝒖𝒕𝒂 𝒛𝒂 𝒓𝒂𝒛𝒗𝒐𝒋 𝒎𝒍𝒂𝒅𝒊𝒉 𝑲𝑼𝑳𝑻</b>. Kroz interaktivne sesije, razmjenu iskustava i praktične primjere, tokom tri modula polaznici su stekli su nova znanja i vještine koje će doprinijeti kvalitetnijem i inspirativnijem učenju za naše učenike.
+U cilju unapređenja nastavnog procesa i primjene savremenih metoda u obrazovanju, naš profesor Emir Ustavdić je učestvovao na obuci <b>UMID - Uči, misli i djeluj</b>! za nastavno i stručno osoblje srednjih škola u organizaciji <b>𝑰𝒏𝒔𝒕𝒊𝒕𝒖𝒕𝒂 𝒛𝒂 𝒓𝒂𝒛𝒗𝒐𝒋 𝒎𝒍𝒂𝒅𝒊𝒉 𝑲𝑼𝑳𝑻</b>. Kroz interaktivne sesije, razmjenu iskustava i praktične primjere, tokom tri modula polaznici su stekli su nova znanja i vještine koje će doprinijeti kvalitetnijem i inspirativnijem učenju za naše učenike.
 </p>
 <p className="mb-4 text-blueGray-500">
 Ulaganje u kontinuirano obrazovanje nastavnika znači i ulaganje u bolju budućnost naših đaka!
@@ -1465,7 +1465,7 @@ Projekat <b>Volim matematiku</b> se nastavlja u mjesecu februaru i martu. </p>
                   
 <p className="mb-4 text-blueGray-500">
 S velikim zadovoljstvom vas obavještavamo da će se <b>Post Mobility Conference 2025</b> održati u:
-<b>petak, 31. januara 2025. godine, u prostorijama Srednje ekonomske škole, Sarajevo.🕛 Od 10:00 do 13:00 sati</b>
+<b> petak, 31. januara 2025. godine, u prostorijama Srednje ekonomske škole, Sarajevo.🕛 Od 10:00 do 13:00 sati</b>
 </p>
 <p className="mb-4 text-blueGray-500">
 U okviru Erasmus+ programa kroz projekat GTECH (Green Tech Entrepreneurship Challenge Hub), više od 30 profesora iz Bosne i Hercegovine učestvovalo je u stručnim treninzima u Ljubljani i Varaždinu.
