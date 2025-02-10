@@ -423,7 +423,7 @@ rel="noreferrer"
                   </span>
                 </th>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                  18
+                  19
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
                   OSOBLJE I UČENIKE
@@ -449,6 +449,16 @@ rel="noreferrer"
           "bg-white text-base z-50 float-left py-2 list-none text-left rounded shadow-lg min-w-48"
         }
       >
+        <a
+          href="https://drive.google.com/file/d/1HxfQVU6TRMU73laRA1T59A5AF_SquWHx/view?usp=sharing"
+          className={
+            "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+          }
+          target="_blank"
+          rel="noreferrer"
+        >
+          Pravila školske ishrane
+        </a>
         <a
           href="https://drive.google.com/file/d/1FyrC7yyP6gJlrG1EkFJUs-wM5rpZD-GP/view?ts=6391b5dd"
           className={

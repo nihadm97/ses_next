@@ -84,6 +84,14 @@ export default function Footer() {
                         Radnice i radnici
                       </Link>
                     </li>
+                    <li>
+                      <a
+                        className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
+                        href="http://upis.unsa.ba/"
+                      >
+                        Upis na fakultet
+                      </a>
+                    </li>
                   </ul>
                 </div>
                 <div className="w-full lg:w-4/12 px-4">
@@ -127,11 +135,12 @@ export default function Footer() {
                     <li>
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="http://upis.unsa.ba/"
+                        href="https://drive.google.com/file/d/1HxfQVU6TRMU73laRA1T59A5AF_SquWHx/view?usp=sharing"
                       >
-                        Upis na fakultet
+                        Pravila školske ishrane
                       </a>
                     </li>
+                  
                   </ul>
                 </div>
               </div>
