@@ -1065,6 +1065,12 @@ import zinadin2 from '@/views/images/zinadin2.jpg';
 import zinadin3 from '@/views/images/zinadin3.jpg';
 import zinadin4 from '@/views/images/zinadin4.jpg';
 
+import binance1 from '@/views/images/binance1.jpg';
+import binance2 from '@/views/images/binance2.jpg';
+import binance3 from '@/views/images/binance3.jpg';
+import binance4 from '@/views/images/binance4.jpg';
+import binance5 from '@/views/images/binance5.jpg';
+
 const Aktivnosti = () => {
   useEffect(() => {
     AOS.init({duration: 2000});
@@ -1084,7 +1090,77 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
-    
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase"><b>Binance Community Meetup - Sarajevo</b>, Bosnia & Herzegovina, February 12th, 2025.
+
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={binance1} alt="" />
+                    </div>
+                    <div>
+                        <Image src={binance2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={binance3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={binance4} alt="" />
+                    </div>
+                    <div>
+                        <Image src={binance5} alt="" />
+                    </div>
+
+                    
+
+                    
+                   
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+Binance, globalni lider u svijetu kriptovaluta, održao prvi Binance Community Meetup u Bosni i Hercegovini 12. februara 2025. godine u Hotelu Hills u Sarajevu!</p>
+<p className="mb-4 text-blueGray-500">
+Učenici/ce izborne nastave matematike sa profesorom Nihadom Mehmedovićem su imali/e  priliku da budu dio ovog izuzetnog događaja i saznaju šta budućnost kriptovaluta donosi! Evropska unija je prošle godine usvojila regulativu koja jasno definiše pravila za upravljanje digitalnim valutama u zemljama članicama. Međutim, ova regulativa ne obuhvata Bosnu i Hercegovinu! </p>
+<p className="mb-4 text-blueGray-500">
+Upoznali/e su cinjenice oko kriptovaluta koje se odnose na  Bosnu i Hercegovinu (30% svih korisnika iz BiH se registrovalo na najvecoj trznici kriptovaluta Binance, 3% stanovnistva BiH trguje sa kriptovalutama), koje potvrđuju da je trziste otvoreno. Na meetupu, učesnici/e su imali/e priliku saznati najnovije informacije o Binance proizvodima i inicijativama, učestvovati u uzbudljivim nagradnim igrama i osvojiti ekskluzivni merch, te se povezati se sa stručnjacima iz industrije i drugim članovima kripto zajednice. Meetup nije bio ograničen samo na učesnike iz BiH, već i za goste iz susjednih zemalja i cijeloga svijeta. Predstavnik Binance-a, Sandro Slukan, je predstavio video pregled kompanije. Alexey Makarov je govorio o najnovijim trendovima u kripto industriji, Binance proizvodima i njihovim prednostima za korisnike. Myshyko Charkviani je predstavio partnerski program Binancea i objasnio kako korisnici mogu zarađivati kroz partnerstva. Diskusija o Angel investitorima i KOL-ovima: Steve i Jack su podijelili svoja iskustva rada s Binanceom i razgovarali o ulozi zajednice i stručnjaka u kripto industriji.
+</p>
+<p className="mb-4 text-blueGray-500">
+Kahoot kviz: Učesnici/e su testirali/e svoja znanja o Binance-u i kriptovalutama. AMA sesija: Alexey i Sandro su odgovarali na pitanja publike o  Binance proizvodima i trendovima u industriji.</p>
+
+<p className="mb-4 text-blueGray-500">
+Posljednji dio događaja pružio je priliku gostima da se  povezuju u neformalnoj atmosferi, prave fotografije i razmjenjuju kontakte. </p>
+<p className="mb-4 text-blueGray-500">
+Nezaboravno iskustvo!</p>
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
           <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
