@@ -223,7 +223,8 @@ export default function Index() {
               <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
                 <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
                   <div className="py-5 flex-auto">
-                  <iframe 
+                  <div style={{ display: "flex", justifyContent: "center", alignItems: "center"}}>
+      <iframe 
         width="560" 
         height="315" 
         src="https://www.youtube.com/embed/gGFvORbUSJU?si=gMi7STfVE0m_2m_Z" 
@@ -231,7 +232,8 @@ export default function Index() {
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
         referrerPolicy="strict-origin-when-cross-origin" 
         allowFullScreen
-      ></iframe>
+      ></iframe>    
+</div>
                     </div>
                   </div>
                 </div>
@@ -258,24 +260,6 @@ Učenici/ce, nastavnici/ce, obrazovne vlasti, svi akteri obrazovnog procesa, zaj
                 </div>
               </div>
             </div>
-            </div>
-          </section>
-
-      <section className="pb-20 bg-white w-full">
-          <div className="container mx-auto px-4">
-          <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-    <h6 className="text-xl mb-1 font-semibold uppercase mr-2">Gostovanje učenika i direktorice Škole u emisiji BH radija -Teen teens</h6></span>
-    <div style={{ display: "flex", justifyContent: "center", alignItems: "center"}}>
-      <iframe 
-        width="560" 
-        height="315" 
-        src="https://www.youtube.com/embed/gGFvORbUSJU?si=gMi7STfVE0m_2m_Z" 
-        title="YouTube video player" 
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-        referrerPolicy="strict-origin-when-cross-origin" 
-        allowFullScreen
-      ></iframe>    
-</div>
             </div>
           </section>
 
