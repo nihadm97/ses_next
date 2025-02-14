@@ -209,6 +209,76 @@ export default function Index() {
         </div>
       </section>
 
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Vođenje sa vizijom
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <iframe 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/gGFvORbUSJU?si=gMi7STfVE0m_2m_Z" 
+        title="YouTube video player" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerPolicy="strict-origin-when-cross-origin" 
+        allowFullScreen
+      ></iframe>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  <p className="mb-4 text-blueGray-500">
+                  Preporučujemo da pregledate novu epizodu IBU Podcasta.
+Riječ je o  razgovoru s direktoricom Srednje ekonomske škole, Sarajevo, Amirom Kadrispahić, lidericom koja kroz inovacije i jasnu viziju pravi iskorake u obrazovanju. </p>
+<p className="mb-4 text-blueGray-500">
+Kroz dugogodišnji rad spojila je akademsku izvrsnost s potrebama tržišta, a JU Srednju ekonomsku školu u Sarajevu pretvorila u centar znanja i prilika za mlade!
+</p>
+<p className="mb-4 text-blueGray-500">
+Razgovor nudi dragocjene vizure u obrazovanju, ulogu liderstva u obrazovanju i značaj inovacija u obrazovanju koje mijenjaju društvo!
+Iskoristite priliku da čujete iskustva jedne od najutjecajnijih obrazovnih liderica u BiH! </p>
+<p className="mb-4 text-blueGray-500">
+Učenici/ce, nastavnici/ce, obrazovne vlasti, svi akteri obrazovnog procesa, zajedno gradimo bolje obrazovanje!
+</p>
+
+</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+
+      <section className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+          <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+    <h6 className="text-xl mb-1 font-semibold uppercase mr-2">Gostovanje učenika i direktorice Škole u emisiji BH radija -Teen teens</h6></span>
+    <div style={{ display: "flex", justifyContent: "center", alignItems: "center"}}>
+      <iframe 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/gGFvORbUSJU?si=gMi7STfVE0m_2m_Z" 
+        title="YouTube video player" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerPolicy="strict-origin-when-cross-origin" 
+        allowFullScreen
+      ></iframe>    
+</div>
+            </div>
+          </section>
+
       <section className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
           <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>

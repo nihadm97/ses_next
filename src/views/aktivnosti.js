@@ -1049,6 +1049,22 @@ import emir from '@/views/images/emir.jpg';
 import denis1 from '@/views/images/denis1.jpg';
 import denis2 from '@/views/images/denis2.jpg';
 
+import internet1 from '@/views/images/internet1.jpg';
+import internet2 from '@/views/images/internet2.jpg';
+import internet3 from '@/views/images/internet3.jpg';
+import internet4 from '@/views/images/internet4.jpg';
+import internet5 from '@/views/images/internet5.jpg';
+
+import sups1 from '@/views/images/sups1.jpg';
+import sups2 from '@/views/images/sups2.jpg';
+import sups3 from '@/views/images/sups3.jpg';
+import sups4 from '@/views/images/sups4.jpg';
+
+import zinadin1 from '@/views/images/zinadin1.jpg';
+import zinadin2 from '@/views/images/zinadin2.jpg';
+import zinadin3 from '@/views/images/zinadin3.jpg';
+import zinadin4 from '@/views/images/zinadin4.jpg';
+
 const Aktivnosti = () => {
   useEffect(() => {
     AOS.init({duration: 2000});
@@ -1068,6 +1084,138 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+    
+          <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Zinadin Bešlagić najperspektivniji košarkaš za 2024. godinu!
+
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={zinadin4} alt="" />
+                    </div>
+                    <div>
+                        <Image src={zinadin2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={zinadin3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={zinadin1} alt="" />
+                    </div>
+                    
+
+                    
+
+                    
+                   
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+Učenik II3 odjeljenja naše škole, Zinadin Bešlagić je nagrađen od strane Sportskog saveza Kantona Sarajevo za najperspektivnijeg sportistu za 2024. godinu, u kategoriji košarke! </p>
+<p className="mb-4 text-blueGray-500">
+Nagrada je to za nastup u kadetskoj reprezentaciji BiH u 2024. godini. Trideseta, jubilarna, svečana manifestacija proglašenja najboljih sportista i sportiskinja Kantona Sarajevo za 2024. godinu, održana je 6. februara, u hotelu Hills na Ilidži, pod pokroviteljstvom Ministarstva kulture i sporta Kantona Sarajevo. Zamjenik gradonačelnika Sarajeva Mirza Selimbegović je uručio priznanja najuspješnijim sportistima i sportistkinjama za ostvarene vrhunske sportske rezultate.</p>
+<p className="mb-4 text-blueGray-500">
+Zinadin Bešlagić je prošle sezone kao i ove, jedan od vodećih igrača kadetske ekipe koja je trenutno bez poraza u ligi Kantona Sarajevo! Za sjajne igre u ekipi Košarkaškog kluba KOŠ, Sarajevo, prošlo ljeto je nagrađen i pozivom u kadetsku reprezentaciju BiH, te je za našu reprezentaciju nastupao na Evropskom prvenstvu za kadete!</p>
+<p className="mb-4 text-blueGray-500">
+Ponosni smo na našeg Zinadina, talentovanog i posvećenog sportistu, te mu želimo još mnogo sjajnih utakmica! Dijelimo sa Zinadinom ovaj izuzetan trenutak slavlja i uspjeha, sa željom da nastavi nizati pobjede i dostojno predstavljati svoj klub, grad i državu na međunarodnoj sceni!</p>
+<p className="mb-4 text-blueGray-500">
+Bravo Zizi majstore!</p>
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+          <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">ZDRAVSTVENE POSLJEDICE UZIMANJA PSIHOAKTIVNIH SUPSTANCI
+
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={sups1} alt="" />
+                    </div>
+                    <div>
+                        <Image src={sups2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={sups3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={sups4} alt="" />
+                    </div>
+                    
+
+                    
+
+                    
+                   
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+U utorak, 11. februara 2025. godine, u multimedijalnoj sali naše škole, održano je predavanje na temu Psihoaktivne supstance (PAS), za učenike/ce II2 i III4 odjeljenja. Psihoaktivne supstance (PAS) su hemijske supstance koje kada se unesu u organizam, mijenjaju tjelesne i psihičke funkcije kod čovjeka i izazivaju psihičku i/ili tjelesnu (fizičku) zavisnost.</p>
+<p className="mb-4 text-blueGray-500">
+Pod psihoaktivnim supstancama podrazumijevamo: alkohol, marihuanu, heroin, amfetamin,  kokain, ekstazi, opijum,  metadon, organske rastvarače, ljepila, benzin, neke boje i lakove, nikotin,  LSD,  PCP, anaboličke steroide…Smrtnost zbog PAS je od 1980. godine udvostručena. Sve je više oboljenja i smrtnih ishoda zbog uzimanja PAS.  Danas u svijetu, jedna od četiri smrti, povezana je sa pijenjem alkohola, pušenjem cigareta, ili korišćenjem nekih drugih psihoaktivnih supstanci. Upotreba PAS neminovno dovodi do poremećaja duševnog zdravlja: nervoza, depresija, promjenljivog raspoloženja, nesanica, psihoza (paranoja, halucinacija), agresivnosti, suicidalnosti, zavisničke ličnosti. Zloupotreba supstanci dovodi do pada imunog sistema, razvijanja kardiovaskularnih poremećaja, od poremećaja srčanog ritma, oštećenja srčanog mišića, pa do infarkta miokarda. Osobe koje uzimaju intravenski psihoaktivne supstance mogu da razviju poremećaje kao što je kolaps vena i bakterijske infekcije krvnih sudova kao i srčanih zalistaka…</p>
+<p className="mb-4 text-blueGray-500">
+Predavač dr Tarik Hodžić, specijalista psihijatar u Zavodu za bolesti ovisnosti Kantona Sarajevo, predstavio je učenicima/cama šta su PAS, koje su sve posljedice uzimanja psihoaktivnih supstanci, te kako i na koji način izbjeći kontakt. Sesija je bila interaktivna, učenici/ce su aktivno učestvovali/e u komunikaciji i sa zanimanjem slušali/e predavanje.
+Zahvaljujemo dr Tariku Hodžiću i Zavodu za bolesti i ovisnosti KS za doprinos edukaciji naših učenika/ca sa ciljem podizanja svijesti o štetnosti alkohola, droga i drugih psihoaktivnih supstanci i mobilisanja cjelokupnog društva da se angažuje u aktivnostima na suzbijanju njihove upotrebe. 
+</p>
+<p className="mb-4 text-blueGray-500">
+Zloupotreba psihoaktivnih supstanci nije samo zdravstveni problem već i ogroman socio-ekonomski problem društva!</p>
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
