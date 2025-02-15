@@ -1071,6 +1071,22 @@ import binance3 from '@/views/images/binance3.jpg';
 import binance4 from '@/views/images/binance4.jpg';
 import binance5 from '@/views/images/binance5.jpg';
 
+import benjamina from '@/views/images/benjamina.jpg';
+import pilav1 from '@/views/images/pilav1.jpg';
+import pilav2 from '@/views/images/pilav2.jpg';
+
+import drugijedan1 from '@/views/images/drugijedan1.jpg';
+import drugijedan2 from '@/views/images/drugijedan2.jpg';
+import drugijedan3 from '@/views/images/drugijedan3.jpg';
+import drugijedan4 from '@/views/images/drugijjedan4.jpg';
+
+import ekofaks1 from '@/views/images/ekofaks1.jpg';
+import ekofaks2 from '@/views/images/ekofaks2.jpg';
+import ekofaks3 from '@/views/images/ekofaks3.jpg';
+import ekofaks4 from '@/views/images/ekofaks4.jpg';
+import ekofaks5 from '@/views/images/ekofaks5.jpg';
+
+
 const Aktivnosti = () => {
   useEffect(() => {
     AOS.init({duration: 2000});
@@ -1090,6 +1106,267 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Prezentacija Ekonomskog fakulteta Univerziteta u Sarajevu
+
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={ekofaks1} alt="" />
+                    </div>
+                    <div>
+                        <Image src={ekofaks2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={ekofaks3} alt="" />
+                    </div>  
+                     <div>
+                        <Image src={ekofaks4} alt="" />
+                    </div>
+                    <div>
+                        <Image src={ekofaks5} alt="" />
+                    </div>
+                    
+
+                    
+                   
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+U nizu posjeta od strane fakulteta Univerziteta u Sarajevu, koji naše maturantice i maturante žele pobliže upoznati sa svojim programima i pravcima djelovanja, danas je u prostorijama naše škole održana prezentacija Ekonomskog fakulteta Univerziteta u Sarajevu. </p>
+<p className="mb-4 text-blueGray-500">
+Pored sadržajne prezentacije i kvalitetnog predstavljanja programa i svih aktivnosti Fakulteta, imali smo čast da se prisutnima obrate i eminentni profesori Fakulteta: emeritus prof.dr.Aziz Šunje, prof.dr. Muharem Karamujić i prof.dr.Vedad Silajdžić, koji su prethodno održali sastanak sa Direktoricom, jedan u nizu onih koji se redovno održavaju u cilju unapređenja našeg odgojno-obrazovnog djelovanja. </p>
+<p className="mb-4 text-blueGray-500">
+Pored izvrsne prezentacije i razgovora sa maturanticama i maturantima, razgovaralo se i o Ekonomskoj olimpijadi, te pripremama i takmičenju koje je namijenjeno svim srednjoškolcima. </p>
+<p className="mb-4 text-blueGray-500">
+Istakli su da Srednja ekonomska škola, Sarajevo već godinama ima najviše prijavljenih učenica i učenika koji pokazuju odlične rezultate.</p>
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+          <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Sarajevska berza (SASE)
+
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={drugijedan1} alt="" />
+                    </div>
+                    <div>
+                        <Image src={drugijedan2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={drugijedan3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={drugijedan4} alt="" />
+                    </div>
+                    
+
+                    
+
+                    
+                   
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+U četvrtak, 6. februara učenici II2 i II1 razreda, profesorice Karamujić Alma i Indira Zeković su prisustvovali finansijskoj edukaciji u Sarajevskoj berzi. Predavač, Ahmet Hodžić, rukovodilac Odjela za trgovanje i nadzor Sarajevske berze je našim učenicima/cama prezentirao berzansko trgovanje. Učenici/ce su imali priliku upoznati se sa osnovnim informacijama o Sarajevskoj berzi, ulozi berze u ekonomiji, važnosti finansijskog tržišta, ali i sa konkretnim načinima kupovine i prodaje vrijednosnih papira putem berzanskog sistema trgovanja.</p>
+<p className="mb-4 text-blueGray-500">
+Na Sarajevskoj berzi-burzi se trguje elektronskim putem. Brokeri su preko svojih radnih stanica povezani sa Berzanskim trgovinskim sistemom (BTS). Trgovati mogu samo ovlašteni brokeri i dileri članova SASE. Centralni koncept elektronskog načina trgovine je elektronska knjiga naloga. Berza je centralno mjesto povezivanja ponude i potražnje za vrijednosnim papirima i mjesto je gdje se na osnovu ponude i potražnje formira realna tržišna cijena određenog vrijednosnog papira. Ona ne određuje, niti utiče na promet vrijednosnim papirima, samo reflektira ukupnu ponudu i potražnju, odnosno ona je ogledalo stanja u ekonomiji jedne države. Kroz godine postojanja, Sarajevska berza je unapređivala i razvijala elektronsku infrastrukturu sistema trgovanja. Načini trgovine su kontinuirano i aukcijsko trgovanje. Sve navedeno sadržano je u jedinstvenom elektronskom sistemu trgovine, BTS sistemu (berzanski trgovinski sistem), u koji brokeri unose naloge za kupovinu i/ili prodaju. SASE, kroz svoj način rada i djelovanja, osigurava najviše standarde u prometu vrijednosnih papira i teži biti jedan od generatora potpunog razvoja tržišta kapitala i ekonomskog razvoja Bosne i Hercegovine. Svoje poslovanje gradi na principima profesionalnosti, stručnosti, etičnosti i odgovornosti.</p>
+<p className="mb-4 text-blueGray-500">
+Današnje predavanje je izuzetan doprinos unapređenju opće finansijske pismenosti učenika/ca  što je i od općeg obrazovnog interesa. Bila je ovo interaktivna edukacija, učenici/ce su imala brojna pitanja, na koja je berzanski ekspert sa zadovoljstvom odgovorio.</p>
+<p className="mb-4 text-blueGray-500">
+Inače, saradnja obrazovnih ustanova i kompanija iz privrede jedna je od osnova obrazovanja kvalitetnog i stručno osposobljenog kadra u razvijenim državama, te zahvaljujemo Sarajevskoj berzi za njihov izuzetan doprinos afirmaciji ove prakse u domaćem privrednom ambijentu, te kvalitetnijem obrazovanju naših učenika/ca i razvoju naše države. 
+</p>
+<p className="mb-4 text-blueGray-500">
+Projekat: Upoznaj privredu Kantona Sarajevo, Indira Zeković, prof.</p>
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+          <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Vrijedna donacija stručne literature koju je našoj školi donirao mr. oec.sci. Muhamed Pilav
+
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={pilav1} alt="" />
+                    </div>
+                    <div>
+                        <Image src={pilav2} alt="" />
+                    </div>
+                    
+
+                    
+
+                    
+                   
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+U okviru saradnje koju je direktorica naše škole, Amira Kadrispahić, dogovorila sa Fondacijom "Olimpijada znanja", čiji je osnivač mr. oec.sci. Muhamed Pilav, a u cilju unapređenja odgojno-obrazovnog djelovanja, naša biblioteka obogaćena je donacijom stručne literature koju je gosp. Pilav donirao Školi.</p>
+<p className="mb-4 text-blueGray-500">
+‌Fondacija „Olimpijada znanja“ u fokus svoga djelovanja stavlja unapređenje odgojno-obrazovnog sistema sa ciljem sticanja funkcionalnog znanja kod djece, učenika i studenata. </p>
+<p className="mb-4 text-blueGray-500">
+Osnivači ove nevladine i neprofitne organizacije su akademik, prof. dr. Mirko Pejanović, emeritus, prof. dr. Željko Šain, i mr. oec. sci. Muhamed Pilav - uspješni poduzetnik sa domaćim i inostranim iskustvom.
+</p>
+<p className="mb-4 text-blueGray-500">
+‌Iako nedavno osnovana, Fondacija je u saradnji sa partnerskim organizacijama Montessori Community Center i STEM akademija već pokrenula rad Edukativnog centra sa programima namijenjenim za dopunsko obrazovanje djece starosti od osam mjeseci do osamnaest godina.</p>
+
+<p className="mb-4 text-blueGray-500">
+Ključne vrijednosti, ciljevi i svrha djelovanja Fondacije, koja u prvi plan stavlja funkcionalno znanje, pismenost, inovativnost, kreativnost, stimuliranje učenika i studenata, a posebno njegovanje integriteta i poštenja, ulijevaju povjerenje u bolje sutra.</p>
+<p className="mb-4 text-blueGray-500">
+Posebnu pažnju zavrjeđuje činjenica na koji način osnivači Fondacije vide ulogu učitelja koju treba unaprijediti i dodatno stimulisati.</p>
+<p className="mb-4 text-blueGray-500">
+Na Okruglom stolu koji je održan 29. novembra 2024. godine u Sarajevu, gospodin Pilav je, između ostalog, istakao: </p>
+<p className="mb-4 text-blueGray-500">
+"Sve je danas zasnovano na ekonomiji, zabluda je da mišići ili znoj stvaraju profit. Profit se stvara znanjem, inovacijama i povećanjem produktivnosti. Nastavnici se moraju usavršavati i imati cjeloživotno učenje. Oni moraju biti najcjenjeniji i najplaćeniji dio društva i moraju biti najbolji. Zato je ekonomski aspekt obrazovanja od presudnog značaja.</p>
+<p className="mb-4 text-blueGray-500">
+
+Investiranje u obrazovanje je osnov za opstanak i napredak BiH. Samo obrazovani i inovativni ljudi koji kontinuirano i ubrzano usvajaju nova znanja i vještine mogu unaprijediti stanje u našem društvu."</p>
+<p className="mb-4 text-blueGray-500">
+Zahvaljujemo uvaženom gospodinu, mr. oec.sci. Muhamedu Pilav, za izuzetno vrijedno donaciju, a posebno što nas je počastio svojim prisustvom i ponudom za saradnjom, čijem se nastavku  neizmijerno radujemo.</p>
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+          <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Načelnica Općine Novo Sarajevo u radnoj posjeti našoj školi
+
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={benjamina} alt="" />
+                    </div>
+
+
+                    
+
+                    
+                   
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+Načelnica Općine Novo Sarajevo Benjamina Karić Londrc i vijećnik Općinskog vijeća Nedim Salihagić posjetili su Srednju ekonomsku školu, u ponedjeljak, 10. februara i sastali se sa direktoricom naše škole, Amirom Kadrispahić. </p>
+<p className="mb-4 text-blueGray-500">
+Tokom ugodnog i sadržajnog razgovora upoznali su se sa obrazovnim postignućima učenika/ca, procesima unutar škole, te organizacijom rada škole. </p>
+<p className="mb-4 text-blueGray-500">
+Kako se naša  škola nalazi na području općine Novo Sarajevo, bilo je riječi i o konkretnim mogućnostima zajedničke saradnje i sinergijskog djelovanja pri realizaciji projekata i programa, a sve u cilju činjenja bitnijih iskoraka u podizanju kvalitete odgojno-obrazovnog rada naše škole. Svjesni smo svi da je nužno je u školama, osmišljenim aktivnostima, kontinuirano stvarati pozitivno saradničko, otvoreno i iskreno okruženje u kojem se cijeni rad, zalaganje i profesionalni rast i u kojem vlada međusobno povjerenje kako u u kolege, stručne saradnike, direktore, roditelje učenika, ali ovdje i lokalna zajednica ima ulogu i prostor za konstruktivnu podršku školama! Saradnja škole i lokalne zajednice postaje dodatak koji škola treba pridodati ostalim elementima svog rada! </p>
+<p className="mb-4 text-blueGray-500">
+Škole koje žele da se upuste u tržišnu utakmicu, ne samo kod privrednih subjekata, nego i u obrazovnim institucijama, moraju da vode računa o stalnom inoviranju odgojno-obrazovnog procesa koristeći nove tehnologije, a nastavno osoblje treba biti orjentirano na cjeloživotno učenje i praćenje promjena koje se dešavaju u društvu kao posljedice tehnoloških promjena.
+Svi učesnici radnog sastanka su podcrtali značaj kvalitetnog sistema obrazovanja u strategiji razvoja jednog društva i države! Povezivanje škole i lokalne zajednice proizilazi  iz viđenja
+uloge škole u oblikovanju uvjeta u kojima buduće generacije uče o sebi i o svojim odnosima s drugima i svijetom!
+</p>
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
