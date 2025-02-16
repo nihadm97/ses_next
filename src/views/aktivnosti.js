@@ -1086,6 +1086,13 @@ import ekofaks3 from '@/views/images/ekofaks3.jpg';
 import ekofaks4 from '@/views/images/ekofaks4.jpg';
 import ekofaks5 from '@/views/images/ekofaks5.jpg';
 
+import sci1 from '@/views/images/sci1.jpg';
+import sci2 from '@/views/images/sci2.jpg';
+import sci3 from '@/views/images/sci3.jpg';
+import sci4 from '@/views/images/sci4.jpg';
+import sci5 from '@/views/images/sci5.jpg';
+import sci6 from '@/views/images/sci6.jpg';
+
 
 const Aktivnosti = () => {
   useEffect(() => {
@@ -1106,6 +1113,144 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">„SCI-SHE: One stvaraju svijet kroz nauku“
+
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={sci1} alt="" />
+                    </div>
+                    <div>
+                        <Image src={sci2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={sci3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={sci4} alt="" />
+                    </div>
+                    <div>
+                        <Image src={sci5} alt="" />
+                    </div>
+                    <div>
+                        <Image src={sci6} alt="" />
+                    </div>
+                    
+
+                    
+
+                    
+                   
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+Povodom obilježavanja Međunarodnog dana žena i djevojaka u nauci, 11. februara 2025. godine, HUB Homework Centar organizovao je događaj pod nazivom „SCI-SHE: One stvaraju svijet kroz nauku“.</p>
+<p className="mb-4 text-blueGray-500">
+Ovom veoma inspirativnom događaju prisustvovale su učenice i profesorice naše škole, koje su istakle da je posebno bio zanimljiv segment “SCI-SHE TALKS”, gdje su istaknute naučnice iz Bosne i Hercegovine i regije podijelile svoja iskustva o izazovima i uspjesima u karijeri. </p>
+<p className="mb-4 text-blueGray-500">
+Dodatnu inspiraciju donio je emotivan performans djevojčica iz dramske škole, naglašavajući važnost podrške mladim talentima. U ovom performansu učešće je uzela i naša učenica prvog razreda, Iris Ćeremida.</p>
+<p className="mb-4 text-blueGray-500">
+Događaj je zaokružen izložbom “Mediteranske Marie Curie”, posvećenoj ženama koje su svojim radom ostavile neizbrisiv trag u naučnom svijetu. Prisustvo na ovom događaju bilo je dragocjeno iskustvo, pružajući uvid u značaj naučnog istraživanja i uloge žena u STEM oblastima.</p>
+<p className="mb-4 text-blueGray-500">
+Manifestacija je organizovana u saradnji sa  Evropskom  noći istraživača u Bosni i Hercegovini i brojnim drugim partnerima s ciljem promocije nauke i osnaživanja mladih da se aktivno uključe u naučne i inovativne projekte.</p>
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+          <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Dan sigurnijeg interneta 2025  
+
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={internet1} alt="" />
+                    </div>
+                    <div>
+                        <Image src={internet2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={internet3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={internet4} alt="" />
+                    </div>
+                    <div>
+                        <Image src={internet5} alt="" />
+                    </div>
+                    
+
+                    
+
+                    
+                   
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+Dan sigurnijeg interneta, jedan je od najvažnijih dana u kalendaru informatičke sigurnosti, a obilježava se svake godine drugog dana, druge sedmice februara. Ovaj poseban dan globalno promoviše sigurno i odgovorno korištenje interneta!</p>
+<p className="mb-4 text-blueGray-500">
+Prilika je ovo da se podsjetimo koliko je informisanost ključna za izbjegavanje svih oblika online prevara! Svake godine, milioni ljudi širom svijeta okupljaju se kako bi učestvovali u događajima i aktivnostima usmjerenim na podizanje svijesti o pitanjima internetske sigurnosti. Ovogodišnji SID je obilježen pod sloganom <b>Surfaj sigurno – Zajedno za bolji internet</b>, 11. februara 2025. godine. Kao i prethodnih godina, Safer Internet Day 2025 je donio takmičenje za učenike osnovnih i srednjih škola – online kviz na temu sigurnosti na internetu. </p>
+<p className="mb-4 text-blueGray-500">
+Cilj je da naučimo više o sigurnosti na internetu! Budimo dio globalne inicijative za bolji internet!</p>
+<p className="mb-4 text-blueGray-500">
+Učesnici/ce koji su tačno odgovorili/e na najmanje 80% pitanja su  nagrađeni. Pozvani su svi – djeca, roditelji, nastavnici/e, edukatori/ce, donosioci odluka, mediji i kompanije – da budemo dio stvaranja sigurnijeg digitalnog okruženja! Zajedno možemo stvoriti sigurnije digitalno okruženje za sve nas!</p>
+<p className="mb-4 text-blueGray-500">
+<b>Budimo dio promjena! Surfajmo sigurno – Zajedno za bolji internet!</b></p></span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
