@@ -1093,6 +1093,13 @@ import sci4 from '@/views/images/sci4.jpg';
 import sci5 from '@/views/images/sci5.jpg';
 import sci6 from '@/views/images/sci6.jpg';
 
+import huli1 from '@/views/images/kuli1.jpg';
+import huli2 from '@/views/images/kuli2.jpg';
+import huli3 from '@/views/images/kuli3.jpg';
+
+import handi1 from '@/views/images/handi1.jpg';
+import handi2 from '@/views/images/handi2.jpg';
+
 
 const Aktivnosti = () => {
   useEffect(() => {
@@ -1113,6 +1120,130 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Priča iz naše kuhinje
+
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={huli1} alt="" />
+                    </div>
+                    <div>
+                        <Image src={huli2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={huli3} alt="" />
+                    </div>
+
+                    
+
+                    
+
+                    
+                   
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+Ovih dana su se nastavile aktivnosti u našoj školskoj kuhinji u okviru kulinarske sekcije. Učenici II5 odjeljenja su priredili za sebe i svoje profesore malu kuharsku radionicu, u okviru koje su pokazali zavidne kuharske vještine, uz dozu originalnosti. </p>
+<p className="mb-4 text-blueGray-500">
+Na meniju su bila jednostavna i ukusna jela. Bilo je to,  prije svega, izuzetno prijatno druženje, ali smo se i zabavili. Budući da je riječ o školskim aktivnostima, nismo propustili ni obrazovni dio, pa smo sa svojom profesoricom, čas njemačkog jezika održali, upravo tu, u kuhinji, naučivši pri tome nazive namirnica, jela i kuhinjskog pribora na njemačkom jeziku. </p>
+<p className="mb-4 text-blueGray-500">
+Ugodno, ukusno i korisno!</p>
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+          <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Hanadi Oručević državna prvakinja u skoku u vis!
+
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={handi1} alt="" />
+                    </div>
+                    <div>
+                        <Image src={handi2} alt="" />
+                    </div>
+
+                    
+
+                    
+
+                    
+                   
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+Državno atletsko dvoransko prvenstvo Bosne i Hercegovine za mlađe uzrasne kategorije održano je u nedjelju, 16. februara 2025. godine u dvorani <b>Huan Antonio Samaran</b>, Zetra, u Sarajevu. Tehnički organizator prvenstva bio je Atletski klub  Sarajevo. </p>
+<p className="mb-4 text-blueGray-500">
+U kategoriji mlađih juniorki U 18, učenica II1 odjeljenja naše škole Hanadi Oručević, ostvarila je veliki uspjeh, prvo mjesto u disciplini skok u vis! Osim titule državne prvakinje, osvojila je i titulu najuspješnije skakačice u vis, U 18 .
+Neizmjerno smo ponosni na uspjeh naše Hanadi Oručević! 
+</p>
+<p className="mb-4 text-blueGray-500">
+Prethodno, spomenimo ovom prilikom, zabilježila je značajne uspjehe na međuškolskim takmičeniima u atletici Kantona Sarajevo,  Tehnicijadi( košarka), sportskom takmičenju učenika srednjih tehničkih i stručnih škola Kantona Sarajevo, te takmičenju S.ketch Street Basketball.</p>
+<p className="mb-4 text-blueGray-500">
+ 
+Želimo joj puno sreće i uspjeha na narednim takmičenjima!
+</p>
+<p className="mb-4 text-blueGray-500">
+Bravo, Hanadi!!!</p>
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
