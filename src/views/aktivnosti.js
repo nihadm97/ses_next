@@ -1202,9 +1202,7 @@ Saradnja između naše škole i Ekonomske škole u Goraždu traje već nekoliko 
 <p className="mb-4 text-blueGray-500">
 
 Profesorice/profesori su bili u prilici razmijeniti pedagoška iskustva, upoznati nastavne metode koje se primjenjuju u drugoj školi te razgovarati o mogućnostima buduće saradnje kroz zajedničke projekte i stručne edukacije.</p>
-<p className="mb-4 text-blueGray-500">
-Saradnja između naše škole i Ekonomske škole u Goraždu traje već nekoliko godina, a svaka posjeta dodatno jača veze između učenica/učenika i nastavnica/nastavnika. Ovakve aktivnosti omogućavaju učenicama/učenicima da steknu nova znanja iz oblasti ekonomije, poduzetništva i tržišnog poslovanja, ali i da razvijaju socijalne vještine kroz timski rad i zajedničke projekte.
-</p>
+
 <p className="mb-4 text-blueGray-500">
 Ova studijska posjeta imala je i značajan odgojni karakter, usmjeren na nekoliko ključnih aspekata:</p>
 <p className="mb-4 text-blueGray-500">
