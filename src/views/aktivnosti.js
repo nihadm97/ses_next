@@ -1100,6 +1100,15 @@ import huli3 from '@/views/images/kuli3.jpg';
 import handi1 from '@/views/images/handi1.jpg';
 import handi2 from '@/views/images/handi2.jpg';
 
+import gor1 from '@/views/images/gor1.jpg';
+import gor2 from '@/views/images/gor2.jpg';
+import gor3 from '@/views/images/gor3.jpg';
+import gor4 from '@/views/images/gor4.jpg';
+import gor5 from '@/views/images/gor5.jpg';
+import gor6 from '@/views/images/gor6.jpg';
+import gor7 from '@/views/images/gor7.jpg';
+import gor8 from '@/views/images/gor8.jpg';
+import gor9 from '@/views/images/gor9.jpg';
 
 const Aktivnosti = () => {
   useEffect(() => {
@@ -1120,6 +1129,113 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Posjeta Ekonomskoj školi u Goraždu
+
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={gor1} alt="" />
+                    </div>
+                    <div>
+                        <Image src={gor2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={gor3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={gor4} alt="" />
+                    </div>
+                    <div>
+                        <Image src={gor5} alt="" />
+                    </div>
+                    <div>
+                        <Image src={gor6} alt="" />
+                    </div>
+                    <div>
+                        <Image src={gor7} alt="" />
+                    </div>
+                    <div>
+                        <Image src={gor8} alt="" />
+                    </div>
+                    <div>
+                        <Image src={gor9} alt="" />
+                    </div>
+
+                    
+
+                    
+
+                    
+                   
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+Učenice i učenici naše škole su, u pratnji direktorice škole Amire Kadrispahić I stručnih saradnica Delile Ramić i Amre Lagumdžije, te profesorica Suvade Trako, Alme Karamujić i profesora Sene Čole, posjetili JU Srednju mješovitu školu Enver Pozderović u Goraždu, a u okviru koje egzistiraju Gimnazija, Ekonomska škola i Poljoprivredna škola. </p>
+<p className="mb-4 text-blueGray-500">
+Bila je to studijska posjeta koja je imala za cilj jačanje saradnje između dvije prijateljske škole. Za naše učenice i učenike ova posjeta bila je izuzetna prilika za razmjenu znanja, iskustava i zajedničko učenje kroz interaktivne radionice i druženje sa vršnjacima iz Goražda.</p>
+<p className="mb-4 text-blueGray-500">
+Saradnja između naše škole i Ekonomske škole u Goraždu traje već nekoliko godina, a svaka posjeta dodatno jača veze između učenica/učenika i nastavnica/nastavnika. Ovakve aktivnosti omogućavaju učenicama/učenicima da steknu nova znanja iz oblasti ekonomije, poduzetništva i tržišnog poslovanja, ali i da razvijaju socijalne vještine kroz timski rad i zajedničke projekte.
+</p>
+<p className="mb-4 text-blueGray-500">
+
+Profesorice/profesori su bili u prilici razmijeniti pedagoška iskustva, upoznati nastavne metode koje se primjenjuju u drugoj školi te razgovarati o mogućnostima buduće saradnje kroz zajedničke projekte i stručne edukacije.</p>
+<p className="mb-4 text-blueGray-500">
+Saradnja između naše škole i Ekonomske škole u Goraždu traje već nekoliko godina, a svaka posjeta dodatno jača veze između učenica/učenika i nastavnica/nastavnika. Ovakve aktivnosti omogućavaju učenicama/učenicima da steknu nova znanja iz oblasti ekonomije, poduzetništva i tržišnog poslovanja, ali i da razvijaju socijalne vještine kroz timski rad i zajedničke projekte.
+</p>
+<p className="mb-4 text-blueGray-500">
+Ova studijska posjeta imala je i značajan odgojni karakter, usmjeren na nekoliko ključnih aspekata:</p>
+<p className="mb-4 text-blueGray-500">
+Razvijanje međusobnog poštovanja i prijateljstva – učenice i učenici su zajedničkim aktivnostima učili o važnosti saradnje, uvažavanja različitosti i izgradnje trajnih prijateljstava.</p>
+<p className="mb-4 text-blueGray-500">
+Unapređenje znanja iz ekonomije i poduzetništva – realizacijom stručnih radionica i prezentacijea, učenice i učenici su produbili razumijevanje ekonomskih principa i stekli praktične vještine koje će im biti korisne u budućnosti.</p>
+<p className="mb-4 text-blueGray-500">
+Podsticanje timskog rada i komunikacije – Grupni rad i interaktivne aktivnosti pomogli su učenicama i učenicima da razviju bolje komunikacijske i liderske vještine.
+</p>
+<p className="mb-4 text-blueGray-500">
+Jačanje svijesti o kulturno-historijskoj baštini – Obilaskom znamenitosti Goražda, učenici su se upoznali sa bogatom historijom ovog kraja i važnosti očuvanja kulturne baštine.
+</p>
+<p className="mb-4 text-blueGray-500">
+Promovisanje odgovornog i aktivnog građanstva – diskusije o izazovima savremenog društva ih podstiče na aktivno učešće u zajednici i preuzimanje odgovornosti za svoje obrazovanje i budućnost.</p>
+<p className="mb-4 text-blueGray-500">
+Studijska posjeta Ekonomskoj školi u Goraždu bila je nezaboravno iskustvo za sve učesnice i učesnike. Vratili smo se puni utisaka, novih znanja i motivacije za dalje učenje i napredovanje. </p>
+<p className="mb-4 text-blueGray-500">
+Ovakve i slične inicijative dokazuju da su obrazovne institucije ključni mostovi povezivanja mladih ljudi, promovisanja znanja i jačanja međusobne saradnje.</p>
+<p className="mb-4 text-blueGray-500">
+
+Zahvaljujemo divnim domaćinima, kao i Ministarstvu za obrazovanje Bosansko-podrinjskog kantona, a posebno uvaženoj ministrici, Adisi Alikadić-Herić, koja je podržala ovu aktivnost i organizovala ručak, kako za nas, tako i za naše drage učenice i učenike.</p>
+<p className="mb-4 text-blueGray-500">
+Radujemo se budućim susretima i zajedničkim projektima koji će nastaviti ovu vrijednu tradiciju prijateljstva i saradnje.</p>
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
