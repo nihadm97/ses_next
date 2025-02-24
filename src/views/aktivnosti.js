@@ -1115,6 +1115,13 @@ import cola2 from '@/views/images/cola2.jpg';
 import cola3 from '@/views/images/cola3.jpg';
 import cola4 from '@/views/images/cola4.jpg';
 
+import jez1 from '@/views/images/jez1.jpg';
+import jez2 from '@/views/images/jez2.jpg';
+import jez3 from '@/views/images/jez3.jpg';
+import jez4 from '@/views/images/jez4.jpg';
+import jez5 from '@/views/images/jez5.jpg';
+
+
 const Aktivnosti = () => {
   useEffect(() => {
     AOS.init({duration: 2000});
@@ -1134,6 +1141,77 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Međunarodni dan maternjeg jezika
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={jez1} alt="" />
+                    </div>
+                    <div>
+                        <Image src={jez2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={jez3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={jez4} alt="" />
+                    </div>
+                    <div>
+                        <Image src={jez5} alt="" />
+                    </div>
+
+      
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+Prije skoro četvrt vijeka <b>UNESCO</b> je <b>21. februar</b> proglasio Međunarodnim danom maternjeg jezika.
+</p>
+<p className="mb-4 text-blueGray-500">
+UNESCO je ovaj datum ustanovio kao dan kada se posebna pažnja posvećuje njegovanju jezičke i kulturne različitosti. </p>
+<p className="mb-4 text-blueGray-500">
+Maternji jezik je dio kulture, identiteta i jezičke tradicije jednog naroda. Kao takvog ga treba poštovati i njegovati. 
+</p>
+<p className="mb-4 text-blueGray-500">
+
+Naša zemlja, suočena sa izazovima tranzicije, migracija, raseljavanja, mora posebnu pažnju obratiti na značaj očuvanja maternjeg jezika. Uporedo s postratnim, raseljenim bosanskohercegovačkim društvom, cijeli svijet suočavao se s izazovima koji se tiču maternjeg jezika u odnosu na migracije i tehnološki napredak.</p>
+<p className="mb-4 text-blueGray-500">
+
+Srednja ekonomska škola, Sarajevo se uključila u obilježavanje ovog važnog datuma. Tim povodom organizovane su razne aktivnosti. Profesorice Širbegović Vedina i  Amra Lagumdžija su sa učenicima i učenicama trećeg i četvrtog razreda napravili panoe koji su postavljeni u auli škole. Na njima je slikom i slovom dočarana važnost maternjeg jezika. Također je postavljen pult sa knjigama te urađeni leci sa citatima naših bosanskohercegovačkih pisaca. Profesori i profesorice, učenice i učenici su tokom cijelog dana iz drvene kutije mogli izvući svoj <b>citat dana</b>. Učenice i učenici trećeg razreda su napravili prezentaciju na temu <b>Međunarodni dan maternjeg jezika</b>. Prezentacija se mogla pogledati tokom cijelog dana u auli škole.</p>
+<p className="mb-4 text-blueGray-500">
+
+Ovakve aktivnosti jačaju svijest mladih ljudi o očuvanju maternjeg jezika koji je dio kulture i identiteta svakog naroda!</p>
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
