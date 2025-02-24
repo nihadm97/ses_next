@@ -1110,6 +1110,11 @@ import gor7 from '@/views/images/gor7.jpg';
 import gor8 from '@/views/images/gor8.jpg';
 import gor9 from '@/views/images/gor9.jpg';
 
+import cola1 from '@/views/images/cola1.jpg';
+import cola2 from '@/views/images/cola2.jpg';
+import cola3 from '@/views/images/cola3.jpg';
+import cola4 from '@/views/images/cola4.jpg';
+
 const Aktivnosti = () => {
   useEffect(() => {
     AOS.init({duration: 2000});
@@ -1129,6 +1134,70 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Konačan plasman ekipa po grupama za Baumit Bosna i Hercegovina Junior Cup 2025
+
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={cola1} alt="" />
+                    </div>
+                    <div>
+                        <Image src={cola2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={cola3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={cola4} alt="" />
+                    </div>
+
+      
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+Prolazak u četvrtfinale izborile su prvoplasirane i drugoplasirane ekipe u grupama. </p>
+<p className="mb-4 text-blueGray-500">
+BAUMIT Junior Cup svoje putovanje nastavlja uz četvrtfinalne utakmice BH Telecom Fair Play lige. U aprilu slijedi naredna faza ovog takmičenja. Ekipu naše škole je vodio profesor Adnan Čolić. </p>
+<p className="mb-4 text-blueGray-500">
+Omladinci su pružili  zaista sjajne utakmice. Radujemo se nastavku takmičenja. 
+Naša škola je izborila mjesto među osam najboljih! 
+Bila je ovo vrhunska proslava fer i sportske igre! 
+</p>
+<p className="mb-4 text-blueGray-500">
+
+Sve čestitke omladincima za vrhunske sportske radosti!!!</p>
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
