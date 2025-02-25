@@ -1121,6 +1121,16 @@ import jez3 from '@/views/images/jez3.jpg';
 import jez4 from '@/views/images/jez4.jpg';
 import jez5 from '@/views/images/jez5.jpg';
 
+import ali1 from '@/views/images/ali1.jpg';
+import ali2 from '@/views/images/ali2.jpg';
+
+import bank1 from '@/views/images/bank1.jpg';
+import bank2 from '@/views/images/bank2.jpg';
+import bank3 from '@/views/images/bank3.jpg';
+import bank4 from '@/views/images/bank4.jpg';
+import bank5 from '@/views/images/bank5.jpg';
+import bank6 from '@/views/images/bank6.jpg';
+
 
 const Aktivnosti = () => {
   useEffect(() => {
@@ -1140,7 +1150,139 @@ const Aktivnosti = () => {
   const sortirani = [...users].sort((a, b) => b.Broj - a.Broj);
   return (
     <>
-    <Menu fixed/>
+    <Menu fixed/><section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Ali Kečo osvojio drugo mjesto na Državnom prvenstvu u boksu!
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={ali1} alt="" />
+                    </div>
+                    <div>
+                        <Image src={ali2} alt="" />
+                    </div>
+                    
+      
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+Učenik I5 odjeljenja naše škole, Ali Kečo je osvojio drugo mjesto u kategoriji do 66 kg na Državnom prvenstvu u boksu.</p>
+<p className="mb-4 text-blueGray-500">
+Državno boksersko prvenstvo Bosne i Hercegovine  u olimpijskom boksu, za školarce, juniore i omladince je održano od 21. do 23. februara 2025. godine u Brčko distriktu. Prvenstvo je okupilo najbolje mlade boksere iz cijele zemlje, a svi ljubitelji ove plemenite borilačke vještine imali su priliku da prisustvuju vrhunskim borbama.</p>
+<p className="mb-4 text-blueGray-500">
+U izuetno jakoj kokurenciji boksera iz cijele države, Ali Kečo je osvojio drugo mjesto u kategoriji do 66 kg i demonstrirao svoj izuzetan talenat i sportski duh!</p>
+<p className="mb-4 text-blueGray-500">
+
+Sve čestitke za našeg Alija i puno sportske sreće na narednim takmičenjima!</p>
+
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+          <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Radionica: <b>Hands on banking</b>
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={bank1} alt="" />
+                    </div>
+                    <div>
+                        <Image src={bank2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={bank3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={bank4} alt="" />
+                    </div>
+                    <div>
+                        <Image src={bank5} alt="" />
+                    </div>
+
+      
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+Profesorica Alma Karamujić i učenici/e II2 odjeljenja su upriličili radionicu Hands on Banking za profesore/ice i učenike/ce naše škole. 
+</p>
+<p className="mb-4 text-blueGray-500">
+Radionica je realizirana danas, 25. februara od 9,50 do 16,00 h u holu škole. U ulozi fasilitatora bili su učenici/ce četvrtog razreda na predmetu Bankarsko poslovanje/Izborni predmet. </p>
+<p className="mb-4 text-blueGray-500">
+<b>Hands on Banking Experience</b> je inovativna simulacija upravljanja novcem u  stvarnom svijetu, dizajnirana za učenike/ce srednjih škola i mlade osobe. Bila je ovo promocija finansijske edukacije i inkluzije na način odgovornog upravljanja finansijama za dobrobit ekonomskoga razvoja i rasta Bosne i Hercegovine!</p>
+<p className="mb-4 text-blueGray-500">
+
+Radionica donosi praktična znanja i korisne savjete za odgovorno upravljanje finansijama. Naučili su ključne ekonomske pojmove, razumjeli osnove bankarstva, te kako pametno štedjeti i ulagati!</p>
+<p className="mb-4 text-blueGray-500">
+
+Dobivene su sljedeće povratne informacije od učenika/ca koji/e su prošli/e kroz ovu radionicu :</p>
+<p className="mb-4 text-blueGray-500">
+
+- povećana je svijest o donošenju pametnih finansijskih odluka</p>
+<p className="mb-4 text-blueGray-500">
+
+- razmotrit će svoje potrebe i želje prije nego što potroše novac</p>
+<p className="mb-4 text-blueGray-500">
+
+- počet će da štede</p>
+<p className="mb-4 text-blueGray-500">
+
+- bolje razumiju kako upravljati svojim novcem.</p>
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
