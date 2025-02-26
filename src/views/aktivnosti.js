@@ -1190,7 +1190,7 @@ Učenik I5 odjeljenja naše škole, Ali Kečo je osvojio drugo mjesto u kategori
 <p className="mb-4 text-blueGray-500">
 Državno boksersko prvenstvo Bosne i Hercegovine  u olimpijskom boksu, za školarce, juniore i omladince je održano od 21. do 23. februara 2025. godine u Brčko distriktu. Prvenstvo je okupilo najbolje mlade boksere iz cijele zemlje, a svi ljubitelji ove plemenite borilačke vještine imali su priliku da prisustvuju vrhunskim borbama.</p>
 <p className="mb-4 text-blueGray-500">
-U izuetno jakoj kokurenciji boksera iz cijele države, Ali Kečo je osvojio drugo mjesto u kategoriji do 66 kg i demonstrirao svoj izuzetan talenat i sportski duh!</p>
+U izuzetno jakoj konkurenciji boksera iz cijele države, Ali Kečo je osvojio drugo mjesto u kategoriji do 66 kg i demonstrirao svoj izuzetan talenat i sportski duh!</p>
 <p className="mb-4 text-blueGray-500">
 
 Sve čestitke za našeg Alija i puno sportske sreće na narednim takmičenjima!</p>
