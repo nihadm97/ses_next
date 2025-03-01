@@ -158,6 +158,28 @@ import dand2 from '@/views/images/25ti2.jpg';
 import dand3 from '@/views/images/25ti3.jpg';
 import dand4 from '@/views/images/25ti4.jpg';
 
+import osi1 from '@/views/images/osi1.jpg';
+import osi2 from '@/views/images/osi2.jpg';
+import osi3 from '@/views/images/osi3.jpg';
+import osi4 from '@/views/images/osi4.jpg';
+import osi5 from '@/views/images/osi5.jpg';
+import osi6 from '@/views/images/osi6.jpg';
+
+import hum1 from '@/views/images/hum1.jpg';
+import hum2 from '@/views/images/hum2.jpg';
+import hum3 from '@/views/images/hum2.jpg';
+import hum4 from '@/views/images/hum3.jpg';
+import hum5 from '@/views/images/hum4.jpg';
+import hum6 from '@/views/images/hum5.jpg';
+import hum7 from '@/views/images/hum6.jpg';
+import hum8 from '@/views/images/hum7.jpg';
+import hum9 from '@/views/images/hum8.jpg';
+import hum10 from '@/views/images/hum9.jpg';
+import hum11 from '@/views/images/hum10.jpg';
+import hum12 from '@/views/images/hum11.jpg';
+import hum13 from '@/views/images/hum12.jpg';
+
+
 import aaa1 from '@/views/images/aaa1.jpg';
 import aaa2 from '@/views/images/aaa2.jpg';
 import aaa3 from '@/views/images/aaa3.jpg';
@@ -1150,7 +1172,174 @@ const Aktivnosti = () => {
   const sortirani = [...users].sort((a, b) => b.Broj - a.Broj);
   return (
     <>
-    <Menu fixed/><section data-aos="fade-in" className="pb-20 bg-white w-full">
+    <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase"><b>AGENCIJA ZA OSIGURANJE DEPOZITA BIH (AODBIH)</b>
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={osi1} alt="" />
+                    </div>
+                    <div>
+                        <Image src={osi2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={osi3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={osi4} alt="" />
+                    </div>
+                    <div>
+                        <Image src={osi5} alt="" />
+                    </div>
+                    <div>
+                        <Image src={osi6} alt="" />
+                    </div>
+      
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+Jasmina Hadžić expert iz Agencije za osiguranje depozita Bosne i Hercegovine je održala predavanje na temu <b>Sistem osiguranja depozita kao dio mreže finansijske sigurnosti</b>, u četvrtak, 27. februara, u multimedijalnoj sali naše škole, za učenike/ce II1, II2, II5 odjeljenja i profesorice Almu Karamujić i Indiru Zeković.
+</p>
+<p className="mb-4 text-blueGray-500">
+Nakon posjeta Centralnoj banci i Agenciji za bankarstvo, logičan slijed finansijske edukacije je Agencija za osiguranje depozita koja predstavlja specijaliziranu financijsku instituciju, čija je osnovna funkcija zaštita deponenata od gubitka depozita u slučaju propasti kreditne institucije. 
+</p>
+<p className="mb-4 text-blueGray-500">
+Finansijska pismenost i jačanje finansijske inkluzije i stabilnosti svakog pojedinca i zajednice je važan segment općeg obrazovanja, jer samo finansijski educirana osoba može donositi ispravne finansijske odluke i tako doprinositi finansijskoj stabilnosti zajednice. AOD je samostalna, neprofitna, pravna osoba sa ovlašćenjima u skladu sa Zakonom o osiguranju depozita Bosne i Hercegovine koji regulira osnivanje, status, djelatnost, upravljanje i rukovođenje, ovlaštenja, obaveze i finansiranje Agencije za osiguranje depozita Bosne i Hercegovine. Cilj ovog zakona je da osigura zaštitu depozita fizičkih i pravnih lica u bankama koje su dobile dozvolu za rad od Agencije za bankarstvo Bosne i Hercegovine te time doprinese očuvanju sveukupne finansijske stabilnosti. 
+</p>
+<p className="mb-4 text-blueGray-500">
+Osiguranje depozita je dio mreže finansijske sigurnosti koje se uspostavlja sa ciljem zaštite deponenata. Sistemom osiguranja depozita u Bosni i Hercegovini osiguravaju se depoziti u bankama, a maksimalan iznos osiguranog depozita po deponentu i po banci je 70.000 konvertibilnih maraka. Sve banke sa dozvolom za rad u Bosni i Hercegovini su obuhvaćene sistemom za osiguranje depozita. Osiguranje depozita je besplatno za sve deponente. Premiju osiguranja plaćaju banke.
+</p>
+<p className="mb-4 text-blueGray-500">
+Učenici/ce su iskazali/e stanovit interes za tematiku osiguranja depozita i na njihova pitanja, Jasmina Hadžić je odgovorila sa puno entuzijazma i vrhunski profesionalno. Naravno, nije izostala diskusija i o konkretnim izazovima u očuvanju finansijske stabilnosti, a na koje je Agencija, zajedno sa CB BiH i Agencijom za bankarstvo BiH imala efektne odgovore.</p>
+<p className="mb-4 text-blueGray-500">
+Zahvaljujemo predavaču iz AOD-a za izuzetan doprinos finansijskoj edukaciji naših učenika/ca i doprinos afirmaciji prakse saradnje relevantnih institucija, kompanija i obrazovnih ustanova u cilju što kvalitetnije edukacije naših učenika/ca.</p>
+<p className="mb-4 text-blueGray-500">
+Projekat Upoznaj privredu Kantona Sarajevo, Indira Zeković, prof.</p>
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+          <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Humanitarni odbojkaški turnir SEŠ
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={hum1} alt="" />
+                    </div>
+                    <div>
+                        <Image src={hum2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={hum3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={hum4} alt="" />
+                    </div>
+                    <div>
+                        <Image src={hum5} alt="" />
+                    </div>
+                    <div>
+                        <Image src={hum6} alt="" />
+                    </div>
+                    <div>
+                        <Image src={hum7} alt="" />
+                    </div>
+                    <div>
+                        <Image src={hum8} alt="" />
+                    </div>
+                    <div>
+                        <Image src={hum9} alt="" />
+                    </div>
+                    <div>
+                        <Image src={hum10} alt="" />
+                    </div>
+                    <div>
+                        <Image src={hum11} alt="" />
+                    </div>
+                    <div>
+                        <Image src={hum12} alt="" />
+                    </div>
+                    <div>
+                        <Image src={hum13} alt="" />
+                    </div>
+
+                    
+      
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+U četvrtak i petak, 27. i 28. februara održan je humanitarni odbojkaški turnir, u fiskulturnoj dvorani naše škole. Na turniru su uzeli učešće učenici/ce svih odjeljenja naše škole te i ovaj put pokazali da imaju veliko srce,  ljubav i empatiju! 
+</p>
+<p className="mb-4 text-blueGray-500">
+Duh sporta, fer igre, takmičenja, radosti i zajedništva je ispunio sve prisutne!
+</p>
+<p className="mb-4 text-blueGray-500">
+Uzbudljive grupne utakmice, napeta polufinala do fantastičnog superfinala, radost igre na licima igrača i smijeh i navijanje publike, napunio je srca svih i učenica/ka i profesorica/a!
+</p>
+<p className="mb-4 text-blueGray-500">
+
+Sav prihod od ulaznica sa turnira je namijenjen za humanitarne svrhe.
+</p>
+
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
               <h6 className="text-xl mb-1 font-semibold text-center uppercase">Ali Kečo osvojio drugo mjesto na Državnom prvenstvu u boksu!
