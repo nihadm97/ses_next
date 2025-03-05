@@ -1153,6 +1153,12 @@ import bank4 from '@/views/images/bank4.jpg';
 import bank5 from '@/views/images/bank5.jpg';
 import bank6 from '@/views/images/bank6.jpg';
 
+import lej6 from '@/views/images/6lej.jpg';
+import lej7 from '@/views/images/7lej.jpg';
+import lej8 from '@/views/images/8lej.jpg';
+import lej9 from '@/views/images/9lej.jpg';
+
+
 
 const Aktivnosti = () => {
   useEffect(() => {
@@ -1173,6 +1179,72 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Lejla Ljutika osvojila drugo mjesto na turniru Mersud Nikšić 2025 u stonom tenisu!
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={lej6} alt="" />
+                    </div>
+                    <div>
+                        <Image src={lej7} alt="" />
+                    </div>
+                    <div>
+                        <Image src={lej8} alt="" />
+                    </div>
+                    <div>
+                        <Image src={lej9} alt="" />
+                    </div>
+
+      
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+Memorijalni turnir <b>Mersud Nikšić 2025</b> održan je u Prvoj bošnjačkoj gimnaziji 20. i 21. februara 2025. godine. Na turniru su učestovali sarajevski srednjoškolci/ke iz Treće gimnazije, Srednje ekonomske škole, Ugostiteljsko-turističke škole, Gazi Husrev-begove medrese, Katoličkog školskog centra i Prve bošnjačke gimnazije. </p>
+<p className="mb-4 text-blueGray-500">
+Nadmetanja su se odigrala u četiri sportske discipline: odbojka, košarka, šah i stoni tenis.  Ekipu naše škole je predvodila profesorica Ankica Zulčić. </p>
+<p className="mb-4 text-blueGray-500">
+I naša škola je dala značajan doprinos uspjehu ovog turnira!</p>
+<p className="mb-4 text-blueGray-500">
+Zahvaljujemo domaćinu na vrhunskoj organizaciji turnira i radujemo se narednom turniru! Bio je ovo još jedan odličan školski turnir u slavu  sporta i promocije sporta kod mladih zbog ličnih i društvenih vrijednosti koje sport donosi! </p>
+<p className="mb-4 text-blueGray-500">
+Izvanredna smotra sporta, druženja, prijateljstva, radosti, nadmetanja i igre!</p>
+<p className="mb-4 text-blueGray-500">
+U disciplini stoni tenis, Lejla Ljutika, učenica III2 odjeljenja naše škole je osvojila odlično drugo mjesto!
+</p>
+<p className="mb-4 text-blueGray-500">
+Veselimo se Lejlinom uspjehu! Bravo Lejla!!!</p>
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
