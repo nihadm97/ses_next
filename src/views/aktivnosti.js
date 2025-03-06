@@ -1158,6 +1158,19 @@ import lej7 from '@/views/images/7lej.jpg';
 import lej8 from '@/views/images/8lej.jpg';
 import lej9 from '@/views/images/9lej.jpg';
 
+import irma1 from '@/views/images/irma1.jpg';
+import irma2 from '@/views/images/irma2.jpg';
+import irma3 from '@/views/images/irma3.jpg';
+import irma4 from '@/views/images/irma4.jpg';
+import irma5 from '@/views/images/irma5.jpg';
+import irma6 from '@/views/images/irma6.jpg';
+import irma7 from '@/views/images/irma7.jpg';
+
+import sutka1 from '@/views/images/sutka1.jpg';
+import sutka2 from '@/views/images/sutka2.jpg';
+import sutka3 from '@/views/images/sutka3.jpg';
+import sutka4 from '@/views/images/sutka4.jpg';
+import sutka5 from '@/views/images/sutka5.jpg';
 
 
 const Aktivnosti = () => {
@@ -1179,6 +1192,159 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">U Domu za djecu bez roditeljskog staranja
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={sutka1} alt="" />
+                    </div>
+                    <div>
+                        <Image src={sutka2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={sutka3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={sutka4} alt="" />
+                    </div>
+                    <div>
+                        <Image src={sutka5} alt="" />
+                    </div>
+
+      
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+U okviru projekta Saradnja sa KJU Dom za djecu bez roditeljskog staranja, učenici/ce I4 odjeljenja sa voditeljicom projekta profesoricom Suadom Tadić, pripremili/e su posjetu Domu, u četvrtak 27. februara. </p>
+<p className="mb-4 text-blueGray-500">
+U ime humanitarnih i ljudskih vrijednosti, naši učenici/ce su im poklonili/e pažnju, srce, pomoć i radost kako samo djeca to mogu. Iznenadili su ih poklonima, a uz  mafine, koje su im sami napravili, družili se i radovali. Svima je bio težak rastanak. No, dogodiće se novi susreti. Prijateljstva su stvorena. </p><p className="mb-4 text-blueGray-500">
+</p>
+<p className="mb-4 text-blueGray-500">
+Odrastanje djece bez roditeljskog staranja je otvoreni poziv našoj plemenitosti. Misao na njih mijenja naš odnos prema svijetu oko nas, presložimo prioritete, odredimo se između bitnog i nebitnog… Učinimo svi sve da svijet postane ukupno plemenitiji prema njima. Ova posjeta je bila prilika da se djeci dobročinstvo učini i da im se pruže ruke podrške i blagosti. Naši učenici/ce su nam pokazali/e vlastitim primjerom da  svi razmišljamo o siročadima. Također, koliko smo u mogućnosti da im pomognemo!
+</p>
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+          <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Svojim prisustvom počastila nas je Irma Bijedić, autorica knjige <b>Irma i ja</b>
+
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={irma1} alt="" />
+                    </div>
+                    <div>
+                        <Image src={irma2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={irma3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={irma4} alt="" />
+                    </div>
+                    <div>
+                        <Image src={irma5} alt="" />
+                    </div>
+                    <div>
+                        <Image src={irma6} alt="" />
+                    </div>
+                    <div>
+                        <Image src={irma7} alt="" />
+                    </div>
+
+      
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+Još jedna emotivna i motivirajuća životna priča koju su učenice i učenici slušali u jednom dahu.
+</p>
+<p className="mb-4 text-blueGray-500">
+Volontiranje u AIESEC-u i potpredsjednička pozicija u domaćem ogranku, rezultiralo je Irminim učešćem na Međunarodnom AIESEC kongresu u Nairobiju.
+</p>
+<p className="mb-4 text-blueGray-500">
+Odlučila je nastaviti na studijskom boravku u Mombasi, ne sluteći da će autobus, u kojem se vozila zajedno sa drugim studentima, udariti kamion i pred Irmu staviti veliki izazov protkan munjevitom borbom za život.
+</p>
+<p className="mb-4 text-blueGray-500">
+Pored toga što je bila uspješna učenica i kasnije studentica prve godine master studija na Ekonomskom fakultetu u Sarajevu, uživala je u tenisu, plivanju, skijanju, amaterskoj glumi, ali najviše od svega, muzici i sviranju klavira.
+</p>
+<p className="mb-4 text-blueGray-500">
+Borba za život i strah da li će ikada više moći uživati u svojim hobijima....
+</p>
+<p className="mb-4 text-blueGray-500">
+Zahvaljujući Angelini Jolie, Irmino liječenje nastavljeno je u bolnici Bogenhausen u Münchenu na odjelu kojeg vodi doktor Milomir Ninković, rođen u Sarajevu, rekonstruktivni i plastični hirurg svjetskog formata.
+</p>
+<p className="mb-4 text-blueGray-500">
+Angelina je Irmi spasila život i knjiga <b>Irma i ja</b> posvećena je ovoj slavnoj glumici u znak vječne zahvalnosti.</p>
+<p className="mb-4 text-blueGray-500">
+Težak višemjesečni oporavak, operacije i fantomska bol nakon gubitka ruke, nisu onemogućili Irmu da nastavi gdje je stala. Ispite na Master studiju završila je sa najvišim uspjehom, a nakon toga upisala i novi master studij. </p>
+<p className="mb-4 text-blueGray-500">
+Nevjerovatna snaga volje omogućila je Irmi da se i pored trideset i tri operativna zahvata, od kojih je dvadeset i sedam uključivalo rekonstruktivne zahvate na licu, vrati svojim hobijima.</p>
+<p className="mb-4 text-blueGray-500">
+Irma je pred nas stavila veliki izazov da se duboko zamislimo nad sobom i preispitamo koliko mi cijenimo život i kako ga živimo....</p>
+<p className="mb-4 text-blueGray-500">
+Mi smo se zapitali, a nadamo se da će i svi drugi koju pročitaju Irminu životnu priču.</p>
+<p className="mb-4 text-blueGray-500">
+Irma, hvala ti!
+</p>
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
