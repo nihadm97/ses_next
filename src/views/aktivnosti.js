@@ -1172,18 +1172,18 @@ import sutka3 from '@/views/images/sutka3.jpg';
 import sutka4 from '@/views/images/sutka4.jpg';
 import sutka5 from '@/views/images/sutka5.jpg';
 
-import naidah1 from '@/views/images/naidah1.jpg';
-import naidah2 from '@/views/images/naidah2.jpg';
-import naidah3 from '@/views/images/naidah3.jpg';
-import naidah4 from '@/views/images/naidah4.jpg';
-import naidah5 from '@/views/images/naidah5.jpg';
-import naidah6 from '@/views/images/naidah6.jpg';
-import naidah7 from '@/views/images/naidah7.jpg';
-import naidah8 from '@/views/images/naidah8.jpg';
-import naidah9 from '@/views/images/naidah9.jpg';
-import naidah10 from '@/views/images/naidah10.jpg';
-import naidah11 from '@/views/images/naidah11.jpg';
-import naidah12 from '@/views/images/naidah12.jpg';
+import naidah1 from '@/views/images/naidah1.JPG';
+import naidah2 from '@/views/images/naidah2.JPG';
+import naidah3 from '@/views/images/naidah3.JPG';
+import naidah4 from '@/views/images/naidah4.JPG';
+import naidah5 from '@/views/images/naidah5.JPG';
+import naidah6 from '@/views/images/naidah6.JPG';
+import naidah7 from '@/views/images/naidah7.JPG';
+import naidah8 from '@/views/images/naidah8.JPG';
+import naidah9 from '@/views/images/naidah9.JPG';
+import naidah10 from '@/views/images/naidah10.JPG';
+import naidah11 from '@/views/images/naidah11.JPG';
+import naidah12 from '@/views/images/naidah12.JPG';
 
 
 const Aktivnosti = () => {
