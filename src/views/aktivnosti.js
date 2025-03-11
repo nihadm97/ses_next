@@ -1172,6 +1172,19 @@ import sutka3 from '@/views/images/sutka3.jpg';
 import sutka4 from '@/views/images/sutka4.jpg';
 import sutka5 from '@/views/images/sutka5.jpg';
 
+import naidah1 from '@/views/images/naidah1.jpg';
+import naidah2 from '@/views/images/naidah2.jpg';
+import naidah3 from '@/views/images/naidah3.jpg';
+import naidah4 from '@/views/images/naidah4.jpg';
+import naidah5 from '@/views/images/naidah5.jpg';
+import naidah6 from '@/views/images/naidah6.jpg';
+import naidah7 from '@/views/images/naidah7.jpg';
+import naidah8 from '@/views/images/naidah8.jpg';
+import naidah9 from '@/views/images/naidah9.jpg';
+import naidah10 from '@/views/images/naidah10.jpg';
+import naidah11 from '@/views/images/naidah11.jpg';
+import naidah12 from '@/views/images/naidah12.jpg';
+
 
 const Aktivnosti = () => {
   useEffect(() => {
@@ -1192,6 +1205,7 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+    
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
@@ -2731,6 +2745,96 @@ Ovaj događaj mora ostati trajni podsjetnik za sve nas: <b>da ne okrenemo leđa 
 <b>Budimo ti koji će reagovati, koji će stati u zaštitu, i koji će sačuvati ljudskost u svijetu koji se prečesto zaboravi.</b> </p>
 <p className="mb-4 text-blueGray-500">
 Emina Karić, učenica II2</p>
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+          <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Posjeta uvažene ministrice Naida Hota Muminović našoj školi
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={naidah1} alt="" />
+                    </div>
+                    <div>
+                        <Image src={naidah2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={naidah3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={naidah4} alt="" />
+                    </div>
+                    <div>
+                        <Image src={naidah5} alt="" />
+                    </div>
+                    <div>
+                        <Image src={naidah6} alt="" />
+                    </div>
+                    <div>
+                        <Image src={naidah7} alt="" />
+                    </div>
+                    <div>
+                        <Image src={naidah8} alt="" />
+                    </div>
+                    <div>
+                        <Image src={naidah9} alt="" />
+                    </div>
+                    <div>
+                        <Image src={naidah10} alt="" />
+                    </div>
+                    <div>
+                        <Image src={naidah11} alt="" />
+                    </div>
+                    <div>
+                        <Image src={naidah12} alt="" />
+                    </div>
+
+      
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+Kolektiv naše škole počašćen je posjetom uvažene ministrice, Naide Hota-Muminović, u pratnji pomoćnice Ministrice, Lamije Husić, uvažene direktorice Instituta za razvoj preduniverzitetskog obrazovanja, Senade Salihović, te saradnica Instituta, Stanislave Matić i Velide Begović.
+</p>
+<p className="mb-4 text-blueGray-500">
+Nakon obilaska školske zgrade, obnovljenih učeničkih toaleta, posjete učenicama i učenicima, uvažena Ministrica se obratila profesoricama i profesorima u zbornici Škole i upoznala prisutne sa aktivnostima Ministarstva.</p>
+<p className="mb-4 text-blueGray-500">
+Direktorica naše škole imala je čast ukratko predstaviti  školske aktivnosti sa posebnim akcentom na školsku klimu i ozračje, a koje je polazna osnova za sve naše uspjehe.</p>
+<p className="mb-4 text-blueGray-500">
+Posebno je naglasila našu zahvalnost Ministarstvu za podršku u svim aktivnostima, koje olakšavaju naše djelovanje, a između ostalog, i materijalna ulaganja, koja odgoj i obrazovanje našim učenicama i učenicima čine puno ljepšim, a školski prostor znatno ugodnijim mjestom boravka.</p>
+<p className="mb-4 text-blueGray-500">
+Naglasila je da je Ministarstvo za fiskulturnu salu i svlačionice doniralo 112.136,63 KM, za učeničke toalete 110.711,93 KM, te da je u toku realizacija utopljavanje Škole, za što je Ministarstvo, također, obezbijedilo sredstva.</p>
+<p className="mb-4 text-blueGray-500">
+Na sastanku smo razgovarali i na temu novih Nastavnih planova i zahvalni smo uvaženoj Ministrici što smo bili u prilici elaborirati i naše prijedloge, koje je uvažena Ministrica uvažila i istakla da će iste detaljno razmotriti i iznaći najbolja rješenja u interesu naših učenica i učenika.</p>
+<p className="mb-4 text-blueGray-500">
+Sretni smo i ponosni što smo i ovoga puta svjedočili onoj narodnoj da složna braća kuću grade te da je svako djelovanje, koje je u službi zajednice i svjetlije budućnosti, znatno lakše i ljepše uz međusobnu podršku i saradnju.</p>
+
+
 </span>
                   </div>
                  
