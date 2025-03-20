@@ -1185,6 +1185,9 @@ import naidah10 from '@/views/images/naidah10.jpg';
 import naidah11 from '@/views/images/naidah11.JPG';
 import naidah12 from '@/views/images/naidah12.JPG';
 
+import tur1 from '@/views/images/tur1.jpg';
+import tur2 from '@/views/images/tur2.jpg';
+import tur3 from '@/views/images/tur3.jpg';
 
 const Aktivnosti = () => {
   useEffect(() => {
@@ -1205,7 +1208,64 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
-    
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Interaktivno učenje turskog jezika 🍪🧁
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={tur1} alt="" />
+                    </div>
+                    <div>
+                        <Image src={tur2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={tur3} alt="" />
+                    </div>
+
+
+      
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+Učenice i učenici su učili i usvojili nove riječi turskog jezika, ali ovog puta kroz praksu, jer su ih povezali s konkretnim radnjama.
+</p>
+<p className="mb-4 text-blueGray-500">
+Osim jezičnih vještina, razvijali su i timski rad, komunikaciju i snalažljivost. Na kraju časa, svi su s uživanjem ponavljali sastojke na turskom jeziku za kuglice sa bananom, keksom, mlijekom, kakaom, orasima i kokosom koje su sami napravili.</p>
+<p className="mb-4 text-blueGray-500">
+Ovakav čas je tipičan primjer kako se učenje jezika može učiniti kreativnim, zabavnim i korisnim kada se poveže s realnim situacijama i praktičnim zadacima. 
+</p>
+<p className="mb-4 text-blueGray-500">
+Učenice i učenici su otišli kući, ne samo obogaćeni novim znanjem iz turskog jezika, već i  receptom kojeg mogu podijeliti s porodicom i prijateljima.</p>
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
