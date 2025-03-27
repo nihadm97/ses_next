@@ -1189,6 +1189,20 @@ import tur1 from '@/views/images/tur1.jpg';
 import tur2 from '@/views/images/tur2.jpg';
 import tur3 from '@/views/images/tur3.jpg';
 
+import almic1 from '@/views/images/almic1.jpg';
+import almic2 from '@/views/images/almic2.jpg';
+import almic3 from '@/views/images/almic3.jpg';
+import almic4 from '@/views/images/almic4.jpg';
+
+import pmf1 from '@/views/images/pmf1.jpg';
+import pmf2 from '@/views/images/pmf2.jpg';
+import pmf3 from '@/views/images/pmf3.jpg';
+import pmf4 from '@/views/images/pmf4.jpg';
+import pmf5 from '@/views/images/pmf5.jpg';
+import pmf6 from '@/views/images/pmf6.jpg';
+import pmf7 from '@/views/images/pmf7.jpg';
+
+
 const Aktivnosti = () => {
   useEffect(() => {
     AOS.init({duration: 2000});
@@ -1208,6 +1222,142 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">PMF: Izložba matematičkih eksperimenata
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={pmf1} alt="" />
+                    </div>
+                    <div>
+                        <Image src={pmf2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={pmf3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={pmf4} alt="" />
+                    </div>
+                    <div>
+                        <Image src={pmf5} alt="" />
+                    </div>
+                    <div>
+                        <Image src={pmf6} alt="" />
+                    </div>
+                    <div>
+                        <Image src={pmf7} alt="" />
+                    </div>
+
+      
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+Učenici i učenice I3 i I5 odjeljenja naše škole i profesorica Lejla Hujdur, posjetili/e su izložbu matematičkih eksperimenata na Prirodno-matematičkom fakultetu Univerziteta u Sarajevu povodom 14. marta, Međunarodnog dana matematike (International Day of Mathematics).
+Eksperimenti su djelo srednjoškolaca, a rađeni su u okviru naučno-popularnog projekta <b>Volim matematiku</b>. Bilo je tu izuzetnih eksponata, briljantnih kreacija u svojim kategorijama. 
+</p>
+<p className="mb-4 text-blueGray-500">
+Svakako, to je još jedna potvrda koliko je matematika inspirativna i koliko prostora daje za kreativnost, inovativnost i istraživanje. 
+</p>
+<p className="mb-4 text-blueGray-500">
+Kao što je i sam Augustus De Morgan rekao:  <b>Pokretač matematike nije zaključivanje, nego mašta!</b> </p>
+<p className="mb-4 text-blueGray-500">
+Bila je ovo i odlična prilika za motivaciju srednjoškolaca da istraže ljepote matematike! 
+Učinimo sve da učenicima/ama osiguramo ohrabrujuće, podsticajno i kreativno  okruženje u kojem će učenikov kreativni potencijal doći do izražaja.
+</p>
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+          <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">OD SRCA ZA NJU   
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={almic1} alt="" />
+                    </div>
+                    <div>
+                        <Image src={almic2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={almic3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={almic4} alt="" />
+                    </div>
+
+
+      
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+Udruženje <b>Ruku na srce</b> pokrenulo  je projekat Od <b>srca za nju</b>, s ciljem da se prikupi što više higijenskih i kozmetičkih proizvoda i obezbijede paketi za žene iz porodica slabijeg materijalnog stanja.</p>
+<p className="mb-4 text-blueGray-500">
+Udruženje je neprofitna, humanitarna organizacija koja realizira humanitarne projekte, usmjerene ka unapređenju života društvene zajednice. Povezuje ljude spremne pomoći s onima kojima je pomoć potrebna. Svi članovi udruge su isključivo volonteri. Misija udruženja je olakšati svakodnevnicu i tegobe siromaštva i neimaštine, pružiti nadu u ljepše sutra i ono najvažnije, činiti ljude sretnim. A sreća je osmijeh. Svaki takav  osmijeh kazuje da smo na pravom putu ostvarenja misije i biti postojanja. 
+</p>
+<p className="mb-4 text-blueGray-500">
+Naša škola ostvarila je saradnju sa Udruženjem <b>Ruku na srce</b> i podržala ovaj projekat zajedno sa učenicama naše škole. Naše učenice dale su svoj doprinos realizaciji ovog projekta, povezane zajedničkim ciljem, pomagati drugima. Ne možemo promijeniti svijet, ali uvijek možemo kreirati sretne trenutke za druge, usrećiti drugog čovjeka.
+<b>Od srca za nju</b> nije samo humanitarna aktivnost, gdje žena ženi poklanja osnovne higijenske i kozmetičke potrepštine, već je mnogo više. Žena ženi daje podršku, prepoznajemo svoju iskonsku snagu, usmjeravamo je u ostvarenje naših snova, svoje misije, svjesne važnosti i vrijednosti uloge žene u društvu. 
+</p>
+<p className="mb-4 text-blueGray-500">
+
+Hvala svima koji su bili dio ove priče!
+Zajedno činimo dobro! 
+Dobro inspiriše, daje snagu i energiju, budi radost postojanja!
+</p>
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
