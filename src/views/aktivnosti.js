@@ -1202,6 +1202,17 @@ import pmf5 from '@/views/images/pmf5.jpg';
 import pmf6 from '@/views/images/pmf6.jpg';
 import pmf7 from '@/views/images/pmf7.jpg';
 
+import aut1 from '@/views/images/aut1.jpg';
+import aut2 from '@/views/images/atu2.jpg';
+import aut3 from '@/views/images/atu3.jpg';
+import aut4 from '@/views/images/atu4.jpg';
+import aut5 from '@/views/images/atu5.jpg';
+import aut6 from '@/views/images/aut6.jpg';
+import aut7 from '@/views/images/aut7.jpg';
+import aut8 from '@/views/images/aut8.jpg';
+import aut9 from '@/views/images/aut9.jpg';
+import aut10 from '@/views/images/aut10.jpg';
+
 
 const Aktivnosti = () => {
   useEffect(() => {
@@ -1222,6 +1233,89 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Svjetski dan svjesnosti o autizmu 2025
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={aut1} alt="" />
+                    </div>
+                    <div>
+                        <Image src={aut2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={aut3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={aut4} alt="" />
+                    </div>
+                    <div>
+                        <Image src={aut5} alt="" />
+                    </div>
+                    <div>
+                        <Image src={aut6} alt="" />
+                    </div>
+                    <div>
+                        <Image src={aut7} alt="" />
+                    </div>
+                    <div>
+                        <Image src={aut8} alt="" />
+                    </div>
+                    <div>
+                        <Image src={aut9} alt="" />
+                    </div>
+                    <div>
+                        <Image src={aut10} alt="" />
+                    </div>
+
+      
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+Glavna skupština UN-a odabrala je 2. april za obilježavanje <b>Svjetskog dana svjesnosti o autizmu</b> čime  želi skrenuti pažnju javnosti širom svijeta na sve veći problem ovog složenog poremećaja koji se kod pojedinaca najčešće razvije u prve tri godine života i uglavnom traje do kraja života. <b>Svjetski dan svjesnosti o autizmu</b> ima esencijalnu ulogu u educiranju šire javnosti i stvaranju podržavajuće zajednice za autistične osobe.
+</p>
+<p className="mb-4 text-blueGray-500">
+Osobe sa poremećajima iz spektra autizma vide, čuju i osjećaju, ali te utiske teško sklapaju u smislenu cjelinu, pa se stoga povlače u vlastiti svijet u kojem nalaze sigurnost. Autistične osobe imaju poteškoća u ekspresiji svojih osjećaja, želja, potreba, sposobnosti i problema s kojima se svakodnevno bore, a što se odražava na njihovo ponašanje koje može biti vrlo neobično. Međutim, neka djeca pokazuju iznimne motoričke, matematičke, muzičke, likovne i druge vještine. Mnogo osoba sa autizmom imaju jedinstvene talente i sposobnosti koje mogu obogatiti društvo u raznim oblastima!</p>
+<p className="mb-4 text-blueGray-500">
+Vodeća svjetska organizacija, koja se bavi proučavanjem autizma i promocijom prava osoba s autizmom je <b>Autism Speaks</b>. Svake godine skreće pažnju svjetske javnosti kampanjom <b>Light it up blue</b>, time što se prepoznatljivi objekti, ulice i domovi u gradovima širom svijeta osvjetljavaju plavom bojom, nosi se plava odjeća, šalovi i sl.
+I naši/e učenici/ce su se uključili/le u ovu kampanju tako što su danas odjenuli/e plave majice, osvijetlili/le svoje domove ili sobe plavom bojom, postavili/e plave balone na prozore ili na svoje profile na društvenim mrežama postavili/e ilustracije u plavoj boji. Učenici/ce prvog razreda su pripremili prigodnu prezentaciju koja će biti izložena na časovima odjeljenske zajednice. Bio je to naš doprinos promociji svijesti o autizmu, razvoju empatije, osjećanja i razumijevanja prema autističnoj djeci,  te realizaciji inkluzivnog društva za sve njegove članove.
+</p>
+<p className="mb-4 text-blueGray-500">
+Život osoba s poremećajem iz spektra autizma i njihovih roditelja nije lak, suočavaju se sa nizom životnih poteškoća, te <b>Svjetski dan svjesnosti o autizmu</b> nije samo dan za podizanje svijesti, već i poziv na akciju. Obilježavanjem ovog dana, globalna zajednica šalje snažnu poruku da je važno podržati osobe s autizmom u njihovoj integraciji u sve aspekte života, prije svega, obrazovanje, zapošljavanje, socijalne aktivnosti. To podrazumijeva i odgovarajuće resurse, pristupačne usluge i zajednicu koja poštuje različitosti. 
+</p>
+<p className="mb-4 text-blueGray-500">
+Inkluzija autističnih osoba u društvo zahtijeva promjenu društvenih normi i vrijednosti. Potrebno je oslabiti barijere koje postoje u obrazovnim sistemima, radnim okruženjima i svakodnevnom životu za određene ljude s ovom dijagnozom. Pristup obrazovanju, terapijama i podrška trebali bi biti dostupni svima!</p>
+<p className="mb-4 text-blueGray-500">
+Imperativ je da svi radimo zajedno kako bismo stvorili svijet u kojem su sve osobe, bez obzira na njihove razlike, prihvaćene, podržane i poštovane! Razumijevanje, ljubaznost i inkluzija mogu napraviti ogromnu razliku u životima miliona ljudi širom svijeta! Učinimo svi sve da autistične osobe i njihovi roditelji imaju kvalitetniji i dostojanstveniji stil života!</p>
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
