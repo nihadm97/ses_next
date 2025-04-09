@@ -1213,6 +1213,15 @@ import aut8 from '@/views/images/aut8.jpg';
 import aut9 from '@/views/images/aut9.jpg';
 import aut10 from '@/views/images/aut10.jpg';
 
+import otv1 from '@/views/images/otv1.jpg';
+import otv2 from '@/views/images/otv2.jpg';
+import otv3 from '@/views/images/otv3.jpg';
+import otv4 from '@/views/images/otv4.jpg';
+import otv5 from '@/views/images/otv5.jpg';
+import otv6 from '@/views/images/otv6.jpg';
+import otv7 from '@/views/images/otv7.jpg';
+import otv8 from '@/views/images/otv8.jpg';
+
 
 const Aktivnosti = () => {
   useEffect(() => {
@@ -1233,6 +1242,82 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Dani otvorenih vrata Univerziteta u Sarajevu
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={otv1} alt="" />
+                    </div>
+                    <div>
+                        <Image src={otv2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={otv3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={otv4} alt="" />
+                    </div>
+                    <div>
+                        <Image src={otv5} alt="" />
+                    </div>
+                    <div>
+                        <Image src={otv6} alt="" />
+                    </div>
+                    <div>
+                        <Image src={otv7} alt="" />
+                    </div>
+                    <div>
+                        <Image src={otv8} alt="" />
+                    </div>
+
+
+      
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+Univerzitet u Sarajevu je i ove godine otvorio svoja vrata budućim studenticama i studentima u sklopu manifestacije Dani otvorenih vrata Univerziteta. </p>
+<p className="mb-4 text-blueGray-500">
+Naše/i učenice/i četvrtog razreda su, u pratnji profesorica/a, 4. i 5. aprila 2025. godine posjetile/i navedenu manifestaciju.
+</p>
+<p className="mb-4 text-blueGray-500">
+Ova posjeta je bila prilika da se učenice/i iz prve ruke upoznaju sa širokom ponudom studijskih programa, uslovima upisa i akademskim životom na jednom od najprestižnijih Univerziteta u BiH. 
+</p>
+<p className="mb-4 text-blueGray-500">
+Tokom obilaska fakulteta i akademija, naše/i učenice/i su prisustvovale/i prezentacijama, razgovarale/i sa profesoricama/ma i studenticama/ma te dobile/i korisne informacije koje će im pomoći pri donošenju odluke o budućem obrazovanju.</p>
+<p className="mb-4 text-blueGray-500">
+Zahvaljujemo Univerzitetu u Sarajevu na gostoprimstvu i inspirativnom programu, a našim maturanticama i maturantima želimo mnogo uspjeha u narednim koracima obrazovanja!
+</p>
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
