@@ -1222,6 +1222,31 @@ import otv6 from '@/views/images/otv6.jpg';
 import otv7 from '@/views/images/otv7.jpg';
 import otv8 from '@/views/images/otv8.jpg';
 
+import sakhub00 from '@/views/images/sukhub00.jpg';
+import sakhub0 from '@/views/images/sukhub0.jpg';
+import sakhub1 from '@/views/images/sakhub1.jpg';
+import sakhub2 from '@/views/images/sakhub2.jpg';
+import sakhub3 from '@/views/images/sakhub3.jpg';
+import sakhub4 from '@/views/images/sukhub4.jpg';
+import sakhub5 from '@/views/images/sukhub5.jpg';
+import sakhub6 from '@/views/images/sukhub6.jpg';
+import sakhub7 from '@/views/images/sukhub7.jpg';
+import sakhub8 from '@/views/images/sukhub8.jpg';
+import sakhub9 from '@/views/images/sukhub9.jpg';
+import sakhub10 from '@/views/images/sukhub10.jpg';
+import sakhub11 from '@/views/images/sukhub11.jpg';
+import sakhub12 from '@/views/images/sukhub12.jpg';
+import sakhub13 from '@/views/images/sukhub13.jpg';
+
+import skeda1 from '@/views/images/skeda1.jpg';
+import skeda2 from '@/views/images/skeda2.jpg';
+import skeda3 from '@/views/images/skeda3.jpg';
+import skeda4 from '@/views/images/skeda4.jpg';
+import skeda5 from '@/views/images/skeda5.jpg';
+import skeda6 from '@/views/images/skeda6.jpg';
+import skeda7 from '@/views/images/skeda7.jpg';
+import skeda8 from '@/views/images/skeda8.jpg';
+
 
 const Aktivnosti = () => {
   useEffect(() => {
@@ -1242,6 +1267,183 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">HUB HIGH SCHOOL FAIR
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={sakhub00} alt="" />
+                    </div>
+                    <div>
+                        <Image src={sakhub0} alt="" />
+                    </div>
+                    <div>
+                        <Image src={sakhub1} alt="" />
+                    </div>
+                    <div>
+                        <Image src={sakhub2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={sakhub3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={sakhub4} alt="" />
+                    </div>
+                    <div>
+                        <Image src={sakhub5} alt="" />
+                    </div>
+                    <div>
+                        <Image src={sakhub6} alt="" />
+                    </div>
+                    <div>
+                        <Image src={sakhub7} alt="" />
+                    </div>
+                    <div>
+                        <Image src={sakhub8} alt="" />
+                    </div>
+                    <div>
+                        <Image src={sakhub9} alt="" />
+                    </div>
+                    <div>
+                        <Image src={sakhub10} alt="" />
+                    </div>
+                    <div>
+                        <Image src={sakhub11} alt="" />
+                    </div>
+                    <div>
+                        <Image src={sakhub12} alt="" />
+                    </div>
+                    <div>
+                        <Image src={sakhub13} alt="" />
+                    </div>
+
+
+      
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+Homework HUB u partnerstvu sa JU <b>Međunarodnim centrom za djecu i omladinu</b> su 10. aprila 2025. godine po prvi put organizovali HUB sajam srednjih škola.
+</p>
+<p className="mb-4 text-blueGray-500">
+Cilj ovog događaja je bio omogućiti budućim srednjoškolkama/cima da kroz direktan kontakt sa predstavnicama/ima i učenicama/ima srednjih škola dobiju relevantne informacije o nastavku obrazovanja i donesu informisane odluke o svom budućem školovanju.</p>
+<p className="mb-4 text-blueGray-500">
+Naš štand je bio odlično posjećen - učenice/i su sa puno entuzijazma predstavljale/i školu, smjerove i projekte na kojima su učestvovale/i. </p>
+<p className="mb-4 text-blueGray-500">
+Posjetiocima je posebno bio zanimljiv dio izložbe učenika/ca sekcije robotike gdje su prikazale/i sve ono što su učile/i i vrijedno radile/i do sada.
+</p>
+<p className="mb-4 text-blueGray-500">
+Pored toga, naše/i učenice/i su pripremile/i radionicu namijenjenoj osnovcima, gdje su se kroz igru i druženje bavili temom kako pravilno isplanirati budžet. Na zanimljiv i prilagođen način objšnjavale/i su osnovne principe štednje, raspodjele troškova i odgovornog upravljanja novcem. Najuspješnije/i su osvojile/i simbolične poklone.
+</p>
+<p className="mb-4 text-blueGray-500">
+Ponosni smo na trud, zalaganje i sjajnu energiju naših učenica/ka koje/i su na najbolji način promovisali duh zajedništva, saradnje i obrazovanja.</p>
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+          <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Na 36. Međunarodnom sarajevskom sajmu knjiga
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={skeda1} alt="" />
+                    </div>
+                    <div>
+                        <Image src={skeda2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={skeda3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={skeda4} alt="" />
+                    </div>
+                    <div>
+                        <Image src={skeda5} alt="" />
+                    </div>
+                    <div>
+                        <Image src={skeda6} alt="" />
+                    </div>
+                    <div>
+                        <Image src={skeda7} alt="" />
+                    </div>
+                    <div>
+                        <Image src={skeda8} alt="" />
+                    </div>
+
+
+      
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+Učenici i učenice JU Srednje ekonomske škole, Sarajevo, u pratnji profesorica Dženane Tanović-Hamzić, Sejdele Kadribegović, Amre Lagumdžija, Nermine Erović, Alme Avdić i Larise Kekić, posjetili/e su 11. aprila 2025. godine, <b>36. Međunarodni sarajevski sajam knjiga</b>, koji se ove godine održava pod sloganom: <b>Čitaj me!</b>
+Sarajevski sajam knjiga i učila je projekat koji se iz godine u godinu uspješno razvijao i potvrdio kao istinski kulturni praznik  i izuzetna promocija kulturnog i umjetničkog stvaralaštva.
+</p>
+<p className="mb-4 text-blueGray-500">
+Na Sajmu se ove godine predstavilo više od 200 izlagača sa preko 30 000 naslova. 
+Na sajmu su organizovane izložbe knjiga, memorija i medija, rijetkih rukopisa iz arhiva, muzeja i privatnih i javnih biblioteka, knjiga u antikvarnici, naučnih i univerzitetskih knjiga, nagrađenih likovnih i video radova, časopisa, književne i umjetničke kritike, dječijih knjiga i umjetničkih ilustracija, …
+</p>
+<p className="mb-4 text-blueGray-500">
+Međunarodni Sarajevski sajam knjiga organizirao je i Naučni okrugli sto na temu: <b>Knjiga, Memorija, Mediji</b>, koji je okupio domaće, regionalne i međunarodne eminentne stručnjake, teoretičare i praktičare. Naučni okrugli sto, <b>Knjiga, Memorija, Mediji</b> iniciran je potrebom predstavljanja uloge, statusa i strateških perspektiva uvođenja i implementiranja medijske kulture u društvu. Sajam u Skenderiji je mnogo  značajniji od “velike knjižare”, koja se otvara jednom godišnje. Po svemu, Sajam je bio veliki sajam kulturnih i umjetničkih događaja i jedan od najboljih načina popularizacije knjige i pisane riječi. 
+</p>
+<p className="mb-4 text-blueGray-500">
+Živimo eru digitalizacije, brzog protoka informacija, dinamičnog stila života, koncentrisanosti na sliku i zvuk i kratke forme, čini se kao da knjiga polako odlazi u retro kategoriju. Pametni telefon jedno je od najbriljantnijih pronalazaka u historiji čovječanstva jer je u jednu napravu strpao sva komunikacijska otkrića 20. vijeka. Stali su tu telegraf, telefon, pošta, televizija, kino, časopisi, revije, knjige, katalozi prodavnica, … Čega tu sve nema! Odbaciti takvu fantastičnu napravu bilo bi ludo. No, pametni telefoni i računari nisu zamjena za pamet, nego samo ojačavaju ono što već imamo u glavi. A pamet, tvrde naučnici, dobivamo samo intelektualnim naporima, to jest učenjem i čitanjem. Čitanje knjiga i trening mišljenja i empatije je nešto bez čega nema napretka ni u nauci ni u društvu, a kamoli u kulturi i tehnologiji! Iskustvo čitanja je nezamjenjivo, naime, trening empatije te produbljivanje i širenje rječnika je najintenzivnije kod klasičnog čitanja. Kod čitanja mašta radi punom parom i kognitivna dobrobit je najveća. Budući da kao ljudi izražavamo svoje misli riječima, oskudan lični rječnik ograničava vase iskazivanje na samo jednostavne, oskudne misli. Dobar, uvježban čitač, prepozna riječ u nekoliko milisekundi. Loši čitači imaju problem s razumijevanjem pročitanog.
+</p>
+<p className="mb-4 text-blueGray-500">
+Prema tome, knjiga nije prošlost! Čitajmo knjige!!!</p>
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
