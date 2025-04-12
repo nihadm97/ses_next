@@ -1247,6 +1247,15 @@ import skeda6 from '@/views/images/skeda6.jpg';
 import skeda7 from '@/views/images/skeda7.jpg';
 import skeda8 from '@/views/images/skeda8.jpg';
 
+import leki1 from '@/views/images/leki1.jpg';
+import leki2 from '@/views/images/leki2.jpg';
+import leki3 from '@/views/images/leki3.jpg';
+import leki4 from '@/views/images/leki4.jpg';
+import leki5 from '@/views/images/leki5.jpg';
+import leki6 from '@/views/images/leki6.jpg';
+import leki7 from '@/views/images/leki7.jpg';
+import leki8 from '@/views/images/leki8.jpg';
+
 
 const Aktivnosti = () => {
   useEffect(() => {
@@ -1267,6 +1276,80 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Međunarodni sajam gospodarstva Mostar 2025
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={leki1} alt="" />
+                    </div>
+                    <div>
+                        <Image src={leki2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={leki3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={leki4} alt="" />
+                    </div>
+                    <div>
+                        <Image src={leki5} alt="" />
+                    </div>
+                    <div>
+                        <Image src={leki6} alt="" />
+                    </div>
+                    <div>
+                        <Image src={leki7} alt="" />
+                    </div>
+                    <div>
+                        <Image src={leki8} alt="" />
+                    </div>
+
+
+
+      
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+Učenici/ce lV4 odjeljenja i razrednica Larisa Kekić su posjetili/e su 26. Međunarodni sajam gospodarstva u Mostaru, održan od 8. do 12. aprila, na kojem se okupio rekordan broj izlagača, preko 800, iz više zemalja regije, Evropske unije, svijeta, preko trideset zemalja, ali u najvećoj mjeri, domaćih izlagača i predstavnika zemlje partnera Italije.</p>
+<p className="mb-4 text-blueGray-500">
+Programski, organizatori sajma svake godine trude se biti što inovativniji i raznovrsniji kada je u pitanju sajamski program te su posvećeni i organizaciji konferencija i stručnih skupova među kojima su od posebnog značaja <b>Četvrti mostarski ekonomski forum</b>, konferencija  <b>Žene koje ruše barijere i panel Cikloturizam kao prilika za razvoj regije</b>.
+</p>
+<p className="mb-4 text-blueGray-500">
+S talijanskim partnerima i našim privrednim komorama, (Privredna komora FBiH i Vanjsko trgovinska komora BiH), realizirani su <b>B2B razgovori</b>. Pored konferencijskog i izlagačkog dijela sajma, posebna pažnja je posvećena vinu i vinogradarstvu kroz ocjenjivanje vina i dodjelu priznanja najboljim vinarima. Sajam prati i bogat kulturno-zabavni program. Mostarski sajam ima za rezultat i potpisivanje značajnih ugovora, nova ulaganja, važna za daljni razvoj privrede i otvaranje novih radnih mjesta u Mostaru, Hercegovini, ali i u BiH. Po broju izlagača i posjetitelja, svakako je najuspješnija sajamska izložba u Bosni i Hercegovini, ali je i regionalno, značajan privredni događaj. Mostarski sajam stvara čvrste veze između privrednika s područja regije, ali i šire, te iz godine u godinu bilježi sve veću posjećenost. 
+</p>
+<p className="mb-4 text-blueGray-500">
+Za naše učenike/ce bila je ovo odlična prilika da uživo osjete atmosferu i bilo poslovnog svijeta, spoznaju sadržaje sajamskih događanja i značaj sajma kao ključne platforme za praćenje industrijskih trendova, uspostavljanje poslovnih kontakata i istraživanje novih prilika na tržištu.</p>
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
