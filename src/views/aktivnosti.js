@@ -1256,6 +1256,29 @@ import leki6 from '@/views/images/leki6.jpg';
 import leki7 from '@/views/images/leki7.jpg';
 import leki8 from '@/views/images/leki8.jpg';
 
+import arma1 from '@/views/images/arma1.jpg';
+import arma2 from '@/views/images/arma2.jpg';
+import arma3 from '@/views/images/arma3.jpg';
+import arma4 from '@/views/images/arma4.jpg';
+import arma5 from '@/views/images/arma5.jpg';
+import arma6 from '@/views/images/arma6.jpg';
+import arma7 from '@/views/images/arma7.jpg';
+import arma8 from '@/views/images/arma8.jpg';
+import arma9 from '@/views/images/arma9.jpg';
+import arma10 from '@/views/images/arma10.jpg';
+import arma11 from '@/views/images/arma11.jpg';
+import arma12 from '@/views/images/arma12.jpg';
+import arma13 from '@/views/images/arma13.jpg';
+import arma14 from '@/views/images/arma14.jpg';
+
+import tecni1 from '@/views/images/tecni1.jpg';
+import tecni2 from '@/views/images/tecni2.jpg';
+import tecni3 from '@/views/images/tecni3.jpg';
+import tecni4 from '@/views/images/tecni4.jpg';
+import tecni5 from '@/views/images/tecni5.jpg';
+import tecni6 from '@/views/images/tecni6.jpg';
+import tecni7 from '@/views/images/tecni7.jpg';
+
 
 const Aktivnosti = () => {
   useEffect(() => {
@@ -1276,6 +1299,179 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Svečano otvorena Tehnicijada 2025!
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={tecni1} alt="" />
+                    </div>
+                    <div>
+                        <Image src={tecni2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={tecni3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={tecni4} alt="" />
+                    </div>
+                    <div>
+                        <Image src={tecni5} alt="" />
+                    </div>
+                    <div>
+                        <Image src={tecni6} alt="" />
+                    </div>
+                    <div>
+                        <Image src={tecni7} alt="" />
+                    </div>
+
+
+
+      
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+Tehnicijadu, sportsko takmičenje srednjih tehničkih i stručnih škola Kantona Sarajevo od 14. do 18. aprila, danas je otvorila kantonalna ministrica za odgoj i obrazovanje Naida Hota-Muminović. Projekat promovira sportske aktivnosti mladih, zdrav način života, poboljšanje fizičkog zdravlja i kondicije učenika/ca, zbližavanje i zajedništvo mladih, fair play vrijednosti u školama.  Sport pruža priliku učenicima da razviju važne životne vještine kao što su timski rad, liderstvo, disciplina i upravljanje vremenom, može povećati samopouzdanje, smanjiti stres i poboljšati mentalno blagostanje.
+</p>
+<p className="mb-4 text-blueGray-500">
+Sve u svemu, promocija sporta u školama doprinosi holističkom razvoju učenika/ca.
+Na drugoj po redu <b>Tehnicijadi</b>, učestvovaće oko 2.400 učenika iz 21 srednje tehničke i stručne škole sa područja Kantona Sarajevo.
+</p>
+<p className="mb-4 text-blueGray-500">
+Učesnici/ce će pokazati svoje vještine u šest sportskih disciplina: košarci, malom nogometu, odbojci, atletici, šahu i stolnom tenisu, u ženskoj i muškoj konkurenciji. Sportska takmičenja održaće se u Srednjoj školi za saobraćaj i komunikacije, Sarajevo, Srednjoj medicinskoj školi <b>Jezero</b> i Srednjoškolskom centru <b>Vogošća</b>. Podsjećamo, prošlogodišnji sveukupni pobjednik prve Tehnicijade, sa najviše osvojenih medalja, bili su učenici/ce naše škole.</p>
+<p className="mb-4 text-blueGray-500">
+Neka igre počnu!
+Borimo se da zadržimo prelazni pehar! 
+Našim učenicima/ama želimo sreću u borbi za novi pehar!
+Bodrimo naše Sešovce/ke!
+</p>
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+          <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Dostojanstveno obilježena 33. godišnjica Armije Republike Bosne i Hercegovine 
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={arma1} alt="" />
+                    </div>
+                    <div>
+                        <Image src={arma2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={arma3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={arma4} alt="" />
+                    </div>
+                    <div>
+                        <Image src={arma5} alt="" />
+                    </div>
+                    <div>
+                        <Image src={arma6} alt="" />
+                    </div>
+                    <div>
+                        <Image src={arma7} alt="" />
+                    </div>
+                    <div>
+                        <Image src={arma8} alt="" />
+                    </div>
+                    <div>
+                        <Image src={arma9} alt="" />
+                    </div>
+                    <div>
+                        <Image src={arma10} alt="" />
+                    </div>
+                    <div>
+                        <Image src={arma11} alt="" />
+                    </div>
+                    <div>
+                        <Image src={arma12} alt="" />
+                    </div>
+                    <div>
+                        <Image src={arma13} alt="" />
+                    </div>
+                    <div>
+                        <Image src={arma14} alt="" />
+                    </div>
+
+
+
+      
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+Na Šehidskom spomen mezarju <b>Kovači</b> položeno je cvijeće i odata počast svim šehidima i poginulim borcima povodom obilježavanja 33. godišnjice formiranja Armije Republike Bosne i Hercegovine. 
+</p>
+<p className="mb-4 text-blueGray-500">
+Pored visokih delegacija svih nivoa vlasti i ostalih institucija, učenice i učenici naše škole položili/e su preko 250 ljiljana na <b>Zid sjećanja</b>. </p>
+<p className="mb-4 text-blueGray-500">
+Nakon ovog čina, upriličen je prigodan program u sali Memorijalnog centra Sarajevo. 
+</p>
+<p className="mb-4 text-blueGray-500">
+Poseban dojam na učenike/ce, kao i njihove profesore, profesorice i ostale goste, ostavio je veličanstveni performans o heroinama odbrane Bosne i Hercegovine, učenica Osnovne škole <b>Porodica ef. Ramić</b> iz Semizovca, u koordinaciji sa Institutom za preduniverzitetsko obrazovanje Kantona Sarajevo i Ministarstvom za odgoj i obrazovanje Kantona Sarajevo.
+</p>
+<p className="mb-4 text-blueGray-500">
+Organizatori su istakli da ih posebno raduje što današnje nove generacije danas imaju priliku da uče i svjedoče o nemjerljivoj ulozi <b>Armije Republike Bosne i Hercegovine</b> u jedinstvenoj, herojskoj odbrani jedne nam i jedine domovine Bosne i Hercegovine. </p>
+<p className="mb-4 text-blueGray-500">
+Naši borci, heroine i heroji, kao i zlatni ljiljani izrazili su nadu da će naša mladost znati čuvati mir, koji je skupo plaćen životima naših najboljih sinova i kćeri, kao i da će znati promovisati prave i istinske vrijednosti slobode.</p>
+<p className="mb-4 text-blueGray-500">
+Učenice i učenici naše škole izrazile/i su ponos i zadovoljstvo što su bile/i dio ovog, multiresornog i multisektorskog, prigodnog programa povodom 15. aprila, <b>Dana Armije Republike Bosne i Hercegovine</b>.</p>
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
@@ -9780,7 +9976,7 @@ SCENSKI POKRET: Zerina Zec i Berina Hebib.
 Instalacija Staza sjećanja postavljena je u Sarajevu, 5. aprila, na dan početka opsade Sarajeva, od Trga djece Sarajeva do Baščaršije. Stazom sjećanja slavili smo herojsku odbranu našeg grada, ali i odali počast, poštovanje i ljubav svim žrtvama agresije na Bosnu i Hercegovinu! 
 </p>
 <p className="mb-4 text-blueGray-500">
-Volonteri i uposlenici Memorijalnog centra Sarajevo postavili su 11.541 par cipela za svakog ubijenog građanina Sarajeva, poginulog pripadnika Armije i MUP-a  RBiH. 
+Volonteri i uposlenici <b>Memorijalnog centra Sarajevo</b> postavili su 11.541 par cipela za svakog ubijenog građanina Sarajeva, poginulog pripadnika Armije i MUP-a  RBiH. 
 </p>
 <p className="mb-4 text-blueGray-500">
 Učenici/ce  II5 razreda naše škole, pedagoginja Amila Kurtalić i socijalna radnica Almina Hodžić  uručili su donaciju cipela Memorijalnom centru Kantona Sarajevo, te aktivno  sudjelovali u postavljanju Staze sjećanja i ostalim sadržajima programa.
