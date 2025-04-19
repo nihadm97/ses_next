@@ -1279,6 +1279,24 @@ import tecni5 from '@/views/images/tecni5.jpg';
 import tecni6 from '@/views/images/tecni6.jpg';
 import tecni7 from '@/views/images/tecni7.jpg';
 
+import vrx1 from '@/views/images/vrx1.jpg';
+import vrx2 from '@/views/images/vrx2.jpg';
+import vrx3 from '@/views/images/vrx3.jpg';
+
+import sajfak1 from '@/views/images/sajfak1.jpg';
+import sajfak2 from '@/views/images/sajfak2.jpg';
+import sajfak3 from '@/views/images/sajfak3.jpg';
+import sajfak4 from '@/views/images/sajfak4.jpg';
+import sajfak5 from '@/views/images/sajfak5.jpg';
+import sajfak6 from '@/views/images/sajfak6.jpg';
+
+import eldar1 from '@/views/images/eldar1.jpg';
+import eldar2 from '@/views/images/eldar2.jpg';
+import eldar3 from '@/views/images/eldar3.jpg';
+import eldar4 from '@/views/images/eldar4.jpg';
+import eldar5 from '@/views/images/eldar5.jpg';
+import eldar6 from '@/views/images/eldar6.jpg';
+
 
 const Aktivnosti = () => {
   useEffect(() => {
@@ -1299,6 +1317,213 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">University Fair 2025 
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={sajfak1} alt="" />
+                    </div>
+                    <div>
+                        <Image src={sajfak2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={sajfak3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={sajfak4} alt="" />
+                    </div>
+                    <div>
+                        <Image src={sajfak5} alt="" />
+                    </div>
+                    <div>
+                        <Image src={sajfak6} alt="" />
+                    </div>
+                    
+
+
+
+      
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+                  <p className="mb-4 text-blueGray-500">
+Učenici i učenice III i IV razreda naše škole posjetili su Sajam fakulteta u Hub Homework.
+Hub Homework i JU Međunarodni centar za djecu i omladinu Novo Sarajevo su organizovali 
+IV HUB University Fair, događaj posvećen srednjoškolcima/kama s ciljem da im se pomogne u donošenju odluke o izboru fakulteta i buduće karijere.
+</p>
+<p className="mb-4 text-blueGray-500">
+HUB Sajam fakulteta je održan u četvrtak, 17. aprila. Tokom sajma, koji je okupio više sarajevskih srednjih škola, predstavljeni su brojni fakulteti i univerziteti, te studijski programi.
+Sajam je okupio nekoliko izlagača i učesnika iz Sarajeva, a učestvovao je i Ekonomski fakultet Univerziteta u Sarajevu. Našim učenicima/ama prezentirane su osnovne informacije o studijskim programima, školarinama i brojnim mogućnostima koje se nude studentima/cama na svim ciklusima studija. Učenici/e su imali priliku direktno razgovarati s predstavnicima/cama fakulteta, postavljati pitanja, ali i čuti iskustva studenata i studentica tih programa.
+Ured za podršku studentima Univerziteta u Sarajevu i Centar obrazovnih inicijativa <b>Step by step</b> prezentirali su svoju ulogu u razvoju karijere studenata i studentica. 
+U okviru sajma predstavljene su i prilike za studentske poslove, prilike za dodatnu zaradu i finansijsku podršku tokom studiranja. 
+
+</p>
+<p className="mb-4 text-blueGray-500">
+University Fair 2025 je bio mnogo više od običnog sajma. Zapravo, bio je i inspiracija, ali i prilika za druženja, povezivanja. Esencijalno je važno da se mladi podrže u donošenju ključnih odluka u karijeri i obrazovanju!
+Zahvaljujemo se organizatorima za priliku da budemo dio ovog izuzetnog događaja!
+</p>
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+          <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">U VRX muzeju Sarajevo, mjestu gdje historijski događaji postaju stvarnost!
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={vrx1} alt="" />
+                    </div>
+                    <div>
+                        <Image src={vrx2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={vrx3} alt="" />
+                    </div>
+                    
+
+
+
+      
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+Danas su učenici/ce II5, u pratnji profesorice njemačkog jezika Ermane Kanlić, posjetili Sarajevo VRX muzej i zakoračili u prošlost kroz VRX avanturu <b>Razotkrivanje atentata na Franza Ferdinanda</b>. 
+</p>
+<p className="mb-4 text-blueGray-500">
+Atentat na austrougarskog prijestolonasljednika Franca Ferdinanda i njegovu suprugu Sofiju 28. juna 1914. godine je poznat kao Sarajevski atentat. Ovaj atentat poslužio je kao povod za početak Prvog svjetskog rata, jednog od najsmrtonosnijih sukoba u modernoj ljudskoj historiji. Najuočljivija posljedica rata bila je nova teritorijalna podjela Europe. Gavrilo Princip član tajne organizacije <b>Mlada Bosna</b> (pod nadzorom organizacije <b>Crna ruka</b> iz Beograda) koja je imala cilj da putem buna, ustanaka i oružanih atentata zbaci austrougarsku vlast u Bosni i Hercegovini, izvršio je atentat na Franca Ferdinanda i njegovu suprugu Sofiju.
+</p>
+<p className="mb-4 text-blueGray-500">
+U nezaboravnom virtualnom iskustvu, učenici/ce su postali/e virtualni svjedoci dramatičnog događaja iz 1914. godine koji je je promijenio historiju zauvijek. Kroz VRX interaktivnu platformu postali/e su svjedoci najznačajnih događaja 20. vjeka i imali/e su jedinstvenu priliku da putuju kroz vrijeme i dožive historiju na orginalan i nadasve, zabavan način! Spoj moderne tehnologije i historijskih činjenica pretvorio je učenje u pravu avanturu, iskustvo koje se ne zaboravlja! Postanete virtualni svjedok prošlosti i kroz ovo jedinstveno iskustvo, doživite momente koji su definirali ovaj historijski dogadjaj, zaronite u politički kontekst tog vremena, analizirajući složenost geopolitičkih prilika i tenzije na Balkanu koje su kulminirale atentatom. Saznate detalje i motive djelovanja Gavrila Principa i posljedice koje su dovele do Prvog svjetskog rata. 
+
+</p>
+<p className="mb-4 text-blueGray-500">
+<b>Razotkrivanje atentata na nadvojvodu Franza Ferdinanda i princezu Sophie</b> je izuzetno zanimljiv način da učite historiju!
+</p>
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+          <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Eldar Godinjak briljirao na UEFA Razvojnom turniru!
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={eldar1} alt="" />
+                    </div>
+                    <div>
+                        <Image src={eldar2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={eldar3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={eldar4} alt="" />
+                    </div>
+                    <div>
+                        <Image src={eldar5} alt="" />
+                    </div>
+                    <div>
+                        <Image src={eldar6} alt="" />
+                    </div>
+                    
+
+
+
+      
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+Eldar Godinjak, učenik I6 odjeljenja je nastupio u dresu broj 8, u Omladinskoj reprezentaciji Bosne i Hercegovine, do 16 godina,  koja je osvojila  UEFA Razvojni turnir, u srijedu 16. aprila! </p>
+<p className="mb-4 text-blueGray-500">
+Turnir je održan u Etno selu Stanišići i Ugljeviku, a mladi Zmajevi odmjerili su snage sa Bugarskom, Luksemburgom i Letonijom.
+</p>
+<p className="mb-4 text-blueGray-500">
+Bosna i Hercegovina je osvojila prvo mjesto na turniru sa 7 bodova, ispred Bugarske sa 6, Luksemburga sa 3 i Latvije sa 2 boda.
+</p>
+<p className="mb-4 text-blueGray-500">
+Čestitke za našeg Eldara Godinjaka i našu Omladinsku reprezentaciju za osvojeni turnir!
+</p>
+<p className="mb-4 text-blueGray-500">
+Našem Zmaju mnogo sreće na sljedećim fudbalskim takmičenjima!</p>
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
