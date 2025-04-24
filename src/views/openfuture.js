@@ -44,6 +44,14 @@ import sendi6 from '@/views/images/6.png';
 import sendi7 from '@/views/images/7.png';
 import sendi8 from '@/views/images/8.png';
 
+import newsletter4 from '@/views/images/Newsletter-4.jpg';
+import newsletter5 from '@/views/images/Newsletter-5.png';
+import newsletter6 from '@/views/images/Newsletter-6.png';
+import newsletter7 from '@/views/images/Newsletter-7-BH.jpg';
+import champions from '@/views/images/Champions.jpg';
+
+
+
 const OpenFuture = () => {
   useEffect(() => {
     AOS.init({duration: 2000});
@@ -52,6 +60,176 @@ const OpenFuture = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full justify-center items-center">
+          <div className="container mx-auto px-4 justify-center items-center">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Champions
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap justify-center items-center">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center  md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+
+                      
+                  <Image src={champions} alt="" />
+                        
+
+                    </div>
+                    <a href='https://drive.google.com/file/d/13Ud1BUBEUn2P2J8KIDr5BXQUtV2-6e43/view?usp=sharing' target="_blank" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+                  style= {{backgroundColor: '#92d050'}} >Preuzmi materijal</a>
+
+                  </div>
+                </div>
+              
+            </div>
+            </div>
+          </section>
+          <section data-aos="fade-in" className="pb-20 bg-white w-full justify-center items-center">
+          <div className="container mx-auto px-4 justify-center items-center">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Newsletter #7
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap justify-center items-center">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center  md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+
+                      
+                  <Image src={newsletter7} alt="" />
+                        
+
+                    </div>
+                    <a href='https://drive.google.com/file/d/1MAQZolq8LdUrhBUiVFyxcQ3ayDXH3-Ij/view?usp=sharing' target="_blank" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+                  style= {{backgroundColor: '#92d050'}} >Preuzmi materijal</a>
+
+                  </div>
+                </div>
+              
+            </div>
+            </div>
+          </section>
+          <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Newsletter #6
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+
+                      
+                  <Image src={newsletter6} alt="" />
+                        
+
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  <p className="mb-4 text-blueGray-500">
+                  Dana 12. aprila 2025. godine u Sarajevu je održan 4. sastanak Konzorcija Open Future na kojem su verificirani materijali dostavljeni Agenciji EACEA, uz ocjenu da će se koristiti kao odličan primjer ostalim koordinatorima i budućim nosiocima projekata u okviru programa izgradnje kapaciteta u oblasti stručnog obrazovanja.
+                  </p>
+                  <p className="mb-4 text-blueGray-500">
+                  U narednom periodu biće završeni sljedeći materijali: Nastavni plan i program „Inovativno poduzetništvo“ (Ekonomska i upravna škola, Osijek) i „Studija slučaja“ (Srednja ekonomska škola, Sarajevo), koji će biti dostupni za preuzimanje do kraja novembra 2025. godine na web stranici: <a href='https://openfuture4.me'>Open Future</a>
+                  </p>
+                  <p className="mb-4 text-blueGray-500">
+                  Šampionskoj ekipi u sastavu: Ilhana Vladavić, Esma Pandžić, Adla Šurković, Amna Bukva, Amna Omerbegović i Naida Đipa, uručene su zahvalnice za izuzetne rezultate u sticanju preduzetničkih kompetencija.
+                  </p>
+                  <br></br>
+                        <p className="mb-4 text-blueGray-500">
+                        </p>
+                        <a href='https://drive.google.com/file/d/1istCp683zCBa2py7hE1oDolTLy-L5_OY/view?usp=sharing' target="_blank" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+                  style= {{backgroundColor: '#92d050'}} >Preuzmi materijal</a>
+
+
+</span>
+                  </div>
+                  <div className="w-full md:w-9/12 ml-auto mr-auto px-4" style={{paddingBottom: "5%"}}>    
+                  
+          
+               
+           </div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full justify-center items-center">
+          <div className="container mx-auto px-4 justify-center items-center">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Newsletter #5
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap justify-center items-center">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center  md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+
+                      
+                  <Image src={newsletter5} alt="" />
+                        
+
+                    </div>
+                    <a href='https://drive.google.com/file/d/17TKMVu-0V1-zrlriu2Xvy43gKKOn0lDo/view?usp=sharing' target="_blank" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+                  style= {{backgroundColor: '#92d050'}} >Preuzmi materijal</a>
+
+                  </div>
+                </div>
+              
+            </div>
+            </div>
+          </section>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full justify-center items-center">
+          <div className="container mx-auto px-4 justify-center items-center">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Newsletter #4
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap justify-center items-center">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center  md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+
+                      
+                  <Image src={newsletter4} alt="" />
+                        
+
+                    </div>
+                    <a href='https://drive.google.com/file/d/1zaTBqSChpwMQsrf2elGWPpuYikBBsxGi/view?usp=sharing' target="_blank" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+                  style= {{backgroundColor: '#92d050'}} >Preuzmi materijal</a>
+
+                  </div>
+                </div>
+              
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
           <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
