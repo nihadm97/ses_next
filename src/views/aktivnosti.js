@@ -1297,6 +1297,19 @@ import eldar4 from '@/views/images/eldar4.jpg';
 import eldar5 from '@/views/images/eldar5.jpg';
 import eldar6 from '@/views/images/eldar6.jpg';
 
+import zatt1 from '@/views/images/zatt1.jpg';
+import zatt2 from '@/views/images/zatt2.jpg';
+import zatt3 from '@/views/images/zatt3.jpg';
+import zatt4 from '@/views/images/zatt4.jpg';
+import zatt5 from '@/views/images/zatt5.jpg';
+import zatt6 from '@/views/images/zatt6.jpg';
+import zatt7 from '@/views/images/zatt7.jpg';
+import zatt8 from '@/views/images/zatt8.jpg';
+import zatt9 from '@/views/images/zatt9.jpg';
+import zatt10 from '@/views/images/zatt10.jpg';
+import zatt11 from '@/views/images/zatt11.jpg';
+import zatt12 from '@/views/images/zatt12.jpg';
+import zatt13 from '@/views/images/zatt13.jpg';
 
 const Aktivnosti = () => {
   useEffect(() => {
@@ -1320,7 +1333,7 @@ const Aktivnosti = () => {
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
-              <h6 className="text-xl mb-1 font-semibold text-center uppercase">University Fair 2025 
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Tehnicijada 2025 je završena!
 
 
 
@@ -1335,22 +1348,43 @@ const Aktivnosti = () => {
                   <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
                       
                   <div>
-                        <Image src={sajfak1} alt="" />
+                        <Image src={zatt1} alt="" />
                     </div>
                     <div>
-                        <Image src={sajfak2} alt="" />
+                        <Image src={zatt2} alt="" />
                     </div>
                     <div>
-                        <Image src={sajfak3} alt="" />
+                        <Image src={zatt3} alt="" />
                     </div>
                     <div>
-                        <Image src={sajfak4} alt="" />
+                        <Image src={zatt4} alt="" />
                     </div>
                     <div>
-                        <Image src={sajfak5} alt="" />
+                        <Image src={zatt5} alt="" />
                     </div>
                     <div>
-                        <Image src={sajfak6} alt="" />
+                        <Image src={zatt6} alt="" />
+                    </div>
+                    <div>
+                        <Image src={zatt7} alt="" />
+                    </div>
+                    <div>
+                        <Image src={zatt8} alt="" />
+                    </div>
+                    <div>
+                        <Image src={zatt9} alt="" />
+                    </div>
+                    <div>
+                        <Image src={zatt10} alt="" />
+                    </div>
+                    <div>
+                        <Image src={zatt11} alt="" />
+                    </div>
+                    <div>
+                        <Image src={zatt12} alt="" />
+                    </div>
+                    <div>
+                        <Image src={zatt13} alt="" />
                     </div>
                     
 
@@ -1367,22 +1401,32 @@ const Aktivnosti = () => {
                   <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
  
                   
-                  <p className="mb-4 text-blueGray-500">
-Učenici i učenice III i IV razreda naše škole posjetili su Sajam fakulteta u Hub Homework.
-Hub Homework i JU Međunarodni centar za djecu i omladinu Novo Sarajevo su organizovali 
-IV HUB University Fair, događaj posvećen srednjoškolcima/kama s ciljem da im se pomogne u donošenju odluke o izboru fakulteta i buduće karijere.
+<p className="mb-4 text-blueGray-500">
+Druga tehnicijada, sportsko takmičenje srednjih tehničkih i stručnih škola Kantona Sarajevo, je svečano zatvorena!
 </p>
 <p className="mb-4 text-blueGray-500">
-HUB Sajam fakulteta je održan u četvrtak, 17. aprila. Tokom sajma, koji je okupio više sarajevskih srednjih škola, predstavljeni su brojni fakulteti i univerziteti, te studijski programi.
-Sajam je okupio nekoliko izlagača i učesnika iz Sarajeva, a učestvovao je i Ekonomski fakultet Univerziteta u Sarajevu. Našim učenicima/ama prezentirane su osnovne informacije o studijskim programima, školarinama i brojnim mogućnostima koje se nude studentima/cama na svim ciklusima studija. Učenici/e su imali priliku direktno razgovarati s predstavnicima/cama fakulteta, postavljati pitanja, ali i čuti iskustva studenata i studentica tih programa.
-Ured za podršku studentima Univerziteta u Sarajevu i Centar obrazovnih inicijativa <b>Step by step</b> prezentirali su svoju ulogu u razvoju karijere studenata i studentica. 
-U okviru sajma predstavljene su i prilike za studentske poslove, prilike za dodatnu zaradu i finansijsku podršku tokom studiranja. 
-
+Tehnicijada 2025 je trajala od 14. do 18. aprila. Ovogodišnja  Tehnicijada je okupila više od 2.400 učenika/ca, 30 profesora/ica sporta, iz 21 tehničke i stručne škole, te tri školska centra.
 </p>
 <p className="mb-4 text-blueGray-500">
-University Fair 2025 je bio mnogo više od običnog sajma. Zapravo, bio je i inspiracija, ali i prilika za druženja, povezivanja. Esencijalno je važno da se mladi podrže u donošenju ključnih odluka u karijeri i obrazovanju!
-Zahvaljujemo se organizatorima za priliku da budemo dio ovog izuzetnog događaja!
+Bio je ovo vrhunski sportski događaj, ali i manifestacija prijateljstva, druženja, povezivanja sarajevskih srednjoškolaca/ki. Mnogo radosti, fair play igre su nam priredili! Hvala svima koji su zaslužni za održavanje  Tehnicijade 2025, jer sport uistinu ima pozitivan utjecaj na sve aspekte razvoja mladih i brojne mentalne, emocionalne i socijalne benefite. Bila je ovo i izuzetna promocija zdravlja, odgoja i obrazovanja. 
 </p>
+<p className="mb-4 text-blueGray-500">
+Takmičenja su održana u šest sportskih disciplina: fudbalu, košarci, odbojci, atletici, stonom tenisu i šahu, u muškoj i ženskoj konkurenciji.</p>
+<p className="mb-4 text-blueGray-500">
+Naši učenici i učenice su ostvarili sljedeće rezultate:</p>
+<p className="mb-4 text-blueGray-500">
+Zerina Zec, u disciplini trčanje na 400m je osvojila treće mjesto.</p>
+<p className="mb-4 text-blueGray-500">
+Mak Kozić, u disciplini bacanje kugle je osvojio treće mjesto.</p>
+<p className="mb-4 text-blueGray-500">
+U ekipnim sportovima, u odbojci, odbojkaška ženska ekipa je osvojila treće mjesto, a odbojkaška muška ekipa je osvojila prvo mjesto! 
+</p>
+<p className="mb-4 text-blueGray-500">
+Emir Dautović, Nermin Suljević, Faris Alagić, u disciplini stolni tenis, ekipno, su osvojili prvo mjesto!</p>
+<p className="mb-4 text-blueGray-500">
+Čestitamo našim učenicima/ama koji/e su osvojili/e medalje ali i svim ostalim učesnicima za vrhunsku borbenost, igru, sportske radosti, fair play ponašanje na takmičenjima i dostojanstveno predstavljanje naše škole! </p>
+<p className="mb-4 text-blueGray-500">
+Ponosni smo na naše sportaše /ice! </p>
 </span>
                   </div>
                  
