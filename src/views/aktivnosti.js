@@ -1311,6 +1311,25 @@ import zatt11 from '@/views/images/zatt11.jpg';
 import zatt12 from '@/views/images/zatt12.jpg';
 import zatt13 from '@/views/images/zatt13.jpg';
 
+import othem1 from '@/views/images/othem1.jpg';
+import othem2 from '@/views/images/othem2.jpg';
+import othem3 from '@/views/images/othem3.jpg';
+import othem4 from '@/views/images/othem4.jpg';
+import othem5 from '@/views/images/othem5.jpg';
+import othem6 from '@/views/images/othem6.jpg';
+import othem7 from '@/views/images/othem7.jpg';
+import othem8 from '@/views/images/othem8.jpg';
+import othem9 from '@/views/images/othem9.jpg';
+
+import izvsad1 from '@/views/images/izvsad1.jpg';
+import izvsad2 from '@/views/images/izvsad2.jpg';
+import izvsad3 from '@/views/images/izvsad3.jpg';
+import izvsad4 from '@/views/images/izvsad4.jpg';
+import izvsad5 from '@/views/images/izvsad5.jpg';
+
+
+
+
 const Aktivnosti = () => {
   useEffect(() => {
     AOS.init({duration: 2000});
@@ -1330,6 +1349,178 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Edukacija u Američkoj fondaciji <b>Izvor</b>
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={izvsad1} alt="" />
+                    </div>
+                    <div>
+                        <Image src={izvsad2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={izvsad3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={izvsad4} alt="" />
+                    </div>
+                    <div>
+                        <Image src={izvsad5} alt="" />
+                    </div>
+                   
+
+
+      
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+Tokom prvog polugodišta tekuće školske godine, naši učenici/ce četvrtog razreda su
+jednom mjesečno odlazili/e na predavanja i radionice u Američku Fondaciju <b>Izvor</b>,
+gdje su učestvovali u programu obuke mladih poduzetničkim vještinama. Ovaj program je
+osmišljen s ciljem da im pomogne u razvijanju ključnih poduzetničkih vještina, kao što su
+komunikacija, pregovaranje, samopouzdanje i prezentacijske sposobnosti. 
+</p>
+<p className="mb-4 text-blueGray-500">
+Pod mentorstvom profesora Tafro Sandija, učenici/ce Ferizaj Lejla, Međedović Vekas, Nurković Daris, Tafro Mona, Bijelonja Azra, Imamović Amina, Hećo Tajra, Bajrić Nadir, Korić Mehmed, Kečo Mela, Rajak Luka i Kopić Emir, vrijedno su radili/e na projektu. 
+Kroz interaktivne radionice učenici su učili kako postati i biti sigurniji u sebe i razviti samopouzdanje, kako unaprijediti komunikacijske vještine, te kako konstruktivno rješavati konflikte. 
+</p>
+<p className="mb-4 text-blueGray-500">
+Također, bavili su se tehnikama uticaja, različitim stilovima prezentiranja i pregovaranja, a
+posebno su bile korisne simulacije razgovora za posao, gdje su imali priliku
+pripremiti profesionalni CV i LinkedIn profil.
+</p>
+<p className="mb-4 text-blueGray-500">
+Radionice su bile dinamične i prilagođene učenicima, sa praktičnim primjerima i
+grupnim zadacima koji su im omogućili da odmah primijene stečeno znanje. Ovim
+programom učenici su dobili vrijedne vještine koje će im koristiti u daljem obrazovanju i budućoj karijeri.
+</p>
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+          <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">14. OTVORENI DANI HEMIJE
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={othem1} alt="" />
+                    </div>
+                    <div>
+                        <Image src={othem2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={othem3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={othem4} alt="" />
+                    </div>
+                    <div>
+                        <Image src={othem5} alt="" />
+                    </div>
+                    <div>
+                        <Image src={othem6} alt="" />
+                    </div>
+                    <div>
+                        <Image src={othem7} alt="" />
+                    </div>
+                    <div>
+                        <Image src={othem8} alt="" />
+                    </div>
+                    <div>
+                        <Image src={othem9} alt="" />
+                    </div>
+                    
+
+      
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+Učenici/ce naše škole imali/e su priliku prisustvovati manifestaciji <b>Otvoreni dani hemije</b> u organizaciji Odsjeka za hemiju Prirodno-matematičkog fakulteta Univerziteta u Sarajevu.
+Posjeta je realizovana 18. aprila 2025. godine u sklopu radionice za učenike/ce srednjih škola pod nazivom <b>Analitička hemija u akciji – čista hemija i čista okolina</b>. 
+Manifestacija je namijenjena zainteresovanim učenicima/ama osnovnih i srednjih škola kako bi se popularizirala hemija kroz zabavne eksperimente i predstavio rad katedri i približile srednjoškolcima/kama naučno-nastavne aktivnosti!
+</p>
+<p className="mb-4 text-blueGray-500">
+Tokom posjete, učenici/ce su aktivno učestvovali/e u izvođenju različitih hemijskih ogleda pod nadzorom profesora/ica i asistenata/tica sa Katedre za analitičku hemiju. Posebno treba istaći da su učenici/ce pokazali/e visok nivo zainteresovanosti i znanja, što su primijetili/e i pohvalili/e prisutni/e nastavnici/e i asistenti/ce. Atmosfera je bila vrlo pozitivna, edukativna i poticajna za učenike/ce.
+</p>
+<p className="mb-4 text-blueGray-500">
+Učenici/ce su samostalno izvodili/e sljedeće oglede:
+</p>
+<p className="mb-4 text-blueGray-500">
+•	Spektrofotometrijsko određivanje sadržaja željeza u njegovom +3 oksidacijskom stanju (Fe3+) u otpadnoj vodi
+</p>
+<p className="mb-4 text-blueGray-500">
+•	Analiza površinski aktivnih materija (sapuni i deterdženti)
+</p>
+<p className="mb-4 text-blueGray-500">
+•	Određivanje sadržaja aktivnog kisika
+</p>
+<p className="mb-4 text-blueGray-500">
+•	Dokazivanje škroba i brašna u mlijeku
+</p>
+<p className="mb-4 text-blueGray-500">
+•	Dokazivanje natrij hidrogenkarbonata (NaHCO₃)</p>
+<p className="mb-4 text-blueGray-500">
+Za učenike/ce bilo je vrlo inspirativno i uzbudljivo primijeniti stečena znanja iz hemije u stvarnim laboratorijskim uslovima, što će ih dodatno motivisati za dalje učenje i istraživanje u ovoj oblasti. 
+</p>
+<p className="mb-4 text-blueGray-500">
+Bio je ovo izuzetno zanimljiv i sadržajan dan na PMF-u! Naši učenici/ce su bili/e oduševljeni organizacijom, pristupom domaćina i prezentiranim naučno-nastavnim aktivnostima.
+</p>
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
