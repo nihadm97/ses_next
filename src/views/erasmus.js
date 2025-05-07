@@ -80,6 +80,8 @@ import huba9 from '@/views/images/huba9.jpg';
 import huba10 from '@/views/images/huba10.jpg';
 import huba11 from '@/views/images/huba11.jpg';
 
+import najava from '@/views/images/najava.jpg';
+
 const Erasmus = () => {
   useEffect(() => {
     AOS.init({duration: 2000});
@@ -88,6 +90,80 @@ const Erasmus = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+              <div className="container mx-auto px-4">
+                <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+                  <h6 className="text-xl mb-1 font-semibold text-center uppercase">TAKMIČENJE UČENIKA U INOVACIJAMA I PODUZETNIŠTVU U OKVIRU G-TECH PROJEKTA, KOJI SE REALIZUJE KROZ
+    ERASMUS+ PROGRAM
+    
+    
+    
+    
+    
+    
+    </h6>
+                </span>
+                <div className="flex flex-wrap">
+                  <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                    <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                      <div className="py-5 flex-auto">
+                      <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                          
+                      <div>
+                            <Image src={najava} alt="" />
+                        </div>
+    
+                    </Carousel>
+                        </div>
+                      </div>
+                    </div>
+                  <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                    <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                      <div className="px-4 py-5 flex-auto">
+                      <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+     
+                      
+    <p className="mb-4 text-blueGray-500">
+    Dana 5. maja 2025. zvanično je otvoreno glavno takmičenje u okviru izazova poduzetništva u zelenim tehnologijama, koje se realizuje u sklopu međunarodnog G-TECH projekta, a trajat će do 16. maja 2025.
+    </p>
+    <p className="mb-4 text-blueGray-500">
+    210 učenika, raspoređenih u 60 timova iz 30 škola širom Bosne i Hercegovine, imat će priliku pokazati svoje inovativne i poduzetničke vještine, stečene kroz učenje temeljeno na izazovima. 
+    </p>
+    <p className="mb-4 text-blueGray-500">
+    Tokom takmičenja povezat će se s ekspertima i industrijskim partnerima, čime se dodatno osnažuje njihovo iskustvo.
+    </p>
+    <p className="mb-4 text-blueGray-500">
+    Putem jedinstvene G -TECH platforme, učenici će rješavati 10 izazova koje su postavile 10 kompanija, te se takmičiti za vrijedne nagrade koje su upravo te kompanije obezbijedile. Tokom cijelog procesa, podršku i mentorstvo pružat će im njihovi profesori.
+    </p>
+    <p className="mb-4 text-blueGray-500">
+    Poželimo sreću svim učesnicima kao i timovima iz Srednje ekonomske škole, Sarajevo.</p>
+    <p className="mb-4 text-blueGray-500">
+    Saznajte više o projektu ovdje: <a href='https://gtech.smion.com/'>www.gtech.smion.com</a></p>
+    <p className="mb-4 text-blueGray-500">
+    G -TECH partneri projekta:</p>
+    <p className="mb-4 text-blueGray-500">
+    @smioninnovation</p>
+    <p className="mb-4 text-blueGray-500">
+    @burchuniversity</p>
+    <p className="mb-4 text-blueGray-500">
+    @fablab_sarajevo</p>
+    <p className="mb-4 text-blueGray-500">
+    @gea_college</p>
+    <p className="mb-4 text-blueGray-500">
+    @ess_varazdin</p>
+    <p className="mb-4 text-blueGray-500">
+    @srednja_ekonomska_skola</p>
+    <p className="mb-4 text-blueGray-500">
+    G -TECH takmičenje finansijski podržava Evropska komisija.</p>
+    
+    </span>
+                      </div>
+                     
+                    </div>
+                  </div>
+                </div>
+                </div>
+              </section>
         <section data-aos="fade-in" className="pb-20 bg-white w-full">
                       <div className="container mx-auto px-4">
                       <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
