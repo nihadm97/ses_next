@@ -1329,6 +1329,43 @@ import izvsad5 from '@/views/images/izvsad5.jpg';
 
 import najava from '@/views/images/najava.jpg';
 
+import sukaa1 from '@/views/images/sukaa1.jpg';
+import sukaa2 from '@/views/images/sukaa2.jpg';
+import sukaa3 from '@/views/images/sukaa3.jpg';
+import sukaa4 from '@/views/images/sukaa4.jpg';
+import sukaa5 from '@/views/images/sukaa5.jpg';
+import sukaa6 from '@/views/images/sukaa6.jpg';
+
+import azaa1 from '@/views/images/azaa1.jpg';
+import azaa2 from '@/views/images/azaa2.jpg';
+import azaa3 from '@/views/images/azaa3.jpg';
+import azaa4 from '@/views/images/azaa4.jpg';
+import azaa5 from '@/views/images/azaa5.jpg';
+import azaa6 from '@/views/images/azaa6.jpg';
+import azaa7 from '@/views/images/azaa7.jpg';
+import azaa8 from '@/views/images/azaa8.jpg';
+import azaa9 from '@/views/images/azaa9.jpg';
+import azaa10 from '@/views/images/azaa10.jpg';
+import azaa11 from '@/views/images/azaa11.jpg';
+import azaa12 from '@/views/images/azaa12.jpg';
+import azaa13 from '@/views/images/azaa13.jpg';
+import azaa14 from '@/views/images/azaa14.jpg';
+import azaa15 from '@/views/images/azaa15.jpg';
+
+import arha1 from '@/views/images/arha1.jpg';
+import arha2 from '@/views/images/arha2.jpg';
+import arha3 from '@/views/images/arha3.jpg';
+import arha4 from '@/views/images/arha4.jpg';
+import arha5 from '@/views/images/arha5.jpg';
+import arha6 from '@/views/images/arha6.jpg';
+import arha7 from '@/views/images/arha7.jpg';
+import arha8 from '@/views/images/arha8.jpg';
+import arha9 from '@/views/images/arha9.jpg';
+import arha10 from '@/views/images/arha10.jpg';
+import arha11 from '@/views/images/arha11.jpg';
+import arha12 from '@/views/images/arha12.jpg';
+import arha13 from '@/views/images/arha13.jpg';
+import arha14 from '@/views/images/arha14.jpg';
 
 
 const Aktivnosti = () => {
@@ -1350,6 +1387,253 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Nezaboravna astronomska avantura u Astronomskom opservatoriju Vema Visoko
+
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={sukaa1} alt="" />
+                    </div>
+                    <div>
+                        <Image src={sukaa2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={sukaa3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={sukaa4} alt="" />
+                    </div>
+                    <div>
+                        <Image src={sukaa5} alt="" />
+                    </div>
+                    <div>
+                        <Image src={sukaa6} alt="" />
+                    </div>
+
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+Učenice II3 odjeljenja naše škole su u srijedu 7. maja, u pratnji profesorica Suvade Trako i Suade Tadić, posjetile amaterski Opservatorij Vema, koji se nalazi na krovu hotela Vema u Visokom, a koji je ujedno i prvi poslijeratni astronomski opservatorij u Bosni i Hercegovini. Opremljen je 35 mm teleskopom u svrhu posmatranja noćnog neba, planeta, zvijezda i galaksija. Opservatorij je namijenjen isključivo za popularizaciju astronomije i edukaciju. </p>
+<p className="mb-4 text-blueGray-500">
+Otvaranje opsevatorija simbolizira povratak ozbiljnije astronomije u našoj zemlji, čime se BiH ponovo vraća na zvjezdane staze. Učenice su prisustvovale interaktivnoj prezentaciji o astronomiji. Iskustvo posmatranja nebeskih tijela teleskopom je izuzetan doživljaj. </p>
+<p className="mb-4 text-blueGray-500">
+Otisnite se na nezaboravno putovanje zvjezdanim nebom! Istražite tajne planeta, zvijezda i galaksija!</p>
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+          <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">NA IZLOŽBI RIKARDA LARME <b>PLAČ ZA 1601 DIJETE</b>
+
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={azaa1} alt="" />
+                    </div>
+                    <div>
+                        <Image src={azaa2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={azaa3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={azaa4} alt="" />
+                    </div>
+                    <div>
+                        <Image src={azaa5} alt="" />
+                    </div>
+                    <div>
+                        <Image src={azaa6} alt="" />
+                    </div>
+                    <div>
+                        <Image src={azaa7} alt="" />
+                    </div>
+                    <div>
+                        <Image src={azaa8} alt="" />
+                    </div>
+                    <div>
+                        <Image src={azaa9} alt="" />
+                    </div>
+                    <div>
+                        <Image src={azaa10} alt="" />
+                    </div>
+                    <div>
+                        <Image src={azaa11} alt="" />
+                    </div>
+                    <div>
+                        <Image src={azaa12} alt="" />
+                    </div>
+                    <div>
+                        <Image src={azaa13} alt="" />
+                    </div>
+                    <div>
+                        <Image src={azaa14} alt="" />
+                    </div>
+                    <div>
+                        <Image src={azaa15} alt="" />
+                    </div>
+
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+Učenici/ce II5 odjeljenja i profesorica historije Azemina Hujdur, posjetili/e su u srijedu, 7. maja 2025. godine izložbu Rikarda Larme <b>Plač za 1601 dijete</b>. Larma je bio jedan od najznačajnijih ratnih fotografa, a njegove radove su objavljivali svi svjetski mediji te su iznimno vrijedno svjedočanstvo o hrabrosti i stradanju herojskog, nesalomljivog grada Sarajeva.</p>
+<p className="mb-4 text-blueGray-500">
+Izložba je postavljena u Galeriji JU Bosanskog kulturnog centra u okviru obilježavanja Dana Kantona Sarajevo. Larmin, neumoljivo iskreni, objektiv je dokumentirao istinu o Sarajevu u ratu, zabilježio tihe trenutke i svakodnevnicu, predstavio obične ljude koji herojski istrajavaju uprkos svemu, a svaka fotografija nosi toliko emocija, nade, tuge i otpora da se identifikujete sa ljudima i životima sa fotografija.</p>
+<p className="mb-4 text-blueGray-500">
+Izložba sadrži 70 fotografija, koje su prvi put predstavljene javnosti i nastale su tokom opsade Sarajeva u periodu agresije na Bosnu i Hercegovinu od 1992. do 1995. godine. One nisu samo svjedočanstvo brutalnosti rata, nego i dirljiva priča o svakodnevnom otporu, humanosti i dostojanstvu građana Sarajeva!</p>
+<p className="mb-4 text-blueGray-500">
+Fotografije su historijski zapis, hronika rata, trajno podsjećanje na to vrijeme, na rat, na opsadu, na našu djecu, naše velike heroje u vihoru surovog rata, one su slike dječije nevinosti i razornosti rata. Zapravo, ta priča o djeci u opkoljenom Sarajevu je jedna od najpotresnijih i najdramatičnijih. Mnogi od tih dječaka i djevojčica sa Larminih fotografija nisu među nama, ali su vječni u našim srcima. Stoga je i ova izložba trajno očuvanje sjećanja na stradanja djece našeg grada. </p>
+<p className="mb-4 text-blueGray-500">
+Doprinos Rikarda Larme dokumentiranju istine o Sarajevu tokom rata ostaje neprocjenjivo značajan, a njegovo djelo nastavlja biti nadahnuće i inspiracija svima!
+</p>
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+          <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Prozori u prošlost svakodnevnog života u Sarajevu: <b>Despića kuća i Svrzina kuća</b>
+
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={arha1} alt="" />
+                    </div>
+                    <div>
+                        <Image src={arha2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={arha3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={arha4} alt="" />
+                    </div>
+                    <div>
+                        <Image src={arha5} alt="" />
+                    </div>
+                    <div>
+                        <Image src={arha6} alt="" />
+                    </div>
+                    <div>
+                        <Image src={arha7} alt="" />
+                    </div>
+                    <div>
+                        <Image src={arha8} alt="" />
+                    </div>
+                    <div>
+                        <Image src={arha9} alt="" />
+                    </div>
+                    <div>
+                        <Image src={arha10} alt="" />
+                    </div>
+                    <div>
+                        <Image src={arha11} alt="" />
+                    </div>
+                    <div>
+                        <Image src={arha12} alt="" />
+                    </div>
+                    <div>
+                        <Image src={arha13} alt="" />
+                    </div>
+                    <div>
+                        <Image src={arha14} alt="" />
+                    </div>
+
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+Učenici/ce II4 i III5 odjeljenja i profesorica Indira Zeković, u petak 9. maja, posjetili/e su muzej kuće, <b>Despića kuću</b> i <b>Svrzinu kuću</b>, podsjetnike na bogatu kulturnu baštinu Bosne i Hercegovine.  </p>
+<p className="mb-4 text-blueGray-500">
+<b>Despića kuća</b> prikazuje kulturu stanovanja bogate, trgovačke porodice Despić, koja je kuću poklonila gradu Sarajevu, zajedno sa još jednim objektom u kojem je danas smješten Muzej književnosti i pozorišne umjetnosti. Despića kuća se smatra pretečom savremenog pozorišta u Sarajevu, jer su se u njoj odigravale prve klasične pozorišne predstave, prije nego što je u Sarajevu otvoreno Narodno pozorište. U najstarijem dijelu kuće sačuvana su obilježja ovdašnje kulture stanovanja XIX-og stoljeća: musandare, rafe, zidane peći sa lončićima i peškunima, primjeri direktnog oslikavanja na drvenim plankama…Dvije kulture, dva stila življenja, orijentalni i srednjoevropski  su sjedinjeni u Despića kući.</p>
+<p className="mb-4 text-blueGray-500">
+<b>Svrzina kuća</b> je izgrađena u tradicionalnom bosanskom stilu i najljepši je očuvani primjerak sarajevskog stambenog graditeljstva u osmanskom periodu, onog što u arhitektonskoj teoriji zovu bosanski arhitektonski sklop, kojeg čine sljedeće komponente: ograda, koja je određivala ulicu i jasno odvajala privatni od javnog prostora, dvorište, obloženo oblim kamenom, česma, hamami, hajat, prizemlje, gdje se okupljala familija, kamarija (balkoni), te doksati prema ulici. Unutrašnjost je opremljena minderima (sećije) i musandarama (plakari). Svi ostali dijelovi namještaja su pokretni i mijenjaju se po potrebi: sofra (trpeza), dušeci za spavanje, peškuni (stolići), te mangala (posuda sa žeravicom za podgrijavanje kahve). </p>
+<p className="mb-4 text-blueGray-500">
+Zahvaljujući vrhunskim kustosima Muzeja grada Sarajeva bilo je iznimno zanimljivo zaviriti u prošlost svakodnevnog  života i kulturu življenja gradskih sarajevskih porodica.</p>
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
