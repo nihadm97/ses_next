@@ -1367,6 +1367,15 @@ import arha12 from '@/views/images/arha12.jpg';
 import arha13 from '@/views/images/arha13.jpg';
 import arha14 from '@/views/images/arha14.jpg';
 
+import sajambbi1 from '@/views/images/sajambbi1.jpg';
+import sajambbi2 from '@/views/images/sajambbi2.jpg';
+import sajambbi3 from '@/views/images/sajambbi3.jpg';
+import sajambbi4 from '@/views/images/sajambbi4.jpg';
+import sajambbi5 from '@/views/images/sajambbi5.jpg';
+import sajambbi6 from '@/views/images/sajambbi6.jpg';
+import sajambbi7 from '@/views/images/sajambbi7.jpg';
+import sajambbi8 from '@/views/images/sajambbi8.jpg';
+
 
 const Aktivnosti = () => {
   useEffect(() => {
@@ -1387,6 +1396,81 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Naša škola na <b>Sajmu srednjih škola 2025</b>
+
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={sajambbi1} alt="" />
+                    </div>
+                    <div>
+                        <Image src={sajambbi2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={sajambbi3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={sajambbi4} alt="" />
+                    </div>
+                    <div>
+                        <Image src={sajambbi5} alt="" />
+                    </div>
+                    <div>
+                        <Image src={sajambbi6} alt="" />
+                    </div>
+                    <div>
+                        <Image src={sajambbi7} alt="" />
+                    </div>
+                    <div>
+                        <Image src={sajambbi8} alt="" />
+                    </div>
+
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+Današnji Sajam ispred ARIA centra je okupio sve srednje škole iz Kantona Sarajevo na jednom mjestu! Ministarstvo za odgoj i obrazovanje Kantona Sarajevo u saradnji sa Zajednicom srednjih škola je organiziralo ovu izuzetnu promociju srednjoškolskog obrazovanja u KS.
+</p>
+<p className="mb-4 text-blueGray-500">
+Sajam je namijenjen učenicima/ama završnih razreda osnovnih škola, njihovim roditeljima i nastavnicima/ama, kako bi dobili/e jasne i korisne informacije o nastavnim programima, vannastavnim aktivnostima, uslovima upisa i mogućnostima koje svaka škola nudi. Naša škola, JU Srednja ekonomska škola Sarajevo, je prezentirala svoj način rada i funkcioniranja, osnovne aktivnosti, način na koji smo povezani s preduzećima, institucijama,  razinom naše konkurentnosti na tržištu rada, te mogućnostima studiranja nakon završene srednje škole. U dinamičnoj atmosferi, kroz razgovor sa učenicima/ama škole i našim profesorima/cama, zainteresirani osnovnoškolci/ke imali/e su priliku upoznati se sa mogućnostima zanimanja koja naša škola nudi. Posredstvom promotivnih materijala potencijalno budući učenici/ce mogli/e su da saznaju više o aktivnostima koje se sprovode i u okviru sekcija, projekata, preduzeća za vježbu, kroz posjete realnim preduzećima, institucijama…,a koji imaju za cilj imaju razvijanje ključnih kompetencija za aktivno djelovanje u ekonomiji i bankarstvu. 
+</p>
+<p className="mb-4 text-blueGray-500">
+Izaberi Srednju ekonomsku školu, Sarajevo, izgradi svoj put! 
+Neka Srednja ekonomska škola, Sarajevo bude početak tvog uspjeha!
+Napravi prvi korak prema velikim snovima! Od ideje do profita, sve počinje u ekonomskoj školi!
+Na Vama, budućim srednjoškolcima/kama je da otkrijete koja škola najbolje odgovara vašim interesovanjima i planovima za budućnost! Informišite se i donesite pravu odluku!
+</p>
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">

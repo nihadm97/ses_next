@@ -74,11 +74,12 @@ export default function Index() {
             }}>
                 
         <UpisNavbar fixed/>
-        <video src="/ses.mp4"  width="800" height="600" className="backgroundVideo" autoPlay loop muted/>
+        <video src="/ses.mp4"  width="800" height="600" className="backgroundVideo" autoPlay playsinline loop muted/>
         <video src="/VideoP.mp4"  className="backgroundVideo block md:hidden"
         autoPlay
         loop
-        muted/>
+        muted
+        playsinline />
       
         <div className="container flex flex-wrap absolute">
       
