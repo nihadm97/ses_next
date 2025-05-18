@@ -1376,6 +1376,30 @@ import sajambbi6 from '@/views/images/sajambbi6.jpg';
 import sajambbi7 from '@/views/images/sajambbi7.jpg';
 import sajambbi8 from '@/views/images/sajambbi8.jpg';
 
+import price1 from '@/views/images/price1.jpg';
+import price2 from '@/views/images/price2.jpg';
+import price3 from '@/views/images/price3.jpg';
+import price4 from '@/views/images/price4.jpg';
+import price5 from '@/views/images/price5.jpg';
+import price6 from '@/views/images/price6.jpg';
+import price7 from '@/views/images/price7.jpg';
+import price8 from '@/views/images/price8.jpg';
+import price9 from '@/views/images/price9.jpg';
+import price10 from '@/views/images/price10.jpg';
+import price11 from '@/views/images/price11.jpg';
+import price12 from '@/views/images/price12.jpg';
+import price13 from '@/views/images/price13.jpg';
+import price14 from '@/views/images/price14.jpg';
+import price15 from '@/views/images/price15.jpg';
+import price16 from '@/views/images/price16.jpg';
+import price17 from '@/views/images/price17.jpg';
+import price18 from '@/views/images/price18.jpg';
+import price19 from '@/views/images/price19.jpg';
+import price20 from '@/views/images/price20.jpg';
+import price21 from '@/views/images/price21.jpg';
+import price22 from '@/views/images/price22.jpg';
+
+
 
 const Aktivnosti = () => {
   useEffect(() => {
@@ -1396,6 +1420,119 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Priče iz Muzeja grada Sarajeva: <b>Muzej Sarajevo 1878-1918 i Brusa bezistan</b>
+
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={price1} alt="" />
+                    </div> 
+                  <div>
+                        <Image src={price2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={price3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={price4} alt="" />
+                    </div>
+                    <div>
+                        <Image src={price5} alt="" />
+                    </div>
+                    <div>
+                        <Image src={price6} alt="" />
+                    </div>
+                    <div>
+                        <Image src={price7} alt="" />
+                    </div>
+                    <div>
+                        <Image src={price8} alt="" />
+                    </div>
+                    <div>
+                        <Image src={price9} alt="" />
+                    </div>
+                    <div>
+                        <Image src={price10} alt="" />
+                    </div>
+                    <div>
+                        <Image src={price11} alt="" />
+                    </div>
+                    <div>
+                        <Image src={price11} alt="" />
+                    </div>
+                    <div>
+                        <Image src={price12} alt="" />
+                    </div>
+                    <div>
+                        <Image src={price13} alt="" />
+                    </div>
+                    <div>
+                        <Image src={price14} alt="" />
+                    </div>
+                    <div>
+                        <Image src={price15} alt="" />
+                    </div>
+                    <div>
+                        <Image src={price16} alt="" />
+                    </div>
+                    <div>
+                        <Image src={price17} alt="" />
+                    </div>
+                    <div>
+                        <Image src={price18} alt="" />
+                    </div>
+                    <div>
+                        <Image src={price19} alt="" />
+                    </div>
+                    <div>
+                        <Image src={price20} alt="" />
+                    </div>
+                    <div>
+                        <Image src={price21} alt="" />
+                    </div>
+                     <div>
+                        <Image src={price22} alt="" />
+                    </div>
+
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+Učenici/ce II4, II1 odjeljenja i profesorica Indira Zeković su u četvrtak, 15. maja, pogledali/e stalnu postavku Muzeja Sarajevo 1878–1918.  koja prikazuje Sarajevo u vrijeme austro-ugarske uprave. Muzej je smješten u zgradi pred kojom se 28. juna 1914. dogodio Sarajevski atentat, ubistvo austro-ugarskog prijestolonasljednik Franje Ferdinanda i njegove supruge Sofije. Nakon toga je počeo Prvi svjetski rat. Pogledali/e smo stalnu postavku koja prikazuje historijat austro-ugarske vladavine na ovom području i podijeljena je u tematske cjeline: Otpor okupaciji, Nova administrativna uprava, Kultura življenja, Kulturna i vjersko-prosvjetna društva, štamparije i izdavaštvo,Industrija i arhitektura, Aneksija i Bosanski sabor, Atentat na Franju Ferdinanda i Sofiju i Prvi svjetski rat. </p>
+<p className="mb-4 text-blueGray-500">
+U monumentalnom zdanju Brusa bezistana koji je sa svojih šest krovnih kupola jedna od najinteresantnijih građevina iz osmanskog perioda na Baščaršiji, pogledali smo stalnu postavku <b>Od prahistorije do kraja Austorugarskog perioda</b>. Riznica Brusa-bezistana čuva i Maketu stare Baščaršije koja predstavlja period iz 18. stoljeća. Između ostalog, u ovom muzeju izloženi su najstariji tragovi života na području BiH, nakit i ostaci grnčarije sa arheoloških neolitskih nalazišta Butmir i Debelo brdo, a dio eksponata sa ovih lokacija čuva se i u Zemaljskom muzeju. Prisustvovali/e smo otvaranju izložbe <b>Život na području Stolačkog kotara (1878–1918)</b>, koja donosi priču o svakodnevnom životu Stočana nakon dolaska Austro-Ugarske monarhije. Kroz dokumente i građu Kotarskog ureda Stolac, koji je obavljao upravne, sudske i finansijske poslove na ovom području, imali/e smo priliku upoznati kako se živjelo, radilo i upravljalo u vremenu značajnih društvenih i političkih promjena. Bilo je izuzetno zanimljivo proći kroz autentične arhivske dokumente, administrativne spise, lične prepisku, fotografije i druge izuzetno vrijedne izvore. Izložba predstavlja svojevrsno putovanje kroz vrijeme, oživljavajući duh ovog živopisnog hercegovačkog grada.</p>
+
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
