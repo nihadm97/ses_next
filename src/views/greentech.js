@@ -60,6 +60,13 @@ import huba11 from '@/views/images/huba11.jpg';
 
 import najava from '@/views/images/najava.jpg';
 
+import fin1 from '@/views/images/fin1.jpg';
+import fin2 from '@/views/images/fin2.jpg';
+import fin3 from '@/views/images/fin3.jpg';
+import fin4 from '@/views/images/fin4.jpg';
+import fin5 from '@/views/images/fin5.jpg';
+import fin6 from '@/views/images/fin6.jpg';
+import fin7 from '@/views/images/fin7.png';
 
 const GreenTech = () => {
   useEffect(() => {
@@ -69,6 +76,116 @@ const GreenTech = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+              <div className="container mx-auto px-4">
+                <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+                  <h6 className="text-xl mb-1 font-semibold text-center uppercase">REALIZOVANO FINALNO TAKMIČENJE U OKVIRU ERASMUS+ PROJEKTA GTECH
+    
+    
+    
+    
+    
+    
+    </h6>
+                </span>
+                <div className="flex flex-wrap">
+                  <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                    <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                      <div className="py-5 flex-auto">
+                      <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                          
+                      <div>
+                            <Image src={fin1} alt="" />
+                        </div> 
+                      <div>
+                            <Image src={fin2} alt="" />
+                        </div>
+                        <div>
+                            <Image src={fin3} alt="" />
+                        </div>
+                        <div>
+                            <Image src={fin4} alt="" />
+                        </div>
+                        <div>
+                            <Image src={fin5} alt="" />
+                        </div>
+                        <div>
+                            <Image src={fin6} alt="" />
+                        </div>
+                        <div>
+                            <Image src={fin7} alt="" />
+                        </div>
+                        
+    
+                    </Carousel>
+                        </div>
+                      </div>
+                    </div>
+                  <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                    <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                      <div className="px-4 py-5 flex-auto">
+                      <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+     
+                      
+    <p className="mb-4 text-blueGray-500">
+    Srednja ekonomska škola Sarajevo, kao jedan od šest partnera koji učestvuju u realizaciji projekta GTECH (Green Tech Entrepreneurship Challenge Hub), aktivno je učestvovala u pripremi i organizaciji završnog događaja ovog projekta, koji se provodi od 2024. godine. 
+    </p>
+    <p className="mb-4 text-blueGray-500">
+    Glavno takmičenje okupilo je ukupno 210 učenika raspoređenih u 60 timova iz 15 srednjih škola iz Bosne i Hercegovine. Njihovi mentori – profesori  prethodno su učestvovali u petodnevnoj edukaciji u Sloveniji i Hrvatskoj, gdje su se upoznali s metodom učenja zasnovanom na izazovima (Challenge Based Learning). Nakon obuke, profesori su uspješno položili ispit i dobili certifikate.</p>
+    <p className="mb-4 text-blueGray-500">
+    U okviru ove metode, učenici su rješavali konkretne izazove koristeći specijalno razvijenu digitalnu platformu za Challenge Based Learning. Platforma je sadržavala edukativne materijale, kvizove i video sadržaje koji su učenicima i nastavnicima pomogli u uspješnom savladavanju zadataka.</p>
+    <p className="mb-4 text-blueGray-500">
+    Nakon prvog kruga takmičenja, odabrani su najbolji timovi koji su prošli u finale, gdje su predstavili svoja inovativna rješenja u oblasti zelene tehnologije i održivosti. Izazove za učenike osmislilo je deset kompanija čime je ostvarena veza između obrazovanja i stvarnih potreba tržišta, kao i podstaknuta svijest o značaju rješenja koja oblikuju održivu budućnost.
+    </p>
+    <h2 className="mb-4 text-blueGray-500">
+      USPJESI UČENIKA I PROFESORA SREDNJE EKONOMSKE ŠKOLE SARAJEVO NA FINALNOM GTECH TAKMIČENJU
+    </h2>
+    <p className="mb-4 text-blueGray-500">
+    Naša škola učestvovala je na takmičenju od 5. do 16. maja 2025. godine sa četiri tima. Tri tima su se plasirala u finalno takmičenje, koje je održano na Internacionalnom BURCH univerzitetu u Sarajevu. Učenici su prezentovali svoja rješenja pred stručnom komisijom koju su činili predstavnici kompanija, kao i eksperti iz Slovenije, Hrvatske i Bosne i Hercegovine.
+    </p>
+    <h2 className="mb-4 text-blueGray-500">
+    TIMOVI SREDNJE EKONOMSKE ŠKOLE SARAJEVO
+    </h2>
+    <p className="mb-4 text-blueGray-500">
+    <b>Mentorica: prof. Indira Zeković</b></p>
+    <p className="mb-4 text-blueGray-500">
+    Tim 1: Emil Karić, Advan Durmo, Zarah Hošić, Tajra Kajmović</p>
+    <p className="mb-4 text-blueGray-500">
+    Tim 2: Zerina Zec, Arijana Nikšić, Ilhana Jelić</p>
+    <p className="mb-4 text-blueGray-500">
+    <b>Mentorica: prof. Alma Karamujić</b></p>
+    <p className="mb-4 text-blueGray-500">
+    Tim 3: Adna Ploskić, Alejna Hadžić, Samira Bićević, Nejla Nogo</p>
+    <p className="mb-4 text-blueGray-500">
+    Tim 4: Faris Čaušević, Davud Ćeman, Emina Karić
+    </p>
+    <h2 className="mb-4 text-blueGray-500">
+    SJAJNI REZULTATI NAŠIH TIMOVA NA FINALNOM TAKMIČENJU
+    </h2>
+    <p className="mb-4 text-blueGray-500">
+    Na kraju finalnog takmičenja na IBU u Sarajevu, naši timovi postigli su izvanredne rezultate uprkos jakoj konkurenciji – osvojena su dva druga mjesta i jedno treće mjesto:
+    </p>
+    <p className="mb-4 text-blueGray-500">
+    •	Tim 2 – drugo mjesto (izazov kompanije DM)</p>
+    <p className="mb-4 text-blueGray-500">
+    •	Tim 4 – drugo mjesto (izazov kompanije Lactalis)</p>
+    <p className="mb-4 text-blueGray-500">
+    •	Tim 3 – treće mjesto (izazov kompanije Lactalis)
+    </p>
+    <p className="mb-4 text-blueGray-500">
+    Iskrene čestitke upućujemo svim predstavnicima naše škole na učešću u cjelokupnom projektu – <b>direktorici Amiri Kadrispahić (voditeljica ERASMUS+ projekta), koordinatorici projekta Senidi Čeljo, kao i profesoricama mentoricama Indiri Zeković i Almi Karamujić</b>, koje su s velikim zalaganjem pripremale učenike za takmičenje.</p>
+    <p className="mb-4 text-blueGray-500">
+    Učenicima i učenicama želimo da stečena znanja i vještine uspješno primjenjuju u svom daljem školovanju i životu.</p>
+    <p className="mb-4 text-blueGray-500">
+    Završna konferencija projekta biće održana 29. 9. 2025. godine, na kojoj će biti predstavljeni rezultati GTECH  (ERASMUS+) projekta finansiranog sredstvima Evropske unije.</p>
+    </span>
+                      </div>
+                     
+                    </div>
+                  </div>
+                </div>
+                </div>
+              </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
               <div className="container mx-auto px-4">
                 <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
