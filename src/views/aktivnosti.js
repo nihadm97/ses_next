@@ -1410,6 +1410,23 @@ import fin5 from '@/views/images/fin5.jpg';
 import fin6 from '@/views/images/fin6.jpg';
 import fin7 from '@/views/images/fin7.png';
 
+import zemaj1 from '@/views/images/zemaj1.jpg';
+import zemaj2 from '@/views/images/zemaj2.jpg';
+import zemaj3 from '@/views/images/zemaj3.jpg';
+import zemaj4 from '@/views/images/zemaj4.jpg';
+import zemaj5 from '@/views/images/zemaj5.jpg';
+import zemaj6 from '@/views/images/zemaj6.jpg';
+import zemaj7 from '@/views/images/zemaj7.jpg';
+import zemaj8 from '@/views/images/zemaj8.jpg';
+
+import hismuz1 from '@/views/images/hismuz1.jpg';
+import hismuz2 from '@/views/images/hismuz2.jpg';
+import hismuz3 from '@/views/images/hismuz3.jpg';
+import hismuz4 from '@/views/images/hismuz4.jpg';
+import hismuz5 from '@/views/images/hismuz5.jpg';
+import hismuz6 from '@/views/images/hismuz6.jpg';
+import hismuz7 from '@/views/images/hismuz7.jpg';
+
 const Aktivnosti = () => {
   useEffect(() => {
     AOS.init({duration: 2000});
@@ -1429,6 +1446,141 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+     <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">U Historijskom muzeju BiH, na mjestu dijaloga o prošlosti, učenja i kritičkog promišljanja
+
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={hismuz1} alt="" />
+                    </div> 
+                  <div>
+                        <Image src={hismuz2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={hismuz3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={hismuz4} alt="" />
+                    </div>
+                    <div>
+                        <Image src={hismuz5} alt="" />
+                    </div>
+                    <div>
+                        <Image src={hismuz6} alt="" />
+                    </div>
+                    <div>
+                        <Image src={hismuz7} alt="" />
+                    </div>
+                    
+
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+Učenici/ce II4 razreda i profesorica Indira Zeković posjetili su Historijski muzej, u srijedu 24. maja. Muzej je smješten u zgradi koja, u arhitektonskom smislu, predstavlja jedan od najreprezentativnijih primjera arhitektonskog stvaralaštva  Bosne i Hercegovine u nekadašnjoj Jugoslaviji. Riječ je o inovativnoj arhitekturi, koja  prati  evropske i svjetske trendove početkom druge polovine XX vijeka.</p>
+<p className="mb-4 text-blueGray-500">
+Vrhunski profesionalno i sa izuzetnim entuzijazmom, kustos nam je predstavio nasljeđe Drugog svjetskog rata, socijalističke Jugoslavije, rat u BiH i opsadu Sarajeva. Otvorio je brojne teme iz burne prošlosti XX vijeka i naše učenike/ce poučavao historiji na interaktivan način učenja iskustvom, naglašavajući  ulogu neformalnog učenja i učenja iskustvom. Učenici/ce su ovdje mogli/e doći u dodir s onim šta uče u teoriji i posredovati to učenje iskustvom. </p>
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+         <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">U Zemaljskom muzeju, čuvaru kulturnog i nacionalnog naslijeđa Bosne i Hercegovine
+
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={zemaj1} alt="" />
+                    </div> 
+                  <div>
+                        <Image src={zemaj2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={zemaj3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={zemaj4} alt="" />
+                    </div>
+                    <div>
+                        <Image src={zemaj5} alt="" />
+                    </div>
+                    <div>
+                        <Image src={zemaj6} alt="" />
+                    </div>
+                    <div>
+                        <Image src={zemaj7} alt="" />
+                    </div>
+                    <div>
+                        <Image src={zemaj8} alt="" />
+                    </div>
+                    
+
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+Učenici/ce II1 razreda i profesorica Indira Zeković posjetili/e su u petak, 30. maja, Zemaljski muzej Bosne i Hercegovine u Sarajevu, našu najstariju muzejsku instituciju, osnovanu za vrijeme  austro-ugarske uprave, vrhunsko arhitektonsko djelo, u neorenesansnom stilu, čuvenog arhitekte Karla Paržika, kojeg čine četiri zasebna paviljona, međusobno povezana terasama, s unutrašnjim atrijem i botaničkim vrtom.</p>
+<p className="mb-4 text-blueGray-500">
+Bilo je izuzetno zanimljivo pregledati postavke i eksponate Zemaljskog muzeja, kulturno, nacionalno i prirodno naslijeđe svih naroda Bosne i Hercegovine. Eksponati su razvrstani po odjeljenjima (arheološko, etnološko i odjeljenje prirodnih nauka) u nekoliko zbirki (folklorna, numizmatička, prirodoslovna, prahistorijska, antička i druge). Najreprezentativniji prostor u Muzeju je sala u kojoj je smještena stalna postavka <b>Bosna i Hercegovina u prahistorijsko doba</b>. Muzej je jedinstven  po svojoj zbirci, koja obuhvata period od prahistorije do savremenog doba.
+</p>
+<p className="mb-4 text-blueGray-500">
+Materijalna i nematerijalna baština je od neprocjenjive vrijednosti svim našim narodima jer dograđuje lični identitet svakog njegovog pojedinca. Baština je  izvor spoznaje i jedna od temeljnih vrijednosti. U odgoju i obrazovanju djece i mladih kulturna baština nosi ogroman potencijal, pa je i ovo bila izuzetna prilika za neformalno učenje i istraživanje sadržaja naše baštine. 
+</p>
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
         <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">

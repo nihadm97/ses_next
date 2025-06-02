@@ -1,5 +1,6 @@
 import React from "react";
 import brošura from './brošura.webp';
+import časopis from './Časopis.png';
 import Link from 'next/link';
 import Image from 'next/image';
 
@@ -30,9 +31,9 @@ export default function Footer() {
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap text-center lg:text-left">
             <div className="w-full lg:w-6/12 px-4 ml-auto">
-              <h4 className="text-4xl font-semibold">Pogledajte našu digitalnu brošuru!</h4><br></br>
-              <a href="https://drive.google.com/file/d/1d_S55STNrqjxftG9UGZGNowqN_J253F9/view?usp=sharing" target="_blank" rel="noreferrer">
-              <Image src={brošura} alt="Logo" className="lg:w-4/12 px-2 ml-auto inline-block"/></a>
+              <h4 className="text-4xl font-semibold">Pogledajte naš digitalni časopis!</h4><br></br>
+              <a href="https://www.canva.com/design/DAGIZScuSOo/YDj-eFsFkotbRdHBgJx85w/view?utm_content=DAGIZScuSOo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h09f5e91723#1" target="_blank" rel="noreferrer">
+              <Image src={časopis} alt="Logo" className="lg:w-4/12 px-2 ml-auto inline-block"/></a>
               
             </div>
             <div className="w-full lg:w-6/12 px-4">
