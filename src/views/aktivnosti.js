@@ -1427,6 +1427,32 @@ import hismuz5 from '@/views/images/hismuz5.jpg';
 import hismuz6 from '@/views/images/hismuz6.jpg';
 import hismuz7 from '@/views/images/hismuz7.jpg';
 
+import mput1 from '@/views/images/mput1.jpg';
+import mput2 from '@/views/images/mput2.jpg';
+import mput3 from '@/views/images/mput3.jpg';
+import mput4 from '@/views/images/mput4.jpg';
+import mput5 from '@/views/images/mput5.jpg';
+import mput6 from '@/views/images/mput6.jpg';
+import mput7 from '@/views/images/mput7.jpg';
+import mput8 from '@/views/images/mput8.jpg';
+
+import youth1 from '@/views/images/youth1.jpg';
+import youth2 from '@/views/images/youth2.jpg';
+import youth3 from '@/views/images/youth3.jpg';
+import youth4 from '@/views/images/youth4.jpg';
+
+import prarena1 from '@/views/images/prarena1.jpg';
+import prarena2 from '@/views/images/prarena2.jpg';
+import prarena3 from '@/views/images/prarena3.jpg';
+import prarena4 from '@/views/images/prarena4.jpg';
+import prarena5 from '@/views/images/prarena5.jpg';
+import prarena6 from '@/views/images/prarena6.jpg';
+import prarena7 from '@/views/images/prarena7.jpg';
+import prarena8 from '@/views/images/prarena8.jpg';
+import prarena9 from '@/views/images/prarena9.jpg';
+import prarena10 from '@/views/images/prarena10.jpg';
+
+
 const Aktivnosti = () => {
   useEffect(() => {
     AOS.init({duration: 2000});
@@ -1446,6 +1472,263 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+            <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Edukativna konferencija <b>PR Arena 2025</b> okupila vrhunske stručnjake iz oblasti marketinga i komunikacija!
+
+
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={prarena1} alt="" />
+                    </div> 
+                  <div>
+                        <Image src={prarena2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={prarena3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={prarena4} alt="" />
+                    </div>
+                    <div>
+                        <Image src={prarena5} alt="" />
+                    </div>
+                    <div>
+                        <Image src={prarena6} alt="" />
+                    </div>
+                    <div>
+                        <Image src={prarena7} alt="" />
+                    </div>
+                    <div>
+                        <Image src={prarena8} alt="" />
+                    </div>
+                    <div>
+                        <Image src={prarena9} alt="" />
+                    </div>
+                    <div>
+                        <Image src={prarena10} alt="" />
+                    </div>
+
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+Učenici/ce II1, II5 odjeljenja i profesorice Indira Zeković i Alma Karamujić su u četvrtak, 5. juna prisustvovali/e edukativnoj konferenciji PR Arena 2025, koju organizuje udruženje Inntera u prostorijama ASA Instituta. Ovaj jedinstveni događaj i ove godine je okupio vodeće komunikacijske stručnjake iz BiH i regije, ali i studente sa univerziteta širom zemlje, stvarajući prostor za razmjenu znanja, ideja, inovacija i promociju savremenih trendova u modernom marketingu i komunikacijama!
+</p>
+<p className="mb-4 text-blueGray-500">
+Učenici/ce II1, II5 odjeljenja i profesorice Indira Zeković i Alma Karamujić su u četvrtak, 5. juna prisustvovali/e edukativnoj konferenciji 𝑷𝑹 𝑨𝒓𝒆𝒏𝒂 2025, koju organizuje udruženje 𝐼𝑛𝑛𝑡𝑒𝑟𝑎 u prostorijama 𝐴𝑆𝐴 𝐼𝑛𝑠𝑡𝑖𝑡𝑢𝑡𝑎. Ovaj jedinstveni događaj i ove godine je okupio vodeće komunikacijske stručnjake iz BiH i regije, ali i studente sa univerziteta širom zemlje, stvarajući prostor za razmjenu znanja, ideja, inovacija i promociju savremenih trendova u modernom marketingu i komunikacijama!
+</p>
+<p className="mb-4 text-blueGray-500">
+Program ovogodišnje konferencije je donio niz zanimljivih predavanja, panela i diskusija koji se odnose na esencijalne teme iz oblasti digitalnog marketinga, odnosa s javnošću, storytellinga, kreativne industrije, influenser marketinga, te primjene AI u komunikacijama. Bilo je iznimno zanimljivo saznati o najnovijim trendovima u komunikaciji i marketingu, s posebnim fokusom na digitalne dijaloge i AI, uspješnim kampanjama, sinergiji između brendova i influensera, …
+Predstavnici Udruženja su otvorili konferenciju. Uslijedilo je predavanje  𝐼𝑛𝑜𝑣𝑎𝑐𝑖𝑗𝑒 𝑘𝑜𝑗𝑒 𝑚𝑖𝑗𝑒𝑛𝑗𝑎𝑗𝑢 𝑠𝑣𝑖𝑗𝑒𝑡 𝑜𝑠𝑖𝑔𝑢𝑟𝑎𝑛𝑗𝑎 Mahera Al-Oste iz 𝐴𝑆𝐴 𝐶𝑒𝑛𝑡𝑟𝑎𝑙 𝑜𝑠𝑖𝑔𝑢𝑟𝑎𝑛𝑗𝑎. Kroz sljedeći niz predavanja, sudionici/e su imali/e priliku slušati Senada Zaimovića iz agencije 𝐹𝑎𝑏𝑟𝑖𝑘𝑎, Eminu Džafić iz 𝐴𝑘𝑜𝑣𝑎 𝐺𝑟𝑜𝑢𝑝, Hamdiju Pašića iz agencije 𝐶𝑜𝑚𝑚𝑢𝑛𝑖𝑠, te Anisu Fetahagić-Otanović iz 𝑆𝑝𝑎𝑟𝑘𝑎𝑠𝑠𝑒 𝐵𝑎𝑛𝑘. 
+</p>
+<p className="mb-4 text-blueGray-500">
+Poručili su da je autentična, iskrena i strateška komunikacija neophodna! 
+Morate poznavati vaše kupce, razumjeti njihove potrebe koje vaš proizvod ispunjava, prije nego što odlučite koje taktike trebate koristiti za komuniciranje!
+Izuzetno je bilo zanimljivo i predavanje  𝐴𝐵𝐶 𝑘𝑜𝑚𝑢𝑛𝑖𝑘𝑎𝑐𝑖𝑗𝑎, Jurice Belle iz 𝑃𝑜𝑑𝑟𝑎𝑣𝑘𝑒 vezano za inovacije u komunikaciji i prodaji. 
+U nastavku konferencije, fokus je bio na temi 𝑆𝑎𝑣𝑟𝑒𝑚𝑒𝑛𝑒 𝑑𝑖𝑔𝑖𝑡𝑎𝑙𝑛𝑒 𝑘𝑜𝑚𝑢𝑛𝑖𝑘𝑎𝑐𝑖𝑗𝑒, a Senad Alibegović iz 𝐾𝐸𝑁𝑆𝐻𝑂 𝐶𝑜𝑚𝑚𝑢𝑛𝑖𝑐𝑎𝑡𝑖𝑜𝑛𝑠 održao je inspirativno predavanje na temu 𝑆𝑖𝑛𝑒𝑟𝑔𝑖𝑗𝑎 𝑢𝑠𝑝𝑗𝑒ℎ𝑎: 𝐾𝑎𝑘𝑜 𝑖𝑛𝑓𝑙𝑢𝑒𝑛𝑠𝑒𝑟𝑖 𝑖 𝑏𝑟𝑒𝑛𝑑𝑜𝑣𝑖 𝑔𝑟𝑎𝑑𝑒 𝑚𝑜𝑐́𝑛𝑒 𝑣𝑒𝑧𝑒? 
+Panel diskusija pod nazivom 𝐷𝑖𝑔𝑖𝑡𝑎𝑙𝑛𝑖 𝑑𝑖𝑗𝑎𝑙𝑜𝑔 – 𝐴𝐼 𝑢 𝑠𝑙𝑢𝑧̌𝑏𝑖 𝑘𝑜𝑚𝑢𝑛𝑖𝑘𝑎𝑐𝑖𝑗𝑒 počela je govorom Harisa Bjelevca iz 𝑀𝑖𝑛𝑖𝑠𝑡𝑟𝑦 𝑜𝑓 𝑝𝑟𝑜𝑔𝑟𝑎𝑚𝑚𝑖𝑛𝑔. Panel je moderirala Fahreta Đedović iz 𝑂𝑟𝑏𝑖𝑐𝑜 𝑑.𝑜.𝑜. Okupila je eksperte iz različitih oblasti: Nađu Lutvikadić-Fočo (𝐵𝐻 𝑇𝑒𝑙𝑒𝑐𝑜𝑚) i Amilu Akagić (𝑈𝑁𝑆𝐴) i Nedima Sadovića (𝑀𝑖𝑐𝑟𝑜𝑠𝑜𝑓𝑡). Ova sesija otvorila je brojna pitanja o ulozi vještačke inteligencije u oblikovanju buduće komunikacije. 
+</p>
+<p className="mb-4 text-blueGray-500">
+Događaj je upotpunjen i inspirativnim predavanjem Harisa Jusovića (JUSA) art direktora i grafičkog dizajnera, na temu Kreativno izražavanje u digitalnom dobu. 
+Konferencija je uključila i takmičenje za studente – 𝑆𝑡𝑢𝑑𝑒𝑛𝑡 𝐴𝑤𝑎𝑟𝑑𝑠. Studenti su do 30.maja imali priliku da prijave svoje učešće i dostave komunikacijske kampanje prema zadanom briefu, a tri najbolja rada su nagrađena vrijednim nagradama.
+PR Arena ima reputaciju najvažnije edukativne platforme za studente i mlade profesionalce iz oblasti komunikacija, marketinga i digitalnih tehnologija. Ova konferencija nije bila samo prilika za sticanje novih znanja, već i za umrežavanje, inspiraciju i razvoj lidera budućnosti! Udruženje Inntera u ulozi  organizatora je demonstriralo izuzetnu profesionalnost, posvećenost i vizionarstvo! Kreirali su ambijent u kojem se znanje nesebično dijeli, motivacija rađa, a nove profesionalne konekcije grade. Njihova strast za osnaživanjem mladih i razvijanjem komunikacijske zajednice u Bosni i Hercegovini primjer je kako se odgovorno i strateški gradi budućnost jedne struke!</p>
+<p className="mb-4 text-blueGray-500">
+Partner konferencije ove godine je i organizacija 𝑆𝑂𝑆 𝐷𝑗𝑒𝑐̌𝑖𝑗𝑎 𝑠𝑒𝑙𝑎 𝐵𝑖𝐻, koja je u sklopu predavanja 𝑃𝑟𝑜𝑔𝑟𝑎𝑚𝑖 𝑝𝑜𝑑𝑟𝑠̌𝑘𝑒 𝑚𝑙𝑎𝑑𝑖𝑚𝑎 predstavila svoje aktivnosti podrške mladima za zapošljavanje. Kroz 𝑌𝐸𝐸𝑃 projekat, organizacija 𝑆𝑂𝑆 𝐷𝑗𝑒𝑐̌𝑖𝑗𝑎 𝑠𝑒𝑙𝑎 𝑢 𝐵𝑖𝐻 stvara stvarne prilike za mlade iz alternativne brige i one koji dolaze iz nepovoljnih socijalnih i ekonomskih okolnosti, kako bi osnaženi znanjem, vještinama i podrškom, sigurnije zakoračili na tržište rada. 
+</p>
+<p className="mb-4 text-blueGray-500">
+Učešće na 𝑃𝑅 𝐴𝑟𝑒𝑛𝑖 2025 je bilo od izuzetnog značaja jer pruža platformu gdje svi partneri zajedno mogu govoriti o ključnim izazovima i rješenjima za zapošljavanje mladih, jer osnažena mlada osoba nije samo kandidat za posao – već budući akter promjena u društvu!
+</p>
+<p className="mb-4 text-blueGray-500">
+Projekat PR Arena podržali su: generalni sponzor 𝐴𝐵𝐶, partneri projekta 𝐻𝑦𝑢𝑛𝑑𝑎𝑖 𝐴𝑢𝑡𝑜 𝐵𝐻, 𝐵𝐻 𝑇𝑒𝑙𝑒𝑐𝑜𝑚, 𝑅𝑖𝑚𝑚𝑒𝑙 𝑖 𝐵𝑜𝑢𝑟𝑗𝑜𝑖𝑠; prijatelji projekta 𝐷𝑒𝑏𝑜𝑟𝑎ℎ, 𝑃𝑢𝑝𝑎, 𝑅𝑒𝑎𝑙 𝑇𝑒𝑐ℎ𝑛𝑖𝑞𝑢𝑒𝑠, 𝑇𝑎𝑛𝑔𝑙𝑒 𝑇𝑒𝑒𝑧𝑒𝑟, 𝑂𝑟𝑖𝑔𝑖𝑛𝑠, 𝐵𝑎𝑛𝑑𝑒𝑟𝑎𝑠, 𝑃𝑜𝑑𝑟𝑎𝑣𝑘𝑎, 𝐵𝑖𝑛𝑔𝑜, 𝐴𝑟𝑔𝑒𝑡𝑎 𝑉𝑒𝑔𝑔𝑖𝑒, 𝑂𝑎𝑧𝑎, 𝐺𝑟𝑎𝑛𝑑 𝑘𝑎𝑓𝑎, 𝐴𝑠𝑏𝑖𝑠, 𝐴𝑆𝐴 𝑖𝑛𝑠𝑡𝑖𝑡𝑢𝑡, 𝐴𝑆𝐴 𝑏𝑜𝑙𝑛𝑖𝑐𝑎, 𝑆𝑂𝑆 𝑑𝑗𝑒𝑐̌𝑖𝑗𝑎 𝑠𝑒𝑙𝑎, 𝐵𝑢𝑠𝑠𝑖𝑛𝑒𝑠 𝑎𝑐𝑎𝑑𝑒𝑚𝑦, 𝐴𝑟𝑔𝑒𝑡𝑎 𝑉𝑒𝑔𝑔𝑖𝑒, 𝑂𝑎𝑧𝑎, 𝐺𝑟𝑎𝑛𝑑 𝑘𝑎𝑓𝑎, 𝐴𝑠𝑏𝑖𝑠, 𝐴𝑆𝐴 𝑖𝑛𝑠𝑡𝑖𝑡𝑢𝑡, 𝐴𝑆𝐴 𝑏𝑜𝑙𝑛𝑖𝑐𝑎, 𝑆𝑂𝑆 𝑑𝑗𝑒𝑐̌𝑖𝑗𝑎 𝑠𝑒𝑙𝑎, 𝐵𝑢𝑠𝑠𝑖𝑛𝑒𝑠 𝑎𝑐𝑎𝑑𝑒𝑚𝑦, 𝑡𝑒 𝑎𝑘𝑎𝑑𝑒𝑚𝑠𝑘𝑎 𝑧𝑎𝑗𝑒𝑑𝑛𝑖𝑐𝑎 – 𝑈𝑛𝑖𝑣𝑒𝑟𝑧𝑖𝑡𝑒𝑡 𝑢 𝑆𝑎𝑟𝑎𝑗𝑒𝑣𝑢 𝐸𝑘𝑜𝑛𝑜𝑚𝑠𝑘𝑖 𝑓𝑎𝑘𝑢𝑙𝑡𝑒𝑡 𝑖 𝐹𝑎𝑘𝑢𝑙𝑡𝑒𝑡 𝑝𝑜𝑙𝑖𝑡𝑖𝑐̌𝑘𝑖ℎ 𝑛𝑎𝑢𝑘𝑎.
+</p>
+<p className="mb-4 text-blueGray-500">
+𝑃𝑅 𝐴𝑟𝑒𝑛𝑎 2025 nije samo konferencija, ona je prostor za učenje, inspiraciju i povezivanje mladih ljudi s liderima komunikacijske industrije, jer znanje, kreativnost i inovacija mijenjaju budućnost! PR Arena istražuje najnovije trendove u komunikaciji i marketingu, s posebnim fokusom na digitalne dijaloge i AI u komunikaciji!
+</p>
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+        <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">YouthSpeak Forum 2025 
+
+
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={youth1} alt="" />
+                    </div> 
+                  <div>
+                        <Image src={youth2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={youth3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={youth4} alt="" />
+                    </div>
+                    
+                    
+
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+Učenici/ce III1 odjeljenja i profesorica Selma Jusić prisustvovali su konferenciji YouthSpeak Forum 2025, u srijedu, 4. juna, koju organizuje AIESEC, najveća omladinska organizacija na svijetu, s ciljem povezivanja mladih ljudi s predstavnicima kompanija, institucija i organizacija, kroz inspirativne govore, radionice i panele. Konferencija je održana u UNITIC-u, Sarajevo. </p>
+<p className="mb-4 text-blueGray-500">
+YOUTHSPEAK FORUM služi kao glavna i nacionalna platforma za mlade, networking, razmjenu mišljenja i ideja. Forum je prisutan u više od 104 države. Fokus je na približavanju mladih tržištu rada i stvaranju prilika za njihov profesionalni i lični razvoj, te građenju linkova između mladih lidera, organizacija i poslovnog svijeta. Od esencijalne važnosti je kako povećati šanse mladih na tržištu rada, kako ih osnažiti da ostvare puni potencijal i kontrolu nad razvojem svoje karijere.</p>
+<p className="mb-4 text-blueGray-500">
+Ovogodišnji YouthSpeak Forum 2025 usmjeren je na dva ključna cilja održivog razvoja: kvalitet obrazovanja i smanjenje nejednakosti. YouthSpeak Forum je jedinstvena platforma za mlade da razmjenjuju ideje sa globalnim stručnjacima, utiču na budućnost održive industrije i značajno doprinesu Agendi 2030. 
+</p>
+<p className="mb-4 text-blueGray-500">
+YouthSpeak Forum, u organizaciji AIESEC-a, ove godine okupio je mlade iz cijele Bosne i Hercegovine pod snažnim motom #BreakTheCycle. Šta znači #BreakTheCycle?</p>
+<p className="mb-4 text-blueGray-500">
+To je poziv mladima da prepoznaju i prekinu začarane krugove koji postoje u našem društvu – bilo da se radi o ograničenom pristupu obrazovanju, društvenim predrasudama, nejednakim šansama ili ličnim barijerama koje sputavaju lični i profesionalni razvoj. Forum je prilika da se o tim izazovima diskutuje otvoreno i konstruktivno, kroz dijalog, učenje i zajedničko traženje rješenja. Forum je namijenjen mladima koji žele ulagati u sebe, razvijati svoje vještine, povezivati se sa istomišljenicima i učestvovati u kreiranju pozitivnih promjena u društvu. Ovogodišnji Forum je uključio:
+</p>
+<p className="mb-4 text-blueGray-500">
+Inspirativne keynote sesije s istaknutim govornicima
+</p>
+<p className="mb-4 text-blueGray-500">
+Coffee with AIESEC – otvoreni razgovori s uspješnim mladim ljudima</p>
+<p className="mb-4 text-blueGray-500">
+Case study izazovi sa stvarnim problemima i timskim rješenjima</p>
+<p className="mb-4 text-blueGray-500">
+Nagrade za najangažovanije učesnike</p>
+<p className="mb-4 text-blueGray-500">
+YouthSpeak Forum 2025 je realiziran uz podršku partnera koji dijele viziju osnaživanja mladih i izgradnje jednakih prilika za sve, kao što su Orbico, Telus Digital, Raiffeisen Bank, Agilitas, Fiesta Lama i mnogi drugi. Nadovezujući se na zajedničku posvećenost Ciljevima održivog razvoja, događaj je promovirao inovativno razmišljanje i saradničko djelovanje sljedeće generacije kreatora promjena. Program promovira dijalog, kreativnost i uticaj!</p>
+<p className="mb-4 text-blueGray-500">
+Bilo je iznimno zanimljivo našim učenicima/ama biti dijelom događanja ovogodišnjeg YOUTHSPEAK FORUMA!</p>
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Mladi i veterani u defileu za BiH: <b>Mladi na putu života</b>
+
+
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={mput1} alt="" />
+                    </div> 
+                  <div>
+                        <Image src={mput2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={mput3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={mput4} alt="" />
+                    </div>
+                    <div>
+                        <Image src={mput5} alt="" />
+                    </div>
+                    <div>
+                        <Image src={mput6} alt="" />
+                    </div>
+                    <div>
+                        <Image src={mput7} alt="" />
+                    </div>
+                    <div>
+                        <Image src={mput8} alt="" />
+                    </div>
+                    
+
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+Centralni događaj manifestacije <b>Odbrana Bosne i Hercegovine – Igman 2025 – Od Dana nezavisnosti do Dana državnosti, Mladi na putu života</b>, svečani defile ulicama Sarajeva, održan je u srijedu, 4. juna. 
+</p>
+<p className="mb-4 text-blueGray-500">
+Stotine mladih iz osnovnih i srednjih škola, univerziteta, udruženja i obrazovnih ustanova iz Bosne i Hercegovine koračali su sa ratnim veteranima, maloljetnim borcima, članovima porodica šehida i poginulih boraca, patriotama i predstavnicima institucija svih nivoa vlasti. Uz zvuke limenog orkestra Oružanih snaga Bosne i Hercegovine i ratne zastave Armije i MUP-a RBiH, sudionici/ce su dostojanstveno i sa pijetetom ispunili/e ulice Sarajeva u čast svih čiji su životi ugrađeni u temelje naše slobode. Živjeće vječno u našim srcima! Sjećajući ih se čuvamo njihovo dostojanstvo, dajemo smisao sadašnjosti, ali i dobijajamo odgovore za promišljanje bolje sutrašnjice!
+</p>
+<p className="mb-4 text-blueGray-500">
+Polaganjem cvijeća učesnici/e su odali/e počast onima čija je žrtva ostavila neizbrisiv trag u historiji Bosne i Hercegovine. Defile je bio izraz poštovanja, zahvalnosti i prilika za poučavanje mladih vrijednostima slobode i pravde!</p>
+<p className="mb-4 text-blueGray-500">
+Defile je započeo okupljanjem i postrojavanjem učesnika na Trgu Prvog korpusa Armije RBiH.  Učesnici/ce su odavanje počasti i polaganje cvijeća počeli na mezarju Alipašina džamija, nastavili kod Spomenika ubijenoj djeci opkoljenog Sarajeva, Vječnoj vatri,  Ferhadiji, mezarju Kovači. Završna lokacija defilea bila je Zid sjećanja u okviru Memorijalnog kompleksa Kovači. 
+</p>
+<p className="mb-4 text-blueGray-500">
+Na platou vanjskog amfiteatra Memorijalnog centra Sarajevo je upriličen centralni događaj manifestacije – <b>Svečana akademija – noć istine, zavjeta i ponosa</b>.</p>
+<p className="mb-4 text-blueGray-500">
+Ponosni smo na naše učenike/ce koji su bili dijelom događanja defilea: <b>Mladi na putu života</b>!</p>
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
      <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
