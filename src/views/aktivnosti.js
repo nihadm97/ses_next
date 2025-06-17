@@ -1452,6 +1452,19 @@ import prarena8 from '@/views/images/prarena8.jpg';
 import prarena9 from '@/views/images/prarena9.jpg';
 import prarena10 from '@/views/images/prarena10.jpg';
 
+import ratm1 from '@/views/images/ratm1.jpg';
+import ratm2 from '@/views/images/ratm2.jpg';
+import ratm3 from '@/views/images/ratm3.jpg';
+import ratm4 from '@/views/images/ratm4.jpg';
+import ratm5 from '@/views/images/ratm5.jpg';
+import ratm6 from '@/views/images/ratm6.jpg';
+import ratm7 from '@/views/images/ratm7.jpg';
+import ratm8 from '@/views/images/ratm8.jpg';
+import ratm9 from '@/views/images/ratm9.jpg';
+import ratm10 from '@/views/images/ratm10.jpg';
+import ratm11 from '@/views/images/ratm11.jpg';
+import ratm12 from '@/views/images/ratm12.jpg';
+
 
 const Aktivnosti = () => {
   useEffect(() => {
@@ -1472,6 +1485,101 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+     <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Nezaboravna studijska posjeta Krajini i SI Bosni u organizaciji Instituta IRPO
+
+
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={ratm1} alt="" />
+                    </div> 
+                  <div>
+                        <Image src={ratm2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={ratm3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={ratm4} alt="" />
+                    </div>
+                    <div>
+                        <Image src={ratm5} alt="" />
+                    </div>
+                    <div>
+                        <Image src={ratm6} alt="" />
+                    </div>
+                    <div>
+                        <Image src={ratm7} alt="" />
+                    </div>
+                    <div>
+                        <Image src={ratm8} alt="" />
+                    </div>
+                    <div>
+                        <Image src={ratm9} alt="" />
+                    </div>
+                    <div>
+                        <Image src={ratm10} alt="" />
+                    </div>
+                    <div>
+                        <Image src={ratm11} alt="" />
+                    </div>
+                    <div>
+                        <Image src={ratm12} alt="" />
+                    </div>
+
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+Čast mi je podijeliti izuzetnu radost zbog, još jednog, uspješnog druženja sa našom zlatnom djecom.
+Ponijeti epitet 'najboljih ikada kojeg smo zavrijedili u okviru studijskog putovanja, kako u Krajini, tako i u SI Bosni', nije malo.
+</p>
+<p className="mb-4 text-blueGray-500">
+Pored izuzetnog odgoja, još jednom smo pokazali besprijekornu timsku saradnju, organizovanost i da, ni najmanju sitnicu, ne prepuštamo slučaju.
+
+Djeca kao djeca - nije da ne pokušavaju koristiti prilike, ali, 'budni 24 h' su uvijek iza, pored i za njih.
+
+Neizmjerna zahvalnost, prvenstveno, vođi puta za posjetu SI Bosni - pedagogici Delili - mojoj 'desnoj ruci' uz maksimalno povjerenje kada nisam tu, kao i ostatku tima koji je, najuspješnije moguće, odgovorio i ovom izazovu. </p>
+<p className="mb-4 text-blueGray-500">
+Maksimalne pohvale Ministarstvu odgoja i obrazovanja KS i Institutu IRPO na čelu sa uvaženim i vrhunskim organizatorom, Semirom Salihovićem, za ovakav podvig, kako organizacijski, tako i nastojanjima da se žrtva naših domoljuba nikada ne zaboravi, kako bi mi danas živjeli i slobodno djelovali.
+
+Zahvalnost i izuzetne pohvale agenciji Centrotrans, vozačima, vodičima, a posebno Biss Tours agenciji, o čijem profesionalizmu i odnosu prema nama, na čelu sa naj menadžerom, Arminom Helićem, svaka pohvala bi bila nedovoljna.
+
+Zahvalnost  Biss-u i za ukazanu čast da budemo prvi koji će se voziti najnovijim autobusom, a kojim je upravljao vlasnik Agencije - Izet Babić. 
+</p>
+<p className="mb-4 text-blueGray-500">
+Amira Kadrispahić, direktorica
+</p>
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
             <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
