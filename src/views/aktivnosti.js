@@ -1465,6 +1465,18 @@ import ratm10 from '@/views/images/ratm10.jpg';
 import ratm11 from '@/views/images/ratm11.jpg';
 import ratm12 from '@/views/images/ratm12.jpg';
 
+import sreba1 from '@/views/images/sreba1.jpg';
+import sreba2 from '@/views/images/sreba2.jpg';
+import sreba3 from '@/views/images/sreba3.jpg';
+import sreba4 from '@/views/images/sreba4.jpg';
+import sreba5 from '@/views/images/sreba5.jpg';
+import sreba6 from '@/views/images/sreba6.jpg';
+import sreba7 from '@/views/images/sreba7.jpg';
+import sreba8 from '@/views/images/sreba8.jpg';
+import sreba9 from '@/views/images/sreba9.jpg';
+import sreba10 from '@/views/images/sreba10.jpg';
+
+
 
 const Aktivnosti = () => {
   useEffect(() => {
@@ -1485,6 +1497,143 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">30 GODINA OD GENOCIDA U SREBRENICI
+
+
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={sreba9} alt="" />
+                    </div> 
+                  <div>
+                        <Image src={sreba10} alt="" />
+                    </div>
+
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+
+Ove godine se 11. jula obilježava 30 godina od genocida u Srebrenici. Prošle godine usvajanjem Rezolucije o genocidu u Srebrenici od strane Generalne skupštine UN-a, ovaj datum je proglašen  Međunarodnim danom sjećanja na genocid u Srebrenici. 
+
+</p>
+<p className="mb-4 text-blueGray-500">
+U genocidu  u Srebrenici  11. jula 1995. godine, ubijeno je najmanje 8372 osobe bošnjačke nacionalnosti, većinom muškarci i dječaci. Za mnogima se još uvijek traga. Preko 25.000 žena i djece, od kojih su brojni prijavili silovanje i zlostavljanje od strane vojnika VRS-a, istovremeno je deportovano.</p>
+<p className="mb-4 text-blueGray-500">
+Učenjem o razmjerama genocida u Srebrenici, svi zajedno doprinosimo  borbi protiv negiranja genocida, ukazujemo da se istina sačuva, da se žrtvama pruži podrška i osigura dostojanstvo, da se zločinci osude, a da naučene lekcije iz perioda agresije na Bosnu i Hercegovinu  budu putokaz i upozorenje kako se nikome i nikada ne bi ponovila Srebrenica.
+</p>
+
+
+</span>
+                  </div>
+                 <div className="w-full md:w-9/12 ml-auto mr-auto px-4" style={{paddingBottom: "5%"}}>    
+                  <video src="/srebrenica.mp4" width="800" height="600" controls="controls" className="w-full align-middle rounded-lg"/> 
+                  
+          
+               
+           </div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+      <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Obilježavanje 30. godišnjice genocida u Srebrenici
+
+
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={sreba1} alt="" />
+                    </div> 
+                  <div>
+                        <Image src={sreba2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={sreba3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={sreba4} alt="" />
+                    </div>
+                
+                     <div>
+                        <Image src={sreba6} alt="" />
+                    </div>
+                     <div>
+                        <Image src={sreba7} alt="" />
+                    </div>
+                     <div>
+                        <Image src={sreba8} alt="" />
+                    </div>
+
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+Homework HUB, zajedno sa JU Međunarodni centar za djecu i omladinu Novo Sarajevo i Općinom Novo Sarajevo organizovali su događaj povodom obilježavanja 30. godišnjice genocida u Srebrenici. 
+</p>
+<p className="mb-4 text-blueGray-500">
+Prigodnom programu obilježavanja prisustvovali su i obratili se: Visoki predstavnik u Bosni i Hercegovini, Christian Schmidt, načelnica Općine Novo Sarajevo, profesorica Benjamina Karić, premijer Kantona Sarajevo, Nihad Uk, prof. dr. Ena Kazić - Čakar (IUS) i Amina Mujkanović, dijete Srebrenice, čije je obraćanje ostavilo poseban dojam na sve prisutne.
+Učenici/e Prve bošnjačke gimnazije zajedno sa Načelnicom Karić, premijerom Uk čitali su imena žrtava, odajući im počast na izgubljene živote u genocidu. 
+Prikazan je i dokumentarni film Život iza polja smrti, u realizaciji Memorijalnog centra Srebrenica i BIRN Bosne i Hercegovine.
+</p>
+<p className="mb-4 text-blueGray-500">
+Ispred naše škole programu obilježavanju 30. godišnjice genocida u Srebrenici,  prisustvovale su profesorice: Suvada Trako, Amra Hodžić, Azemina Hujdur, Lejla Hujdur, Sanda Dupovac i Lejla Avdagić. 
+</p>
+<p className="mb-4 text-blueGray-500">
+Poruke koje su poslane s obilježavanja su: da pojam “genocid” mora ući u obrazovni sistem, te da se na adekvatan i kontinuiran način izučava i predstavlja. Na mladima je velika odgovornost da se obrazuju, da aktivno djeluju i budu nosioci mira. 
+Učimo, pamtimo, djelujmo: zbog žrtava zbog porodica, zbog mladih, zbog nas, zbog naše budućnosti! 
+</p>
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
      <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
