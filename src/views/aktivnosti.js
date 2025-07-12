@@ -1476,6 +1476,16 @@ import sreba8 from '@/views/images/sreba8.jpg';
 import sreba9 from '@/views/images/sreba9.jpg';
 import sreba10 from '@/views/images/sreba10.jpg';
 
+import sendera1 from '@/views/images/sendera1.jpg';
+import sendera2 from '@/views/images/sendera2.jpg';
+import sendera3 from '@/views/images/sendera3.jpg';
+import sendera4 from '@/views/images/sendera4.jpg';
+import sendera5 from '@/views/images/sendera5.jpg';
+import sendera6 from '@/views/images/sendera6.jpg';
+import sendera7 from '@/views/images/sendera7.jpg';
+import sendera8 from '@/views/images/sendera8.jpg';
+import sendera9 from '@/views/images/sendera9.jpg';
+
 
 
 const Aktivnosti = () => {
@@ -1497,6 +1507,84 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Marš mira - SREBRENICA 2025.
+
+
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={sendera1} alt="" />
+                    </div> 
+                  <div>
+                        <Image src={sendera2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={sendera3} alt="" />
+                    </div> 
+                  <div>
+                        <Image src={sendera4} alt="" />
+                    </div>
+                    <div>
+                        <Image src={sendera5} alt="" />
+                    </div> 
+                  <div>
+                        <Image src={sendera6} alt="" />
+                    </div>
+                    <div>
+                        <Image src={sendera7} alt="" />
+                    </div> 
+                  <div>
+                        <Image src={sendera8} alt="" />
+                    </div>
+                    <div>
+                        <Image src={sendera9} alt="" />
+                    </div> 
+                 
+
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+
+Naši dragi učenici: Delić Emin, Oruč Eman, Bajramović Kerim, Fejzagić Ahmed i učenica Drina Azra u pratnji prof. Sejada Šenderovića, pohodili su Marš mira.
+</p>
+<p className="mb-4 text-blueGray-500">
+Najiskrenije čestitke profesoru i našoj djeci, koji su ponos naše škole. Neki od učenika su drugi put učesnici Pohoda u pratnji prof. Šenderovića, iako je pohod izuzetno prezahtjevan, iscrpljujući i u veoma teškim uslovima, uključujući i vremenske nepogode, ali želja da ne dozvole da se genocid u Srebrenici zaboravi, jeste znatno jača.
+</p>
+<p className="mb-4 text-blueGray-500">
+
+Bravo i veliko hvala profesoru, Sejadu Šenderović, i našim učenicima!</p>
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
