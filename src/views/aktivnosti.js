@@ -1486,6 +1486,8 @@ import sendera7 from '@/views/images/sendera7.jpg';
 import sendera8 from '@/views/images/sendera8.jpg';
 import sendera9 from '@/views/images/sendera9.jpg';
 
+import alii1 from '@/views/images/alii1.jpg';
+import alii2 from '@/views/images/alii2.jpg';
 
 
 const Aktivnosti = () => {
@@ -1507,6 +1509,69 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+        <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Ali Kečo nastupio za reprezentaciju BiH na Europskom prvenstvu u boksu za juniore i juniorke!
+
+
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={alii1} alt="" />
+                    </div> 
+                  <div>
+                        <Image src={alii2} alt="" />
+                    </div>
+
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+
+U gradu koji je decenijama lansirao šampione u borilačkim sportovima, kao i velike asove boks ringa, gradu koji je osvojio trofej regionalnog šampionata 2022/2023. godine,  Novom Pazaru, održano je Evropsko prvenstvo u boksu za juniore 2025, od 8. do 17. jula.
+</p>
+<p className="mb-4 text-blueGray-500">
+Učenik ll5 odjeljenja naše škole, Ali Kečo je predstavljao našu državu na Europskom prvenstvu u boksu za juniore/ke. U kategoriji od 66 kg, Ali je poražen od takmičara Bjelorusije.
+</p>
+<p className="mb-4 text-blueGray-500">
+Europski šampionat 2025, pod okriljem Europske bokserske federacije EUBC, okupio je najbolje mlade boksere/ke iz Europe. Na takmičenju je uzelo učešća dvije stotine boksera/ki iz preko dvadeset zemalja, u trinaest težinskih kategorija. Zablistali su mladi asovi koji će kroz nekoliko godina blistati na seniorskoj sceni, a neke od njih ćemo vidjeti i na Olimpijskim igrama u Los Anđelesu 2025. Njihove borbe, snaga, hrabrost i upornost ostavili su dubok trag i inspirisali generacije mladih da uđu u ring i krenu putem discipline, časti i sportskog duha. Bio je ovo, po svemu,  festival mladosti, snage, sporta, ali i međunarodnog prijateljstva. </p>
+<p className="mb-4 text-blueGray-500">
+Ljubitelji ove plemenite borilačke vještine imali su priliku da prisustvuju odličnim i atraktivnim mečevima. Svi mečevi su emitovani u direktnom TV prijenosu na TV Arena Fight.</p>
+<p className="mb-4 text-blueGray-500">
+Sve čestitke i puno sportske sreće Aliju na narednim takmičenjima!</p>
+
+</span>
+                  </div>
+                 <div className="w-full md:w-9/12 ml-auto mr-auto px-4" style={{paddingBottom: "5%"}}>    
+                  <video src="/ali.mp4" width="800" height="600" controls="controls" className="w-full align-middle rounded-lg"/> 
+                  
+          
+               
+           </div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
