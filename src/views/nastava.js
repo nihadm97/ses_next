@@ -252,9 +252,9 @@ export default function Nastava() {
                   <li>BHS jezik i knjiženost</li>
                   <li>Tjelesni i zdravstveni odgoj</li>
                   <li>Vjeronauka ili Kultura religija</li>
+                  <li>Engleski jezik</li>
                   {!showBankarski ? (
                 <>
-                  <li>Engleski jezik</li>
                   <li>Njemački jezik / Turski jezik</li>
                   <li>Međunarodna ekonomija</li>
                   <li>Biznis ekonomija</li>
