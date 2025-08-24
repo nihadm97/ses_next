@@ -135,7 +135,7 @@ export default function Nastava() {
               ) : (
                 <>
                   <li>Bankarsko poslovanje</li>
-                  <li>Poslovni njemački jezik / Turski jezik</li>
+                  <li>Poslovni njemački jezik</li>
                   <li>Poslovna informatika</li>
                   <li>Marketing u bankarstvu</li>
                   <li>Tehnike bankarskog računanja</li>
@@ -190,7 +190,7 @@ export default function Nastava() {
               ) : (
                 <>
                   <li>Uvod u poslovno pravo</li>
-                  <li>Poslovni njemački jezik / Turski jezik</li>
+                  <li>Poslovni njemački jezik</li>
                   <li>Bankarsko poslovanje</li>
                   <li>Praktična nastava u bankama 3 dana sedmično</li>
 
@@ -250,11 +250,11 @@ export default function Nastava() {
                 </h3>
                 <ul className="mt-4 text-lg leading-relaxed">
                   <li>BHS jezik i knjiženost</li>
-                  <li>Engleski jezik</li>
                   <li>Tjelesni i zdravstveni odgoj</li>
                   <li>Vjeronauka ili Kultura religija</li>
                   {!showBankarski ? (
                 <>
+                  <li>Engleski jezik</li>
                   <li>Njemački jezik / Turski jezik</li>
                   <li>Međunarodna ekonomija</li>
                   <li>Biznis ekonomija</li>
@@ -266,8 +266,8 @@ export default function Nastava() {
                 </>
               ) : (
                 <>
+                  <li>Poslovni engleski jezik</li>
                   <li>Poslovno pravo</li>
-                  <li>Poslovni njemački jezik / Turski jezik</li>
                   <li>Bankarsko poslovanje</li>
                   <li>Praktična nastava u bankama 3 dana sedmično</li>
 
