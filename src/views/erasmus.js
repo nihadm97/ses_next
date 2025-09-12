@@ -89,6 +89,10 @@ import fin4 from '@/views/images/fin4.jpg';
 import fin5 from '@/views/images/fin5.jpg';
 import fin6 from '@/views/images/fin6.jpg';
 import fin7 from '@/views/images/fin7.png';
+
+import gtechkraj from '@/views/images/gtechkraj.jpg';
+
+
 const Erasmus = () => {
   useEffect(() => {
     AOS.init({duration: 2000});
@@ -97,6 +101,49 @@ const Erasmus = () => {
   return (
     <>
     <Menu fixed/>
+        <section data-aos="fade-in" className="pb-20 bg-white w-full">
+                          <div className="container mx-auto px-4">
+                          <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                    <h6 className="text-xl mb-1 font-semibold uppercase mr-2">GTECH Završna javna konferencija: Obrazovanje za budućnost
+                 </h6>
+                    <Image src={logo10} width="200" height="200" alt="" />
+                </span>
+                            <div className="flex flex-wrap">
+                              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                                  <div className="py-5 flex-auto">
+                                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                                      
+                                  <div>
+                                        <Image src={gtechkraj} alt="" />
+                                    </div>
+                                    
+                                   
+                                    
+                                    
+                                    
+                                </Carousel>
+                                    </div>
+                                  </div>
+                                </div>
+                              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                                  <div className="px-4 py-5 flex-auto">
+                                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+                
+                                  <p className="mb-4 text-blueGray-500">Link za prijavu:</p>
+                                  <a href='https://luma.com/o1jp29ds?fbclid=IwVERTSAMusZ1leHRuA2FlbQIxMAABHmyYRFc55Zxu0U-AddpsJyxP44HKYRdbMcOakOkvptWA0vkEzAWOqU5eJqg5_aem_BDqwjVKU2Fe6JC-pd5vhPA&sfnsn=mo'>Link</a>
+                 
+                </span>
+                                  </div>
+                                  <div className="w-full md:w-9/12 ml-auto mr-auto px-4" style={{paddingBottom: "5%"}}>    
+                               
+                           </div>
+                                </div>
+                              </div>
+                            </div>
+                            </div>
+                          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
               <div className="container mx-auto px-4">
                 <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
