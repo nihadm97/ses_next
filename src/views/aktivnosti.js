@@ -1491,6 +1491,20 @@ import alii2 from '@/views/images/alii2.jpg';
 
 import gtechkraj from '@/views/images/gtechkraj.jpg';
 
+import midstone1 from '@/views/images/midstone1.jpg';
+import midstone2 from '@/views/images/midstone2.jpg';
+import midstone3 from '@/views/images/midstone3.jpg';
+import midstone4 from '@/views/images/midstone4.jpg';
+import midstone5 from '@/views/images/midstone5.jpg';
+import midstone6 from '@/views/images/midstone6.jpg';
+import midstone7 from '@/views/images/midstone7.jpg';
+
+import cara1 from '@/views/images/cara1.jpg';
+import cara2 from '@/views/images/cara2.jpg';
+import cara3 from '@/views/images/cara3.jpg';
+import cara4 from '@/views/images/cara4.jpg';
+import cara5 from '@/views/images/cara5.jpg';
+
 const Aktivnosti = () => {
   useEffect(() => {
     AOS.init({duration: 2000});
@@ -1510,6 +1524,160 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Dan otvorenih vrata Uprave za indirektno oporezivanje
+
+
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={cara1} alt="" />
+                    </div> 
+                  <div>
+                        <Image src={cara2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={cara3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={cara4} alt="" />
+                    </div>
+                    <div>
+                        <Image src={cara5} alt="" />
+                    </div>
+
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+
+Učenici i učenice II1 i II5 odjeljenja i profesorica Indira Zeković, posjetili su Carinski terminal Sarajevo, u utorak, 16. septembra.</p>
+<p className="mb-4 text-blueGray-500">
+Tokom dvosatne posjete, uposlenici/ce Carinskog terminala Rajlovac su našim učenicima/cama prezentirali/e carinske postupke i procedure od trenutka prelaska robe preko graničnog prelaza do procedura i postupaka unutar carinske ispostave, te ključne zakone na kojima se temelji rad carinske uprave. Predstavnici/ce Uprave predstavili/e su učenicima/ama praktične aspekte carinskih postupaka, precizirali prioritete za realizaciju ciljeva koje pred nas postavlja proces približavanja Evropskoj uniji: ubrzanje protoka roba i ljudi uz jačanje kontrolnih mehanizama, podizanje nivoa bezbjednosti građana, razvijanje saradnje s drugim domaćim i međunarodnim institucijama u cilju harmonizacije procedura i usklađivanja zakonodavstva prema zahtjevima EU, razmjena informacija i saradnja sa drugim institucijama u borbi protiv ilegalne trgovine i carinskih prevara.</p>
+<p className="mb-4 text-blueGray-500">
+Zahvaljujemo Upravi za indirektno oporezivanje za vrhunski profesionalizam u organizaciji edukativne posjete Carinskom terminalu Sarajevo i njihov iznimno vrijedan doprinos unapređenju kompetencija naših učenika i učenica.
+</p>
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Učenik četvrtog razreda, Amar Nurudini, osvojio online kurs Mindstone vrijedan 350 $
+
+
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={midstone1} alt="" />
+                    </div> 
+                 <div>
+                        <Image src={midstone2} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={midstone3} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={midstone4} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={midstone5} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={midstone6} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={midstone7} alt="" />
+                    </div> 
+
+
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+
+U Dječijoj kući na Grbavici, u prvom Homework HUB-u, namijenjenom svim srednjoškolcima, studentima i freelancerima, upriličen je prvi Practical AI Meetup: 
+<b> Mindstone Sarajevo September HUB AI Meetup - Praktične AI ideje</b>
+</p>
+<p className="mb-4 text-blueGray-500">
+Homework HUB je u četvrtak, 18. septembra, ugostio vrhunske paneliste: Andreja Kaurina, Ajlu Karajko i Stefana Piana, koji su prezentovali praktične primjere o tome kako se umjetna inteligencija može koristiti danas, ovdje i odmah. </p>
+<p className="mb-4 text-blueGray-500">
+Ovim susretom panelisti su se potrudili da otklone negativne mitove koji se vežu za umjetnu inteligenciju, jer jedino kroz permanentnu edukaciju AI postaje naš alat i prednost za razvijanje naših intelektualnih vještina, a ne naš neprijatelj.
+</p>
+<p className="mb-4 text-blueGray-500">
+Realizovana su tri inspirativna predavanja:
+</p>
+<p className="mb-4 text-blueGray-500">
+Sve čestitke i puno sportske sreće Aliju na narednim takmičenjima!
+</p>
+<p className="mb-4 text-blueGray-500">
+1. What I Learned Building With LLMs - tehnički demo o izradi proizvoda uz praktična iskustva.</p>
+<p className="mb-4 text-blueGray-500">
+2. How To Be More Productive Using AI - praktična demonstracija kako AI ubrzava vaše zadatke.</p>
+<p className="mb-4 text-blueGray-500">
+3. What Does The Future Look Like With AI? - teorijski osvrt na utjecaj AI na posao, život i društvo. </p>
+<p className="mb-4 text-blueGray-500">
+Učenici/ce trećeg i četvrtog razreda naše škole su bili/e dijelom ovog izvanrednog AI Meetupa na kojem je naš učenik Amar Nurudini iz IV2 odjeljenja osvojio online kurs Mindstone, vrijedan 350 $. Mindstoneovi programi usavršavanja u oblasti vještačke inteligencije pružaju praktično znanje potrebno za primjenu vještačke inteligencije u stvarnim scenarijima.</p>
+<p className="mb-4 text-blueGray-500">
+Publika je imala priliku čuti inspirativne priče predavača, ali i postavljati pitanja i razmijeniti iskustva. Kroz zanimljive demonstracije kreiranja AI modela i asistenata, te diskusiju o budućnosti obrazovanja i poslova, mladi učesnici i učesnice obogatile/i su se novim idejama za korištenje umjetne inteligencije koje će im pomoći da unaprijede svoje znanje i kritičko mišljenje.</p>
+<p className="mb-4 text-blueGray-500">
+Bio je ovo izvanredan AI Meetup i prilika za učenje, povezivanje i inspiraciju! </p>
+<p className="mb-4 text-blueGray-500">
+Mreža i inspiracija - povežite se s AI entuzijastima, inovatorima i onima koji donose budućnost nadohvat ruke! community.mindstone.com</p>
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
                           <div className="container mx-auto px-4">
                           <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
