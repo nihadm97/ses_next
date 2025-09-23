@@ -112,17 +112,9 @@ export default function Footer() {
                     <li>
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="https://drive.google.com/file/d/137gt-MuKMKNFhlkOvTLlaoRFnSEGQ6mH/view?usp=sharing"
+                        href="https://drive.google.com/file/d/1fL5U9ZQRFWIFrbDpeKXCL-l9cRKFReWl/view?usp=sharing"
                       >
                         Plan integriteta
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="https://drive.google.com/file/d/1IP1ZG_f3nyugmlH8n1qWuV6racqKCBYt/view"
-                      >
-                        Dopunjeni plan integriteta
                       </a>
                     </li>
                     <li>
