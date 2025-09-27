@@ -1505,6 +1505,13 @@ import cara3 from '@/views/images/cara3.jpg';
 import cara4 from '@/views/images/cara4.jpg';
 import cara5 from '@/views/images/cara5.jpg';
 
+import herojiistine1 from '@/views/images/herojiistine1.jpg';
+import herojiistine2 from '@/views/images/herojiistine2.jpg';
+import herojiistine3 from '@/views/images/herojiistine3.jpg';
+import herojiistine4 from '@/views/images/herojiistine4.jpg';
+import herojiistine5 from '@/views/images/herojiistine5.jpg';
+
+
 const Aktivnosti = () => {
   useEffect(() => {
     AOS.init({duration: 2000});
@@ -1524,6 +1531,79 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">HEROJI ISTINE I SJEĆANJA: Svečana dodjela zahvalnica učesnicima drugog Marša mira 
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={herojiistine1} alt="" />
+                    </div> 
+                  <div>
+                        <Image src={herojiistine2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={herojiistine3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={herojiistine4} alt="" />
+                    </div>
+                    <div>
+                        <Image src={herojiistine5} alt="" />
+                    </div>
+
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+
+Sinoć je u Velikoj sali Gazi Husrev-begove biblioteke upriličen događaj dodjele zahvalnica učesnicima 2. institucionalno organiziranog "Marša mira Nezuk-Memorijalni centar Potočari za srednjoškolce Kantona Sarajevo".
+</p>
+<p className="mb-4 text-blueGray-500">
+Podsjećamo, već drugi put, učenici i prosvjetni radnici iz Kantona Sarajevo organizirano su učestvovali u Maršu mira zahvaljujući inicijativi Ministarstva za odgoj i obrazovanje Kantona Sarajevo i Instituta za razvoj preduniverzitetskog obrazovanja. 
+
+</p>
+<p className="mb-4 text-blueGray-500">
+Cilj ovog poduhvata bio je okupiti učenike, nastavnike i direktore srednjih škola Kantona Sarajevo kako bi, na dvadeset i prvu godišnjicu Marša mira i tridesetu godišnjicu od genocidu u Srebrenici, odali počast žrtvama te potaknuli dijalog o važnosti mira, tolerancije i suživota.
+</p>
+<p className="mb-4 text-blueGray-500">
+Za obrazovni sistem Kantona Sarajevo ovo je historijski poduhvat jer je drugi put veliki broj učenika iz različitih srednjih škola zajedno učestvovao u Maršu mira. Ovo je važan korak u izgradnji i njegovanju kulture sjećanja kroz obrazovni sistem, s ciljem da nove generacije pamte i promoviraju mir, sjećanje i solidarnost.
+</p>
+<p className="mb-4 text-blueGray-500">
+Tokom Marša mira organizirane su različite aktivnosti, uključujući edukativne radionice, predavanja i kulturne događaje, s ciljem informiranja učesnika o historijskom kontekstu događaja u Srebrenici i poticanja dijaloga o istini, pravdi, pomirenju i izgradnji budućnosti bez sukoba.
+</p>
+<p className="mb-4 text-blueGray-500">
+Promociji su prisustvovali predsjedavajući Skupštine Kantona Sarajevo Elvedin Okerić, ministri u Vladi Kantona Sarajevo na čelu s ministricom Hota-Muminović, direktorica Instituta Senada Salihović sa saradnicima, direktorice i direktori škola, zavoda, privrednih subjekata i organizacija koje su podržale Marš mira, predsjednik Pododbora „Marša mira Nezuk-Potočari 2025“ Suljo Čakanović, predstavnik 2. pješadijskog (rendžerskog) puka Oružanih snaga BiH - pukovnik Suad Mrguda, nastavnici, učesnici 2. institucionalno organiziranog Marša mira i njihove porodice te brojni prijatelji ovog poduhvata.
+</p>
+<p className="mb-4 text-blueGray-500">
+Ovu priliku koristimo da iskažemo zahvalnost svima njima što su odvojili vrijeme i sudjelovali ovom događaju. Posebnu zahvalnost upućujemo upravi GHB Biblioteke, koja je podržala namjeru Ministarstva i Instituta da ova aktivnost bude upriličena baš na ovom mjestu.
+</p>
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
