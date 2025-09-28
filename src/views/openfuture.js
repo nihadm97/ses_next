@@ -52,6 +52,17 @@ import newsletter8 from '@/views/images/newsletter8.jpg';
 
 import champions from '@/views/images/Champions.jpg';
 
+import koktel1 from '@/views/images/koktel1.jpg';
+import koktel2 from '@/views/images/koktel2.jpg';
+import koktel3 from '@/views/images/koktel3.jpg';
+import koktel4 from '@/views/images/koktel4.jpg';
+import koktel5 from '@/views/images/koktel5.jpg';
+import koktel6 from '@/views/images/koktel6.jpg';
+import koktel7 from '@/views/images/koktel7.jpg';
+import koktel8 from '@/views/images/koktel8.jpg';
+import koktel9 from '@/views/images/koktel9.jpg';
+import koktel10 from '@/views/images/koktel10.jpg';
+import koktel11 from '@/views/images/koktel11.jpg';
 
 
 const OpenFuture = () => {
@@ -62,6 +73,108 @@ const OpenFuture = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+              <div className="container mx-auto px-4">
+                <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+                  <h6 className="text-xl mb-1 font-semibold text-center uppercase">Promocija projekta "Open Future" uz koktel
+    
+    
+    
+    </h6>
+                </span>
+                <div className="flex flex-wrap">
+                  <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                    <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                      <div className="py-5 flex-auto">
+                      <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                          
+                      <div>
+                            <Image src={koktel1} alt="" />
+                        </div> 
+                      <div>
+                            <Image src={koktel2} alt="" />
+                        </div>
+                        <div>
+                            <Image src={koktel3} alt="" />
+                        </div>
+                        <div>
+                            <Image src={koktel4} alt="" />
+                        </div>
+                        <div>
+                            <Image src={koktel5} alt="" />
+                        </div>
+                        <div>
+                            <Image src={koktel6} alt="" />
+                        </div> 
+                      <div>
+                            <Image src={koktel7} alt="" />
+                        </div>
+                        <div>
+                            <Image src={koktel8} alt="" />
+                        </div>
+                        <div>
+                            <Image src={koktel9} alt="" />
+                        </div>
+                        <div>
+                            <Image src={koktel10} alt="" />
+                        </div>
+                        <div>
+                            <Image src={koktel11} alt="" />
+                        </div>
+    
+                    </Carousel>
+                        </div>
+                      </div>
+                    </div>
+                  <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                    <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                      <div className="px-4 py-5 flex-auto">
+                      <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+     
+                      
+    <p className="mb-4 text-blueGray-500">
+    
+    U prepunom holu naše škole, 26.9.2025. godine, promovisan je Erasmus+ projekat "Open Future" uz koktel, koji je finansiran iz sredstava projekta.
+    </p>
+    <p className="mb-4 text-blueGray-500">
+    Projekat Open Future je priča o zajedništvu, mašti, učenju i snovima koji postaju stvarnost. 
+    </p>
+    <p className="mb-4 text-blueGray-500">
+    Od 01. decembra 2023. do 30. novembra 2025. godine, profesori i učenici iz različitih zemalja krenuli su na putovanje u kojem razvijaju petnaest ključnih preduzetničkih kompetencija, koristeći nove alate i inovativne pristupe, a iznad svega - otkrivajući svoje talente i snagu.</p>
+    <p className="mb-4 text-blueGray-500">
+    Nosilac i koordinator projekta je Naučni centar za kreativni razvoj Ideall iz Novog Sada, a u realizaciji učestvuju profesori i sto učenika iz tri škole: Ekonomska i upravna škola, Osijek, Mješovita škola “Danilo Kiš”, Budva i Srednja ekonomska škola, Sarajevo, koji zajedno dijele viziju obrazovanja koje osnažuje mlade. Zajednički rad i razmjena iskustava pokazali su da budućnost možemo graditi samo ako je gradimo zajedno - kroz saradnju, motivaciju i povjerenje.
+    </p>
+    <p className="mb-4 text-blueGray-500">
+    Na samom početku, u decembru 2023. godine, u Novom Sadu održan je prvi transnacionalni sastanak, kada je i potpisan Memorandum o saradnji, a timovi su se prvi put okupili i povezali. Bio je to trenutak kada je postalo jasno da će Open Future biti više od projekta - postaće pokret u kojem učenici i nastavnici zajedno grade most ka novim znanjima i iskustvima.</p>
+    <p className="mb-4 text-blueGray-500">
+    Promociji su prisustvovali predsjedavajući Skupštine Kantona Sarajevo Elvedin Okerić, ministri u Vladi Kantona Sarajevo na čelu s ministricom Hota-Muminović, direktorica Instituta Senada Salihović sa saradnicima, direktorice i direktori škola, zavoda, privrednih subjekata i organizacija koje su podržale Marš mira, predsjednik Pododbora „Marša mira Nezuk-Potočari 2025“ Suljo Čakanović, predstavnik 2. pješadijskog (rendžerskog) puka Oružanih snaga BiH - pukovnik Suad Mrguda, nastavnici, učesnici 2. institucionalno organiziranog Marša mira i njihove porodice te brojni prijatelji ovog poduhvata.
+    </p>
+    <p className="mb-4 text-blueGray-500">
+    Juni 2024. godine, donio je nezaboravne trenutke u Budvi. Učesnici su, osim konferencijskih aktivnosti, imali priliku upoznati bogatu kulturno-historijsku baštinu i tradiciju Budve i Boke Kotorske. Ta iskustva nisu bila samo učenje o prošlosti, već i inspiracija da se maštom i kreativnošću gradi budućnost.
+    </p>
+    <p className="mb-4 text-blueGray-500">
+    Cilj ovog poduhvata bio je okupiti učenike, nastavnike i direktore srednjih škola Kantona Sarajevo kako bi, na dvadeset i prvu godišnjicu Marša mira i tridesetu godišnjicu od genocidu u Srebrenici, odali počast žrtvama te potaknuli dijalog o važnosti mira, tolerancije i suživota.
+    </p>
+    <p className="mb-4 text-blueGray-500">
+    Septembar iste godine, bio je rezervisan za obuku mentora u Novom Sadu. Profesori su učili iz praktičnih treninga i radionica, učeći kako da prenesu nove metode i alate svojim učenicima. Učenici su, s druge strane, bili u centru pažnje projekta. Kroz procjenu vlastitih preduzetničkih kompetencija, radionice i primjenu 21 alata (od PEST(el) i ADKAR-a, do Business Canvas-a i A3 alata), otkrivali su koliko je važno misliti kritički, sarađivati i slobodno izražavati ideje bez straha. Upravo tu se rodilo samopouzdanje koje će im biti vodič u svakom narednom koraku.</p>
+    <p className="mb-4 text-blueGray-500">
+    U decembru 2024. godine, konzorcijum se okupio u Osijeku. Razmjenjivala su se iskustva, radili izvještaji, dogovarali novi planovi, a svaki susret donosio je novu energiju i potvrđivao da vizija ovog projekta prerasta granice i spaja ljude iz različitih sredina.</p>
+    <p className="mb-4 text-blueGray-500">
+    Posebno važan trenutak bio je u aprilu 2025. godine, kada se u Sarajevu održao četvrti transnacionalni sastanak. Dogovorena je priprema kurikuluma Inovativnog preduzetništva i pisanje studije slučaja (case study), čime će se stečeno znanje pretvoriti u konkretne nastavne sadržaje, koji ostaju kao trajna vrijednost i za generacije koje tek dolaze.</p>
+    <p className="mb-4 text-blueGray-500">
+    Na kraju projekta, učesnici su dobili certifikate, a korisnici neće biti samo direktni učesnici, već i svi oni koji vjeruju u snagu preduzetničkog obrazovanja - kreatori politika, poslovna zajednica, privredna komora i šira društvena zajednica.
+    </p>
+    <p className="mb-4 text-blueGray-500">
+    Projekat Open Future nas uči da su preduzetničke kompetencije ključ uspjeha u budućnosti, te da je budućnost otvorena za one koji je žele graditi!</p>
+    
+    </span>
+                      </div>
+                     
+                    </div>
+                  </div>
+                </div>
+                </div>
+              </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full justify-center items-center">
           <div className="container mx-auto px-4 justify-center items-center">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
