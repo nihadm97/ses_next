@@ -212,15 +212,11 @@ const Projekti = () => {
     </p>
     <p className="mb-4 text-blueGray-500">
     Na samom početku, u decembru 2023. godine, u Novom Sadu održan je prvi transnacionalni sastanak, kada je i potpisan Memorandum o saradnji, a timovi su se prvi put okupili i povezali. Bio je to trenutak kada je postalo jasno da će Open Future biti više od projekta - postaće pokret u kojem učenici i nastavnici zajedno grade most ka novim znanjima i iskustvima.</p>
-    <p className="mb-4 text-blueGray-500">
-    Promociji su prisustvovali predsjedavajući Skupštine Kantona Sarajevo Elvedin Okerić, ministri u Vladi Kantona Sarajevo na čelu s ministricom Hota-Muminović, direktorica Instituta Senada Salihović sa saradnicima, direktorice i direktori škola, zavoda, privrednih subjekata i organizacija koje su podržale Marš mira, predsjednik Pododbora „Marša mira Nezuk-Potočari 2025“ Suljo Čakanović, predstavnik 2. pješadijskog (rendžerskog) puka Oružanih snaga BiH - pukovnik Suad Mrguda, nastavnici, učesnici 2. institucionalno organiziranog Marša mira i njihove porodice te brojni prijatelji ovog poduhvata.
-    </p>
+
     <p className="mb-4 text-blueGray-500">
     Juni 2024. godine, donio je nezaboravne trenutke u Budvi. Učesnici su, osim konferencijskih aktivnosti, imali priliku upoznati bogatu kulturno-historijsku baštinu i tradiciju Budve i Boke Kotorske. Ta iskustva nisu bila samo učenje o prošlosti, već i inspiracija da se maštom i kreativnošću gradi budućnost.
     </p>
-    <p className="mb-4 text-blueGray-500">
-    Cilj ovog poduhvata bio je okupiti učenike, nastavnike i direktore srednjih škola Kantona Sarajevo kako bi, na dvadeset i prvu godišnjicu Marša mira i tridesetu godišnjicu od genocidu u Srebrenici, odali počast žrtvama te potaknuli dijalog o važnosti mira, tolerancije i suživota.
-    </p>
+
     <p className="mb-4 text-blueGray-500">
     Septembar iste godine, bio je rezervisan za obuku mentora u Novom Sadu. Profesori su učili iz praktičnih treninga i radionica, učeći kako da prenesu nove metode i alate svojim učenicima. Učenici su, s druge strane, bili u centru pažnje projekta. Kroz procjenu vlastitih preduzetničkih kompetencija, radionice i primjenu 21 alata (od PEST(el) i ADKAR-a, do Business Canvas-a i A3 alata), otkrivali su koliko je važno misliti kritički, sarađivati i slobodno izražavati ideje bez straha. Upravo tu se rodilo samopouzdanje koje će im biti vodič u svakom narednom koraku.</p>
     <p className="mb-4 text-blueGray-500">
