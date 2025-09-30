@@ -1529,6 +1529,24 @@ import koktel9 from '@/views/images/koktel9.jpg';
 import koktel10 from '@/views/images/koktel10.jpg';
 import koktel11 from '@/views/images/koktel11.jpg';
 
+import jezik1 from '@/views/images/jezik1.jpg';
+import jezik2 from '@/views/images/jezik2.jpg';
+import jezik3 from '@/views/images/jezik3.jpg';
+import jezik4 from '@/views/images/jezik4.jpg';
+import jezik5 from '@/views/images/jezik5.jpg';
+
+import lider1 from '@/views/images/lide1.jpg';
+import lider2 from '@/views/images/lider2.jpg';
+import lider3 from '@/views/images/lider3.jpg';
+import lider4 from '@/views/images/lider4.jpg';
+import lider5 from '@/views/images/lider5.jpg';
+import lider6 from '@/views/images/lider6.jpg';
+import lider7 from '@/views/images/lider7.jpg';
+import lider8 from '@/views/images/lider8.jpg';
+import lider9 from '@/views/images/lider9.jpg';
+import lider10 from '@/views/images/lider10.jpg';
+import lider11 from '@/views/images/lider11.jpg';
+
 
 const Aktivnosti = () => {
   useEffect(() => {
@@ -1549,6 +1567,203 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">STARTUP obuka i takmičenje: Projekat Lumea Impact – Inkubator privrednog razvoja Stari Grad
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={lider1} alt="" />
+                    </div> 
+                  <div>
+                        <Image src={lider2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={lider3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={lider4} alt="" />
+                    </div>
+                    <div>
+                        <Image src={lider5} alt="" />
+                    </div>
+                                      <div>
+                        <Image src={lider6} alt="" />
+                    </div> 
+                  <div>
+                        <Image src={lider7} alt="" />
+                    </div>
+                    <div>
+                        <Image src={lider8} alt="" />
+                    </div>
+                    <div>
+                        <Image src={lider9} alt="" />
+                    </div>
+                    <div>
+                        <Image src={lider10} alt="" />
+                    </div>
+                      <div>
+                        <Image src={lider11} alt="" />
+                    </div>
+
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+
+U četvrtak  i petak, 25. i 26. septembra, učenici i učenice trećeg i četvrtog razreda, te profesori/ce: Edin Selmanović, Indira Zeković, Sejdela Kadribegović, Alma Karamujić, Sanda Dupovac, Vildana Čelić, Selma Jusić i Amra Hodžić su u Općini Stari grad prisustvovali/e dvodnevnoj edukaciji i takmičenju u okviru projekta Lumea Impact – Inkubator privrednog razvoja Stari Grad.
+</p>
+<p className="mb-4 text-blueGray-500">
+U sali Općine Stari Grad Sarajevo načelnik Općine Stari Grad Irfan Čengić je pozdravio učesnike/ce projekta Lumea Impact – Inkubator privrednog razvoja Stari Grad. </p>
+<p className="mb-4 text-blueGray-500">
+Načelnik Čengić, u svom uvodnom obraćanju, naglasio je da Općina Stari Grad ostaje posvećena održivim poslovnim inicijativama, kreiranju konkretnih prilika za mlade koji žele ostati i razvijati se u svojoj zajednici. Općina je ove godine dodijelila sredstva po osnovu Javnog poziva za finansiranje i sufinansiranje najboljih poslovnih planova namijenjenih razvoju preduzetništva i zapošljavanju ranjivih kategorija stanovništva, među kojima su mladi, nezaposlene osobe, žene, osobe s invaliditetom. 
+</p>
+<p className="mb-4 text-blueGray-500">
+Dvodnevni program u sali Općine Stari Grad bio je fokusiran na edukaciju i osnaživanje mladih u oblasti poduzetništva, razvoj njihovih poduzetničkih kompetencija s ciljem da ih motiviše na pokretanje vlastitog biznisa i aktivno uključivanje u ekonomski život lokalne zajednice.
+</p>
+
+<p className="mb-4 text-blueGray-500">
+Projekat Lumea Impact – Inkubator privrednog razvoja Stari Grad realizovan je uz podršku Općine Stari Grad Sarajevo, koja je sufinansirala ovu inicijativu, potvrđujući svoju opredijeljenost razvoju poduzetničke kulture među mladima.</p>
+<p className="mb-4 text-blueGray-500">
+Na dvodnevnoj edukaciji u ulozi predavača bili su Melisa Tolja iz Agencije Digital2, konsultantica za poslovni razvoj i digitalne komunikacije i certifikovani profesionalni business coach, dr Šejma Aydin, profesorica sa IUS-a i dr Aida Akagić Hodžić, profesorica Faculty of Business and Administration (FBA) pri International University of Sarajevo (IUS), predsjednica Udruženja za razvoj i afirmaciju društva BNL (Building New Lives) i expert za javnu i lokalnu upravu koja radi s GIZ-om za Zapadni Balkan za 6-9 gradova na jačanju projektnih timova vladinih jedinica s ciljem efikasnijeg korištenja projektnih sredstava. Prethodno iskustvo profesorice Akagić uključuje strateško, komunikacijsko, mrežno, upravljačko i akciono iskustvo u okviru projekata Grada Sarajeva, Delegacije EU u BiH, Direkcije za evropske integracije u BiH, Ministarstva socijalne politike Kantona Sarajevo, Suda Bosne i Hercegovine, USAID-a, UNDP-a itd. </p>
+<p className="mb-4 text-blueGray-500">
+Sadržaji predavanja su se odnosili na ključne aspekte izrade biznis plana, od analize tržišta i definisanja ciljne grupe do formiranja cijena i pronalaska izvora finansiranja. Drugi dan je bio pitch day, posvećen praktičnom radu i takmičenju, gdje su odabrani timovi učenika razvijali i prezentirali svoje inovativne poslovne ideje pred komisijom koju je činio i predstavnik iz MKF-a, Mikrokreditne fondacije LIDER čija platforma Pravi Lider besplatno podržava male poduzetnike kroz promociju, edukaciju i savjete stručnjaka.</p>
+<p className="mb-4 text-blueGray-500">
+Kroz ovaj koncept, mladi ne samo da stiču potrebna znanja, već i samopouzdanje da zakorače u svijet biznisa s inovacijama koje odgovaraju realnim potrebama lokalne zajednice.</p>
+<p className="mb-4 text-blueGray-500">
+Naši učenici i učenice su demonstrirali/e mnoštvo inspirativnih, inovativnih ideja. Bila je ovo prilika da razvijaju svijest o biznisu i poduzetništvu, vještine rješavanja problema, timskog rada, analitičkog razmišljanja, prezentacijske vještine, da unapređuju samopouzdanje, spoznaju snagu vlastitih ideja i inicijativa, dokazujući da imamo potencijale u poduzetništvu i da nam ne nedostaje startup duha!</p>
+<p className="mb-4 text-blueGray-500">
+Najbolji poslovni plan imao je tim u sastavu: Enida Bubić, Merjem Omić, Hatidža Arnautović, Merjem Hanić i Rasema Sipović.</p>
+<p className="mb-4 text-blueGray-500">
+Drugoplasirani poslovni koncept: Zarah Hošić, Emil Karić, Advan Durmo, Tajra Kajmović i Tajra Berović.</p>
+<p className="mb-4 text-blueGray-500">
+Treće mjesto su osvojili: Tajra Tarić, Ilhana Boračić, Azra Drina, Nedim Džigal i Ajla Mujanović.</p>
+<p className="mb-4 text-blueGray-500">
+Sve čestitke nagrađenim timovima! Čestitamo svim učesnicima/ama na trudu, idejama i preduzetničkom duhu!</p>
+<p className="mb-4 text-blueGray-500">
+Startup duh u BiH nije samo u velikim kompanijama – on je i u kolaču za prvu narudžbu, i u svakom učeničkom, studentskom projektu koji postane biznis plan. Treba ga njegovati i sistemski podržavati, jer u njemu leži snaga domaće ekonomije i promjena koja dolazi iznutra! </p>
+<p className="mb-4 text-blueGray-500">
+Sigurno je da možemo puno više od onoga što zapravo mislimo da možemo!</p>
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">LINGVOPROMENADA – FESTIVAL JEZIKA
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={jezik1} alt="" />
+                    </div> 
+                  <div>
+                        <Image src={jezik2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={jezik3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={jezik4} alt="" />
+                    </div>
+                    <div>
+                        <Image src={jezik5} alt="" />
+                    </div>
+
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+
+Tri sarajevske srednje škole — JU Srednja ekonomska škola Sarajevo, JU Prva gimnazija Sarajevo i JU Srednja ugostiteljsko-turistička škola — 26. septembra 2025. obilježile su Evropski dan jezika pod motom Evropskog centra za moderne jezike pri Vijeću Evrope:
+ „Jezici otvaraju srca i um“. 
+ </p>
+<p className="mb-4 text-blueGray-500">
+Koordinatorice su bile prof. Senida Čeljo (SEŠ), prof. Maja Omerhodžić (Prva gimnazija) i prof. Anisa Bidžević (SUTS). Učestvovalo je 20 profesora/profesorica i oko 300 učenika (I–IV razred).
+U periodu 22–26. 9. 2025. aktivnosti su provedene prema Kurikulumu i planiranim ishodima, s fokusom na značaj jezika, prevazilaženje stereotipa, uvažavanje različitosti, interkulturalne odnose i profesionalne perspektive.  Realizacija je imala tri faze:
+</p>
+
+<p className="mb-4 text-blueGray-500">
+1.	Učionice — interaktivne, kreativne i istraživačke aktivnosti svakog profesora;
+</p>
+
+<p className="mb-4 text-blueGray-500">
+2.	Školski nivo — međupredmetno povezivanje;
+</p>
+
+<p className="mb-4 text-blueGray-500">
+3.	Završna manifestacija Lingvopromenade -Trans/interdisciplinarna saradnja tri škole.
+</p>
+<p className="mb-4 text-blueGray-500">
+Završna manifestacija „Lingvopromenada“ počela je povorkom učenika koji su krenuli iz Ugostiteljsko-turističke škole sa transparentima i lecima o višejezičnost i multikulturalnosti, zatim stigli do Prve gimnazije, a potom zajedno nastavili do Srednje ekonomske škole u kojoj je održan je završni dio obilježavanja Evropskog dana jezika. Tom prilikom učenici i profesori su pripremili muzičke i glumačke performanse na različitim jezicima i jezičke štandove. Podršku su također dali  Goethe-Institut, Turističke zajednice Kantona Sarajevo i Yunus Emre Institut. Promovisani su i ERASMUS+ projekti „G-TECH“ i „Open Future“ kao i eTwinning projekti Srednje ekonomske škole, Sarajevo.  Prisutnima su se obratile Žaneta Džumhur, pomoćnica direktorice za nastavne planove i programe Instituta za razvoj preduniverzitetskog obrazovanja KS, Branka Popić, stručna savjetnica za društvene znanosti i umjetnost ispred Agencije za predškolsko, osnovno i srednje obrazovanje BiH, te Amira Kadrispahić, direktorica Srednje ekonomske škole Sarajevo.
+Posjetioci su imali priliku učestvovati u kvizovima, osvojiti „Pasoš poliglote“ kao i učestvovati u edukativno-zabavnim radionicama:<br></br>
+1. Uticaj jezičkih dodira – Posuđenice u bosanskom, hrvatskom i srpskom jeziku (turcizmi, germanizmi, anglicizmi);<br></br>
+2. Europanto – kreiranje rečenica sa riječima na različitim jezicima;<br></br>
+3. Multilingualni kutak - Poliglot izazov <br></br>
+4. Digitalni poligloti – kreativno učenje jezika kroz web alate i AI aplikacije.<br></br>
+
+</p>
+<p className="mb-4 text-blueGray-500">
+Predani rad i timska saradnja vidljivi su u svakom segmentu programa svih učesnika. A profesorice i profesori koji su činili tim iz Srednje ekoonomske škole, Sarajevo su:<br></br>
+Engleski jezik: Senida Čeljo, Lejla Avdagić, Seno Čolo<br></br>
+Njemački jezik: Nela Busuladžić, Aida Babić, Alma Duratbegović<br></br>
+Bosanski/Hrvatski/Srpski jezik i književnost: Dženana Tanović Hamzić, Vedina Širbegović<br></br>
+Turski jezik: Edita Drakovac<br></br>
+Informatika: Sandi Tafro<br></br>
+Biblioteka: Amra Lagumdžija<br></br>
+</p>
+<p className="mb-4 text-blueGray-500">
+Velika zahvalnost profesoricama i profesorima te učenicama i učenicima na dostojanstvenom predstavljanju Srednje ekonomsko škole, Sarajevo.
+Jezici spajaju ljude, otvaraju nova prijateljstva i stvaraju mostove među kulturama — upravo to su učenici pokazali na ovogodišnjoj Lingvopromenadi.
+</p>
+<a href='https://www.canva.com/design/DAGzxYQgMdM/iuRfF1ljDlPlblvf9m1W8g/edit'>Sve aktivnosti su postavljene u e-book. (klikni)</a>
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
