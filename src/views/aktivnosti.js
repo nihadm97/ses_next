@@ -1534,6 +1534,9 @@ import jezik2 from '@/views/images/jezik2.jpg';
 import jezik3 from '@/views/images/jezik3.jpg';
 import jezik4 from '@/views/images/jezik4.jpg';
 import jezik5 from '@/views/images/jezik5.jpg';
+import jezik6 from '@/views/images/jezik6.jpg';
+import jezik7 from '@/views/images/jezik7.jpg';
+
 
 import lider1 from '@/views/images/lide1.jpg';
 import lider2 from '@/views/images/lider2.jpg';
@@ -1700,6 +1703,12 @@ Sigurno je da možemo puno više od onoga što zapravo mislimo da možemo!</p>
                     </div>
                     <div>
                         <Image src={jezik5} alt="" />
+                    </div>
+                    <div>
+                        <Image src={jezik6} alt="" />
+                    </div>
+                    <div>
+                        <Image src={jezik7} alt="" />
                     </div>
 
                 </Carousel>
