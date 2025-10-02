@@ -1550,6 +1550,21 @@ import lider9 from '@/views/images/lider9.jpg';
 import lider10 from '@/views/images/lider10.jpg';
 import lider11 from '@/views/images/lider11.jpg';
 
+import yunusemre1 from '@/views/images/yunusemre1.jpg';
+import yunusemre2 from '@/views/images/yunusemre2.jpg';
+import yunusemre3 from '@/views/images/yunusemre3.jpg';
+import yunusemre4 from '@/views/images/yunusemre4.jpg';
+import yunusemre5 from '@/views/images/yunusemre5.jpg';
+
+import jusuf1 from '@/views/images/jusuf1.jpg';
+import jusuf2 from '@/views/images/jusuf2.jpg';
+import jusuf3 from '@/views/images/jusuf3.jpg';
+import jusuf4 from '@/views/images/jusuf4.jpg';
+import jusuf5 from '@/views/images/jusuf5.jpg';
+import jusuf6 from '@/views/images/jusuf6.jpg';
+import jusuf7 from '@/views/images/jusuf7.jpg';
+
+
 
 const Aktivnosti = () => {
   useEffect(() => {
@@ -1570,6 +1585,132 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">NO GI CHALLENGE GRAPPLING TOURNAMENT: Jusuf Muratović šampion u kategoriji do 91 kg!
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={jusuf1} alt="" />
+                    </div> 
+                  <div>
+                        <Image src={jusuf2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={jusuf3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={jusuf4} alt="" />
+                    </div>
+                    <div>
+                        <Image src={jusuf5} alt="" />
+                    </div>
+                    <div>
+                        <Image src={jusuf6} alt="" />
+                    </div>
+                    <div>
+                        <Image src={jusuf7} alt="" />
+                    </div>
+
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+
+Učenik IV4 odjeljenja, Jusuf Muratović je 28. septembra učestvovao na Grappling turniru  NOGI CHALLENGE 3 u Novom Sadu, osvojio prvo mjesto sa 4 pobjede i šampionsku titulu u kategoriji do 91 kg!
+
+</p>
+<p className="mb-4 text-blueGray-500">
+Grappling je borilačka vještina koja se fokusira na hvatanje, kontrolu i neutralizaciju protivnika bez upotrebe udaraca. Umjesto snage udaraca, koristi se precizna tehnika koja omogućava borcu da kontroliše rivala kroz bacanja, rušenja, zahvate i prisiljavanje na predaju.</p>
+<p className="mb-4 text-blueGray-500">
+Jusuf je u četiri borbe demonstrirao vrhunske tehnike grapplinga, ali i izuzetnu hrabrost i odlučnost.</p>
+<p className="mb-4 text-blueGray-500">
+Čestitamo Jusufu na ovom izuzetnom uspjehu i mnogo sportske sreće na sljedećim turnirima!</p>
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Institut Yunus Emre - Dan otvorenih vrata 
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={yunusemre1} alt="" />
+                    </div> 
+                  <div>
+                        <Image src={yunusemre2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={yunusemre3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={yunusemre4} alt="" />
+                    </div>
+                    <div>
+                        <Image src={yunusemre5} alt="" />
+                    </div>
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+
+Učenici I5 i I6 razreda koji uče turski jezik kao drugi strani jezik, zajedno sa svojom profesoricom turskog jezika i književnosti, Editom Drakovac, posjetili su Institut "Yunus Emre" u Sarajevu povodom programa “Dan otvorenih vrata”. </p>
+<p className="mb-4 text-blueGray-500">
+Tom prilikom prisustvovali su prezentaciji o radu Instituta, učestvovali u takmičenju iz općeg znanja turskog jezika, okušali se u radionici Ebru umjetnost, te uživali u degustaciji turske hrane i čaja. Bila je to prilika da se učenici na kreativan i zabavan način dodatno približe turskom jeziku i kulturi.
+</p>
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
