@@ -1564,7 +1564,14 @@ import jusuf5 from '@/views/images/jusuf5.jpg';
 import jusuf6 from '@/views/images/jusuf6.jpg';
 import jusuf7 from '@/views/images/jusuf7.jpg';
 
-
+import srebrenica20251 from '@/views/images/srebrenica20251.jpg';
+import srebrenica20252 from '@/views/images/srebrenica20252.jpg';
+import srebrenica20253 from '@/views/images/srebrenica20253.jpg';
+import srebrenica20254 from '@/views/images/srebrenica20254.jpg';
+import srebrenica20255 from '@/views/images/srebrenica20255.jpg';
+import srebrenica20256 from '@/views/images/srebrenica20256.jpg';
+import srebrenica20257 from '@/views/images/srebrenica20257.jpg';
+import srebrenica20258 from '@/views/images/srebrenica20258.jpg';
 
 const Aktivnosti = () => {
   useEffect(() => {
@@ -1585,6 +1592,71 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Srebrenica - Potočari, 2025. godine
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={srebrenica20251} alt="" />
+                    </div> 
+                  <div>
+                        <Image src={srebrenica20252} alt="" />
+                    </div>
+                    <div>
+                        <Image src={srebrenica20253} alt="" />
+                    </div>
+                    <div>
+                        <Image src={srebrenica20254} alt="" />
+                    </div>
+                    <div>
+                        <Image src={srebrenica20255} alt="" />
+                    </div>
+                    <div>
+                        <Image src={srebrenica20256} alt="" />
+                    </div>
+                    <div>
+                        <Image src={srebrenica20257} alt="" />
+                    </div>
+                    <div>
+                        <Image src={srebrenica20258} alt="" />
+                    </div>
+
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+
+Još jedna generacija učenika naše škole posjetila je Srebrenicu. Uz bolne uzdahe, odali su počast žrtvama gnusnog Genocida, počinjenog 1995. godine. Svjedočili su potresnim dokazima koji lede krv u žilama, šapćući tiho i kroz suze, da nikada neće zaboraviti.
+</p>
+
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
