@@ -1573,6 +1573,8 @@ import srebrenica20256 from '@/views/images/srebrenica20256.jpg';
 import srebrenica20257 from '@/views/images/srebrenica20257.jpg';
 import srebrenica20258 from '@/views/images/srebrenica20258.jpg';
 
+import adem from '@/views/images/adem.jpg';
+
 const Aktivnosti = () => {
   useEffect(() => {
     AOS.init({duration: 2000});
@@ -1592,6 +1594,105 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Profin voljeni Adem
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={adem} alt="" />
+                    </div> 
+
+
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+Ulazim u odjeljenje drugog četiri razreda da upoznam novog učenika...kažu Turčin...ne razumije bosanski...samo sa blagim osmijehom kaže Adem (čovjek).
+<br></br>
+Zavoljeh ga neizmjerno 'na prvu', jer prepoznah izuzetno toplog i odgojenog čovjeka  Redovno pratim njegov rast, kako se snalazi, da li je uznapredovao u razumijevanju našeg jezika.
+<br></br>
+
+Saradnja sa bratskom školom i odlazak u Istanbul...Imamo mi profesore koji znaju turski, ali hoće profi dati svom Ademu na značaju, da mi se malo 'trzne', procvjeta i kažem mu da će on biti moj prevodilac tokom posjete.
+<br></br>
+
+Ne može se nikada zaboraviti taj stav, odvažnost i profesionalizam, kojeg je moj Adem pokazao kao da sve razumije i tečno govori bosanski. 
+<br></br>
+
+Obraćam se visokim zvaničnicima Skupštine, ima tu više govora, a moj sin sve prevodi u par rečenica i završava moj govor riječima: " i eto tako".... Razmišljam da mu priđem i zagrlim ga koliko je divan i odvažan. 
+<br></br>
+
+Naravno, profesori dodaju sve kazano, suptilno i neosjetno, da ne naruše Ademovu ulogu. Zavolim ga još više, 'priraste mi srcu' kao da sam ga rodila..
+<br></br>
+
+Zemljotres u Kahramanmarašu, kažu Adem bio tamo i svjedočio pogibiji najvoljenijeg bliskog rođaka, pored kojeg je bio u trenutku pogibije.
+<br></br>
+
+Ostavlja taj strašni događaj psihičke posljedice na našeg Adema...povučen, tih, vidljiva tuga i bol u njegovim očima..
+<br></br>
+
+Svi se trudimo da pomognemo, zajedno prebolimo Ademovu tugu..
+<br></br>
+
+Saznanje da Adem ima karcinom.....Muk, tišina, bol...ali, izliječit će se naše dijete, mlad je i jak.
+<br></br>
+
+Borba.....duže liječenje u Turskoj, borimo se zajedno i čekamo vijest da je naše dijete izliječeno. Ima velikih pomaka, nade...
+<br></br>
+
+Trenutak koji se ne zaboravlja....Dolazi s ocem da vidi profi... sijedi pramen na čelu, teško hoda, puno mi smršao.
+<br></br>
+
+Srce mi se steglo...suzdržavam se da ne zaplačem pred njim...hrabrim ga i kažem da divno izgleda i da će ubrzo sve biti samo prošlost.
+<br></br>
+
+Odlazi i drži se za oca kako bi me mogao zagrliti....steglo je u prsima...čekam da ode pa da se isplačem...ne mogu da ih ispratim, jer neću izdržati..., ali nada da će se izliječiti i biti dobro, daje mi snagu.
+<br></br>
+
+Radosna vijest da je Adem izliječen skoro u cijelosti i da su doktori iz Turske kazali da ne treba više dolaziti na liječenje, bila je najsretnija vijest koju sam mogla čuti.
+<br></br>
+
+Adem sa velikom radošću preuzima diplomu o završenoj srednjoj školi i kaže upisaće fakultet. Po diplomu došao automobilom kojeg je lično vozio...svi smo sretni..
+<br></br>
+
+Danas bolna vijest....naš Adem preselio je na ljepši svijet.... Srce se zaledilo...tuga i bol razdiru prsa....ostaje čežnja za susretom u ljepšoj vječnosti....
+<br></br>
+
+Želim da zahvalim svima koji su Ademu pružili neizmjernu podršku tokom perioda liječenja: Kolektivu JU Srednja ekonomska škola, drugarima, humanitarnim organizacijama i svima, koji su na, na bilo koji način, bili uz naše dijete.
+<br></br>
+
+Molim dragog Gospodara da mog Adema obraduje najljepšim mjestom u Džennetu, da mu kabur bude džennetska bašča, a da roditelje osnaži saburom (strpljenjem) do vječnog susreta! 
+
+
+			</p>
+
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
