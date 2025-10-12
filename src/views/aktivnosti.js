@@ -1573,7 +1573,7 @@ import srebrenica20256 from '@/views/images/srebrenica20256.jpg';
 import srebrenica20257 from '@/views/images/srebrenica20257.jpg';
 import srebrenica20258 from '@/views/images/srebrenica20258.jpg';
 
-import adem from '@/views/images/adem.jpg';
+import adem from '@/views/images/Adem.jpg';
 
 const Aktivnosti = () => {
   useEffect(() => {
