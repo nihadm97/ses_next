@@ -1575,6 +1575,20 @@ import srebrenica20258 from '@/views/images/srebrenica20258.jpg';
 
 import adem from '@/views/images/Adem.jpg';
 
+import travnik1 from '@/views/images/travnik1.jpg';
+import travnik2 from '@/views/images/travnik2.jpg';
+import travnik3 from '@/views/images/travnik3.jpg';
+import travnik4 from '@/views/images/travnik4.jpg';
+import travnik5 from '@/views/images/travnik5.jpg';
+import travnik6 from '@/views/images/travnik6.jpg';
+import travnik7 from '@/views/images/travnik7.jpg';
+import travnik8 from '@/views/images/travnik8.jpg';
+
+import unesko1 from '@/views/images/unesko1.jpg';
+import unesko2 from '@/views/images/unesko2.jpg';
+import unesko3 from '@/views/images/unesko3.jpg';
+import unesko4 from '@/views/images/unesko4.jpg';
+
 const Aktivnosti = () => {
   useEffect(() => {
     AOS.init({duration: 2000});
@@ -1594,6 +1608,132 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">ŠKOLSKI IZLET
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={travnik1} alt="" />
+                    </div> 
+                  <div>
+                        <Image src={travnik2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={travnik3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={travnik4} alt="" />
+                    </div>
+                    <div>
+                        <Image src={travnik5} alt="" />
+                    </div>
+                    <div>
+                        <Image src={travnik6} alt="" />
+                    </div>
+                    <div>
+                        <Image src={travnik7} alt="" />
+                    </div>
+                    <div>
+                        <Image src={travnik8} alt="" />
+                    </div>
+
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+
+U srcu Bosne, gradu nobelovca, historije i kulture - Školski izlet - Travnik, 2025. godine
+</p>
+
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">SEŠ na Regionalnoj konferenciji 𝑀𝑙𝑎𝑑𝑖 𝑧𝑎 𝑖𝑛𝑘𝑙𝑢𝑧𝑖𝑗𝑢, 𝑗𝑒𝑑𝑛𝑎𝑘𝑜𝑠𝑡 𝑖 𝑝𝑜𝑣𝑗𝑒𝑟𝑒𝑛𝑗𝑒: 𝑂𝑏𝑙𝑖𝑘𝑢𝑗𝑚𝑜 𝑝𝑟𝑖𝑐̌𝑒, 𝑔𝑟𝑎𝑑𝑖𝑚𝑜 𝑝𝑜𝑣𝑗𝑒𝑟𝑒𝑛𝑗𝑒!
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={unesko1} alt="" />
+                    </div> 
+                  <div>
+                        <Image src={unesko2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={unesko3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={unesko4} alt="" />
+                    </div>
+                    
+
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+
+<p className="mb-4 text-blueGray-500">
+Konferenciju su otvorili Arnhild Spence, rezidentna koordinatorica United Nations in B&H, Fermin Cordoba iz European union to B&H, te u ime organizatora Siniša Šešum, šef Ureda UNESCO-a in B&H i Jo-Anne Bishop, predstavnica UN Women Bosnia and Herzegovina, u utorak 14. oktobra, u Ibis hotelu. </p>
+<p className="mb-4 text-blueGray-500">
+Događaj su organizovali UNESCO Office in Venice i UN Women Albania u okviru regionalnog projekta Mladi za inkluziju, jednakost i povjerenje #Y4IET, koji se provodi uz podršku Fonda za izgradnju mira generalnog sekretara UN-a, United Nations Peacebuilding. </p>
+<p className="mb-4 text-blueGray-500">
+Učenici i učenice naše škole i profesorice, Indira Zeković i Alma Karamujić, prisustvovali/e su prvog dana Konferencije interaktivnim diskusijama, panelima,  inspirativnim predavanjima o ulozi medija u izgradnji povjerenja i održivog mira.</p>
+<p className="mb-4 text-blueGray-500">
+Tokom četiri dana, budući medijski profesionalci i komunikacijski stručnjaci iz regiona, uz eminentne predavače iz akademske zajednice i medija, kroz panele, radionice i diskusije istraživali su kako mediji mogu graditi povjerenje, oblikovati konstruktivne i rodno osjetljive narative, suprotstaviti se govoru mržnje i odgovorno koristiti vještačku inteligenciju.</p>
+<p className="mb-4 text-blueGray-500">
+Mladi iz cijelog regiona razgovarali su sa ekspertima iz oblasti medija i akademske zajednice,  Borislavom Vukojevićem, profesorom sa Fakulteta političkih nauka Univeziteta u Banja Luci i UNESCO ekspertom, Monikom Aksentievskom, stručnjakinjom za komunikacije i medijsku pismenost sa Instituta za komunikacijske studije iz Sjeverne Makedonije, profesoricama, dr Lejlom Turčilo i dr Lamijom Silajdžić, sa Fakulteta političkih nauka Univerziteta u Sarajevu, dr Anom Milojević, FPN, Srbija i Emirom Zulejhićem, novinarom portala Raskrinkavanje.ba. U ulozi moderatora bio je Adnan Rondić, novinar. Fokus je bio na sljedećim temama: prednostima i manama vještačke inteligencije u novinarstvu, etičkom novinarstvu i odgovornom korištenju AI u smanjenju društvenih nejednakosti, medijskoj pismenosti te prepoznavanju i borbi protiv dezinformacija i budućoj saradnji i izgradnji mreže podrške mladim novinarima.</p>
+<p className="mb-4 text-blueGray-500">
+Na Konferenciji je realizovano niz radionica u cilju osnaživanja praktičnog rada učesnika/ca za kreiranje zajedničkih ideja, medijskih inicijativa i mreže mladih -  medijskih profesionalaca koji svojim pričama jačaju dijalog, povjerenje i mir.</p>
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
