@@ -1590,7 +1590,7 @@ import unesko3 from '@/views/images/unesko3.jpg';
 import unesko4 from '@/views/images/unesko4.jpg';
 
 import sendera20251 from '@/views/images/sendera20251.jpg';
-import sendera20252 from '@/views/images/sendera20252.jpg';
+import sendera20252 from '@/views/images/sendera202512.jpg';
 
 import upoznajb1 from '@/views/images/upoznajb1.jpg';
 import upoznajb2 from '@/views/images/upoznajb2.jpg';
