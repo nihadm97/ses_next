@@ -70,6 +70,16 @@ import fin7 from '@/views/images/fin7.png';
 
 import gtechkraj from '@/views/images/gtechkraj.jpg';
 
+import slikaa1 from '@/views/images/1 zajednicka foto.jpg';
+import slikaa2 from '@/views/images/2 sala svi.jpg';
+import slikaa3 from '@/views/images/3 institut.jpg';
+import slikaa4 from '@/views/images/4 učenici panel.jpg';
+import slikaa5 from '@/views/images/5 profesori panel.jpg';
+import slikaa6 from '@/views/images/6 kompanije panel.jpg';
+import slikaa7 from '@/views/images/7 sala.jpg';
+import slikaa8 from '@/views/images/8 federalno ministarstvo.jpg';
+import slikaa9 from '@/views/images/9 erasmus.jpg';
+
 
 const GreenTech = () => {
   useEffect(() => {
@@ -79,6 +89,87 @@ const GreenTech = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+              <div className="container mx-auto px-4">
+                <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+                  <h6 className="text-xl mb-1 font-semibold text-center uppercase">Naši učenici grade održivu budućnost kroz zelene tehnologije – učešće Srednje ekonomske škole Sarajevo u Erasmus+ projektu GTECH
+    
+    
+    
+    
+    
+    
+    </h6>
+                </span>
+                <div className="flex flex-wrap">
+                  <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                    <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                      <div className="py-5 flex-auto">
+                      <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                          
+                      <div>
+                            <Image src={slikaa1} alt="" />
+                        </div> 
+                      <div>
+                            <Image src={slikaa2} alt="" />
+                        </div>
+                        <div>
+                            <Image src={slikaa3} alt="" />
+                        </div>
+                        <div>
+                            <Image src={slikaa4} alt="" />
+                        </div>
+                        <div>
+                            <Image src={slikaa5} alt="" />
+                        </div>
+                        <div>
+                            <Image src={slikaa6} alt="" />
+                        </div>
+                        <div>
+                            <Image src={slikaa7} alt="" />
+                        </div>
+                        <div>
+                            <Image src={slikaa8} alt="" />
+                        </div>
+                        <div>
+                            <Image src={slikaa9} alt="" />
+                        </div>
+                        
+    
+                    </Carousel>
+                        </div>
+                      </div>
+                    </div>
+                  <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                    <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                      <div className="px-4 py-5 flex-auto">
+                      <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+     
+                      
+    <p className="mb-4 text-blueGray-500">
+Srednja ekonomska škola Sarajevo imala je čast učestvovati u ovom značajnom međunarodnom projektu kao partner, čime je još jednom potvrdila svoju posvećenost inovativnim oblicima učenja i razvijanju preduzetničkog duha kod mladih. Završna konferencija Erasmus+ projekta GreenTech Entrepreneurship Challenge Hub (GTECH) održana je 29. septembra 2025. godine, u konfrenecijskoj sali ASA Institutu u Sarajevu.     </p>
+    <p className="mb-4 text-blueGray-500">
+Projekat su u našoj školi uspješno vodile i koordinirale direktorica Amira Kadrispahić i profesorica Senida Čelj . Također, veliki doprinos realizaciji projekta dali su i profesori/ce: Indira Zeković, Alma Karamujić, Emir Ustavdić i Selma Jusić, koji su kroz mentorstvo i podršku učenicima pokazali kako se znanje i kreativnost mogu pretvoriti u konkretna rješenja za stvarne izazove.</p>
+    <p className="mb-4 text-blueGray-500">
+Oko 40 učenika/ca naše škole aktivno je učestvovalo u projektu, radeći na istraživanju izazova za kompanije, razvijanju ideja i osmišljavanju inovativnih prijedloga za održivije poslovanje. Na taj način obogatili su svoje znanje, razvili poduzetničke i komunikacijske vještine, te naučili kako se teorijska znanja mogu primijeniti u praksi. Tokom GTECH projekta učenici su imali priliku raditi po modelu Challenge-Based Learning (CBL) – pristupu koji podstiče kreativno rješavanje stvarnih problema.    </p>
+    <p className="mb-4 text-blueGray-500">
+Projekat je okupio 270 učenika/ca iz 15 škola i 12 industrijskih partnera, a 30 profesora/ca imalo je priliku da učestvuje na međunarodnim obukama u Sloveniji i Hrvatskoj.
+Saradnja između škola i kompanija pokazala se kao izuzetno vrijedan oblik učenja — dok su kompanije dobile svježe ideje, učenici su stekli realan uvid u potrebe tržišta rada.
+    </p>
+    <p className="mb-4 text-blueGray-500">
+    Kroz GTECH projekat učenici/ce i profesori/ce Srednje ekonomske škole Sarajevo pokazali su da mladi mogu biti pokretači promjena i da je ulaganje u obrazovanje u oblasti zelenih tehnologija ulaganje u budućnost naše zajednice i očuvanje okoline.
+    </p>
+    <p className="mb-4 text-blueGray-500">
+Zahvaljujemo svim partnerima, organizatorima i profesorima i učenicima na trudu, entuzijazmu i inspiraciji da zajedno gradimo održivu i inovativnu budućnost!    </p>
+    
+    </span>
+                      </div>
+                     
+                    </div>
+                  </div>
+                </div>
+                </div>
+              </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
                       <div className="container mx-auto px-4">
                       <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
