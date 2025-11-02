@@ -1589,6 +1589,30 @@ import unesko2 from '@/views/images/unesko2.jpg';
 import unesko3 from '@/views/images/unesko3.jpg';
 import unesko4 from '@/views/images/unesko4.jpg';
 
+import sendera20251 from '@/views/images/sendera20251.jpg';
+import sendera20252 from '@/views/images/sendera20252.jpg';
+
+import upoznajb1 from '@/views/images/upoznajb1.jpg';
+import upoznajb2 from '@/views/images/upoznajb2.jpg';
+import upoznajb3 from '@/views/images/upoznajb3.jpg';
+import upoznajb4 from '@/views/images/upoznajb4.jpg';
+import upoznajb5 from '@/views/images/upoznajb5.jpg';
+import upoznajb6 from '@/views/images/upoznajb6.jpg';
+import upoznajb7 from '@/views/images/upoznajb7.jpg';
+import upoznajb8 from '@/views/images/upoznajb8.jpg';
+import upoznajb9 from '@/views/images/upoznajb9.jpg';
+import upoznajb10 from '@/views/images/upoznajb10.jpg';
+
+import muzeej1 from '@/views/images/muzeej1.jpg';
+import muzeej2 from '@/views/images/muzeej2.jpg';
+import muzeej3 from '@/views/images/muzeej3.jpg';
+import muzeej4 from '@/views/images/muzeej4.jpg';
+import muzeej5 from '@/views/images/muzeej5.jpg';
+import muzeej6 from '@/views/images/muzeej6.jpg';
+import muzeej7 from '@/views/images/muzeej7.jpg';
+import muzeej8 from '@/views/images/muzeej8.jpg';
+
+
 const Aktivnosti = () => {
   useEffect(() => {
     AOS.init({duration: 2000});
@@ -1608,6 +1632,242 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">U Historijskom muzeju čuvaru kulturno-historijskog naslijeđa naroda BiH 💫
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={muzeej1} alt="" />
+                    </div> 
+                  <div>
+                        <Image src={muzeej2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={muzeej3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={muzeej4} alt="" />
+                    </div>
+                    <div>
+                        <Image src={muzeej5} alt="" />
+                    </div>
+                    <div>
+                        <Image src={muzeej6} alt="" />
+                    </div>
+                    <div>
+                        <Image src={muzeej7} alt="" />
+                    </div>
+                    <div>
+                        <Image src={muzeej8} alt="" />
+                    </div>
+
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+U petak, 24. oktobra učenice i učenici II5 odjeljenja i Indira  Zeković, prof. su posjetili Historijski muzej BiH — mjesto koje čuva bogato naslijeđe, sjećanja i priče koje oblikuju naš identitet. 
+Kroz izložbe i autentične predmete prošli smo kroz različite epohe naše historije — nasljeđe Drugog svjetskog rata, socijalističke Jugoslavije, rata u BiH i opsade Sarajeva, do savremene Bosne i Hercegovine.
+</p>
+<p className="mb-4 text-blueGray-500">
+Ova posjeta nas je podsjetila koliko je važno učiti iz prošlosti kako bismo bolje razumjeli sadašnjost i izgradili bolju budućnost!
+Tokom posjete, uz zanimljivo i inspirativno vođenje kustosa Muzeja, učenici su istražili postavke muzeja, posvećene različitim historijskim periodima.
+</p>
+<p className="mb-4 text-blueGray-500">
+Izložba Ay, Carmela nastala je u simbiozi muzeja i pozorišta i ostaje zabilježena kao kulturni i društveni fenomen i najistaknutiji doprinos pozorišne umjetnosti kulturi antifašizma. Dio je stalne izložbene postavke Otvorenog depoa Historijskog muzeja Bosne i Hercegovine. Postavka sadrži kompletnu scenografiju, kostimografiju i rekvizitu predstave, dokumentaciju, fotografije, novinske članke koji prate život predstave, kao i videosnimak.</p>
+<p className="mb-4 text-blueGray-500">
+Izložba Wer Ist Walter je rezultat međunarodnog projekta  Otpor protiv nacizma u Evropi (2022–2024), koji je okupio istraživače i muzejske stručnjake iz Bosne i Hercegovine, Hrvatske, Njemačke i Francuske.</p>
+<p className="mb-4 text-blueGray-500">
+Imali smo priliku pogledati i eksponate iz Drugog svjetskog rata, fond pečata, ordena, lične predmete narodnih heroja, predmete iz koncentracionih logora, predmete iz perioda socijalizma, kutak sa štafetama...Svakako, zbirke Muzeja su otvorena i nedovršena priča o djelovanju, uređenju i društvenoj ulozi nekad Muzeja revolucije Bosne i Hercegovine, danas Historijskog muzeja BiH.</p>
+<p className="mb-4 text-blueGray-500">
+Izložba Opkoljeno Sarajevo sa  autentičnim eksponatima vjerno svjedoči vrijeme opsade Sarajeva od 1992. do 1995. godine, nadljudsku hrabrost i istrajnost građana Sarajeva,  ali i podsjeća koliko je kultura bila važna u duhovnom otporu grada... Ova izložba, nijemi svjedok golgote Sarajeva, slavi i neuništivost života, slobode na ovim prostorima, poput  svježeg, neiscrpnog  izvora koji neprekidno ističe i nikada ne gubi vodu. Bila je ovo prilika da zajedno uče o herojskoj odbrani građana/ki Sarajeva, o nesalomljivoj snazi duha Sarajeva.</p>
+<p className="mb-4 text-blueGray-500">
+Izložba 15 godina/Jim Marshal, fotografije Sarajeva iz 1996. godine i 2011. godine u komparaciji ilustruju čudo ljudskog duha.</p>
+<p className="mb-4 text-blueGray-500">
+Izložbu Mi, izbjeglice čine lične priče ljudi, koji prvi put javno, pred kamerama, pričaju o bijegu iz svojih domova,... </p>
+<p className="mb-4 text-blueGray-500">
+Pogledali smo i radove 14 umjetnika i umjetnica iz Gaze, ali i radove bosanskohercegovačkih umjetnika i umjetnica nastale tokom opsade Sarajeva. Priče iz Gaze su predstavljene u prostoru stalne postavke Opkoljeno Sarajevo Historijskog muzeja BiH. Kroz svjedočanstva iz različitih geografskih prostora, uvjerili smo se kako je umjetnost sredstvo otpora! U Sarajevu,  djela umjetnika Gaze susreću radove nastale tokom opsade Sarajeva devedesetih, pokazujući da su i Gaza i Sarajevo gradovi koji stvaraju čak i kada se svijet ruši!</p>
+<p className="mb-4 text-blueGray-500">
+Bio je ovo susret s prošlošću koja nas uči mudrosti, inspiriše odgovornost i budi ponos, jer spoznaja svojih korijena je snaga u izgradnji budućnosti. </p>
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Projekat "Upoznaj Bosnu i Hercegovinu"
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={upoznajb1} alt="" />
+                    </div> 
+                  <div>
+                        <Image src={upoznajb2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={upoznajb3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={upoznajb4} alt="" />
+                    </div>
+                    <div>
+                        <Image src={upoznajb5} alt="" />
+                    </div>
+                    <div>
+                        <Image src={upoznajb6} alt="" />
+                    </div>
+                    <div>
+                        <Image src={upoznajb7} alt="" />
+                    </div>
+                    <div>
+                        <Image src={upoznajb8} alt="" />
+                    </div>
+                    <div>
+                        <Image src={upoznajb9} alt="" />
+                    </div>
+                    <div>
+                        <Image src={upoznajb10} alt="" />
+                    </div>
+
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+U okviru projekta "Upoznaj Bosnu i Hercegovinu", Općina Novo Sarajevo, na čelu sa načelnicom, dr. Benjaminom Karić, donirala je sredstva za obilazak bajkovitih predjela Bosne. Trideset i šest maturantica i maturanata, u pratnji profesorica Suvade Trako, Vedine Širbegović i Amre Lagumdžija, uživalo je u dvodnevnom obilasku.</p>
+<p className="mb-4 text-blueGray-500">
+Nakon polaska u ranim jutarnjim satima, krenulo se u obilazak Travnika, a potom Jajca. Prelijep grad na ušću rijeke Plive u Vrbas, plijenio je poglede prisutnih, izazivajući divljenje nesvakidašnjom ljepotom vodopada i živopisne prirode.
+</p>
+<p className="mb-4 text-blueGray-500">
+Mali raj na zemlji - Mlinčići Jajce, izazvao je posebno divljenje naših  maturantica i maturanata.</p>
+<p className="mb-4 text-blueGray-500">
+Sljedeća turistička atrakcija bila je džamija Esme sultanije ili Čaršijska džamija, smještena u centru kraljevskog grada Jajca. Smatra se najvrjednijim spomenikom islamsko-osmanske arhitekture.</p>
+<p className="mb-4 text-blueGray-500">
+Puninu doživljaja bosanske prirode u njenom najautentičnijem obliku, uz savršen spoj divlje ljepote i mira, omogućila je posjeta Japodskim otocima u blizini Bihaća, smještenim između dva nacionalna parka, Une i Plitvičkih jezera.</p>
+<p className="mb-4 text-blueGray-500">
+Krajna destinacija, nakon prvog dana putovanja, bila je Bihać, smješten u sjeverozapadnom dijelu Bosne i Hercegovine i sjedište Unskosanskog Kantona. Osim prirodnih ljepota obiluje kulturno historijskim spomenicima koji pričaju historiju ovog grada.</p>
+<p className="mb-4 text-blueGray-500">
+Nakon ugodnog odmora i divno provedene noći, obilazak je nastavljen prema Ostrošcu, malom selu u blizini grada Cazina.
+</p>
+<p className="mb-4 text-blueGray-500">
+Najpoznatija atrakcija je srednjovjekovna tvrđava Ostrožac, koja se uzdiže iznad sela i pruža spektakularan pogled na okolinu. Datira iz 13. stoljeća i bila je dom raznih plemićkih porodica.</p>
+<p className="mb-4 text-blueGray-500">
+Poseban užitak predstavljao je obilazak grada na Vrbasu - Banja Luke, koja oduševljava svojom ljepotom i pokazatelj je preplitanja različitih kulturnih i tradicionalnih obilježja, čiji se tragovi mogu vidjeti i danas, kako u arhitekturi, tako i u kulturno-historijskom nasljeđu.
+</p>
+<p className="mb-4 text-blueGray-500">
+Bilo je ovo predivno iskustvo za naše maturantice i maturante, jer su svi mogli čuti nešto novo o historiji i ljepotama naše domovine.
+</p>
+<p className="mb-4 text-blueGray-500">
+Neizmjerna zahvalnost načelnici Općine Novo Sarajevo, dr. Benjamini Karić, što je omogućila našim maturanticama i maturantima da dožive nezaboravno iskustvo i pobliže upoznaju svoju voljenu domovinu, koja obiluje izuzetnim prirodnim ljepotama i bogatim historijskim nasljeđem. 
+</p>
+<p className="mb-4 text-blueGray-500">
+Sigurni smo da će i ova posjeta, kao i mnoge druge unutar Bosne i Hercegovine, doprinijeti povećanju ljubavi prema domovini i sviješću za boljim očuvanjem, kako prirodnih bogatstava, tako i kulturno-historijskih tekovina.</p>
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">🌿 Korak po korak – za prirodu, prijateljstvo i zdrave navike! 🌲🌿
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={sendera20251} alt="" />
+                    </div> 
+                  <div>
+                        <Image src={sendera20252} alt="" />
+                    </div>
+                    
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+U sklopu projekta Mladi za ekološku općinu Novo Sarajevo, učenice/i učenici naše škole i profesor Šenderović Sejad proveli su predivan dan u prirodi!</p>
+<p className="mb-4 text-blueGray-500">
+Ruta od Uževice do planinarskog doma Bukovik, duga čak 12,6 kilometara, bila je pravi izazov, ali i izuzetan užitak za sve koji vole planinu i svjež zrak.</p>
+<p className="mb-4 text-blueGray-500">
+Na kraju puta, uslijedila je nagrada za trud, silazak do veličanstvenog vodopada Skakavac!</p>
+<p className="mb-4 text-blueGray-500">
+U pješačenju su učestvovali i učenici/e Srednje škole za okoliš i drvni dizajn i Elektrotehničke škole za energetiku, Sarajevo. Bio je to dan pun radosti, koju samo boravak u prirodi može donijeti, ali i dan novih poznanstava i prijateljstva. </p>
+<p className="mb-4 text-blueGray-500">
+Hvala Udruženju ekologa Arboretum, Azemu Džini i certificiranim planinarskim vodičima na sigurnom i nezaboravnom iskustvu! 👏</p>
+<p className="mb-4 text-blueGray-500">
+Priroda nas povezuje! Za našu općinu, zeleniju i ljepšu! Koračajući stazama prirode, pronalazimo sebe, jer priroda nas uči, obnavlja, nadahnjuje i otvara srce! Priroda je naš dom!</p>
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
