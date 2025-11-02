@@ -49,7 +49,7 @@ import newsletter5 from '@/views/images/Newsletter-5.png';
 import newsletter6 from '@/views/images/Newsletter-6.png';
 import newsletter7 from '@/views/images/Newsletter-7-BH.jpg';
 import newsletter8 from '@/views/images/newsletter8.jpg';
-import newsletter8 from '@/views/images/letter9.jpg';
+import newsletter9 from '@/views/images/letter9.jpg';
 
 
 import champions from '@/views/images/Champions.jpg';
