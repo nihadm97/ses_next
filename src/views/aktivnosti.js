@@ -1612,6 +1612,8 @@ import muzeej6 from '@/views/images/muzeej6.jpg';
 import muzeej7 from '@/views/images/muzeej7.jpg';
 import muzeej8 from '@/views/images/muzeej8.jpg';
 
+import startuupizazov from '@/views/images/startupizazov.jpg';
+
 
 const Aktivnosti = () => {
   useEffect(() => {
@@ -1632,6 +1634,34 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full justify-center items-center">
+              <div className="container mx-auto px-4 justify-center items-center">
+                <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+                  <h6 className="text-xl mb-1 font-semibold text-center uppercase">STARTUP IZAZOV - ŠKOLSKO TAKMIČENJE
+    
+    
+    
+    
+    </h6>
+                </span>
+                <div className="flex flex-wrap justify-center items-center">
+                  <div className="lg:pt-12 pt-6 w-full px-6 text-center  md:w-6/12">
+                    <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                      <div className="py-5 flex-auto">
+    
+                          
+                      <Image src={startuupizazov} alt="" />
+                            
+    
+                        </div>
+                        
+    
+                      </div>
+                    </div>
+                  
+                </div>
+                </div>
+              </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
