@@ -171,7 +171,7 @@ export default function CardAkti({ color }) {
                   </span>
                 </th>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                  6
+                  7
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
                   OSOBLJE I UČENIKE
@@ -216,6 +216,16 @@ rel="noreferrer"
 rel="noreferrer"
         >
           Pravilnik o kućnom redu 
+        </a>
+        <a
+          href="https://drive.google.com/file/d/1RTKn3Ajk9vTGTrT8e12xSIPzRI5LsFIZ/view?usp=sharing"
+          className={
+            "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+          }
+          target="_blank"
+rel="noreferrer"
+        >
+          Pravilnik o video nazdornom sistemu
         </a>
         <a
           href="https://drive.google.com/file/d/1NGqfBFg6KuV0HTsqEyyi-qZ71Ob5Eunb/view"
