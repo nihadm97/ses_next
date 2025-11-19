@@ -171,7 +171,7 @@ export default function CardAkti({ color }) {
                   </span>
                 </th>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                  7
+                  9
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
                   OSOBLJE I UČENIKE
@@ -266,6 +266,26 @@ rel="noreferrer"
 rel="noreferrer"
         >
           Pravilnik o radu
+        </a>
+        <a
+          href="https://drive.google.com/file/d/1ThCB-iJ7wED4DHXPjtcuJjb8RyhKePuE/view?usp=sharing"
+          className={
+            "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+          }
+          target="_blank"
+rel="noreferrer"
+        >
+          Poslovnik o radu stručnih organa
+        </a>
+        <a
+          href="https://drive.google.com/file/d/1dh0Bb3yG_hcaf-yQEwGzBXITKzBkZRRD/view?usp=sharing"
+          className={
+            "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+          }
+          target="_blank"
+rel="noreferrer"
+        >
+          Poslovnik o radu školskog odbora
         </a>
           </div>
                 </td>
