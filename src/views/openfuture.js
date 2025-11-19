@@ -50,6 +50,8 @@ import newsletter6 from '@/views/images/Newsletter-6.png';
 import newsletter7 from '@/views/images/Newsletter-7-BH.jpg';
 import newsletter8 from '@/views/images/newsletter8.jpg';
 import newsletter9 from '@/views/images/letter9.jpg';
+import newsletter12 from '@/views/images/letter12.jpg';
+
 
 
 import champions from '@/views/images/Champions.jpg';
@@ -75,6 +77,35 @@ const OpenFuture = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full justify-center items-center">
+          <div className="container mx-auto px-4 justify-center items-center">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Newsletter #12
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap justify-center items-center">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center  md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+
+                      
+                  <Image src={newsletter12} alt="" />
+                        
+
+                    </div>
+                    <a href='https://drive.google.com/file/d/1wEhlrWX4vyHBpBxj1nOW2jpZgKwYoSFF/view?usp=sharing' target="_blank" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+                  style= {{backgroundColor: '#92d050'}} >Preuzmi materijal</a>
+
+                  </div>
+                </div>
+              
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full justify-center items-center">
           <div className="container mx-auto px-4 justify-center items-center">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
