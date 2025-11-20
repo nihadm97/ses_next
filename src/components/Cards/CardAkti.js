@@ -171,7 +171,7 @@ export default function CardAkti({ color }) {
                   </span>
                 </th>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                  9
+                  11
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
                   OSOBLJE I UČENIKE
@@ -286,6 +286,26 @@ rel="noreferrer"
 rel="noreferrer"
         >
           Poslovnik o radu školskog odbora
+        </a>
+                <a
+          href="https://drive.google.com/file/d/1di68b4Z1znvZj4Dx5JmnfYeiJh_Zl2LE/view?usp=sharing"
+          className={
+            "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+          }
+          target="_blank"
+rel="noreferrer"
+        >
+          Pravilnik o izmjenama i dopunama pravilnika o radu, unutrašnjoj organizaciji i sistematizaciji radnih mjesta, plaćama, naknadama i drugim materijalnim pravilima javne ustanove Sreddnja ekonomska škola, Sarajevo
+        </a>
+                <a
+          href="https://drive.google.com/file/d/19yiBPFZZXFfQPrA1mc76I1GaY3WljkTw/view?usp=sharing"
+          className={
+            "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+          }
+          target="_blank"
+rel="noreferrer"
+        >
+          Pravilnik o izmjenama i dopunama pravilnika o radu, unutrašnjoj organizaciji i sistematizaciji radnih mjesta, plaćama, naknadama i drugim materijalnim pravima javne ustanove Srednja ekonomska škola, Sarajevo
         </a>
           </div>
                 </td>
