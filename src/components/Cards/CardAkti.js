@@ -295,7 +295,7 @@ rel="noreferrer"
           target="_blank"
 rel="noreferrer"
         >
-          Pravilnik o izmjenama i dopunama pravilnika o radu, unutrašnjoj organizaciji i sistematizaciji radnih mjesta, plaćama, naknadama i drugim materijalnim pravilima javne ustanove Sreddnja ekonomska škola, Sarajevo
+          Pravilnik o izmjenama i dopunama pravilnika o radu 2025.
         </a>
                 <a
           href="https://drive.google.com/file/d/19yiBPFZZXFfQPrA1mc76I1GaY3WljkTw/view?usp=sharing"
@@ -305,7 +305,7 @@ rel="noreferrer"
           target="_blank"
 rel="noreferrer"
         >
-          Pravilnik o izmjenama i dopunama pravilnika o radu, unutrašnjoj organizaciji i sistematizaciji radnih mjesta, plaćama, naknadama i drugim materijalnim pravima javne ustanove Srednja ekonomska škola, Sarajevo
+          Pravilnik o izmjenama i dopunama pravilnika o radu 2024.
         </a>
           </div>
                 </td>
