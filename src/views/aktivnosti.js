@@ -1612,7 +1612,68 @@ import muzeej6 from '@/views/images/muzeej6.jpg';
 import muzeej7 from '@/views/images/muzeej7.jpg';
 import muzeej8 from '@/views/images/muzeej8.jpg';
 
+import bibamra1 from '@/views/images/bibamra1.jpg';
+import bibamra2 from '@/views/images/bibamra2.jpg';
+import bibamra3 from '@/views/images/bibamra3.jpg';
+import bibamra4 from '@/views/images/bibamra4.jpg';
+import bibamra5 from '@/views/images/bibamra5.jpg';
+import bibamra6 from '@/views/images/bibamra6.jpg';
+import bibamra7 from '@/views/images/bibamra7.jpg';
+import bibamra8 from '@/views/images/bibamra8.jpg';
+import bibamra9 from '@/views/images/bibamra9.jpg';
+import bibamra10 from '@/views/images/bibamra10.jpg';
+
+
+import etwuni1 from '@/views/images/etwuni1.jpg';
+import etwuni2 from '@/views/images/etwuni2.jpg';
+import etwuni3 from '@/views/images/etwuni3.jpg';
+import etwuni4 from '@/views/images/etwuni4.jpg';
+
+import stednjee1 from '@/views/images/stednjee1.jpg';
+import stednjee2 from '@/views/images/stednjee2.jpg';
+import stednjee3 from '@/views/images/stednjee3.jpg';
+import stednjee4 from '@/views/images/stednjee4.jpg';
+import stednjee5 from '@/views/images/stednjee5.jpg';
+import stednjee6 from '@/views/images/stednjee6.jpg';
+import stednjee7 from '@/views/images/stednjee7.jpg';
+
+
+import lejlastednja1 from '@/views/images/lejlastednja1.jpg';
+import lejlastednja2 from '@/views/images/lejlastednja2.jpg';
+import lejlastednja3 from '@/views/images/lejlastednja3.jpg';
+import lejlastednja4 from '@/views/images/lejlastednja4.jpg';
+import lejlastednja5 from '@/views/images/lejlastednja5.jpg';
+import lejlastednja6 from '@/views/images/lejlastednja6.jpg';
+import lejlastednja7 from '@/views/images/lejlastednja7.jpg';
+import lejlastednja8 from '@/views/images/lejlastednja8.jpg';
+
+import dandjece1 from '@/views/images/dandjece1.jpg';
+import dandjece2 from '@/views/images/dandjece2.jpg';
+import dandjece3 from '@/views/images/dandjece3.jpg';
+import dandjece4 from '@/views/images/dandjece4.jpg';
+import dandjece5 from '@/views/images/dandjece5.jpg';
+import dandjece6 from '@/views/images/dandjece6.jpg';
+import dandjece7 from '@/views/images/dandjece7.jpg';
+import dandjece8 from '@/views/images/dandjece8.jpg';
+import dandjece9 from '@/views/images/dandjece9.jpg';
+
+
+import vrabac1 from '@/views/images/vrabac1.jpg';
+import vrabac2 from '@/views/images/vrabac2.jpg';
+
+import mekic1 from '@/views/images/mekic1.jpg';
+import mekic2 from '@/views/images/mekic2.jpg';
+
 import startuupizazov from '@/views/images/startupizazov.jpg';
+
+import naidabijedic from '@/views/images/naidabijedic.jpg';
+
+import sajamzaposlena1 from '@/views/images/sajamzaposlena1.jpg';
+import sajamzaposlena2 from '@/views/images/sajamzaposlena2.jpg';
+import sajamzaposlena3 from '@/views/images/sajamzaposlena3.jpg';
+import sajamzaposlena4 from '@/views/images/sajamzaposlena4.jpg';
+import sajamzaposlena5 from '@/views/images/sajamzaposlena5.jpg';
+import sajamzaposlena6 from '@/views/images/sajamzaposlena6.jpg';
 
 
 const Aktivnosti = () => {
@@ -1634,6 +1695,657 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+            <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Obilježen 20. novembar - Svjetski dan djeteta
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={dandjece1} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={dandjece2} alt="" />
+                    </div> 
+ <div>
+                        <Image src={dandjece3} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={dandjece4} alt="" />
+                    </div> 
+
+ <div>
+                        <Image src={dandjece5} alt="" />
+                    </div> 
+                                      <div>
+                        <Image src={dandjece6} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={dandjece7} alt="" />
+                    </div> 
+ <div>
+                        <Image src={dandjece8} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={dandjece9} alt="" />
+                    </div> 
+
+
+                    
+
+
+
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+
+<p className="mb-4 text-blueGray-500">
+Događajem „Zajednice koje djeluju: Posvećenost i zajedničko djelovanje za svako dijete“ povodom Svjetskog dana djeteta i kroz kampanju „Rastimo zajedno: Od glasova do akcije“, obilježen je Svjetski dan djeteta. Tim povodom, u Sarajevu su se okupili predstavnici institucija, međunarodnih organizacija, akademske zajednice, civilnog društva, ali i oni najvažniji - djeca i mladi, kako bi zajedno potvrdili posvećenost ostvarivanju prava svakog djeteta. 
+</p>
+<p className="mb-4 text-blueGray-500">
+Članovi Vijeća učenika naše škole, Eman Ahmetagić, Ajša Bajić i Ajša Radovovović, te predsjednica Vijeća učenika, Hanadi Čoko, prisustvovali su ovom događaju.
+</p>
+<p className="mb-4 text-blueGray-500">
+Ovogodišnja tema, „Rastimo zajedno: Od glasova do akcije“, stavila je u fokus uključivanje djece i mladih u proces donošenja odluka, te jačanje zajedničke posvećenosti ostvarivanju prava svakog djeteta u Bosni i Hercegovini.
+</p>
+<p className="mb-4 text-blueGray-500">
+Jedna od poruka obilježavanja je i "Dječija prava moramo čuvati u sefu" što govori o važnosti tih prava.
+Pored pomenutog, Dan djece obilježili smo postavljanjem prigodnih plakata, plavim danom i prigodnim predavanjem za predstavnike Vijeća učenika na temu dječijih prava.
+</p>
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+        <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">U korak sa vremenom – Sajam zapošljavanja 2025, Skenderija 🌟
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={sajamzaposlena1} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={sajamzaposlena2} alt="" />
+                    </div> 
+ <div>
+                        <Image src={sajamzaposlena3} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={sajamzaposlena4} alt="" />
+                    </div> 
+
+ <div>
+                        <Image src={sajamzaposlena5} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={sajamzaposlena6} alt="" />
+                    </div> 
+
+ 
+                    
+
+
+
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+
+<p className="mb-4 text-blueGray-500">
+Maturanti Srednje ekonomske škole i profesor/ice: Emir Ustavdić, Alma Avdić, Alma Živojević i Lejla Hujdur  posjetili su Sajam zapošljavanja, u srijedu 12. novembra.
+</p>
+<p className="mb-4 text-blueGray-500">
+Danas smo zakoračili u prostor gdje se susreću znanje, prilike i hrabrost da se napravi prvi profesionalni korak. U Skenderiji, na Sajmu zapošljavanja 2025, naši učenici/e su bili/e u prilici upoznati savremene trendove tržišta rada, razgovarati sa poslodavcima i otkriti nove profesionalne mogućnosti. Učenici/e su informisani o aktuelnim ponudama poslodavaca, zanimanjima koja su tražena. Na Sajmu su se predstavili poslodavci koji nude radna mjesta, a nezaposleni, učenici/e, studenti/ce su ostvarili kontakte sa poslodavcima, kroz razgovore, panel diskusije i debate. Na Sajmu su održane i dvije panel diskusije: 
+</p>
+<p className="mb-4 text-blueGray-500">
+Budućnost rada: Nova zanimanja i tražene vještine i 
+Usklađenost obrazovnog sistema sa trendovima savremenog tržišta rada.
+Predstavnici kompanija ponudili su ferijalnu praksu, stručna osposobljavanja, ali i stalna zaposlenja.
+</p>
+<p className="mb-4 text-blueGray-500">
+U vremenu koje se mijenja brže nego ikad, važno je biti informisan, otvoren i spreman na učenje. Naši učenici su i ovaj put pokazali da prate vrijeme – i da su spremni biti dio moderne, kompetentne i kreativne radne snage sutrašnjice. Ponosni smo na njihovu angažovanost, radoznalost i profesionalno ponašanje – jer svaki ovakav susret unapređuje njihove kompetencije. Bio je ovo događaj koji spaja obrazovanje, inovacije i prilike – i koji mladima daje vjetar u leđa da hrabro grade svoju budućnost. Naša je misija da ih vodimo, ohrabrujemo i podsjećamo da hrabro dosegnu ono što žele.
+</p>
+<p className="mb-4 text-blueGray-500">
+Zajedno, pravimo korake koji vode ka sigurnijoj i uspješnijoj budućnosti! 
+</p>
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">OBILJEŽAVANJE SVJETSKOG DANA ŠTEDNJE – 31. 10. 2025. GODINE
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={stednjee1} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={stednjee2} alt="" />
+                    </div> 
+ <div>
+                        <Image src={stednjee3} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={stednjee4} alt="" />
+                    </div> 
+
+ <div>
+                        <Image src={stednjee5} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={stednjee6} alt="" />
+                    </div> 
+
+ <div>
+                        <Image src={stednjee7} alt="" />
+                    </div> 
+                    
+
+
+
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+
+<p className="mb-4 text-blueGray-500">
+U prostorijama naše škole, 31. oktobra 2025. godine, održano je svečano obilježavanje Svjetskog dana štednje, koji se svake godine obilježava s ciljem podizanja svijesti o značaju štednje, racionalnog upravljanja novcem i odgovornog planiranja budućnosti.
+</p>
+<p className="mb-4 text-blueGray-500">
+Svjetski dan štednje prvi put je obilježen 1924. godine na Prvom međunarodnom kongresu štedionica u Milanu, s idejom da se građani širom svijeta podstaknu na promišljeno trošenje i stvaranje navika štednje. Ovaj dan, danas predstavlja važnu priliku da se mladima ukaže na značaj finansijske pismenosti i odgovornog odnosa prema novcu, što je naročito važno u savremenom ekonomskom okruženju.
+</p>
+<p className="mb-4 text-blueGray-500">
+Organizaciju školskog događaja vodile su profesorice Amra Hodžić i Sanda Dupovac, uz aktivno učešće učenika od prvog do četvrtog razreda smjera ekonomski tehničar i bankarski tehničar. Učenici su prezentacijama, kreativnim radionicama i tematskim aktivnostima, predstavili različite načine štednje, oblike finansijskog planiranja i ulogu banaka u savremenom društvu. Njihovi radovi i izlaganja pokazali su visok stepen znanja, kreativnosti i razumijevanja ekonomskih principa.
+</p>
+<p className="mb-4 text-blueGray-500">
+Program je dodatno obogaćen dvjema anketama o navikama štednje i poznavanju finansijskih pojmova, kvizom “Koliko znaš o štednji?”, kao i zanimljivim igrokazom „Kafić bez duga“, u kojem su učenici na duhovit način prikazali značaj odgovornog trošenja i pametnog planiranja štednje novca.
+</p>
+<p className="mb-4 text-blueGray-500">
+Za kraj, veselu atmosferu upotpunila je plesna tačka uz pjesmu “Money, Money, Money" grupe ABBA, koja je simbolično podsjetila sve prisutne na važnost pravilnog odnosa prema novcu.
+</p>
+<p className="mb-4 text-blueGray-500">
+Pored edukativnog i zabavnog dijela programa, obilježen je i peti rođendan školskih maskota – Ekonomija i Bankija, koji su svojim prepoznatljivim izgledom i vedrim duhom dodatno uljepšali događaj i doprinijeli prijatnoj atmosferi.
+</p>
+<p className="mb-4 text-blueGray-500">
+Obilježavanjem Svjetskog dana štednje učenici i profesori još jednom su potvrdili posvećenost promovisanju ekonomskih vrijednosti, razvijanju finansijske pismenosti i jačanju svijesti o važnosti odgovornog odnosa prema novcu i resursima.
+</p>
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+        <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Projekat „Međubibliotečka saradnja između JU Srednje ekonomske škole, Sarajevo i JU Srednje škole primjenjenih umjetnosti Sarajevo“
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={bibamra1} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={bibamra2} alt="" />
+                    </div> 
+                      <div>
+                        <Image src={bibamra3} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={bibamra4} alt="" />
+                    </div> 
+                      <div>
+                        <Image src={bibamra5} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={bibamra6} alt="" />
+                    </div> 
+                      <div>
+                        <Image src={bibamra7} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={bibamra8} alt="" />
+                    </div> 
+                      <div>
+                        <Image src={bibamra9} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={bibamra10} alt="" />
+                    </div> 
+
+
+
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+
+<p className="mb-4 text-blueGray-500">
+U četvrtak, 20.11.2025 godine, u prepunoj Multimedijalnoj sali JU Srednje ekonomske škole, Sarajevo ispričana je jedna divna priča stvarana u duhu čuvenog slogana Kompanije „Podravka“  - Od srca srcu.</p>
+<p className="mb-4 text-blueGray-500">
+Naime, bila je to završnica uspješne međubibliotečke saradnje JU Srednje ekonomske škole, Sarajevo i JU Srednje škole primijenjenih umjetnosti Sarajevo, na kojoj su prezentovani ishodi projektne aktivnosti, koju su osmislile i realizovale bibliotekarke ovih škola, Amra Lagumdžija i Amina Abdulahović.
+</p>
+<p className="mb-4 text-blueGray-500">
+Prezentacijom, koju je moderirala bibliotekarka Srednje ekonomske škole, Amra Lagumdžija, potvrđena je uspješna veza između škola i privrednog sektora. Bibliotekarka Lagumdžija upoznala je prisutne kako je tekla ova saradnja i šta je sve urađeno. Istakla je da je prvi dio projetka realizovan u Umjetničkoj školi, a da se, nošena dobrom konekcijom koja je tada nastala, odlučila uključiti u cijelu ovu priču i Kompanija „Podravka“, kako bi se, osim na važnost medijske i informacijske pismenosti, ukazalo i na poduzetničku pismenost.</p>
+<p className="mb-4 text-blueGray-500">
+Prisutnima se obratila i bibliotekarka Umjetničke škole, Amina Abdulahović, iznoseći svoje impresije o ovoj projektnoj aktivnosti, ističući kako biblioteka nije samo mjesto gdje se dolazi po školsku lektiru, već mjesto gdje nastaju ovako divne i inspirativne priče, zaželjevši učenicima da ostvare svoje snove.</p>
+<p className="mb-4 text-blueGray-500">
+Učenici ove dvije škole, kako je naglasila bibliotekarka Lagumdžija, u ovom dijelu projekta imali su zadatak da marketinški i reklamno predstave čuvenu „Podravku“. Prisutni su tako mogli uživati u odličnoj prezentaciji, koju su napravili „ekonomisti“ sa svojom profesoricom, Vildanom Čelić, i mini izložbi koju su predstavili “umjetnici“ radeći u okviru sekcije Mipovci-Kreativci-Umjetnici, koju vode bibliotekarka i profesorica, Amra Patković, a koja je nastala uz svesrdnu pomoć profesorice kiparstva, Maje Matašin i profesora, Adisa Lukača. Radove je predstavila učenica Sara Šahinović.</p>
+<p className="mb-4 text-blueGray-500">
+Uposlenici „Podravke“ gospodin Nedim Zubović, regionalni menadžer za prodaju, gospodin Haris Arnautović, direktor marketinga i gospođa Biserka Tanović, koji su prisustvovali ovom događaju, uživali su u kreativnoj interpretaciji Kompanije i njenih proizvoda, prepoznavši entuzijazam, predanost i kreativnost učenika, te pružili podršku njihovom radu. Učenike je pozdravio i direktor marketinga „Podravke“, Haris Arnautović, koji je pohvalio njihov trud, inovativnost i posvećenost, te sve učesnike nagradio paketima Podravkinih proizvoda.</p>
+<p className="mb-4 text-blueGray-500">
+Treba istaći da su projektnu aktivnost podržale direktorice škola, Amira Kadrispahić i Elma Alić-Šobot.
+
+Nakon formalnog dijela programa, u školskoj biblioteci nastavljeno je druženje uz razgovor, gdje su gospodin Haris Aranautović i gospođa Bisera Tanović, odgovarali na pitanja učenika i razmatrali  mogućnosti daljnje saradnje. 
+
+Kompaniji je uručen i poklon - rad učenika Srednje škole primijenjenih umjetnosti, a u ime Srednje ekonomske škole, gostima je poklonjena vrijedna knjiga „Ponašanje potrošača“.</p>
+<p className="mb-4 text-blueGray-500">
+jubazni domaćini, učenici Srednje ekonomske škole potrudili su se da njihovi drugari, umjetnici uživaju i u obilasku škole.
+
+Bila je ovo priča stvarana srcem i entuzijazmom njenih učesnika, jer kako to reče Mali princ - Samo se srcem dobro vidi, a sve u duhu Podravkinog slogana - Od srca srcu.</p>
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Sjajan uspjeh Ene Mekić na Dance Masters 2025 u Skoplju
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={mekic1} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={mekic2} alt="" />
+                    </div> 
+
+
+
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+
+<p className="mb-4 text-blueGray-500">
+Učenica I3, Ena Mekić, iz Srednje ekonomske škole, Sarajevo, postigla je izvanredan uspjeh na prestižnom plesnom takmičenju Dance Masters 2025, održanom 15. i 16. novembra u Skoplju, Sjeverna Makedonija.
+
+</p>
+<p className="mb-4 text-blueGray-500">
+Na takmičenju Ena je osvojila prvo i drugo mjesto u pojedinačnim disciplinama, a njena grupa je proglašena najboljom po grupnoj koreografiji.
+</p>
+<p className="mb-4 text-blueGray-500">
+Ovi rezultati potvrđuju njen izvanredan talent, kreativnost i timski duh. Ena Mekić je još jednom pokazala posvećenost plesu i dala razlog na ponos svojoj školi i cijeloj plesnoj zajednici.</p>
+<p className="mb-4 text-blueGray-500">
+Čestitamo Eni i želimo joj još mnogo uspjeha u budućim takmičenjima!</p>
+
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Učenica Zerina Vrabac briljira na plivačkim takmičenjima
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={vrabac1} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={vrabac2} alt="" />
+                    </div> 
+
+
+
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+
+<p className="mb-4 text-blueGray-500">
+Učenica I3, Zerina Vrabac, ostvarila je izvanredne rezultate na Međunarodnom plivačkom mitingu u Zagrebu. U disciplinama je osvojila:
+</p>
+<p className="mb-4 text-blueGray-500">
+100 m delfin – zlato u kategoriji mlađih juniora i apsolutno zlato</p>
+<p className="mb-4 text-blueGray-500">
+200 m delfin – zlato u kategoriji mlađih juniora i apsolutno zlato
+</p>
+<p className="mb-4 text-blueGray-500">
+200 m mješovito – zlato u kategoriji mlađih juniora i apsolutno zlato</p>
+<p className="mb-4 text-blueGray-500">
+50 m delfin – srebro u kategoriji mlađih juniora
+</p>
+<p className="mb-4 text-blueGray-500">
+Ukupno je osvojila 6 zlatnih i 1 srebrnu medalju.</p>
+<p className="mb-4 text-blueGray-500">
+Na državnom takmičenju nastavila je niz medalja, i u pojedinačnoj i u grupnoj kategoriji, te je oborila rekorde u svojoj kategoriji. 
+</p>
+<p className="mb-4 text-blueGray-500">
+Zerina je primjer predanosti, talenta i discipline, te ponos Srednje ekonomske škole, Sarajevo.</p>
+
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">World Savings Day 2025 - posjeta unicef banci
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={etwuni1} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={etwuni2} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={etwuni3} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={etwuni4} alt="" />
+                    </div> 
+
+
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+Učenice i učenici drugog i četvrtog razreda naše škole, u pratnji profesorice Lejle Hujdur, i ove godine obilježili su Svjetski dan štednje (31. oktobar) na poseban i edukativan način – posjetom UniCredit banci. 
+</p>
+<p className="mb-4 text-blueGray-500">
+Tokom posjete, učenice i učenici su bili u prilici da se upoznaju sa svakodnevnim radom banke i poslovima koje obavljaju njeni uposlenici. Ljubazni domaćini iz UniCredit banke rado su odgovorili na sva učenička pitanja i podijelili svoja iskustva o radu u bankarskom sektoru.
+</p>
+<p className="mb-4 text-blueGray-500">
+Ova posjeta bila je odlična prilika da učenice i učenici povežu znanje stečeno u školi sa praktičnim primjerima iz stvarnog života, a realizovana je u okviru eTwinning projekta ,,World Savings Day 2025".</p>
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">World Savings Day 2025
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={lejlastednja1} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={lejlastednja2} alt="" />
+                    </div>
+                    <div>
+                        <Image src={lejlastednja3} alt="" />
+                    </div>
+                    <div>
+                        <Image src={lejlastednja4} alt="" />
+                    </div>
+                    <div>
+                        <Image src={lejlastednja5} alt="" />
+                    </div>
+                    <div>
+                        <Image src={lejlastednja6} alt="" />
+                    </div>
+                    <div>
+                        <Image src={lejlastednja7} alt="" />
+                    </div>
+                    <div>
+                        <Image src={lejlastednja8} alt="" />
+                    </div>
+
+
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+U sklopu realizacije eTwinning projekta ,,World Savings Day 2025", a povodom obilježavanja Svjetskog dana štednje 31.oktobra, učenici odjeljenja II-3 zajedno sa svojom razrednicom, Lejlom Hujdur, organizovali su zanimljivu i edukativnu radionicu. </p>
+<p className="mb-4 text-blueGray-500">
+U četvrtak, 30.10.2025. godine, u goste su nam došla djeca iz trećeg razreda osnovne škole ,,Vrhbosna", koja su bila u prilici obići našu školu i upoznati se s učenicima srednje škole.</p>
+<p className="mb-4 text-blueGray-500">
+Na početku smo se svi zajedno družili uz čokoladice i igru upoznavanja, a zatim su naši gosti učestvovali u Kahoot kvizu o štednji. Kroz razgovor i zabavu, učenici su dijelili svoja razmišljanja o tome kako i zašto štedimo, te su čuli iskustva vršnjaka iz još dvije škole iz Kiseljaka i Zvornika, koje su se priključile aktivnostima putem video-poziva.
+</p>
+<p className="mb-4 text-blueGray-500">
+Radionica je protekla u vedroj atmosferi, uz mnogo osmijeha i novih saznanja o važnosti štednje i odgovornog upravljanja novcem.
+</p>
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+        <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Naida Bijedić – primjer predanosti, upornosti i sportskog duha
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={naidabijedic} alt="" />
+                    </div> 
+
+
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+Naša učenica Naida Bijedić (I3 razred) postigla je izvanredan uspjeh na takmičenju u streljaštvu, gdje je oborila državni rekord i osvojila titulu državnog prvaka za kadete u Bosni i Hercegovini!
+</p>
+<p className="mb-4 text-blueGray-500">
+Naida je dugogodišnja članica Streljačkog kluba „Željezničar“ Sarajevo, a svojim radom, disciplinom i predanošću pokazuje šta znače upornost i ljubav prema sportu. Njeni rezultati to jasno potvrđuju — nastupala je na brojnim kantonalnim i državnim prvenstvima, ostvarivši zapažene uspjehe i osvajajući visoka mjesta u različitim disciplinama.
+</p>
+<p className="mb-4 text-blueGray-500">
+Bravo, Naida! Ponosni smo na tebe i želimo ti još mnogo uspjeha na budućim takmičenjima!
+</p>
+
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full justify-center items-center">
               <div className="container mx-auto px-4 justify-center items-center">
                 <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
@@ -1714,8 +2426,9 @@ const Aktivnosti = () => {
  
                   
 <p className="mb-4 text-blueGray-500">
-U petak, 24. oktobra učenice i učenici II5 odjeljenja i Indira  Zeković, prof. su posjetili Historijski muzej BiH — mjesto koje čuva bogato naslijeđe, sjećanja i priče koje oblikuju naš identitet. 
-Kroz izložbe i autentične predmete prošli smo kroz različite epohe naše historije — nasljeđe Drugog svjetskog rata, socijalističke Jugoslavije, rata u BiH i opsade Sarajeva, do savremene Bosne i Hercegovine.
+Učenice i učenici II5 odjeljenja i profesorica, Indira Zeković, posjetili su Historijski muzej BiH - mjesto koje čuva bogato naslijeđe, sjećanja i priče koje oblikuju naš identitet. 
+Kroz izložbe i autentične predmete prošli smo kroz različite epohe naše historije - nasljeđe Drugog svjetskog rata, socijalističke Jugoslavije, rata u BiH i opsade Sarajeva, do savremene Bosne i Hercegovine.
+
 </p>
 <p className="mb-4 text-blueGray-500">
 Ova posjeta nas je podsjetila koliko je važno učiti iz prošlosti kako bismo bolje razumjeli sadašnjost i izgradili bolju budućnost!
