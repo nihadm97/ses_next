@@ -373,7 +373,7 @@ rel="noreferrer"
                   </span>
                 </th>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                  7
+                  8
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
                   OSOBLJE I UČENIKE
@@ -410,6 +410,16 @@ rel="noreferrer"
           Zakon o odgoju i obrazovanju u osnovnoj i srednjoj školi u KS
         </a>
         <a
+          href="https://drive.google.com/file/d/1ApKlMK_oAEhW3-ycY7oq5DRUHpjuvSQS/view?usp=sharing"
+          className={
+            "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+          }
+          target="_blank"
+          rel="noreferrer"
+        >
+          Okvirni zakon o osnovnom i srednjem obrazovanju u BIH
+        </a>
+        <a
           href="https://drive.google.com/file/d/1VUGosMwvJKznvVp5l8_7qlHCGVX4K2YO/view"
           className={
             "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
@@ -438,6 +448,16 @@ rel="noreferrer"
           rel="noreferrer"
         >
           Zakon o radu Federacije BiH
+        </a>
+        <a
+          href="https://drive.google.com/file/d/1a6lkVAaFXn282Pze_8Y-ThndMB5Nzv0V/view?usp=sharing"
+          className={
+            "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+          }
+          target="_blank"
+          rel="noreferrer"
+        >
+         Zakon o izmjenama Zakona o radu     
         </a>
         <a
           href="https://drive.google.com/file/d/1rLH0ZbasEqwhVpaEyDb-HGz79Oje9Hpo/view"
@@ -549,7 +569,7 @@ rel="noreferrer"
           target="_blank"
           rel="noreferrer"
         >
-          Pravilnik o vođenju pedagoške dokumentacije i evidencije
+          Pravilnik o vođenju pedagoske dokum i evid
         </a>
         <a
           href="https://drive.google.com/file/d/15NKxsRyviEGGISEbsufBsJc1pLghsdQv/view"
@@ -559,7 +579,7 @@ rel="noreferrer"
           target="_blank"
           rel="noreferrer"
         >
-          Pravilnik o vođenju pedagoške dokumentacije i evidencije
+          Pravilnik o izmjenama i dopunama pravilnika o vođenju pedagoške dokumentacije i evid u srednj šk
         </a>
         <a
           href="https://drive.google.com/file/d/1f2569-NNBpOFDw8qsz24I47RzeRRCE77/view"
