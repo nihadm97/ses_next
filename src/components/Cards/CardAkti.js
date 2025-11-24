@@ -373,7 +373,7 @@ rel="noreferrer"
                   </span>
                 </th>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                  6
+                  7
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
                   OSOBLJE I UČENIKE
@@ -400,14 +400,14 @@ rel="noreferrer"
         }
       >
         <a
-          href="https://drive.google.com/file/d/1ApKlMK_oAEhW3-ycY7oq5DRUHpjuvSQS/view"
+          href="https://drive.google.com/file/d/1XTFeByTbVG15cJivu1IsOEEH06fljE0V/view?usp=sharing"
           className={
             "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
           }
           target="_blank"
           rel="noreferrer"
         >
-          Okvirni Zakon o osnovnom i srednjem obrazovanju u Bosni i Hercegovini
+          Zakon o odgoju i obrazovanju u osnovnoj i srednjoj školi u KS
         </a>
         <a
           href="https://drive.google.com/file/d/1VUGosMwvJKznvVp5l8_7qlHCGVX4K2YO/view"
@@ -459,6 +459,17 @@ rel="noreferrer"
         >
           Zakon o javnim nabavkama
         </a>
+        <a
+          href="https://drive.google.com/file/d/1DC2JhC3LDWOwFDtPoDUSmW6qp4UUDIEy/view?usp=sharing"
+          className={
+            "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+          }
+          target="_blank"
+          rel="noreferrer"
+        >
+          Zakon o izmjenama i dopunama Zakona o javnim nabavkama
+        </a>
+        
       </div>
                 </td>
               </tr><tr>
@@ -473,7 +484,7 @@ rel="noreferrer"
                   </span>
                 </th>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                  19
+                  20
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
                   OSOBLJE I UČENIKE
@@ -519,26 +530,17 @@ rel="noreferrer"
         >
           Pravilnik o prijavljivanju korupcije
         </a>
-        <a
-          href="https://drive.google.com/file/d/1dOtnFY-MJUu_5xUNWq6weHAkKu5C5Ls7/view"
+       <a
+          href="https://drive.google.com/file/d/1F3Sv3TO8kdrQbarfknOnxS2jL273AEA9/view?usp=sharing"
           className={
             "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
           }
           target="_blank"
           rel="noreferrer"
         >
-          Pedagoški standardi i normativi
+          Pedagoški standardi i normativi za odgoj i obrazovanje u osnovnoj i srednjoj školi 
         </a>
-        <a
-          href="https://drive.google.com/file/d/11zrCJ4WN55ZeUvQU68lZ7i4KM7xMUpz3/view"
-          className={
-            "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
-          }
-          target="_blank"
-          rel="noreferrer"
-        >
-          Izmjene i dopune pedagoških standarda i normativa
-        </a>
+
         <a
           href="https://drive.google.com/file/d/1XR2uBC4EpsMXxUJ2M_kHBypdL0JSTJMp/view"
           className={
@@ -568,6 +570,16 @@ rel="noreferrer"
           rel="noreferrer"
         >
           Pravilnik o praćenju, vrednovanju i ocjenjivanju učenika
+        </a>
+        <a
+          href="https://drive.google.com/file/d/1WRDbJMP_YtvjH2FHSQE3crZ_8zo1ckCe/view?usp=sharing"
+          className={
+            "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+          }
+          target="_blank"
+          rel="noreferrer"
+        >
+          Pravilnik o dopuni Pravilnika o praćenju, vrednovanju i ocjenjivanju učenika osnovnih i srednjih škola u KS
         </a>
         <a
           href="https://drive.google.com/file/d/1k9ndUNoshsothwUr9eWaATqD-HsC9wQ9/view?usp=sharing"
@@ -610,6 +622,46 @@ rel="noreferrer"
           Pravilnik o inkluzivnom obrazovanju
         </a>
         <a
+          href="https://drive.google.com/file/d/1rldLtslV1Kl7Y2___dCFBwflob3XJBuE/view?usp=sharing"
+          className={
+            "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+          }
+          target="_blank"
+          rel="noreferrer"
+        >
+           Pravilnik o izmjenama Pravilnika o inkluzivnom obrazovanju
+        </a>
+                <a
+          href="https://drive.google.com/file/d/1r8ZPLbr_cMirgwNUApE6BF-q9AbdQsyN/view?usp=sharing"
+          className={
+            "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+          }
+          target="_blank"
+          rel="noreferrer"
+        >
+           Pravilnik o provođenju mjera odgojno-obrazovne podrške i stručnog tretmana učenika
+        </a>
+        <a
+          href="https://drive.google.com/file/d/1rrEtmVYM1gZEM_u6Hl2zUDvGavLe_LDf/view?usp=sharing"
+          className={
+            "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+          }
+          target="_blank"
+          rel="noreferrer"
+        >
+          Pravilnik o vođenju evidencije o neprihvatljivim oblicima ponašanja
+        </a>
+                <a
+          href="https://drive.google.com/file/d/1tsyBK0m1UXrNyEV72M6fHoDfYhhKoytL/view?usp=sharing"
+          className={
+            "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+          }
+          target="_blank"
+          rel="noreferrer"
+        >
+           Pravilnik o izmjeni pravilnika o neprihvatljivim oblicima ponašanja
+        </a>
+        <a
           href="https://drive.google.com/file/d/1wSau8-x0BMYfV8e3254cBAKBYWotZKqq/view"
           className={
             "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
@@ -620,7 +672,7 @@ rel="noreferrer"
           Pravilnik o ocjenjivanju, napredovanju i sticanju stručnih zvanja
         </a>
         <a
-          href="https://drive.google.com/file/d/1P3GSRDc-OC3kBfRwySazdUKM0BiQ3qpX/view"
+          href="https://drive.google.com/file/d/1_Utqaw3fv3ZCJdjZQvnOKeaYo3VRx5vG/view?usp=sharing"
           className={
             "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
           }
@@ -628,6 +680,16 @@ rel="noreferrer"
           rel="noreferrer"
         >
           Pravilnik sa kriterijima za prijem radnika u radni odnos
+        </a>
+        <a
+          href="https://drive.google.com/file/d/1WupO5G2co1rAlifgFVsP3XCe9qVZeyKa/view?usp=sharing"
+          className={
+            "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+          }
+          target="_blank"
+          rel="noreferrer"
+        >
+          Pravilnik o izmjenama Pravilnika za prijem radnika u radni odnos u osnovnim i srednjim školama u KS
         </a>
         <a
           href="https://drive.google.com/file/d/1SfvuTQdUTQIUGrsnAp64w16A6O5WT5Un/view"
