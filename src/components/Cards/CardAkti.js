@@ -373,7 +373,7 @@ rel="noreferrer"
                   </span>
                 </th>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                  8
+                  7
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
                   OSOBLJE I UČENIKE
@@ -418,26 +418,6 @@ rel="noreferrer"
           rel="noreferrer"
         >
           Okvirni zakon o osnovnom i srednjem obrazovanju u BIH
-        </a>
-        <a
-          href="https://drive.google.com/file/d/1VUGosMwvJKznvVp5l8_7qlHCGVX4K2YO/view"
-          className={
-            "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
-          }
-          target="_blank"
-          rel="noreferrer"
-        >
-          Zakon o srednjem obrazovanju Kantona Sarajevo
-        </a>
-        <a
-          href="https://drive.google.com/file/d/1rCeABemYVmZxG9dhQHx_lYE3DqThNL9k/view"
-          className={
-            "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
-          }
-          target="_blank"
-          rel="noreferrer"
-        >
-          Zakon o izmjeni zakona o srednjem obrazovanju
         </a>
         <a
           href="https://drive.google.com/file/d/1y95SJ7NuZ5H50t-Uo3kExKwJcymeNSWZ/view"
