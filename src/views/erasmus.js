@@ -180,20 +180,20 @@ const Erasmus = () => {
          
                           
         <p className="mb-4 text-blueGray-500">
-    Srednja ekonomska škola Sarajevo imala je čast učestvovati u ovom značajnom međunarodnom projektu kao partner, čime je još jednom potvrdila svoju posvećenost inovativnim oblicima učenja i razvijanju preduzetničkog duha kod mladih. Završna konferencija Erasmus+ projekta GreenTech Entrepreneurship Challenge Hub (GTECH) održana je 29. septembra 2025. godine, u konfrenecijskoj sali ASA Institutu u Sarajevu.     </p>
+Srednja ekonomska škola, Sarajevo imala je čast učestvovati u ovom značajnom međunarodnom projektu kao partner, čime je još jednom potvrdila svoju posvećenost inovativnim oblicima učenja i razvijanju preduzetničkog duha kod mladih. Završna konferencija Erasmus+ projekta GreenTech Entrepreneurship Challenge Hub (GTECH) održana je 29. septembra 2025. godine, u konfrenecijskoj sali ASA Instituta u Sarajevu.     </p>
         <p className="mb-4 text-blueGray-500">
-    Projekat su u našoj školi uspješno vodile i koordinirale direktorica Amira Kadrispahić i profesorica Senida Čelj . Također, veliki doprinos realizaciji projekta dali su i profesori/ce: Indira Zeković, Alma Karamujić, Emir Ustavdić i Selma Jusić, koji su kroz mentorstvo i podršku učenicima pokazali kako se znanje i kreativnost mogu pretvoriti u konkretna rješenja za stvarne izazove.</p>
+Projekat su u našoj školi uspješno vodile i koordinirale direktorica Amira Kadrispahić i profesorica Senida Čeljo. Također, veliki doprinos realizaciji projekta dali su i profesori/ce: Indira Zeković, Alma Karamujić, Emir Ustavdić i Selma Jusić, koji su mentorstvom i podrškom učenicima pokazali kako se znanje i kreativnost mogu pretvoriti u konkretna rješenja za stvarne izazove.    </p>
         <p className="mb-4 text-blueGray-500">
-    Oko 40 učenika/ca naše škole aktivno je učestvovalo u projektu, radeći na istraživanju izazova za kompanije, razvijanju ideja i osmišljavanju inovativnih prijedloga za održivije poslovanje. Na taj način obogatili su svoje znanje, razvili poduzetničke i komunikacijske vještine, te naučili kako se teorijska znanja mogu primijeniti u praksi. Tokom GTECH projekta učenici su imali priliku raditi po modelu Challenge-Based Learning (CBL) – pristupu koji podstiče kreativno rješavanje stvarnih problema.    </p>
+Oko 40 učenika/ca naše škole aktivno je učestvovalo u projektu, radeći na istraživanju izazova za kompanije, razvijanju ideja i osmišljavanju inovativnih prijedloga za održivije poslovanje. Na taj način obogatili su svoje znanje, razvili poduzetničke i komunikacijske vještine, te naučili kako se teorijska znanja mogu primijeniti u praksi. Tokom GTECH projekta učenici su imali priliku raditi po modelu Challenge-Based Learning (CBL) – pristupu koji podstiče kreativno rješavanje stvarnih problema.    </p>
         <p className="mb-4 text-blueGray-500">
     Projekat je okupio 270 učenika/ca iz 15 škola i 12 industrijskih partnera, a 30 profesora/ca imalo je priliku da učestvuje na međunarodnim obukama u Sloveniji i Hrvatskoj.
-    Saradnja između škola i kompanija pokazala se kao izuzetno vrijedan oblik učenja — dok su kompanije dobile svježe ideje, učenici su stekli realan uvid u potrebe tržišta rada.
+Saradnja između škola i kompanija pokazala se kao izuzetno vrijedan oblik učenja — dok su kompanije dobile svježe ideje, učenici su stekli realan uvid u potrebe tržišta rada.
+
         </p>
         <p className="mb-4 text-blueGray-500">
-        Kroz GTECH projekat učenici/ce i profesori/ce Srednje ekonomske škole Sarajevo pokazali su da mladi mogu biti pokretači promjena i da je ulaganje u obrazovanje u oblasti zelenih tehnologija ulaganje u budućnost naše zajednice i očuvanje okoline.
-        </p>
+Realizacijom GTECH projekta, učenici/ce i profesori/ce Srednje ekonomske škole, Sarajevo, pokazali su da mladi mogu biti pokretači promjena i da je ulaganje u obrazovanje u oblasti zelenih tehnologija ulaganje u budućnost naše zajednice i očuvanje okoline.        </p>
         <p className="mb-4 text-blueGray-500">
-    Zahvaljujemo svim partnerima, organizatorima i profesorima i učenicima na trudu, entuzijazmu i inspiraciji da zajedno gradimo održivu i inovativnu budućnost!    </p>
+Zahvaljujemo svim partnerima, organizatorima, profesorima i učenicima za trud, entuzijazam i inspiraciju da zajedno gradimo održivu i inovativnu budućnost!      </p>
         
         </span>
                           </div>

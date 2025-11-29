@@ -1675,6 +1675,18 @@ import sajamzaposlena4 from '@/views/images/sajamzaposlena4.jpg';
 import sajamzaposlena5 from '@/views/images/sajamzaposlena5.jpg';
 import sajamzaposlena6 from '@/views/images/sajamzaposlena6.jpg';
 
+import drzavnost1 from '@/views/images/drzavnost1.jpg';
+import drzavnost2 from '@/views/images/drzavnost2.jpg';
+import drzavnost3 from '@/views/images/drzavnost3.jpg';
+import drzavnost4 from '@/views/images/drzavnost4.jpg';
+import drzavnost5 from '@/views/images/drzavnost5.jpg';
+
+import pol1 from '@/views/images/pol1.jpg';
+import pol2 from '@/views/images/pol2.jpg';
+import pol3 from '@/views/images/pol3.jpg';
+import pol4 from '@/views/images/pol4.jpg';
+import pol5 from '@/views/images/pol5.jpg';
+
 
 const Aktivnosti = () => {
   useEffect(() => {
@@ -1695,6 +1707,158 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Prevencija maloljetničkog prijestupništva – prava i obaveze učenika
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={pol1} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={pol2} alt="" />
+                    </div> 
+ <div>
+                        <Image src={pol3} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={pol4} alt="" />
+                    </div> 
+
+ <div>
+                        <Image src={pol5} alt="" />
+                    </div> 
+                                  
+
+
+                    
+
+
+
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+
+<p className="mb-4 text-blueGray-500">
+U okviru plana prevencije maloljetničke delinkvencije, u periodu od 17. do 19. novembra, u saradnji sa Policijskom upravom Novo Sarajevo i stručnom službom škole, realizovana su edukativna predavanja za učenike prvih, drugih i četvrtih razreda.
+</p>
+<p className="mb-4 text-blueGray-500">
+Za učenike prvih i drugih razreda održano je predavanje „Prevencija maloljetničkog prijestupništva – prava i obaveze učenika“, dok su učenici četvrtih razreda učestvovali u predavanju na temu „Trgovina ljudima“.
+</p>
+<p className="mb-4 text-blueGray-500">
+Ovakve aktivnosti imaju izuzetnu važnost u školskom okruženju. Preventivna predavanja omogućavaju učenicima da na vrijeme prepoznaju rizična ponašanja, bolje razumiju svoje zakonske obaveze i posljedice postupaka, te razviju odgovoran odnos prema sebi, školi i zajednici. Kroz stručna i jasno strukturirana izlaganja policijskih službenika i školskog osoblja, učenici stiču znanja koja im pomažu u donošenju sigurnijih i zrelijih odluka.</p>
+<p className="mb-4 text-blueGray-500">
+Posebno je važno informisati mlade o temama poput trgovine ljudima, jer prepoznavanje rizičnih situacija, mehanizama manipulacije i važnosti lične sigurnosti predstavlja ključni korak u zaštiti mladih osoba.
+</p>
+<p className="mb-4 text-blueGray-500">
+Realizacija ovakvih sadržaja doprinosi jačanju kulture nenasilja, poštivanja zakona, razvijanju socijalnih vještina i stvaranju sigurnog i podržavajućeg školskog okruženja, s tim u vezi posebnu zahvalnost iskazujemo PU Novo Sarajevo, Odjeljenju za prevenciju maloljetničkog prijestupništva, nasilja u porodici i rad policije u zajednici sa kojima će škola i dalje nastaviti saradnju u aktivnostima koje jačaju preventivni rad i doprinose dobrobiti svih učenika.
+</p>
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Dan državnosti
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={drzavnost1} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={drzavnost2} alt="" />
+                    </div> 
+ <div>
+                        <Image src={drzavnost3} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={drzavnost4} alt="" />
+                    </div> 
+
+ <div>
+                        <Image src={drzavnost5} alt="" />
+                    </div> 
+                                    
+
+
+                    
+
+
+
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+
+<p className="mb-4 text-blueGray-500">
+Učenice i učenici naše škole imali su čast učestvovati u programu povodom Dana državnosti, kojeg je, u okviru projekta Note jednakosti, organizovalo Udruženja umjetnika, sportista i osoba sa invaliditetom "MISS".
+</p>
+<p className="mb-4 text-blueGray-500">
+Ovaj jedinstveni  inkluzivno - umjetnički program povodom Dana državnosti Bosne i Hercegovine, pokazao nam je ljepotu različitosti i snagu zajedništva kroz umjetnost. 
+</p>
+<p className="mb-4 text-blueGray-500">
+Glavni učesnici programa bili su članovi i članice Udruženja MISS - osobe s poteškoćama u razvoju i invaliditetom, koji su svojim talentom i kreativnošću pokazali da umjetnost ne poznaje granice.
+</p>
+<p className="mb-4 text-blueGray-500">
+Uz pjesmu, ples i recitacije i uz podršku hora Srednje ekonomske škole, Sarajevo publika je mogla osjetiti istinsku toplinu, emociju i duh Bosne i Hercegovine.
+</p>
+<p className="mb-4 text-blueGray-500">
+Srdačno zahvaljujemo predsjednici Udruženja, profesorici Editi Drakovac, za ukazanu čast i mogućnost da doprinesemo ovom divnom događaju. Radujemo se nastavku saradnje realizacijom novih zajedničkih ideja i priča koje ćemo pričati zajedno.</p>
+<p className="mb-4 text-blueGray-500">
+Posebno nas raduje činjenica da učešće na ovakvim događajima kod naših učenica i učenika razvija empatiju, prihvatanje i solidarnost, koja pozitivno utiče na razvoj inkluzivne kulture u našoj školi za koju se srčano zalažemo.
+</p>
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
             <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
@@ -2007,7 +2171,7 @@ Obilježavanjem Svjetskog dana štednje učenici i profesori još jednom su potv
                   
 
 <p className="mb-4 text-blueGray-500">
-U četvrtak, 20.11.2025 godine, u prepunoj Multimedijalnoj sali JU Srednje ekonomske škole, Sarajevo ispričana je jedna divna priča stvarana u duhu čuvenog slogana Kompanije „Podravka“  - Od srca srcu.</p>
+U četvrtak, 20.11.2025. godine, u prepunoj Multimedijalnoj sali JU Srednje ekonomske škole, Sarajevo ispričana je jedna divna priča stvarana u duhu čuvenog slogana Kompanije „Podravka“  - Od srca srcu.</p>
 <p className="mb-4 text-blueGray-500">
 Naime, bila je to završnica uspješne međubibliotečke saradnje JU Srednje ekonomske škole, Sarajevo i JU Srednje škole primijenjenih umjetnosti Sarajevo, na kojoj su prezentovani ishodi projektne aktivnosti, koju su osmislile i realizovale bibliotekarke ovih škola, Amra Lagumdžija i Amina Abdulahović.
 </p>
