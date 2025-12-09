@@ -1687,6 +1687,25 @@ import pol3 from '@/views/images/pol3.jpg';
 import pol4 from '@/views/images/pol4.jpg';
 import pol5 from '@/views/images/pol5.jpg';
 
+import centralna20251 from '@/views/images/centralna20251.jpg';
+import centralna20252 from '@/views/images/centralna20252.jpg';
+import centralna20253 from '@/views/images/centralna20253.jpg';
+import centralna20254 from '@/views/images/centralna20254.jpg';
+import centralna20255 from '@/views/images/centralna20255.jpg';
+import centralna20256 from '@/views/images/centralna20256.jpg';
+
+import nulta1 from '@/views/images/nulta1.jpg';
+import nulta2 from '@/views/images/nulta2.jpg';
+import nulta3 from '@/views/images/nulta3.jpg';
+import nulta4 from '@/views/images/nulta4.jpg';
+
+import spar20251 from '@/views/images/spar20251.jpg';
+import spar20252 from '@/views/images/spark20252.jpg';
+
+import federalno1 from '@/views/images/federalno1.jpg';
+import federalno2 from '@/views/images/federalno2.jpg';
+
+
 
 const Aktivnosti = () => {
   useEffect(() => {
@@ -1707,6 +1726,284 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">𝑷𝒐𝒕𝒑𝒊𝒔𝒂𝒏 𝒖𝒈𝒐𝒗𝒐𝒓 𝒐 𝒓𝒆𝒂𝒍𝒊𝒛𝒂𝒄𝒊𝒋𝒊 𝒑𝒓𝒐𝒋𝒆𝒌𝒕𝒂 „𝑶𝒑𝒓𝒆𝒎𝒂𝒏𝒋𝒆 𝒌𝒂𝒃𝒊𝒏𝒆𝒕𝒂 𝒉𝒆𝒎𝒊𝒋𝒆, 𝒇𝒊𝒛𝒊𝒌𝒆 𝒊 𝒆𝒌𝒐𝒍𝒐𝒈𝒊𝒋𝒆“
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={federalno1} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={federalno2} alt="" />
+</div>
+                   
+                                  
+
+
+                    
+
+
+
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+
+<p className="mb-4 text-blueGray-500">
+Direktorica JU Srednje ekonomske škole, Sarajevo, Amira Kadrispahić, potpisala je 16.10.2025. godine, Ugovor o finansiranju projekta iz oblasti predškolskog, osnovnog i srednjeg obrazovanja sa ministricom, prof. dr. Jasnom Duraković. Projekat se realizuje iz Budžeta Federacije Bosne i Hercegovine za 2025. godinu.
+</p>
+<p className="mb-4 text-blueGray-500">
+Prema potpisanom ugovoru, Federalno ministarstvo obrazovanja i nauke će našoj školi odobriti finansijska sredstva u ukupnom iznosu od 11.185,59 KM, namijenjena za realizaciju projekta „𝑂𝑝𝑟𝑒𝑚𝑎𝑛𝑗𝑒 𝑘𝑎𝑏𝑖𝑛𝑒𝑡𝑎 ℎ𝑒𝑚𝑖𝑗𝑒, 𝑓𝑖𝑧𝑖𝑘𝑒 𝑖 𝑒𝑘𝑜𝑙𝑜𝑔𝑖𝑗𝑒“.
+</p>
+<p className="mb-4 text-blueGray-500">
+Projekat se realizuje u okviru programa „𝑃𝑜𝑑𝑟𝑠̌𝑘𝑎 𝑝𝑟𝑜𝑗𝑒𝑘𝑡𝑖𝑚𝑎 𝑟𝑎𝑧𝑣𝑖𝑗𝑎𝑛𝑗𝑎 𝑓𝑢𝑛𝑘𝑐𝑖𝑜𝑛𝑎𝑙𝑛𝑖ℎ 𝑧𝑛𝑎𝑛𝑗𝑎 𝑖 𝑣𝑗𝑒𝑠̌𝑡𝑖𝑛𝑎 𝑑𝑗𝑒𝑐𝑒 𝑝𝑟𝑒𝑑𝑠̌𝑘𝑜𝑙𝑠𝑘𝑜𝑔 𝑢𝑧𝑟𝑎𝑠𝑡𝑎 𝑖 𝑢𝑐̌𝑒𝑛𝑖𝑘𝑎 𝑜𝑠𝑛𝑜𝑣𝑛𝑖ℎ 𝑖 𝑠𝑟𝑒𝑑𝑛𝑗𝑖ℎ 𝑠̌𝑘𝑜𝑙𝑎“ i predstavlja važan korak ka unapređenju uslova za izvođenje nastave iz prirodnih nauka, te će doprinijeti kvalitetnijem i savremenijem obrazovnom okruženju za naše učenike.
+</p>
+<p className="mb-4 text-blueGray-500">
+Zahvaljujemo Federalnom ministarstvu obrazovanja i nauke na ukazanom povjerenju i podršci!
+</p>
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">𝑳𝒊𝒗𝒆 𝒎𝒂𝒓𝒌𝒆𝒕𝒊𝒏𝒔̌𝒌𝒂 𝒓𝒂𝒅𝒊𝒐𝒏𝒊𝒄𝒂 𝒖 𝑺𝒑𝒂𝒓𝒌𝒂𝒔𝒔𝒆 𝑩𝒂𝒏𝒌
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={spar20251} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={spar20252} alt="" />
+                    </div> 
+                         
+
+
+                    
+
+
+
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+
+<p className="mb-4 text-blueGray-500">
+Učenice i učenici iz više različitih odjeljenja naše škole su u petak, 21. novembra, prisustvovali interaktivnoj marketinškoj radionici u Direkciji za marketing i komunikacije, Sparkasse bank. 
+</p>
+<p className="mb-4 text-blueGray-500">
+Radionicu je realizovala Anisa Fetahagić Otanović, prezentujući našim učenicama i učenicima marketinške prakse, ali i konkretne faze i izazove u procesu kreiranja marketinških rješenja.
+Live marketinška radionica im je bila izuzetno zanimljiva i prilika da urone u realan marketinški svijet te spoznaju koliko je važno razviti širok spektar vještina, kako bi se istakli u dinamičnom svijetu marketinga. 
+</p>
+<p className="mb-4 text-blueGray-500">
+Kreativnost i inovativnost, prije svega, omogućava stručnjacima iz Sparkasse Bank da osmišljavaju jedinstvene kampanje koje privlače pažnju ciljne publike. Sposobnost analitičkog razmišljanja je ključna za razumijevanje tržišnih trendova i prilagođavanje strategija u skladu s tim. Ne možemo zanemariti ni komunikacijske vještine, koje su temelj uspješnih odnosa s klijentima i saradnicima. Očuvanje imidža Sparkasse Bank zahtijeva proaktivni pristup i sposobnost brzog reagovanja na izazove. 
+Ova radionica nas je uvjerila koliko su prilagodljivost i sposobnost brzog učenja ključni za razvoj efikasnih i originalnih marketinških rješenja koja će privući pažnju ciljne publike. Uspješno upravljanje ovim aspektima poslovanja je zalog dugoročnog uspjeha i održivosti Sparkasse Bank na konkurentnom tržištu. 
+Naravno, bilo je riječi i o efikasnom mjerenju uspjeha i optimizaciji marketinških aktivnosti...</p>
+<p className="mb-4 text-blueGray-500">
+Bila je ovo izuzetna prilika da učimo od vrhunskih marketara!
+Zahvaljujemo Sparkasse Bank za njihov izuzetan doprinos povezivanju sa obrazovanjem, društveno odgovoran odnos prema unapređenju marketinških i poduzetničkih kompetencija naših učenica i učenika, a koje implementira kroz ovu, ali i druge konkretne inicijative sa mjerljivim i dugoročnim uticajem na zajednicu.</p>
+
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">𝑺𝒊𝒈𝒖𝒓𝒏𝒂 𝒔̌𝒌𝒐𝒍𝒂 - 𝒏𝒖𝒍𝒕𝒂 𝒔𝒕𝒐𝒑𝒂 𝒕𝒐𝒍𝒆𝒓𝒂𝒏𝒄𝒊𝒋𝒆 𝒏𝒂 𝒏𝒂𝒔𝒊𝒍𝒋𝒆
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={nulta1} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={nulta2} alt="" />
+                    </div> 
+ <div>
+                        <Image src={nulta3} alt="" />
+                    </div> 
+                     <div>
+                        <Image src={nulta4} alt="" />
+                    </div> 
+                    
+
+
+                    
+
+
+
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+
+<p className="mb-4 text-blueGray-500">
+U okviru programa prevencije vršnjačkog nasilja u saradnji sa KJU Odgojni centar, realizovane su radionice za učenice i učenike prvog razreda na temu "Sigurna škola - nulta stopa tolerancije na nasilje".
+</p>
+
+
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">𝑰𝒏𝒔𝒕𝒊𝒕𝒖𝒄𝒊𝒐𝒏𝒂𝒍𝒏𝒂 𝒎𝒓𝒆𝒛̌𝒂 𝒇𝒊𝒏𝒂𝒏𝒔𝒊𝒋𝒔𝒌𝒆 𝒔𝒕𝒂𝒃𝒊𝒍𝒏𝒐𝒔𝒕𝒊 𝑩𝒊𝑯: 𝑪𝒆𝒏𝒕𝒓𝒂𝒍𝒏𝒂 𝒃𝒂𝒏𝒌𝒂 𝑩𝒊𝑯, 𝑭𝑩𝑨 𝒊 𝑨𝑶𝑫 𝑩𝒊𝑯
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={centralna20251} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={centralna20252} alt="" />
+                    </div> 
+ <div>
+                        <Image src={centralna20253} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={centralna20254} alt="" />
+                    </div> 
+
+ <div>
+                        <Image src={centralna20255} alt="" />
+                    </div> 
+
+ <div>
+                        <Image src={centralna20256} alt="" />
+                    </div> 
+                                  
+
+
+                    
+
+
+
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+
+<p className="mb-4 text-blueGray-500">
+Učenici i učenice II1, II2, II3, II5 odjeljenja i profesorice: Alma Živojević i Indira Zeković, su 17. novembra, u prostorijama Centralne banke Bosne i Hercegovine, prisustvovali predavanju na temu 𝑈𝑙𝑜𝑔𝑎 𝑖𝑛𝑠𝑡𝑖𝑡𝑢𝑐𝑖𝑗𝑎 𝑢 𝑜𝑐̌𝑢𝑣𝑎𝑛𝑗𝑢 𝑓𝑖𝑛𝑎𝑛𝑠𝑖𝑗𝑠𝑘𝑒 𝑠𝑡𝑎𝑏𝑖𝑙𝑛𝑜𝑠𝑡𝑖 𝑢 𝑧𝑒𝑚𝑙𝑗𝑖. 
+Predavači su bili iz Centralne banke Bosne i Hercegovine (CBBiH) Ajla Hadžić,  u ime Agencije za osiguranje depozita BiH (AODBiH) Jasmina Hadžić, a ispred Agencije za bankarstvo Federacije Bosne i Hercegovine (FBA), predavanje je održala Željka Stanić Trogrlić.</p>
+<p className="mb-4 text-blueGray-500">
+CBBiH predsjedava Stalnim odborom za finansijsku stabilnost i koordinira djelatnosti entitetskih agencija za bankarstvo te tako ima značajnu ulogu u održavanju finansijske stabilnosti u državi. Učenicima i učenicama je predstavljena uloga CBBiH u održavanju monetarne stabilnosti, upravljanju Valutnim odborom, obavljanju platnog prometa i očuvanju stabilnosti finansijskog sistema. </p>
+<p className="mb-4 text-blueGray-500">
+Predstavnica Agencije za osiguranje depozita govorila je o značaju sistema osiguranja depozita, mehanizmima zaštite deponenata i ulozi Agencije u jačanju povjerenja u bankarski sektor. 
+</p>
+<p className="mb-4 text-blueGray-500">
+Predavač iz FBA je pojasnila regulatorne i nadzorne funkcije, proces licenciranja banaka, nadzor nad finansijskom stabilnošću i usklađivanje propisa sa međunarodnim standardima. 
+</p>
+<p className="mb-4 text-blueGray-500">
+Institucionalni trio CB BiH – AOD BiH – FBA je na ovaj način potencirao svoju posvećenost finansijskoj edukaciji i inkluziji, koji su ključan preduslov da bi stanovništvo donosilo racionalne finansijske odluke. Ovakve aktivnosti za posljedicu imaju obezbjeđivanje dodatne stabilnosti cijelom sistemu, ali i podizanje svijesti mladih o važnosti stabilnog i otpornog bankarskog sektora u Bosni i Hercegovini.
+</p>
+<p className="mb-4 text-blueGray-500">
+U okviru plana prevencije maloljetničke delinkvencije, u periodu od 17. do 19. novembra, u saradnji sa Policijskom upravom Novo Sarajevo i stručnom službom škole, realizovana su edukativna predavanja za učenike prvih, drugih i četvrtih razreda.
+</p>
+<p className="mb-4 text-blueGray-500">
+Predavanja su bila interaktivna i prilagođena srednjoškolcima, sa posebnim akcentom na  jačanje svijesti o odgovornom upravljanju ličnim finansijama i finansijsku pismenost. Kroz diskusiju i praktične primjere, učenici i učenice su imali priliku bolje razumjeti superviziju subjekata bankarskog sistema, način na koji regulatorni nadzor pomaže u zaštiti štednje građana i očuvanju stabilnosti i sigurnosti finansijskog sistema. Naglašeno je da finansijska stabilnost podrazumijeva sposobnost finansijskog sistema da stabilno funkcioniše i u uslovima poremećaja te predstavlja jedan od esencijalnih faktora održivog privrednog rasta. 
+</p>
+
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">

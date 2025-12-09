@@ -171,7 +171,7 @@ export default function CardAkti({ color }) {
                   </span>
                 </th>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                  11
+                  16
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
                   OSOBLJE I UČENIKE
@@ -297,7 +297,7 @@ rel="noreferrer"
         >
           Pravilnik o izmjenama i dopunama pravilnika o radu 2025.
         </a>
-                <a
+        <a
           href="https://drive.google.com/file/d/19yiBPFZZXFfQPrA1mc76I1GaY3WljkTw/view?usp=sharing"
           className={
             "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
@@ -306,6 +306,56 @@ rel="noreferrer"
 rel="noreferrer"
         >
           Pravilnik o izmjenama i dopunama pravilnika o radu 2024.
+        </a>
+        <a
+          href="https://drive.google.com/file/d/1JMN5WUAJ6vZjjzsApnFhYojlO9LL_dKU/view?usp=sharing"
+          className={
+            "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+          }
+          target="_blank"
+rel="noreferrer"
+        >
+          Pravila školske ishrane
+        </a>
+        <a
+          href="https://drive.google.com/file/d/1CEcYGCjX5ZgLB_-aAcmMyUi7_IARsCkd/view?usp=sharing"
+          className={
+            "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+          }
+          target="_blank"
+rel="noreferrer"
+        >
+          Pravilnik o poslovnima nastavnika
+        </a>
+        <a
+          href="https://drive.google.com/file/d/1UdSLFi_D9xwdHFLUC3xSqyW96ZrlFzDA/view?usp=sharing"
+          className={
+            "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+          }
+          target="_blank"
+rel="noreferrer"
+        >
+          Privremeni plan nabavke za 2025.
+        </a>
+        <a
+          href="https://drive.google.com/file/d/14QvL_wmRltuzQ_yncQT1l31JCMq1TFGy/view?usp=sharing"
+          className={
+            "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+          }
+          target="_blank"
+rel="noreferrer"
+        >
+          Plan nabavke za 2025.
+        </a>
+        <a
+          href="https://drive.google.com/file/d/12ALV6CUD3DwimD-aNihWZ_5Knl2eY7Jj/view?usp=sharing"
+          className={
+            "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+          }
+          target="_blank"
+rel="noreferrer"
+        >
+          I izmjena plana nabavki za 2025.
         </a>
           </div>
                 </td>
