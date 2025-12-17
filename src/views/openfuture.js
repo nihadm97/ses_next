@@ -74,6 +74,10 @@ import koktel9 from '@/views/images/koktel9.jpg';
 import koktel10 from '@/views/images/koktel10.jpg';
 import koktel11 from '@/views/images/koktel11.jpg';
 
+import openn1 from '@/views/images/openn1.jpg';
+import openn2 from '@/views/images/openn2.jpg';
+import openn3 from '@/views/images/openn3.jpg';
+
 
 const OpenFuture = () => {
   useEffect(() => {
@@ -83,6 +87,94 @@ const OpenFuture = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+              <div className="container mx-auto px-4">
+                <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+                  <h6 className="text-xl mb-1 font-semibold text-center uppercase">ZAVRŠNA KONFERENCIJA PROJEKTA OPEN FUTURE 15-16.11.2025., Novi Sad
+    
+    
+    
+    </h6>
+                </span>
+                <div className="flex flex-wrap">
+                  <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                    <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                      <div className="py-5 flex-auto">
+                      <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                          
+                      <div>
+                            <Image src={openn1} alt="" />
+                        </div> 
+                      <div>
+                            <Image src={openn2} alt="" />
+                        </div>
+                        <div>
+                            <Image src={openn3} alt="" />
+                        </div>
+                        
+    
+                    </Carousel>
+                        </div>
+                      </div>
+                    </div>
+                  <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                    <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                      <div className="px-4 py-5 flex-auto">
+                      <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+     
+                      
+    <p className="mb-4 text-blueGray-500">
+    
+Završna konferencija međunarodnog projekta Otvorena budućnost održana je u Novom Sadu i okupila je predstavnike škola iz Bosne i Hercegovine, Hrvatske i Crne Gore.    </p>
+    <p className="mb-4 text-blueGray-500">
+Našu školu predstavljala je direktorica Amira Kadrispahić, te nastavnice Edina Kopić i Lamija Šabanović, zajedno sa partnerskim školama iz Budve i Osijeka.    </p>
+    <p className="mb-4 text-blueGray-500">
+Tokom Konferencije predstavljeni su rezultati Projekta, edukativni materijali, alati za procjenu i obuku, kurikulum Inovativno preduzetništvo, studija slučaja, kao i web stranica projekta Open Future. Učesnici su razmijenili iskustva, predstavili primjere dobre prakse i razgovarali o mogućnostima buduće saradnje.
+</p>    
+<p className="mb-4 text-blueGray-500">
+Cilj je bio pripremiti učenike za preduzetnički način razmišljanja, što je u skladu sa preporukama EntreComp-a -  Okvira poduzetničkih kompetencija, kao dijela Agende novih vještina Evropske unije.
+
+    </p>
+    <p className="mb-4 text-blueGray-500">
+Rezultat su stečene vještine za aktivno sudjelovanje u društvu, upravljanje vlastitim životom i karijerom te pokretanje inicijativa za stvaranje novih vrijednosti, kao primarnih ciljeva aktivnog građanstva Evropske unije.
+
+</p>
+    <p className="mb-4 text-blueGray-500">
+Ponosni smo na sve ostvarene ciljeve i zahvalni našim partnerima na predanom radu tokom cijelog projekta!
+    </p>
+  
+    <p className="mb-4 text-blueGray-500">
+Na petom transnacionalnom sastanku, održanom nakon Konferencije, sumirani su rezultati aktivnosti projektnih timova u dvije godine rada, te su dodijeljeni certifikati i zahvalnice za izuzetne rezultate u realizaciji planiranih zadataka, u kreativnom i preduzetničkom razmišljanju, ispoljavanju inicijativa za pokretanje poslovnih poduhvata u uslovima globalnog tržišta i međunarodne konkurencije te odlične komunikacijske vještine.
+</p>
+   
+    
+    </span>
+                      </div>
+
+                      <a href='https://drive.google.com/file/d/1QUmgyWtXH3hGQtT9fk4z2IMI5A2h7kz8/view?usp=sharing' target="_blank" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none ml-3 mr-3 mb-3 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+                  style= {{backgroundColor: '#92d050'}} >Informativno-promotivni materijal</a>
+
+           <a href='https://drive.google.com/file/d/1Ys8LqW3Sqygzlkoji9d-q67XLvlqrTeK/view?usp=sharing' target="_blank" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none ml-3 mr-3 mb-3 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+                  style= {{backgroundColor: '#92d050'}} >Materijal za obuku</a>
+
+<a href='https://drive.google.com/file/d/1Jb_YquT2VbrnbwFhWt6i95muc6iYBH1k/view?usp=sharing' target="_blank" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none ml-3 mr-3 mb-3 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+                  style= {{backgroundColor: '#92d050'}} >Studija slučaja</a>
+
+<a href='https://drive.google.com/file/d/1rrdMiG00POTQiWzVkwY2gHK51KSY7y_P/view?usp=sharing' target="_blank" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none ml-3 mr-3 mb-3 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+                  style= {{backgroundColor: '#92d050'}} >Kurikulum Inovativno preduzetništvo</a>
+
+
+                     <div className="w-full md:w-9/12 ml-auto mr-auto px-4" style={{paddingBottom: "5%"}}>    
+               
+               <video src="/glas.mp4" width="800" height="600" controls="controls" className="w-full align-middle rounded-lg"/>
+           </div>
+
+           
+                    </div>
+                  </div>
+                </div>
+                </div>
+              </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full justify-center items-center">
           <div className="container mx-auto px-4 justify-center items-center">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">

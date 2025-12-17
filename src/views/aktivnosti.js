@@ -1705,6 +1705,21 @@ import spar20252 from '@/views/images/spark20252.jpg';
 import federalno1 from '@/views/images/federalno1.jpg';
 import federalno2 from '@/views/images/federalno2.jpg';
 
+import stolacc1 from '@/views/images/stolacc1.jpg';
+import stolacc2 from '@/views/images/stolacc2.jpg';
+import stolacc3 from '@/views/images/stolacc3.jpg';
+
+import novosarajevo from '@/views/images/novosarajevo.png';
+
+import hubi1 from '@/views/images/hubi1.jpg';
+import hubi2 from '@/views/images/hubi2.jpg';
+import hubi3 from '@/views/images/hubi3.jpg';
+import hubi4 from '@/views/images/hubi4.jpg';
+import hubi5 from '@/views/images/hubi5.jpg';
+import hubi6 from '@/views/images/hubi6.jpg';
+import hubi7 from '@/views/images/hubi7.jpg';
+import hubi8 from '@/views/images/hubi8.jpg';
+
 
 
 const Aktivnosti = () => {
@@ -1726,6 +1741,195 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Obilježen Dan nauke Federacije BiH kroz interaktivni Gen Z Student Policy Lab
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={hubi1} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={hubi2} alt="" />
+                    </div> 
+ <div>
+                        <Image src={hubi3} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={hubi4} alt="" />
+                    </div> 
+
+ <div>
+                        <Image src={hubi5} alt="" />
+                    </div> 
+
+ <div>
+                        <Image src={hubi6} alt="" />
+                    </div> 
+                    
+ <div>
+                        <Image src={hubi7} alt="" />
+                    </div> 
+                    
+ <div>
+                        <Image src={hubi8} alt="" />
+                    </div> 
+                    
+
+
+                                  
+
+
+                    
+
+
+
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+
+<p className="mb-4 text-blueGray-500">
+Povodom obilježavanja Dana nauke Federacije Bosne i Hercegovine, 15. decembra 2025. godine, učenici drugog i trećeg razreda Srednje ekonomske škole, Sarajevo, učestvovali su u interaktivnoj radionici Student Policy Lab – Gen Z Edition, održanoj u Homework HUB-u u Sarajevu.
+</p>
+<p className="mb-4 text-blueGray-500">
+Radionica je realizovana s ciljem približavanja nauke i STEM oblasti mladima kroz savremene, participativne metode učenja te podsticanja učenika na aktivno promišljanje o ulozi nauke, obrazovanja i inovacija u razvoju društva. Timskim radom, učenici su bili u prilici da upoznaju osnove kreiranja javnih politika i da, polazeći od realnih izazova, ponude konkretna i primjenjiva rješenja.
+</p>
+<p className="mb-4 text-blueGray-500">
+Tokom 90-minutnog interaktivnog procesa, učenici su realizovali faze prepoznavanja i mapiranja problema, osmišljavanja policy rješenja uz podršku tematskih kartica, simulacije pregovora i prezentacije svojih prijedloga. 
+</p>
+<p className="mb-4 text-blueGray-500">
+Poseban akcenat stavljen je na teme važne za generaciju Z, uključujući odnos mladih prema nauci, dostupnost STEM obrazovanja, ulogu djevojaka u nauci te uticaj digitalnih medija na percepciju naučnih sadržaja.
+</p>
+<p className="mb-4 text-blueGray-500">
+Radionicu je vodila profesorica Maja Arslanagić-Kalajdžić sa Ekonomskog fakulteta Univerziteta u Sarajevu, a program je dodatno obogaćen kratkim timskim prezentacijama i participativnim glasanjem, čime su učenici aktivno učestvovali u evaluaciji ideja.
+</p>
+<p className="mb-4 text-blueGray-500">
+Učenici su radionici prisustvovali u pratnji pomoćnice direktorice Edine Kopić i profesorice Aide Kajević, koje su podržale njihovo učešće u ovom edukativnom događaju.
+</p>
+<p className="mb-4 text-blueGray-500">
+Obilježavanje Dana nauke FBiH na ovaj način doprinijelo je razvoju kritičkog mišljenja, saradnje i kreativnosti među učenicima, te dodatno naglasilo značaj povezivanja obrazovnih institucija s inicijativama koje promovišu nauku i istraživanje.
+</p>
+<p className="mb-4 text-blueGray-500">
+Zahvaljujemo Homework HUB-u na pozivu i prilici da naši učenici budu dio ovog značajnog i inspirativnog događaja.
+</p>
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+
+<div className="flex items-center justify-center gap-3">
+  <h6 className="text-xl font-semibold uppercase">
+    Projekat Upoznaj Bosnu i Hercegovinu
+  </h6>
+
+  <Image
+    src={novosarajevo}
+    alt=""
+
+  />
+</div>
+
+
+
+
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={stolacc1} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={stolacc2} alt="" />
+                    </div> 
+ <div>
+                        <Image src={stolacc3} alt="" />
+                    </div> 
+                    
+                                  
+
+
+                    
+
+
+
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+
+<p className="mb-4 text-blueGray-500">
+U nastavku realizacije projekta Upouznaj Bosnu i Hercegovinu uz finansijsku podršku Općine Novo Sarajevo, na čelu sa načelnicom, dr. Benjaminom Karić, učenice i učenici naše škole posjetili su Stolac u pratnji direktorice Amire Kadrispahić i profesorica: Suvade Trako, Suade Tadić, Vedine Širbegović i Amre Lagumdžija.
+</p>
+<p className="mb-4 text-blueGray-500">
+Nakon okupljanja na platou Željezničke stanice u ranim jutarnjim satima, krenuli smo na put sunčanog Stoca. Prva stanica bila je Konjic, koji leži u zagrljaju tri planine u blizini smaragdnog jezera Crni vir i predivnog slapa. Na Neretvi, koja protiče gradom, nalazi se prekrasna Kamena ćuprija iz 1672. godine i predivna Čaršijska džamija sagrađena 1579. godine. 
+</p>
+<p className="mb-4 text-blueGray-500">
+Zaputili smo se ka najpoznatijoj nekropoli Radimlji u kojoj su, do danas sačuvana, stotinu i trideset tri stećka. Zbog puta kojeg je Austrougarska gradila, nekropola je presječena na dva dijela. Od prošle godine ovaj zaista neobičan, lijep i vrijedan spomenik, stavljen je pod zaštitu UNESCO -a.
+</p>
+<p className="mb-4 text-blueGray-500">
+Put nas dalje vodi prema Stocu, nastalom na obalama rijeke Bregave. Stolac je mjesto sa najdužom i najraskošnijom historijom života u BiH.
+</p>
+<p className="mb-4 text-blueGray-500">
+Sljedeća naša destinacija bila je Mostar. Današnje ime Mostar prvi put je spomenuto 1474. godine, a dobilo ga je po Mostarima - čuvarima mosta.
+</p>
+<p className="mb-4 text-blueGray-500">
+Obišli smo historijsku jezgru grada koju karakteriše autothoni izgled kao rezultat briljantnog graditeljskog umijeća, primjene autohotonih materijala, prepoznatljivih formi objekata i efekata igre svjetlosti iznad smaragdne Neretve. 
+</p>
+<p className="mb-4 text-blueGray-500">
+Nakon ugodne šetnje i kafe ispod Starog mosta, krenuli smo prema autobuskoj stanici gdje nas je dočekao autobus BISS toursa, koji nam je u oba pravca obezbijedio sigurnu i ugodnu vožnju.
+</p>
+<p className="mb-4 text-blueGray-500">
+Zahvaljujemo načelnici Općine Novo Sarajevo, dr. Benjamini Karić, za izuzetnu susretljivost i spremnost za podršku u svim aktivnostima.
+</p>
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
@@ -2925,7 +3129,17 @@ Bio je ovo susret s prošlošću koja nas uči mudrosti, inspiriše odgovornost 
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
               <h6 className="text-xl mb-1 font-semibold text-center uppercase">Projekat "Upoznaj Bosnu i Hercegovinu"
+<div className="flex items-center justify-center gap-3">
+  <h6 className="text-xl font-semibold uppercase">
+    Projekat Upoznaj Bosnu i Hercegovinu
+  </h6>
 
+  <Image
+    src={novosarajevo}
+    alt=""
+
+  />
+</div>
 
 
 </h6>
