@@ -1720,7 +1720,10 @@ import hubi6 from '@/views/images/hubi6.jpg';
 import hubi7 from '@/views/images/hubi7.jpg';
 import hubi8 from '@/views/images/hubi8.jpg';
 
-
+import bihsef1 from '@/views/images/bihsef1.jpg';
+import bihsef2 from '@/views/images/bihsef2.jpg';
+import bihsef3 from '@/views/images/bihsef3.jpg';
+import bihsef4 from '@/views/images/bihsef4.jpg';
 
 const Aktivnosti = () => {
   useEffect(() => {
@@ -1741,6 +1744,71 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Zlatan Hadžić proglašen najboljim mladim naučnikom na BiHSEF takmičenju
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={bihsef1} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={bihsef2} alt="" />
+                    </div> 
+ <div>
+                        <Image src={bihsef3} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={bihsef4} alt="" />
+                    </div> 
+
+
+                                  
+
+
+                    
+
+
+
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+
+<p className="mb-4 text-blueGray-500">
+Učenik Zlatan Hadžić proglašen je najboljim mladim naučnikom na BiHSEF takmičenju, održanom u Mostaru. Ovo takmičenje organizovano je po uzoru na ISEF (International Science and Engineering Fair), na kojem srednjoškolci predstavljaju svoja istraživanja i praktične radove iz različitih oblasti nauke i inženjerstva.</p>
+<p className="mb-4 text-blueGray-500">
+Naš učenik Srednje ekonomske škole Sarajevo predstavio je web-aplikaciju TutorHelp, inovativnu platformu namijenjenu profesorima, koja objedinuje sve potrebne alate za savremenu nastavu na jednom mjestu. Putem platforme TutorHelp profesori mogu kreirati virtuelne učionice, održavati online sastanke, postavljati nastavne materijale te generisati pripreme za časove uz pomoć umjetne inteligencije.</p>
+
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
