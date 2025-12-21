@@ -1724,6 +1724,8 @@ import bihsef1 from '@/views/images/bihsef1.jpg';
 import bihsef2 from '@/views/images/bihsef2.jpg';
 import bihsef3 from '@/views/images/bihsef3.jpg';
 import bihsef4 from '@/views/images/bihsef4.jpg';
+import bihsef5 from '@/views/images/bisef5.jpg';
+
 
 const Aktivnosti = () => {
   useEffect(() => {
@@ -1765,11 +1767,9 @@ const Aktivnosti = () => {
                         <Image src={bihsef1} alt="" />
                     </div> 
                     <div>
-                        <Image src={bihsef2} alt="" />
+                        <Image src={bihsef5} alt="" />
                     </div> 
- <div>
-                        <Image src={bihsef3} alt="" />
-                    </div> 
+
                     <div>
                         <Image src={bihsef4} alt="" />
                     </div> 
@@ -1795,9 +1795,24 @@ const Aktivnosti = () => {
                   
 
 <p className="mb-4 text-blueGray-500">
-Učenik Zlatan Hadžić proglašen je najboljim mladim naučnikom na BiHSEF takmičenju, održanom u Mostaru. Ovo takmičenje organizovano je po uzoru na ISEF (International Science and Engineering Fair), na kojem srednjoškolci predstavljaju svoja istraživanja i praktične radove iz različitih oblasti nauke i inženjerstva.</p>
+Prvo Bosnia and Herzegovina Science and Engineering Fair-a (BiHSEF), nacionalno naučno takmičenje održano je u Mostaru, a okuplja srednjoškolce iz cijele Bosne i Hercegovine s ciljem promocije nauke, istraživanja i inovacija.
+</p>
 <p className="mb-4 text-blueGray-500">
-Naš učenik Srednje ekonomske škole Sarajevo predstavio je web-aplikaciju TutorHelp, inovativnu platformu namijenjenu profesorima, koja objedinuje sve potrebne alate za savremenu nastavu na jednom mjestu. Putem platforme TutorHelp profesori mogu kreirati virtuelne učionice, održavati online sastanke, postavljati nastavne materijale te generisati pripreme za časove uz pomoć umjetne inteligencije.</p>
+BiHSEF je organizovan po uzoru na prestižno međunarodno takmičenje Regeneron ISEF (International Science and Engineering Fair), najveći svjetski sajam nauke i inženjeringa za srednjoškolce, a pobjednički tim ima priliku da, u skladu sa propisanim pravilima, predstavlja Bosnu i Hercegovinu na svjetskom finalu u Sjedinjenim Američkim Državama.
+</p>
+<p className="mb-4 text-blueGray-500">
+U ime naše škole, učešće su uzela dva tima, pod mentorstvom profesora Nihada Mehmedovića.</p>
+<p className="mb-4 text-blueGray-500">
+Učenici prvog tima: Enid Hadžiselimović, Aden Papić i Imran Hodžić, takmičili su se u oblasti Environmental Engineering na temu „Pametni sistemi za zaštitu okoliša – robotika u službi održivosti“, dok je drugi tim predstavljao učenik Zlatan Hadžić, koji je u oblasti Systems Software predstavio projekat „TutorHelp“ i osvojio prestižnu nagradu „Najbolji mladi naučnik“.
+</p>
+<p className="mb-4 text-blueGray-500">
+Tokom takmičenja, učenici su prezentovali svoje projekte pred stručnim žirijem, demonstrirajući znanje, kreativnost, istraživačke vještine i sposobnost timskog rada, u skladu sa međunarodnim standardima naučnih takmičenja.
+</p>
+<p className="mb-4 text-blueGray-500">
+Učešće na BiHSEF-u predstavlja značajan korak u afirmaciji istraživačkog rada učenika Ekonomske škole te potvrđuje posvećenost Škole razvoju naučnih, digitalnih i inovativnih kompetencija kod mladih.
+</p>
+<p className="mb-4 text-blueGray-500">
+Čestitamo svim učesnicima, a posebno profesoru Nihadu i učeniku Zlatanu za postignuti rezultat!</p>
 
 
 
