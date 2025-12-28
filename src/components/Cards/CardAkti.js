@@ -171,7 +171,7 @@ export default function CardAkti({ color }) {
                   </span>
                 </th>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                  16
+                  17
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
                   OSOBLJE I UČENIKE
@@ -356,6 +356,16 @@ rel="noreferrer"
 rel="noreferrer"
         >
           I izmjena plana nabavki za 2025.
+        </a>
+                <a
+          href="https://drive.google.com/file/d/1e-CF-pltUG7Fb2uFfx-_w5mXnes1yiwy/view?usp=sharing"
+          className={
+            "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+          }
+          target="_blank"
+rel="noreferrer"
+        >
+          II izmjena plana nabavki za 2025.
         </a>
           </div>
                 </td>

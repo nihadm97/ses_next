@@ -1721,10 +1721,11 @@ import hubi7 from '@/views/images/hubi7.jpg';
 import hubi8 from '@/views/images/hubi8.jpg';
 
 import bihsef1 from '@/views/images/bihsef1.jpg';
-import bihsef2 from '@/views/images/bihsef2.jpg';
-import bihsef3 from '@/views/images/bihsef3.jpg';
 import bihsef4 from '@/views/images/bihsef4.jpg';
 import bihsef5 from '@/views/images/bisef5.jpg';
+
+import duhu from '@/views/images/duhu.jpg';
+import kriz from '@/views/images/kriz.jpg';
 
 
 const Aktivnosti = () => {
@@ -1746,6 +1747,202 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Novogodišnji paketići kao lekcija empatije i zajedništva
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  
+
+ <div className="w-full md:w-9/12 ml-auto mr-auto px-4" style={{paddingBottom: "5%"}}>    
+                  <video src="/paketic.mp4" width="800" height="600" controls="controls" className="w-full align-middle rounded-lg"/> 
+                  
+          
+               
+           </div>
+
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+
+<p className="mb-4 text-blueGray-500">
+Uz veliko zalaganje, toplinu i osjećaj odgovornosti prema drugima, učenice i učenici naše škole pripremili su paketiće, a potom ih, u pratnji pedagoginje, uručili mališanima tokom organizovane radionice i zajedničkog druženja u SOS Centru za rani rast i razvoj. 
+</p>
+<p className="mb-4 text-blueGray-500">
+Ovaj susret bio je prilika za razmjenu osmijeha, pažnje i iskrenih emocija, ali i za učenje o važnosti suosjećanja, brige i društvene odgovornosti.
+</p>
+<p className="mb-4 text-blueGray-500">
+Ovakve aktivnosti podsjećaju nas da naše malo nekome znači mnogo, posebno za one koji su najranjiviji. 
+</p>
+<p className="mb-4 text-blueGray-500">
+Upućujemo iskrenu zahvalnost našim učenicama i učenicima i njihovim razrednicama i razrednicima, koji su, u duhu solidarnosti i zajedništva, učestvovali u pripremi novogodišnjih paketića, namijenjenih najmlađima uključenim u Program jačanja porodice, a u okviru  Centra za rani rast i razvoj SOS Dječija sela BiH.
+</p>
+<p className="mb-4 text-blueGray-500">
+Zahvaljujemo svima koji su dali doprinos realizaciji ove aktivnosti, uz nadu da će ovakvi primjeri empatije i solidarnosti i dalje biti sastavni dio odgojno-obrazovnog rada naše škole.
+</p>
+
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">❤️ U Crvenom krstu – na času humanosti! 
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={kriz} alt="" />
+                    </div> 
+                    
+
+
+                                  
+
+
+                    
+
+
+
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+
+<p className="mb-4 text-blueGray-500">
+Učenici, učenice i profesorice: Avdagić Lejla i Sanita Ibrišević posjetili su Crveni krst, Novo Sarajevo i uručili novogodišnje paketiće za djecu pokazavši solidarnost, humanost i spremnost da pomognu onima kojima je pomoć najpotrebnija. Akcija je realizovana je s ciljem da se najmlađima uljepšaju praznični dani i podigne svijest o važnosti humanitarnog djelovanja.
+</p>
+<p className="mb-4 text-blueGray-500">
+Sekretar Crvenog krsta održao je učenicima edukativno interaktivno predavanje o nastanku Crvenog krsta, njegovoj ulozi, značaju, osnovnim principima djelovanja, kao i o konkretnim humanitarnim aktivnostima koje ova organizacija provodi na lokalnom i međunarodnom nivou. 
+</p>
+<p className="mb-4 text-blueGray-500">
+Dogovorena je i posjeta predstavnika Crvenog krsta našoj školi i održavanje predavanja iz prve pomoći na časovima odjeljenske zajednice. 
+</p>
+<p className="mb-4 text-blueGray-500">
+Posjeta Crvenom krstu je doprinos razvijanju osjećanja humanosti, solidarnosti, empatije, ali i motiviranju za volonterski angažman i pomoć drugima. Kroz ove neposredne kontakte s radom Crvenog krsta, mladi postaju svjesniji svoje uloge u zajednici i važnosti društveno odgovornog ponašanja, što doprinosi oblikovanju pozitivnih životnih vrijednosti. Učili su o principima humanosti, solidarnosti i volonterizma, kako bi da bolje razumjeli i prepoznali potrebe zajednice i kako mogu doprinositi društvu. Bila je ovo lekcija iz humanosti na djelu, inspiracija da preuzmu inicijativu i djeluju kroz konkretne primjere pomoći drugima.
+</p>
+<p className="mb-4 text-blueGray-500">
+Nastavljamo saradnju! 🤝
+</p>
+<p className="mb-4 text-blueGray-500">
+Radujemo se novim prilikama da naši učenici/ce uče, pomažu i šire humanost u svojoj zajednici! ❤️ ✨🌍
+</p>
+
+
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">obilježavanja 16 dana aktivizma
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={duhu} alt="" />
+                    </div> 
+                   
+
+
+                                  
+
+
+                    
+
+
+
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+
+<p className="mb-4 text-blueGray-500">
+U duhu zajedništva i brige za druge, a kao dio kampanje u okviru obilježavanja 16 dana aktivizma za borbu protiv nasilja nad ženama, učenice i učenici naše škole organizovali su akciju prikupljanja slatkiša, od kojih su, sa puno pažnje i ljubavi, pripremili novogodišnje paketiće. 
+</p>
+<p className="mb-4 text-blueGray-500">
+Paketići su, potom, uručeni djeci smještenoj u sigurnoj kući sa ciljem da im se uljepšaju dani i pošalje poruka da nisu sami.
+</p>
+<p className="mb-4 text-blueGray-500">
+Ova aktivnost još jednom je pokazala da naše učenice i učenici osim znanja, njeguju i vrijednosti empatije, solidarnosti i društvene odgovornosti. Ovaj mali znak pažnje pružio im je priliku da konkretnim djelovanjem daju vlastiti doprinos zajednici.
+</p>
+<p className="mb-4 text-blueGray-500">
+Ponosni smo na naše učenice i učenike i zahvaljujemo svima koji su učestvovali i podržali ovu humanu i plemenitu inicijativu.
+</p>
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
