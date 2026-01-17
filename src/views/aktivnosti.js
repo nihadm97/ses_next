@@ -1727,6 +1727,9 @@ import bihsef5 from '@/views/images/bisef5.jpg';
 import duhu from '@/views/images/duhu.jpg';
 import kriz from '@/views/images/kriz.jpg';
 
+import tekari1 from '@/views/images/tekari1.jpg';
+import tekari2 from '@/views/images/tekari2.jpg';
+
 
 const Aktivnosti = () => {
   useEffect(() => {
@@ -1747,6 +1750,68 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Međubibliotečka saradnja
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={tekari1} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={tekari2} alt="" />
+                    </div> 
+                    
+
+
+                                  
+
+
+                    
+
+
+
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+
+<p className="mb-4 text-blueGray-500">
+Zadovoljstvo nam je objaviti da je naš projekat koji smo realizirali sa JU Srednja škola primjenjenih umjetnosti, Sarajevo „Međubibliotečka saradnja JU Srednja ekonomska škola, Sarajevo i JU Srednja škola primjenjenih umjetnosti“, koji su osmislile bibliotekarke Ekonomske i Umjetničke škole, Amra Lagumdžija i Amina Abdulahović, osvojio 2. mjesto(drugo mjesto) na takmičenju koje su organizovali Telemah fondacija i MUNJA Inkubator, a u sklopu ciklusa JOB LAB radionica za profesore- Vještine budućnosti, za najbolju praksu u školi( tj. Primjer časa/sata, sekcije ili aktivnosti za učenike koristeći JOB LAB priručnik i informacije koje su nastavnici dobili na edukaciji).
+Učenici ove dvije škole imali su zadatak da marketinški i reklamno predstave čuvenu „Podravku“. Nastala je odlična prezentacija koju su priredili “ekonomisti“ sa profesoricom Čelić Vildanom i mini izložbi koju su predstavili „umjetnici“ radeći u okviru sekcije Mipovci-Kreativci koju vode bibliotekarka i profesorica Amra Patković.
+Učešćem u projektu učenici ovih škola uz pomoć svojih mentora ukazali na značaj obrazovanja ( svako iz svog ugla ekonomskog(marketinški dio) i umjetničkog (reklamni i izložbeni dio), pokazali izuzetne vještine, stavove, informiranost, želju za umrežavanjem tj. saradnjom sa vršnjacima iz različitih škola, razvijajući i vlastite X faktore.Učenici su shvatili da su itekako potrebni jedni drugima, iako dolaze iz različitih škola, umjetnici mogu stvarati umjetnička djela, ali su im potrebni marketing mednadžeri da bi „prodali“ i plasirali vlastita djela, te da i jedni i drugi posjeduju vještine budućnosti, a da je uprevo školska biblioteka mjesto gdje nastaju ovako sjajne ideje.
+</p>
+
+
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
