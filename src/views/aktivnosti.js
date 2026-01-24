@@ -1730,6 +1730,15 @@ import kriz from '@/views/images/kriz.jpg';
 import tekari1 from '@/views/images/tekari1.jpg';
 import tekari2 from '@/views/images/tekari2.jpg';
 
+import amrainn1 from '@/views/images/amrainn1.jpg';
+import amrainn2 from '@/views/images/amrainn2.jpg';
+import amrainn3 from '@/views/images/amrainn3.jpg';
+import amrainn4 from '@/views/images/amrainn4.jpg';
+
+import dzep1 from '@/views/images/dzep1.jpg';
+import dzep2 from '@/views/images/dzep2.jpg';
+import dzep3 from '@/views/images/dzep3.jpg';
+
 
 const Aktivnosti = () => {
   useEffect(() => {
@@ -1750,6 +1759,208 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">21. 𝒋𝒂𝒏𝒖𝒂𝒓𝒂 2026. 𝒈𝒐𝒅𝒊𝒏𝒆 𝒏𝒂𝒔̌𝒂 𝒔̌𝒌𝒐𝒍𝒂 𝒖𝒄̌𝒆𝒔𝒕𝒗𝒐𝒗𝒂𝒍𝒂 𝒏𝒂 9. 𝒏𝒂𝒖𝒄̌𝒏𝒐-𝒔𝒕𝒓𝒖𝒄̌𝒏𝒐𝒋 𝒌𝒐𝒏𝒇𝒆𝒓𝒆𝒏𝒄𝒊𝒋𝒊 𝒊 4. 𝒔𝒂𝒋𝒎𝒖 𝒊𝒏𝒐𝒗𝒂𝒄𝒊𝒋𝒂 𝑰𝑵𝑵&𝑻𝑬𝑪𝑯
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={amrainn1} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={amrainn2} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={amrainn3} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={amrainn4} alt="" />
+                    </div> 
+                    
+                    
+
+
+                                  
+
+
+                    
+
+
+
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+
+<p className="mb-4 text-blueGray-500">
+Naši učenici i učenice: Zlatan Hadžić, Amina Gibović, Sajra Zimić i Arman Ramić, bili su u prilici predstaviti svoju prezentaciju, nastalu u okviru projektne aktivnosti Međubibliotečka saradnja sa JU Srednjom školom primjenjenih umjetnosti, a u pratnji bibliotekatke Lagumdžija Amre i profesorice Čelić Vildane.
+</p>
+<p className="mb-4 text-blueGray-500">
+Tema Konferencije bila je obrazovanje, inovacije i vještačka inteligencija, a za naše učenike ovo je bilo još jedno vrijedno, inspirativno i nezaboravno iskustvo.
+</p>
+<p className="mb-4 text-blueGray-500">
+Ponosni smo na njihov trud, znanje i hrabrost da uče, stvaraju i predstavljaju našu školu na ovako značajnom događaju zajedno sa Srednjom školom primjenjenih umjetnosti, Sarajevo i Tvrtkom „Podravka“. Na taj način spojili smo znanje i kreativnost učenika sa firmom Podravka, kako bi istakli kvalitet naših učenica i učenika te ostvarili kontakte sa realnim sektorom za posao nakon završetka srednje škole.
+</p>
+<p className="mb-4 text-blueGray-500">
+Na kraju ovog uspješnog Sajma, učenice i učenici su dobili medalje, a bibliotekarka i Škola zahvalnice za učešće i postignute rezultate.
+</p>
+
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+        <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">𝑫𝒗𝒐𝒅𝒏𝒆𝒗𝒏𝒊 𝒉𝒂𝒄𝒌𝒂𝒕𝒉𝒐𝒏 𝑺𝑶𝑪𝑰𝑨𝑳 𝑫𝑶𝑶
+
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  
+
+ <div className="w-full md:w-9/12 ml-auto mr-auto px-4" style={{paddingBottom: "5%"}}>    
+                  <video src="/hackathon.mp4" width="800" height="600" controls="controls" className="w-full align-middle rounded-lg"/> 
+                  
+          
+               
+           </div>
+
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+
+<p className="mb-4 text-blueGray-500">
+Hackathon je  realizovan u okviru 𝑬𝑷𝑰𝑪 𝒑𝒓𝒐𝒋𝒆𝒌𝒕𝒂 𝑶𝒔𝒏𝒂𝒛̌𝒊𝒗𝒂𝒏𝒋𝒆 𝒑𝒐𝒅𝒖𝒛𝒆𝒕𝒏𝒊𝒄̌𝒌𝒐𝒈 𝒈𝒓𝒂đ𝒂𝒏𝒔𝒕𝒗𝒂 𝒛𝒂 𝒅𝒓𝒖𝒔̌𝒕𝒗𝒆𝒏𝒖 𝒑𝒓𝒐𝒎𝒋𝒆𝒏𝒖, finansiranog sredstvima Evropske unije, u subotu i nedjelju, 20. i 21. decembra. Učenici i učenice: Hodžić Said, Mašić Hava, Nasup Sumeja, Emin Delić, Idrizović Adem, Ajša Radovović, Dino Muratović, Hana Kanlić, Lamija Keserović i Ramić Mak su učesnici iz naše škole.
+</p>
+<p className="mb-4 text-blueGray-500">
+𝐻𝑜𝑚𝑒𝑤𝑜𝑟𝑘 𝐻𝑈𝐵, u partnerstvu s 𝑈𝑑𝑟𝑢𝑧̌𝑒𝑛𝑗𝑒𝑚 𝐵𝑢𝑖𝑙𝑑𝑖𝑛𝑔 𝑁𝑒𝑤 𝐿𝑖𝑣𝑒𝑠, započeo je realizaciju projekta 𝑆𝑜𝑐𝑖𝑎𝑙 𝐷𝑂𝑂, sa ciljem istraživanja, promocije i iniciranja promjena u oblasti socijalnog preduzetništva i njegovog jačanja i dugoročne održivosti. Projekat je podržan od strane 𝑀𝑖𝑛𝑖𝑠𝑡𝑎𝑟𝑠𝑡𝑣𝑎 𝑧𝑎 𝑜𝑑𝑔𝑜𝑗 𝑖 𝑜𝑏𝑟𝑎𝑧𝑜𝑣𝑎𝑛𝑗𝑒 𝐾𝑎𝑛𝑡𝑜𝑛𝑎 𝑆𝑎𝑟𝑎𝑗𝑒𝑣𝑜. Partneri projekta su 𝑀𝑒𝑒𝑡𝑖𝑛𝑔 𝑜𝑓 𝐶𝑢𝑙𝑡𝑢𝑟𝑒 (𝑆𝑀𝑂𝐶), kroz 𝐸𝑃𝐼𝐶 𝑝𝑟𝑜𝑗𝑒𝑘𝑎𝑡 𝑂𝑠𝑛𝑎𝑧̌𝑖𝑣𝑎𝑛𝑗𝑒 𝑝𝑜𝑑𝑢𝑧𝑒𝑡𝑛𝑖𝑐̌𝑘𝑜𝑔 𝑔𝑟𝑎đ𝑎𝑛𝑠𝑡𝑣𝑎 𝑧𝑎 𝑑𝑟𝑢𝑠̌𝑡𝑣𝑒𝑛𝑢 𝑝𝑟𝑜𝑚𝑗𝑒𝑛𝑢.
+</p>
+<p className="mb-4 text-blueGray-500">
+Uz stručnu podršku mentorica, grupe su razvile svoje ideje, a tokom drugog dana su prezentirane pred stručnim žirijem u sastavu: Mirela Vasić-Hadžihalilović ispred Ministarstva za nauku, obrazovanje i mlade Kantona Sarajevo, Dino Mujkić, ispred 𝑈𝑑𝑟𝑢𝑧̌𝑒𝑛𝑗𝑎 𝑆𝑎𝑟𝑎𝑗𝑒𝑣𝑜 𝑠𝑢𝑠𝑟𝑒𝑡 𝑘𝑢𝑙𝑡𝑢𝑟𝑎, Amna Delić-Ibukić ispred 𝐹𝑜𝑛𝑑𝑎𝑐𝑖𝑗𝑒 𝐵𝑜𝑠𝑎𝑛𝑎, te profesorica naše škole Indira Zeković. 
+</p>
+<p className="mb-4 text-blueGray-500">
+Kroz ovaj proces, mladi su imali priliku da praktično primijene svoja znanja, osnaže poduzetnički duh i aktivno se uključe u rješavanje konkretnih društvenih problema. U narednom periodu intenzivno će se raditi sa tri najbolje ideje, od kojih je jedna i učenika/ca naše škole Hodžić Saida, Mašić Have i Nasup Sumeje. 
+</p>
+<p className="mb-4 text-blueGray-500">
+Bila je ovo izvanredna, inspirativna promocija mladih, kreativnosti, inovacija, preduzetničkog duha!
+Sve čestitke učesnicima i radujemo se nastavku.</p>
+
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">UČENICI JU SREDNJE EKONOMSKE ŠKOLE SU GLEDALI PREDSTAVU "𝑫𝒁̌𝑬𝑷𝑶𝑽𝑰 𝑷𝑼𝑵𝑰 𝑲𝑨𝑴𝑬𝑵𝑱𝑨"
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={dzep1} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={dzep2} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={dzep3} alt="" />
+                    </div> 
+
+                    
+
+
+                                  
+
+
+                    
+
+
+
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+
+<p className="mb-4 text-blueGray-500">
+Učenici i učenice drugih razreda, u pratnji profesorice Dženane Tanović-Hamzić i profesora Edina Plevljakovića, posjetili su 09.12.2025. godine Dječiju kuću i prisustvovali odličnoj predstavi "𝐷𝑧̌𝑒𝑝𝑜𝑣𝑖 𝑝𝑢𝑛𝑖 𝑘𝑎𝑚𝑒𝑛𝑗𝑎". Predstavu je finansijski podržala Općina Novo Sarajevo. Narodno pozorište je igrom dvojice mladih glumaca pokazalo da daje podršku novim nadama, mladim glumcima, Kerimu Ćutuni i Harisu Bidžanu. Predstava ističe poučnu i zanimljivu priču koju umjetnički odlično donose mladi glumci, ulazeći u razne likove tokom predstave. 
+</p>
+<p className="mb-4 text-blueGray-500">
+Učenici/ce su bili zadovoljni predstavom i glumom koja nikog nije ostavila ravnodušnim. Posebno su bili oduševljeni razgovorom poslije predstave i činjenicom da su i glumci posebno vezani za našu školu.
+</p>
+
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
