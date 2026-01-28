@@ -198,7 +198,7 @@ export default function CardAkti({ color }) {
         }
       >
         <a
-          href="https://drive.google.com/file/d/10ydsxl3rhHL2XswRnQiCKW-BPs1PTA7R/view"
+          href="https://drive.google.com/file/d/1TBrO3iytVSliFmHaSVD97UUzs-ifYI7R/view?usp=sharing"
           className={
             "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
           }
@@ -208,7 +208,7 @@ rel="noreferrer"
           Pravila škole
         </a>
         <a
-          href="https://drive.google.com/file/d/1z0svW4oU8Gp7YXky21GG65kIJ0H2zoV6/view"
+          href="https://drive.google.com/file/d/16Mc0pc3ALTuyzmMJptwbjWS2UARpGw32/view?usp=sharing"
           className={
             "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
           }
@@ -218,7 +218,7 @@ rel="noreferrer"
           Pravilnik o kućnom redu 
         </a>
         <a
-          href="https://drive.google.com/file/d/1RTKn3Ajk9vTGTrT8e12xSIPzRI5LsFIZ/view?usp=sharing"
+          href="https://drive.google.com/file/d/1DpvhUdJ-8YYVlXzPJPYswwkz68MyBCbB/view?usp=sharing"
           className={
             "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
           }
@@ -327,16 +327,7 @@ rel="noreferrer"
         >
           Pravilnik o poslovnima nastavnika
         </a>
-        <a
-          href="https://drive.google.com/file/d/1UdSLFi_D9xwdHFLUC3xSqyW96ZrlFzDA/view?usp=sharing"
-          className={
-            "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
-          }
-          target="_blank"
-rel="noreferrer"
-        >
-          Privremeni plan nabavke za 2025.
-        </a>
+        
         <a
           href="https://drive.google.com/file/d/14QvL_wmRltuzQ_yncQT1l31JCMq1TFGy/view?usp=sharing"
           className={
@@ -366,6 +357,16 @@ rel="noreferrer"
 rel="noreferrer"
         >
           II izmjena plana nabavki za 2025.
+        </a>
+                <a
+          href="https://drive.google.com/file/d/1n7AYeS5-0IAiUh3-hC1i9a4ovhhm7hNS/view?usp=sharing"
+          className={
+            "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+          }
+          target="_blank"
+rel="noreferrer"
+        >
+          Plan nabavke za 2026.
         </a>
           </div>
                 </td>
