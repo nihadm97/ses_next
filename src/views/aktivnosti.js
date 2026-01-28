@@ -1739,6 +1739,12 @@ import dzep1 from '@/views/images/dzep1.jpg';
 import dzep2 from '@/views/images/dzep2.jpg';
 import dzep3 from '@/views/images/dzep3.jpg';
 
+import demicc1 from '@/views/images/demicc1.jpg';
+import demicc2 from '@/views/images/demicc2.jpg';
+import demicc3 from '@/views/images/demicc3.jpg';
+import demicc4 from '@/views/images/demicc4.jpg';
+
+
 
 const Aktivnosti = () => {
   useEffect(() => {
@@ -1759,6 +1765,86 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">EMIN DEMIĆ OSVOJIO ZLATNU MEDALJU NA  ZAPREŠIĆ NOBLE E3 CHAMPIONSHIP!
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={demicc1} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={demicc2} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={demicc3} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={demicc4} alt="" />
+                    </div> 
+                    
+                    
+
+
+                                  
+
+
+                    
+
+
+
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+
+<p className="mb-4 text-blueGray-500">
+Međunarodni turnir Zaprešić Noble Taekwondo Championship statusa E3, koji donosi bodove za europsku i svjetsku, juniorsku i kadetsku rang listu, održan je 24. januara,  u sportskoj dvorani Sutinska vrela, u Zaprešiću kod Zagreba. Na turniru je nastupilo 406 natjecatelja (181 u kategoriji kadeta i 225 u kategoriji juniora), iz 125 klubova i 20 zemalja.</p>
+<p className="mb-4 text-blueGray-500">
+Naš Emin Demić, učenik II2 odjeljenja je osvajanjem zlatne medalje osvojio 30 bodova za evropsku juniorsku rang-listu, čime se plasirao u TOP 3 juniora u Evropi!</p>
+<p className="mb-4 text-blueGray-500">
+Na turniru je odnio pobjede protiv takmičara iz Slovenije, Bugarske i Italije, te u finalu turnira pobijedio italijanskog takmičara koji je trenutno prvi u Evropi po bodovima!
+</p>
+<p className="mb-4 text-blueGray-500">
+Zaprešić E3 turnir je jedan od kvalifikacijskih turnira za Svjetsko juniorsko prvenstvo u Uzbekistanu i osvojeni bodovi na turniru su za Emina kontinuitet dobrih rezultata i potvrda vrhunske forme. Briljantan uspjeh Emina Demića na turniru je potvrda njegovog rada, discipline, umijeća i podrške trenera Taekwando kluba Šampion, roditeljske i školske podrške.  
+</p>
+<p className="mb-4 text-blueGray-500">
+Na turniru zapažen nastup imao je i Emir Honić, učenik II6 odjeljenja koji je zaustavljen u trećem kolu uz minimalnu prednost protivnika. Želimo mu mnogo uspjeha na narednim turnirima.
+</p>
+<p className="mb-4 text-blueGray-500">
+Sve čestitke Eminu za osvojeno zlato! Ponosni smo na naše sportaše!
+</p>
+
+
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
