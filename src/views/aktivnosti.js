@@ -1818,14 +1818,14 @@ const Aktivnosti = () => {
                   
 
 <p className="mb-4 text-blueGray-500">
-Međunarodni turnir Zaprešić Noble Taekwondo Championship statusa E3, koji donosi bodove za europsku i svjetsku, juniorsku i kadetsku rang listu, održan je 24. januara,  u sportskoj dvorani Sutinska vrela, u Zaprešiću kod Zagreba. Na turniru je nastupilo 406 natjecatelja (181 u kategoriji kadeta i 225 u kategoriji juniora), iz 125 klubova i 20 zemalja.</p>
+Međunarodni turnir Zaprešić Noble Taekwondo Championship statusa E3, koji donosi bodove za evropsku i svjetsku, juniorsku i kadetsku rang listu, održan je 24. januara,  u sportskoj dvorani Sutinska vrela, u Zaprešiću kod Zagreba. Na turniru je nastupilo 406 natjecatelja (181 u kategoriji kadeta i 225 u kategoriji juniora), iz 125 klubova i 20 zemalja.</p>
 <p className="mb-4 text-blueGray-500">
 Naš Emin Demić, učenik II2 odjeljenja je osvajanjem zlatne medalje osvojio 30 bodova za evropsku juniorsku rang-listu, čime se plasirao u TOP 3 juniora u Evropi!</p>
 <p className="mb-4 text-blueGray-500">
 Na turniru je odnio pobjede protiv takmičara iz Slovenije, Bugarske i Italije, te u finalu turnira pobijedio italijanskog takmičara koji je trenutno prvi u Evropi po bodovima!
 </p>
 <p className="mb-4 text-blueGray-500">
-Zaprešić E3 turnir je jedan od kvalifikacijskih turnira za Svjetsko juniorsko prvenstvo u Uzbekistanu i osvojeni bodovi na turniru su za Emina kontinuitet dobrih rezultata i potvrda vrhunske forme. Briljantan uspjeh Emina Demića na turniru je potvrda njegovog rada, discipline, umijeća i podrške trenera Taekwando kluba Šampion, roditeljske i školske podrške.  
+Zaprešić E3 turnir je jedan od kvalifikacijskih turnira za Svjetsko juniorsko prvenstvo u Uzbekistanu i osvojeni bodovi na turniru su za Emina kontinuitet dobrih rezultata i potvrda vrhunske forme. Briljantan uspjeh Emina Demića na turniru je potvrda njegovog rada, discipline, umijeća i podrške trenera Taekwondo kluba Šampion, roditeljske i školske podrške.  
 </p>
 <p className="mb-4 text-blueGray-500">
 Na turniru zapažen nastup imao je i Emir Honić, učenik II6 odjeljenja koji je zaustavljen u trećem kolu uz minimalnu prednost protivnika. Želimo mu mnogo uspjeha na narednim turnirima.
