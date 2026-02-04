@@ -56,20 +56,6 @@ export default function Footer() {
                       </a>
                     </li>
                     <li>
-                      <a
-                        className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                      >
-                        71000, Sarajevo
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                      >
-                        Bosna i Hercegovina
-                      </a>
-                    </li>
-                    <li>
                       <Link
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
                         href="/kontakt"
@@ -98,7 +84,7 @@ export default function Footer() {
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
                         href="https://mo.ks.gov.ba/"
                       >
-                        Ministarstvo obrazovanja KS
+                        MO KS
                       </a>
                     </li>
                   </ul>
