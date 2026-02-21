@@ -25,10 +25,10 @@ const Kontakt = () => {
     e.preventDefault();
     console.log(toSend);
     send(
-      'service_3w7ljkp',
-      'template_rhbvj7n',
+      'service_n2a85tr',
+      'template_bazxzpb',
       toSend,
-      '0yh5Kt8PCChHJPyOL'
+      'MzhBXQYmyhCk-4ko4'
     )
       .then((response) => {
         console.log('SUCCESS!', response.status, response.text);

@@ -1749,7 +1749,31 @@ import radio2 from '@/views/images/radio2.jpg';
 import radio3 from '@/views/images/radio3.jpg';
 import radio4 from '@/views/images/radio4.jpg';
 
+import djecijidom1 from '@/views/images/djecijidom1.jpg';
+import djecijidom2 from '@/views/images/djecijidom2.jpg';
+import djecijidom3 from '@/views/images/djecijidom3.jpg';
+import djecijidom4 from '@/views/images/djecijidom4.jpg';
 
+import sanko1 from '@/views/images/sanko1.jpg';
+import sanko2 from '@/views/images/sanko2.jpg';
+import sanko3 from '@/views/images/sanko3.jpg';
+import sanko4 from '@/views/images/sanko4.jpg';
+import sanko5 from '@/views/images/sanko5.jpg';
+import sanko6 from '@/views/images/sanko6.jpg';
+import sanko7 from '@/views/images/sanko7.jpg';
+import sanko8 from '@/views/images/sanko8.jpg';
+import sanko9 from '@/views/images/sanko9.jpg';
+
+import suvada1 from '@/views/images/suvada1.jpg';
+import suvada2 from '@/views/images/suvada2.jpg';
+import suvada3 from '@/views/images/suvada3.jpg';
+import suvada4 from '@/views/images/suvada4.jpg';
+import suvada5 from '@/views/images/suvada5.jpg';
+
+import munir1 from '@/views/images/munir1.jpg';
+import munir2 from '@/views/images/munir2.jpg';
+import munir3 from '@/views/images/munir3.jpg';
+import munir4 from '@/views/images/munir4.jpg';
 
 const Aktivnosti = () => {
   useEffect(() => {
@@ -1770,7 +1794,368 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
-        <section data-aos="fade-in" className="pb-20 bg-white w-full">
+    
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Munir Šehić
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={munir1} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={munir2} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={munir3} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={munir4} alt="" />
+                    </div> 
+                    
+                    
+
+
+                                  
+
+
+                    
+
+
+
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+
+<p className="mb-4 text-blueGray-500">
+U zasluženu penziju ispratili smo našeg domara, 𝑴𝒖𝒏𝒊𝒓𝒂 𝑺̌𝒆𝒉𝒊𝒄́𝒂. 
+Godinama je bio više od domara - tihi čuvar reda i sigurnosti našeg kolektiva.
+</p>
+<p className="mb-4 text-blueGray-500">
+Zahvalili smo mu za godine truda, odgovornosti i nesebične pomoći. Njegov rad i trud učinili su našu šlolu ljepšim i sigurnijim mjestom. 
+</p>
+<p className="mb-4 text-blueGray-500">
+Želimo mu sretnu i mirnu penziju, puno zdravlja i zasluženog odmora.
+</p>
+
+
+
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+  <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Suvada Trako
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={suvada1} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={suvada2} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={suvada3} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={suvada4} alt="" />
+                    </div> 
+                     <div>
+                        <Image src={suvada5} alt="" />
+                    </div> 
+                    
+                    
+
+
+                                  
+
+
+                    
+
+
+
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+
+<p className="mb-4 text-blueGray-500">
+Kolektiv naše škole ispratio je, 𝑺𝒖𝒗𝒂𝒅𝒖 𝑻𝒓𝒂𝒌𝒐, profesoricu matemetike u zasluženu penziju nakon dugogodišnjeg predanog rada u odgojno - obrazovnom procesu.
+
+</p>
+<p className="mb-4 text-blueGray-500">
+Njena posvećenost i profesionalizam, ostavili su neizbrisiv trag u životima generacija učenica i učenika, kao i u kolektivu Škole.
+Ovim ispraćajem iskazali smo zahvalnost za sve godine truda, znanja i ljubavi koje je utkala u svoj poziv.</p>
+<p className="mb-4 text-blueGray-500">
+Želimo joj mnogo zdravlja, radosti i ispunjenih trenutaka u novom životnom poglavlju.
+</p>
+
+
+
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+
+
+          <section data-aos="fade-in" className="pb-20 bg-white w-full justify-center items-center">
+              <div className="container mx-auto px-4 justify-center items-center">
+                <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+                  <h6 className="text-xl mb-1 font-semibold text-center uppercase">KUHANJE IV6
+    
+    
+    
+    
+    </h6>
+                </span>
+                <div className="flex flex-wrap justify-center items-center">
+                  <div className="lg:pt-12 pt-6 w-full px-6 text-center  md:w-6/12">
+                    <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                      <div className="py-5 flex-auto">
+    
+                          
+                      <video src="/kuhanje.mp4" width="800" height="600" controls="controls" className="w-full align-middle rounded-lg"/> 
+                  
+          
+               
+         
+                            
+    
+                        </div>
+                        
+    
+                      </div>
+                    </div>
+                  
+                </div>
+                </div>
+              </section>
+  <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">𝑷𝑹𝑶𝑱𝑬𝑲𝑨𝑻 "𝑹𝑨𝒁𝑽𝑶𝑱 𝑷𝑶𝑫𝑼𝒁𝑬𝑻𝑵𝑰𝑺̌𝑻𝑽𝑨"
+
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={sanko1} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={sanko2} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={sanko3} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={sanko4} alt="" />
+                    </div> 
+                                      <div>
+                        <Image src={sanko5} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={sanko6} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={sanko7} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={sanko9} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={sanko9} alt="" />
+                    </div> 
+                    
+                    
+
+
+                                  
+
+
+                    
+
+
+
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+
+<p className="mb-4 text-blueGray-500">
+Tokom prvog polugodišta tekuće 2025/2026. godine, naši učenici/e trećeg razreda su jednom mjesečno učestvovali na predavanjima i radionicama u okviru projekta “𝑹𝒂𝒛𝒗𝒐𝒋 𝒑𝒐𝒅𝒖𝒛𝒆𝒕𝒏𝒊𝒔̌𝒕𝒗𝒂”.
+Petula Mayers, direktorica 𝑨𝒎𝒆𝒓𝒊𝒄̌𝒌𝒆 𝑭𝒐𝒏𝒅𝒂𝒄𝒊𝒋𝒆 𝑰𝒛𝒗𝒐𝒓,  idejni je pokretač Projekta koji je realizovan uz pomoć edukatorica iz organizacije 𝑭𝒆𝒔𝒕𝒊𝒏𝒂 𝑳𝒆𝒏𝒕𝒆, Sandom Ljukovac i Nerminom Bečirević. Naši učenici/e su u toku predavanja učestvovali u programu obuke mladih u poduzetničkim vještinama. Ovaj program pomaže mladima da steknu potrebne poduzetničke vještine, kao što su: komunikacija, pregovaranje, nošenje sa stresom, prezentacijske sposobnosti kao i pomoć u izboru buduće poslovne orjentacije.
+</p>
+<p className="mb-4 text-blueGray-500">
+Pod mentorstvom profesora Tafro Sandija učenici/e: Berina Hebib, Ajla Mujanović, Amani Mušinović, Ilma Lošić, Amina Begović, Lucija Stanić, Irhad Bjelak, Ildin Biber, Hanadi Čoko, Iman Cviko, Asija Harba i Ilhana Jelić, vrijedno su radili na Projektu. Kroz interaktivne radionice i razgovor sa edukatoricama naučili su kako biti sigurni u sebe, održati kvalitetnu komunikaciju u radnom okruženju i nositi se sa stresom, te konstruktivno rješavati konflikte. </p>
+<p className="mb-4 text-blueGray-500">
+Također, bavili su se i poboljšanjem svojih prezentacijskih vještina, te posebno ističu da im je bilo korisno razgovorati o svijetu zapošljavanja i 𝑳𝒊𝒏𝒌𝒆𝒅𝒍𝒏 𝒑𝒓𝒐𝒇𝒊𝒍𝒊𝒎𝒂 kao i istraživanje na osnovu 𝑹𝑰𝑨𝑺𝑬𝑪 testa za pronalaženje vlastitih sposobnosti za buduće “idealne” pozicije u svijetu poduzetništva. 
+</p>
+<p className="mb-4 text-blueGray-500">
+Radionice su bile prilagođene učenicima uz dosta interakcije sa edukatoricama, također uz grupne radove i praktične primjere obrađenih tema da bi u što kraćem roku naučili primijeniti stečeno znanje. Ovim programom učenici su stekli krucijalne vještine za buduće obrazovanje i karijeru.
+</p>
+<p className="mb-4 text-blueGray-500">
+Pomenuti/e učenici/e su također, u više navrata, vrijedno volontirali za humanitarno udruženje “𝑺𝒓𝒄𝒆 𝒛𝒂 𝒅𝒋𝒆𝒄𝒖”.
+Učenica 𝑰𝒍𝒎𝒂 𝑳𝒐𝒔̌𝒊𝒄́, osvojila je nagradno putovanje u trajanju od tri sedmice tokom ljetnog raspusta 2026. godine u 𝑺𝒋𝒆𝒅𝒊𝒏𝒋𝒆𝒏𝒊𝒎 𝑨𝒎𝒆𝒓𝒊𝒄̌𝒌𝒊𝒎 𝑫𝒓𝒛̌𝒂𝒗𝒂𝒎𝒂.</p>
+
+
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+  <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">𝑯𝒖𝒎𝒂𝒏𝒐𝒔𝒕 𝒏𝒂 𝒅𝒋𝒆𝒍𝒖: 𝑵𝒂𝒔̌𝒊 𝒖𝒄̌𝒆𝒏𝒊𝒄𝒊 𝒖 𝑫𝒋𝒆𝒄̌𝒊𝒋𝒆𝒎 𝒅𝒐𝒎𝒖 𝒏𝒂 𝑩𝒋𝒆𝒍𝒂𝒗𝒂𝒎𝒂
+ 
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={djecijidom1} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={djecijidom2} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={djecijidom3} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={djecijidom4} alt="" />
+                    </div> 
+                    
+                    
+
+
+                                  
+
+
+                    
+
+
+
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+
+<p className="mb-4 text-blueGray-500">
+U duhu humanosti, solidarnosti i aktivnog građanskog djelovanja, učenici i učenice odjeljenja IV5 i IV3 su 17. februara 2026. godine, u pratnji profesorice Lejle Avdagić, posjetili Dom za djecu bez roditeljskog staranja Bjelave.
+
+</p>
+<p className="mb-4 text-blueGray-500">
+Ova posjeta nije predstavljala samo čin darivanja, već prije svega, izraz empatije, međusobnog uvažavanja i svijesti o važnosti brige za najranjivije članove našeg društva. Učenici su vlastitim angažmanom prikupili i donirali poklone, školski pribor i slatkiše, pokazujući spremnost da prepoznaju potrebe drugih i konkretno djeluju u skladu s tim.
+</p>
+<p className="mb-4 text-blueGray-500">
+Posebna vrijednost ove aktivnosti ogleda se u vremenu koje su proveli u neposrednom druženju s djecom – kroz razgovor, igru i zajedničke aktivnosti. Time su poslali snažnu poruku da podrška ne podrazumijeva isključivo materijalnu pomoć, već i prisustvo, pažnju, razumijevanje i toplinu ljudskog odnosa.
+Ovakve inicijative doprinose razvoju socijalne osjetljivosti kod mladih, jačanju kulture solidarnosti i izgradnji odgovornog društva zasnovanog na empatiji, poštovanju i međusobnoj podršci.</p>
+
+
+
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+          
+        
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
               <h6 className="text-xl mb-1 font-semibold text-center uppercase">Radionice o prevenciji vršnjačkog nasilja u Srednjoj ekonomskoj školi, Sarajevo 
