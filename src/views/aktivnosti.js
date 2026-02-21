@@ -1852,7 +1852,7 @@ U zasluženu penziju ispratili smo našeg domara, 𝑴𝒖𝒏𝒊𝒓𝒂 𝑺�
 Godinama je bio više od domara - tihi čuvar reda i sigurnosti našeg kolektiva.
 </p>
 <p className="mb-4 text-blueGray-500">
-Zahvalili smo mu za godine truda, odgovornosti i nesebične pomoći. Njegov rad i trud učinili su našu šlolu ljepšim i sigurnijim mjestom. 
+Zahvalili smo mu za godine truda, odgovornosti i nesebične pomoći. Njegov rad i trud učinili su našu školu ljepšim i sigurnijim mjestom. 
 </p>
 <p className="mb-4 text-blueGray-500">
 Želimo mu sretnu i mirnu penziju, puno zdravlja i zasluženog odmora.
@@ -1926,7 +1926,7 @@ Zahvalili smo mu za godine truda, odgovornosti i nesebične pomoći. Njegov rad 
                   
 
 <p className="mb-4 text-blueGray-500">
-Kolektiv naše škole ispratio je, 𝑺𝒖𝒗𝒂𝒅𝒖 𝑻𝒓𝒂𝒌𝒐, profesoricu matemetike u zasluženu penziju nakon dugogodišnjeg predanog rada u odgojno - obrazovnom procesu.
+Kolektiv naše škole ispratio je, 𝑺𝒖𝒗𝒂𝒅𝒖 𝑻𝒓𝒂𝒌𝒐, profesoricu matematike u zasluženu penziju nakon dugogodišnjeg predanog rada u odgojno - obrazovnom procesu.
 
 </p>
 <p className="mb-4 text-blueGray-500">
