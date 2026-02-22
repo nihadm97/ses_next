@@ -1775,6 +1775,13 @@ import munir2 from '@/views/images/munir2.jpg';
 import munir3 from '@/views/images/munir3.jpg';
 import munir4 from '@/views/images/munir4.jpg';
 
+import epic1 from '@/views/images/epic1.jpg';
+import epic2 from '@/views/images/epic2.jpg';
+import epic3 from '@/views/images/epic3.jpg';
+import epic4 from '@/views/images/epic4.jpg';
+import epic5 from '@/views/images/epic5.jpg';
+
+
 const Aktivnosti = () => {
   useEffect(() => {
     AOS.init({duration: 2000});
@@ -1794,7 +1801,147 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
-    
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">EPIC finale u Homework HUB-u!
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={epic1} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={epic2} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={epic3} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={epic4} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={epic5} alt="" />
+                    </div> 
+                    
+                    
+
+
+                                  
+
+
+                    
+
+
+
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+
+<p className="mb-4 text-blueGray-500">
+U Homework HUB-u održana je u utorak, 17. februara, završna konferencija EPIC projekta, čime je simbolično zaokružen višemjesečni međunarodni rad posvećen jačanju mladih i organizacija u oblasti socijalnog preduzetništva, zajedno sa partnerima – Sarajevo Meeting of Culture, KMOP - Education and Innovation HUB, CARDET - Center for Advancement of Research and Development in Educational Technology, Innovade - Innovation and Development, People in Focus i Peer Educators Network – pokazalo se koliko su znanje, saradnja i zajednička energija snažni kada dijelimo istu misiju. 
+</p>
+<p className="mb-4 text-blueGray-500">
+Granice ne postoje kada dijelimo istu viziju – EPIC je to dokazao!  
+Tokom projekta razvijeni su kurikulumi, EPIC Toolkit i digitalna platforma koja će nastaviti živjeti i služiti mladima, edukatorima i organizacijama civilnog društva širom regiona.
+</p>
+<p className="mb-4 text-blueGray-500">
+Experti iz Homework HUB-a održali su predavanje na temu „Društvena vrijednost i dugoročni uticaj socijalnog poduzetništva”, kojim je istaknuto kako socijalno preduzetništvo može biti stvarni pokretač promjene – ne samo ideja, već održiv model koji rezultira konkretnim društvenim uticajem na obrazovanje, društveni angažman i ekonomski pristup. Socijalna ekonomija je važan pokretač inkluzivnog rasta. Kreira milione radnih mjesta kroz inovacije, zelenu tranziciju, a zapošljavanje mladih je krucijalna komponenta tog rasta i to je napredak koji se želi podržati Planom rasta EU. Intencija projekta je podržati socijalno poduzetništvo kao krucijalni mehanizam inkluzije i osnaživanja mladih. </p>
+<p className="mb-4 text-blueGray-500">
+Socijalno poduzetništvo je prostor gdje se znanje, inovacije i društvena odgovornost susreću na vrlo konkretan način. Esencijalno je, mladima pružiti praktičnu podršku kako bi njihove ideje postale održive inicijative koje donose stvarne promjene. 
+Projekat kroz edukaciju, debate i hackathone osnažuje mlade da razvijaju biznise sa društvenom i ekološkom misijom. Realizovan je uz podršku Evropske komisije, u okviru programa ERASMUS-YOUTH-2023-CB, s ciljem jačanja saradnje i kapaciteta u oblasti rada s mladima na međunarodnom nivou.
+O svemu više na: epic-project.eu. 
+EPIC nije samo projekat – EPIC je pokret za promjenu!
+</p>
+<p className="mb-4 text-blueGray-500">
+Naša ekipa u sastavu Hadžić Zlatan, Mašić Hava, Hodžić Said, Sumeja Nasup i profesorica Indira Zeković, u svojstvu mentora, je na ovoj sesiji prezentirala svoj Biznis plan Moja karta.ba, digitalnu platformu za kupovinu karata koja je bila trećeplasirana na nacionalnom hackathonu od 20. decembra i na današnjoj sesiji izazvala veliki interes i respekt od prisutnih gostiju, partnera i experata projekta iz više zemalja. </p>
+<p className="mb-4 text-blueGray-500">
+Bilo je ovo za učenike/ce izuzetno vrijedno iskustvo u unapređenju kompetencija u oblasti socijalnog poduzetništva. Ovo nije kraj. Ovo je novi početak. 
+EPIC energija nastavlja da raste!  
+</p>
+
+
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">𝑲𝒓𝒐𝒛 𝒌𝒂𝒑𝒊𝒋𝒆 𝒉𝒊𝒔𝒕𝒐𝒓𝒊𝒋𝒆 – 𝒖 𝒎𝒐𝒏𝒖𝒎𝒆𝒏𝒕𝒂𝒍𝒏𝒐𝒎 𝑩𝒓𝒖𝒔𝒂 𝒃𝒆𝒛𝒊𝒔𝒕𝒂𝒏𝒖
+
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                                      <video src="/brusa.mp4" width="800" height="600" controls="controls" className="w-full align-middle rounded-lg"/> 
+
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+
+<p className="mb-4 text-blueGray-500">
+Učenici i učenice II5 odjeljenja i profesorica Indira Zeković, posjetili su Brusa bezistan, u četvrtak, 12. februara, jedan od najznačajnijih spomenika osmanskog perioda u našem gradu, kojeg je izgradio Rustem-paša, Veliki vezir Sulejmana Veličanstvenog, 1551. godine. Objekat je služio za prodaju svile, koju je osnivač proizvodio u Bursi. Konceptualno, stalna postavka je podijeljena na prahistoriju, antiku i srednji vijek. Na galeriji Bezistana su izloženi eksponati iz osmanskog perioda i vremena austrougarske uprave u Sarajevu. Najveću pažnju privukla je maketa Baščaršije na prijelazu iz osmanskog u austrougarsko doba.
+
+</p>
+<p className="mb-4 text-blueGray-500">
+Ova edukativna posjeta omogućila je učenicama i učenicima da na neposredan način prodube znanja o periodu osmanske uprave, razvoju grada, trgovine i tržišnih odnosa na ovim prostorima, značaju trgovine i poduzetništva za razvoj društva, ulozi zanata u ekonomskom razvoju grada, te o svakodnevnom životu stanovništva tog vremena. Brusa bezistan je u osmanskom periodu bio važan trgovački centar i primjer organizovanog tržišta. 
+</p>
+<p className="mb-4 text-blueGray-500">
+Posebno je bilo interesantno pogledati umjetničku postavku 𝑺𝒂𝒓𝒂𝒋𝒆𝒗𝒐 𝒌𝒂𝒐 𝒊𝒎𝒂𝒈𝒊𝒏𝒂𝒄𝒊𝒋𝒂 čuvenih slikara.
+</p>
+<p className="mb-4 text-blueGray-500">
+Zahvaljujemo kustosu Muzeja za izuzetno zanimljivo predavanje o arhitektonskim vrijednostima i bogatoj muzejskoj postavci ovog historijskog objekta.
+</p>
+
+
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
