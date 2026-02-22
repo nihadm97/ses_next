@@ -1872,7 +1872,7 @@ O svemu više na: epic-project.eu.
 EPIC nije samo projekat – EPIC je pokret za promjenu!
 </p>
 <p className="mb-4 text-blueGray-500">
-Naša ekipa u sastavu Hadžić Zlatan, Mašić Hava, Hodžić Said, Sumeja Nasup i profesorica Indira Zeković, u svojstvu mentora, je na ovoj sesiji prezentirala svoj Biznis plan Moja karta.ba, digitalnu platformu za kupovinu karata koja je bila trećeplasirana na nacionalnom hackathonu od 20. decembra i na današnjoj sesiji izazvala veliki interes i respekt od prisutnih gostiju, partnera i experata projekta iz više zemalja. </p>
+Naša ekipa u sastavu Hadžić Zlatan, Mašić Hava, Hodžić Said, Sumeja Nasup i profesorica Indira Zeković, u svojstvu mentora, je na ovoj sesiji prezentirala svoj Biznis plan Moja karta.ba, digitalnu platformu za kupovinu karata koja je bila trećeplasirana na nacionalnom hackathonu od 20. decembra i na današnjoj sesiji izazvala veliki interes i respekt od partnera i experata projekta iz više zemalja. </p>
 <p className="mb-4 text-blueGray-500">
 Bilo je ovo za učenike/ce izuzetno vrijedno iskustvo u unapređenju kompetencija u oblasti socijalnog poduzetništva. Ovo nije kraj. Ovo je novi početak. 
 EPIC energija nastavlja da raste!  
@@ -19768,7 +19768,7 @@ su stubovi svijeta</i>, g-đa Fatima Hukić,  pozdravljajući učesnice i učesn
 
 </p> 
                   <p className="mb-4 text-blueGray-500">Neka ovaj dan bude prilika da se prisjetimo puta kojeg smo prešli i da pogledamo prema budućnosti s optimizmom. </p>
-                  <p className="mb-4 text-blueGray-500">Da i dalje postoje razlozi za optimizam i nada za bolje sutra, uvjerile/i su nas naše/i vrijedne/i učenice i učenici svojim izvedbama kojima su plijenile/i pažnju prisutnih gostiju. 
+                  <p className="mb-4 text-blueGray-500">Da i dalje postoje razlozi za optimizam i nada za bolje sutra, uvjerile/i su nas naše/i vrijedne/i učenice i učenici svojim izvedbama kojima su plijenile/i pažnju. 
 </p>
                   <p className="mb-4 text-blueGray-500">Zahvaljujemo svima koji su se pridružili školskoj priredbi, a posebnu zahvalnost iskazujemo predstavnicama i predstavnicima Instituta za razvoj preduniverzitetskog obrazovanja KS, te predstavnicama i predstavnicima Sektora za obrazovanje, kulturu i sport Općine Novo Sarajevo.
 </p> 
