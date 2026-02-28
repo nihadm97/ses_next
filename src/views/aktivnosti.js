@@ -1787,6 +1787,7 @@ import pinky3 from '@/views/images/pinky3.jpg';
 import pinky4 from '@/views/images/pinky4.jpg';
 import pinky5 from '@/views/images/pinky5.jpg';
 
+import sretannezavisnosti from '@/views/images/sretannezavisnosti.jpg';
 
 const Aktivnosti = () => {
   useEffect(() => {
@@ -1807,6 +1808,82 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">𝑺𝒓𝒆𝒕𝒂𝒏 𝑫𝒂𝒏 𝒏𝒆𝒛𝒂𝒗𝒊𝒔𝒏𝒐𝒔𝒕𝒊 𝑩𝒐𝒔𝒏𝒆 𝒊 𝑯𝒆𝒓𝒄𝒆𝒈𝒐𝒗𝒊𝒏𝒆!
+
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={sretannezavisnosti} alt="" />
+                    </div> 
+                    
+                    
+
+
+                                  
+
+
+                    
+
+
+
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+
+<p className="mb-4 text-blueGray-500">
+Dan nezavisnosti Bosne i Hercegovine predstavlja jedan od najznačajnijih i najsvečanijih datuma u historiji naše države. To je dan kada se prisjećamo historijske odluke kojom je Bosna i Hercegovina potvrdila svoje pravo na slobodu, samostalnost i suverenitet. Prvi mart nije samo običan datum u kalendaru, već snažan simbol borbe i hrabrosti naroda da samostalno oblikuju svoju budućnost.
+</p>
+<p className="mb-4 text-blueGray-500">
+Bosna i Hercegovina je zemlja bogate historije, različitih kultura, vjera i tradicija. Upravo to predstavlja njenu najveću snagu i bogatstvo. Kroz brojne izazove i teška vremena, narod Bosne i Hercegovine uspijevao je sačuvati svoje dostojanstvo i vjeru u slobodu. 
+</p>
+<p className="mb-4 text-blueGray-500">
+Za mlade ljude, Dan nezavisnosti ima posebnu važnost. Ovaj praznik nas podsjeća na odgovornost koju imamo prema svojoj zemlji. Naša je dužnost da znanjem, radom i međusobnim poštovanjem gradimo društvo zasnovano na pravdi, jednakosti i solidarnosti, kako bi Bosna i Hercegovina bila država u kojoj se ostaje, a ne iz koje se odlazi. 
+</p>
+<p className="mb-4 text-blueGray-500">
+Obilježavanjem Dana nezavisnosti odajemo duboko poštovanje svima koji su se borili i žrtvovali za slobodu naše domovine. Njihova hrabrost i žrtva obavezuju nas da čuvamo mir i gradimo bolju budućnost za generacije koje dolaze. Ovaj dan budi nadu da će Bosna i Hercegovina nastaviti svoj put mira, stabilnosti i napretka.
+</p>
+<p className="mb-4 text-blueGray-500">
+Neka nam 1. mart bude trajni podsjetnik da sloboda nije data zauvijek, već da se mora čuvati znanjem, odgovornošću i iskrenom ljubavlju prema domovini.
+</p>
+<p className="mb-4 text-blueGray-500">
+Sretan nam Dan nezavisnosti Bosne i Hercegovine! </p>
+<p className="mb-4 text-blueGray-500">
+𝑨𝒎𝒊𝒏𝒂 𝑮𝒊𝒃𝒐𝒗𝒊𝒄́ 𝑰𝑽3
+</p>
+
+
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
