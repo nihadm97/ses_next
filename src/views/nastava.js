@@ -19,7 +19,7 @@ export default function Nastava() {
 
 {/* EKONOMSKI TEHNIČAR */}
 
-<section className="pb-20 bg-blueGray-200 -mt-24" style={{ paddingTop: "15%" }}>
+<section className="pb-20 bg-blueGray-200 -mt-24" style={{ paddingTop: "5%" }}>
 <div className="container mx-auto px-4 text-center md:text-left">
 <div className="flex flex-wrap items-center mt-32">
 
@@ -31,7 +31,7 @@ Nastavni plan – Ekonomski tehničar
 
 <div className="overflow-x-auto">
 
-<table className="table-auto bg-white shadow-lg rounded-lg text-sm w-full max-w-3xl">
+<table className="table-auto bg-white shadow-lg rounded-lg text-sm w-full max-w-3xl overflow-hidden">
 
 <thead>
 
@@ -94,7 +94,7 @@ Nastavni plan – Ekonomski tehničar
 </div>
 </div>
 
-<div className="w-full md:w-4/12 ml-auto mr-auto px-4">
+<div className="w-full md:w-4/12 ml-auto mr-auto px-4" style={{ paddingTop: "5%" }}>
 <video src="/PrviRazred.mp4" className="max-w-full rounded-lg shadow-lg" autoPlay loop muted playsInline/>
 </div>
 
@@ -106,7 +106,7 @@ Nastavni plan – Ekonomski tehničar
 
 {/* BANKARSKI TEHNIČAR */}
 
-<section className="py-20">
+<section className="py-20" style={{ paddingTop: "5%" }}>
 <div className="container mx-auto px-4 text-center md:text-left">
 <div className="flex flex-wrap items-center">
 
@@ -116,13 +116,13 @@ Nastavni plan – Ekonomski tehničar
 
 <div className="w-full md:w-6/12 ml-auto mr-auto px-4">
 
-<h3 className="text-3xl font-semibold mb-4">
+<h3 className="text-3xl font-semibold mb-4" style={{ paddingTop: "5%" }}>
 Nastavni plan – Bankarski tehničar
 </h3>
 
 <div className="overflow-x-auto">
 
-<table className="table-auto bg-white shadow-lg rounded-lg text-sm w-full max-w-3xl">
+<table className="table-auto bg-blueGray-200 shadow-lg rounded-lg text-sm w-full max-w-3xl overflow-hidden">
 
 <thead>
 
