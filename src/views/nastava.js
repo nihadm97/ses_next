@@ -12,16 +12,73 @@ export default function Nastava() {
   }, []);
 
   return (
-    <>
-      <Navbar transparent />
+<>
+<Navbar transparent />
 
-      <main>
+<main>
+
+{/* UVOD – NASTAVA PO KURIKULUMU */}
+
+<section className="pt-32 pb-20 bg-blueGray-200">
+<div className="container mx-auto px-4">
+
+<div className="flex flex-wrap justify-center text-center">
+<div className="w-full lg:w-8/12 px-4">
+
+<h2 className="text-4xl font-semibold mb-6">
+Nastava po kurikulumu
+</h2>
+
+<p className="text-lg leading-relaxed text-blueGray-600 mb-4">
+Nastavni proces u Srednjoj ekonomskoj školi realizuje se u skladu sa savremenim obrazovnim pristupom zasnovanim na kurikulumu Kantona Sarajevo. Kurikulum je usmjeren na razvoj funkcionalnih znanja, praktičnih vještina i kompetencija učenika koje su potrebne za nastavak obrazovanja i uključivanje na tržište rada.
+</p>
+
+<p className="text-lg leading-relaxed text-blueGray-600">
+Nastava za zanimanja <strong>Ekonomski tehničar</strong> i <strong>Bankarski tehničar</strong> realizuje se prema važećim kurikulumima za srednje stručne škole koje donosi Ministarstvo za odgoj i obrazovanje Kantona Sarajevo.
+</p>
+
+</div>
+</div>
+
+<div className="flex flex-wrap mt-12 justify-center">
+
+<div className="w-full md:w-4/12 px-4 text-center mb-6">
+<div className="text-blueGray-800 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
+<i className="fas fa-book text-xl"></i>
+</div>
+<h6 className="text-xl mt-4 font-semibold">
+Savremeni kurikulum
+</h6>
+</div>
+
+<div className="w-full md:w-4/12 px-4 text-center mb-6">
+<div className="text-blueGray-800 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
+<i className="fas fa-laptop text-xl"></i>
+</div>
+<h6 className="text-xl mt-4 font-semibold">
+Digitalne kompetencije
+</h6>
+</div>
+
+<div className="w-full md:w-4/12 px-4 text-center mb-6">
+<div className="text-blueGray-800 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
+<i className="fas fa-briefcase text-xl"></i>
+</div>
+<h6 className="text-xl mt-4 font-semibold">
+Priprema za tržište rada
+</h6>
+</div>
+
+</div>
+</div>
+</section>
+
 
 {/* EKONOMSKI TEHNIČAR */}
 
-<section className="pb-20 bg-blueGray-200 -mt-24" style={{ paddingTop: "5%" }}>
+<section className="pb-20 bg-blueGray-200">
 <div className="container mx-auto px-4 text-center md:text-left">
-<div className="flex flex-wrap items-center mt-32">
+<div className="flex flex-wrap items-center mt-12">
 
 <div className="w-full md:w-6/12 px-4 mr-auto ml-auto">
 
@@ -34,7 +91,6 @@ Nastavni plan – Ekonomski tehničar
 <table className="table-auto bg-white shadow-lg rounded-lg text-sm w-full max-w-3xl overflow-hidden">
 
 <thead>
-
 <tr style={{ backgroundColor: "#92d050", color: "white" }}>
 <th className="px-3 py-2 rounded-tl-lg">Red. broj</th>
 <th className="px-3 py-2 text-left">Nastavni predmet</th>
@@ -44,7 +100,6 @@ Nastavni plan – Ekonomski tehničar
 <th>4.r.</th>
 <th className="rounded-tr-lg">Ukupno</th>
 </tr>
-
 </thead>
 
 <tbody className="text-center">
@@ -94,14 +149,13 @@ Nastavni plan – Ekonomski tehničar
 </div>
 </div>
 
-<div className="w-full md:w-4/12 ml-auto mr-auto px-4" style={{ paddingTop: "5%" }}>
-<video src="/PrviRazred.mp4" className="max-w-full rounded-lg shadow-lg" autoPlay loop muted playsInline/>
+<div className="w-full md:w-4/12 ml-auto mr-auto px-4">
+<video src="/PrviRazred.mp4" className="max-w-full rounded-lg shadow-lg" autoPlay loop muted playsInline style={{ paddingTop: "5%" }}/>
 </div>
 
 </div>
 </div>
 </section>
-
 
 
 {/* BANKARSKI TEHNIČAR */}
@@ -125,7 +179,6 @@ Nastavni plan – Bankarski tehničar
 <table className="table-auto bg-blueGray-200 shadow-lg rounded-lg text-sm w-full max-w-3xl overflow-hidden">
 
 <thead>
-
 <tr className="bg-orange-500 text-white">
 <th className="px-3 py-2 rounded-tl-lg">Red. broj</th>
 <th className="px-3 py-2 text-left">Nastavni predmet</th>
@@ -135,7 +188,6 @@ Nastavni plan – Bankarski tehničar
 <th>4.r.</th>
 <th className="rounded-tr-lg">Ukupno</th>
 </tr>
-
 </thead>
 
 <tbody className="text-center">
@@ -185,8 +237,107 @@ Nastavni plan – Bankarski tehničar
 
 </div>
 </div>
+</div>
+</div>
+</section>
+
+
+{/* DOKUMENTI */}
+
+<section className="pb-20 bg-blueGray-200" style={{ paddingTop: "5%" }}>
+<div className="container mx-auto px-4">
+
+<div className="flex flex-wrap justify-center">
+<div className="w-full lg:w-8/12 px-4">
+
+<div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+
+<div className="px-6 py-6">
+
+<h2 className="text-xl font-semibold mb-4">
+Kompletan plan i program
+</h2>
+
+<p className="mb-4">
+Detaljan plan i program za sve nastavne predmete dostupan je u
+sljedećim dokumentima:
+</p>
+
+<ul className="list-disc pl-6 space-y-2">
+<li>
+Plan i program za zanimanje <strong>Ekonomski tehničar</strong> – 
+<a href="https://drive.google.com/file/d/16qIi3CF8izh3WMUv050QLf5uMqYm5Oh4/view?usp=sharing"
+target="_blank"
+className="text-blue-600 hover:underline ml-1">
+Pregled dokumenta
+</a>
+</li>
+
+<li>
+Plan i program za zanimanje <strong>Bankarski tehničar</strong> – 
+<a href="https://drive.google.com/file/d/11ke8WSOzTdn4aEdBvA9d35PXtl-YXLB8/view?usp=sharing"
+target="_blank"
+className="text-blue-600 hover:underline ml-1">
+Pregled dokumenta
+</a>
+</li>
+</ul>
+
+<hr></hr>
+<br></br>
+
+<p className="mb-4">
+Nastava se izvodi na osnovu odluka Ministarstva za odgoj i obrazovanje Kantona Sarajevo o implementaciji kurikuluma za srednje stručne škole. Primjena kurikuluma uređena je posebnim odlukama za svaki razred srednje škole:
+</p>
+
+<ul className="list-disc pl-6 space-y-2">
+
+<li>
+<a href="https://drive.google.com/file/d/1BEyBtIfU3smUYGDioj6qHqUPkD2Gi7e7/view?usp=sharing" target="_blank" className="text-blue-600 hover:underline">
+Odluka o primjeni kurikuluma za I razred srednje škole
+</a>
+</li>
+
+<li>
+<a href="https://drive.google.com/file/d/1TytVEV0PDgHd3VJWosj_Df9-314WUs6N/view?usp=sharing" target="_blank" className="text-blue-600 hover:underline">
+Odluka o primjeni kurikuluma za II razred srednje škole
+</a>
+</li>
+
+<li>
+<a href="https://drive.google.com/file/d/1_GlJqzyL7EcnWgwdpUf0miwP3oM24LAr/view?usp=sharing" target="_blank" className="text-blue-600 hover:underline">
+Odluka o primjeni kurikuluma za III razred srednje škole
+</a>
+</li>
+
+<li>
+<a href="https://drive.google.com/file/d/1ZtU45YadYxoZDx1HiENLVgsliLYXpq6T/view?usp=sharing" target="_blank" className="text-blue-600 hover:underline">
+Odluka o primjeni kurikuluma za IV razred srednje škole
+</a>
+</li>
+
+</ul>
+
+<hr className="my-6"/>
+
+<h4 className="text-xl font-semibold mb-4">
+Stranica kurikuluma Kantona Sarajevo
+</h4>
+
+<a href="https://kurikulum.ks.gov.ba/bs" target="_blank" className="text-blue-600 hover:underline">
+Kurikulum Kantona Sarajevo – zvanična stranica
+</a>
+
+<hr className="my-6"/>
+
+
+
 
 </div>
+</div>
+</div>
+</div>
+
 </div>
 </section>
 
