@@ -242,8 +242,6 @@ Nastavni plan – Bankarski tehničar
 </section>
 
 
-{/* DOKUMENTI */}
-
 <section className="pb-20 bg-blueGray-200" style={{ paddingTop: "5%" }}>
 <div className="container mx-auto px-4">
 
