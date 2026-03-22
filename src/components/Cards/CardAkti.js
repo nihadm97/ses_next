@@ -368,6 +368,16 @@ rel="noreferrer"
         >
           Plan nabavke za 2026.
         </a>
+        <a
+          href="https://drive.google.com/file/d/1dhZ25BlH2ix257zgeqgwWtJyEwYD_6CB/view?usp=sharing"
+          className={
+            "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+          }
+          target="_blank"
+rel="noreferrer"
+        >
+          I izmjena plana nabavki za 2026.
+        </a>
           </div>
                 </td>
               </tr>
