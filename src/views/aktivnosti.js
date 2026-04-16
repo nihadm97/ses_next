@@ -1796,6 +1796,16 @@ import down4 from '@/views/images/down4.jpg';
 import down5 from '@/views/images/down5.jpg';
 import down6 from '@/views/images/down6.jpg';
 
+import eko261 from '@/views/images/eko261.jpg';
+import eko262 from '@/views/images/eko262.jpg';
+import eko263 from '@/views/images/eko263.jpg';
+
+import travnikk1 from '@/views/images/travnikk1.jpg';
+import travnikk2 from '@/views/images/travnikk2.jpg';
+import travnikk3 from '@/views/images/travnikk3.jpg';
+import travnikk4 from '@/views/images/travnikk4.jpg';
+
+
 const Aktivnosti = () => {
   useEffect(() => {
     AOS.init({duration: 2000});
@@ -1815,6 +1825,152 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Ekonomijada 2026
+
+
+
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={eko261} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={eko262} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={eko263} alt="" />
+                    </div> 
+                    
+
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+
+<p className="mb-4 text-blueGray-500">
+Učenice trećeg razreda, Berina Hebib i Amina Begović, učestvovale su u regionalnom projektu „Ekonomijada 2026“, koji je održan u Podgorici, u Crnoj Gori, u periodu od 23. do 25. marta 2026. godine, u pratnji direktorice Škole.
+</p>
+<p className="mb-4 text-blueGray-500">
+Domaćin ovogodišnjeg susreta bila je JU Ekonomska škola „Mirko Vešović“, koja je uspješno organizovala ovaj značajan događaj.
+</p>
+<p className="mb-4 text-blueGray-500">
+Na Ekonomijadi su učestvovale škole iz više regionalnih gradova: Zagreba, Ljubljane, Banja Luke, Sarajeva, Čačka, Tuzle i Beograda (Prva i Druga ekonomska škola), kao i škola domaćin iz Podgorice. Ovaj susret predstavljao je izuzetnu priliku za umrežavanje, razmjenu ideja i jačanje međusobne saradnje.
+</p>
+<p className="mb-4 text-blueGray-500">
+Tokom druženja, učesnice i učesnici su pobliže upoznati sa kulturnim i historijskim znamenitostima Podgorice, gdje su uživali u bogatom nasljeđu i prirodnim ljepotama Crne Gore. Pored turističkog dijela programa, poseban akcenat stavljen je na edukativne aktivnosti i međusobno druženje učenica i učenika.
+</p>
+<p className="mb-4 text-blueGray-500">
+U okviru radnog dijela Ekonomijade, učenice i učenici su predstavili svoje projektne zadatke na temu „Energetska efikasnost“. Kreativnim prezentacijama i timskim radom, pokazali su visok nivo znanja, angažovanosti i svijesti o značaju održivog razvoja i racionalnog korištenja energetskih resursa.
+</p>
+<p className="mb-4 text-blueGray-500">
+Projektni zadatak 𝐸𝑐𝑜𝑊𝑎𝑡𝑡 - aplikacija koja kontroliše potrošnju električne energije, a kojeg su osmislile i  prezentovale naše učenice, proglašen je najboljim i najinovativnijim projektom od strane stručnog žirija.
+</p>
+<p className="mb-4 text-blueGray-500">
+Čestitamo učenicama Berini i Amini za izuzetan uspjeh, kojim su našu školu predstavile u najboljem svjetlu!
+</p>
+
+
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Posjeta bratske Ekonomske škole u Travniku
+
+
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={travnikk1} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={travnikk2} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={travnikk3} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={travnikk4} alt="" />
+                    </div> 
+                   
+
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+
+<p className="mb-4 text-blueGray-500">
+Učenice i učenici naše škole su, u pratnji profesorica Indire Zeković, Alme Živojević, profesora Emira Ustavdića, pomoćnice direktorice Edine Kopić i direktorice, posjetili bratsku Ekonomsku školu u Travniku.
+</p>
+<p className="mb-4 text-blueGray-500">
+Nakon srdačnog dočeka, uživali smo u svečanom programu, upriličenom  u povodu Dana škole, kao i u inspirativnom Sajmu preduzeća za vježbu, gdje su kreativnost, znanje i trud učenica i učenika došli do punog izražaja.
+</p>
+<p className="mb-4 text-blueGray-500">
+Ova posjeta bila je mnogo više od susreta - bila je to dragocjena prilika za razmjenu ideja, iskustava i lijepih priča koje nas povezuju, podsjećajući nas koliko su zajedništvo i saradnja važni na našem zajedničkom putu odrastanja i učenja.
+</p>
+<p className="mb-4 text-blueGray-500">
+Poseban pečat ovom danu dala je i šetnja kroz suncem obasjani vezirski grad, čije su nas ljepote još jednom očarale, ostavljajući u nama osjećaj zahvalnosti i želju za novim susretima.
+</p>
+
+
+
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
