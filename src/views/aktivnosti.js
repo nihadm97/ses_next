@@ -1805,6 +1805,68 @@ import travnikk2 from '@/views/images/travnikk2.jpg';
 import travnikk3 from '@/views/images/travnikk3.jpg';
 import travnikk4 from '@/views/images/travnikk4.jpg';
 
+import armijee1 from '@/views/images/armijee1.jpg';
+import armijee2 from '@/views/images/armijee2.jpg';
+import armijee3 from '@/views/images/armijee3.jpg';
+import armijee4 from '@/views/images/armijee4.jpg';
+import armijee5 from '@/views/images/armijee5.jpg';
+import armijee6 from '@/views/images/armijee6.jpg';
+import armijee7 from '@/views/images/armijee7.jpg';
+import armijee8 from '@/views/images/armijee8.jpg';
+import armijee9 from '@/views/images/armije9.jpg';
+import armijee10 from '@/views/images/armije10.jpg';
+
+import planete1 from '@/views/images/planete1.jpg';
+import planete2 from '@/views/images/planete2.jpg';
+import planete3 from '@/views/images/planete3.jpg';
+import planete4 from '@/views/images/planete4.jpg';
+import planete5 from '@/views/images/planete5.jpg';
+
+import knjige1 from '@/views/images/knjige1.jpg';
+import knjige2 from '@/views/images/knjige2.jpg';
+
+import pofa3 from '@/views/images/pofa3.jpg';
+import pofa4 from '@/views/images/pofa4.jpg';
+import pofa5 from '@/views/images/pofa5.jpg';
+import pofa6 from '@/views/images/pofa6.jpg';
+import pofa7 from '@/views/images/pofa7.jpg';
+
+import nela1 from '@/views/images/nela1.jpg';
+import nela2 from '@/views/images/nela2.jpg';
+
+import mat1 from '@/views/images/mat1.jpg';
+import mat2 from '@/views/images/mat2.jpg';
+import mat3 from '@/views/images/mat3.jpg';
+import mat4 from '@/views/images/mat4.jpg';
+import mat5 from '@/views/images/mat5.jpg';
+import mat6 from '@/views/images/mat6.jpg';
+import mat7 from '@/views/images/mat7.jpg';
+
+import geocc1 from '@/views/images/geoc1.jpg';
+import geocc2 from '@/views/images/geoc2.jpg';
+import geocc3 from '@/views/images/geoc3.jpg';
+import geocc4 from '@/views/images/geoc4.jpg';
+import geocc5 from '@/views/images/geoc5.jpg';
+import geocc6 from '@/views/images/geoc6.jpg';
+import geocc7 from '@/views/images/geoc7.jpg';
+import geocc8 from '@/views/images/geoc8.jpg';
+import geocc9 from '@/views/images/geoc9.jpg';
+import geocc10 from '@/views/images/geoc10.jpg';
+
+import enge1 from '@/views/images/enge1.jpg';
+import enge2 from '@/views/images/enge2.jpg';
+import enge3 from '@/views/images/enge3.jpg';
+import enge4 from '@/views/images/enge4.jpg';
+
+import care1 from '@/views/images/care1.jpg';
+import care2 from '@/views/images/care2.jpg';
+import care3 from '@/views/images/care3.jpg';
+import care4 from '@/views/images/care4.jpg';
+
+import osce1 from '@/views/images/osce1.jpg';
+import osce2 from '@/views/images/osce2.jpg';
+import osce3 from '@/views/images/osce3.jpg';
+import osce4 from '@/views/images/osce4.jpg';
 
 const Aktivnosti = () => {
   useEffect(() => {
@@ -1825,6 +1887,774 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">𝑺𝒖𝒔𝒓𝒆𝒕𝒊 𝒏𝒂𝒔𝒕𝒂𝒗𝒏𝒊𝒌𝒂 𝒊 𝒏𝒂𝒔𝒕𝒂𝒗𝒏𝒊𝒄𝒂: 𝒏𝒂𝒔̌𝒆 𝒎𝒂𝒍𝒆 𝒊 𝒗𝒆𝒍𝒊𝒌𝒆 𝒓𝒆𝒇𝒐𝒓𝒎𝒆 𝒖 𝒖𝒄̌𝒊𝒐𝒏𝒊𝒄𝒊
+
+
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                      <div>
+                        <Image src={osce1} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={osce2} alt="" />
+                    </div> 
+                     <div>
+                        <Image src={osce3} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={osce4} alt="" />
+                    </div> 
+                    
+                   
+            
+                    
+          
+
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+
+<p className="mb-4 text-blueGray-500">
+Povodom Svjetskog dana kreativnosti i inovacija, Misija OSCE-a u BiH i JU Institut za razvoj preduniverzitetskog obrazovanja Kantona Sarajevo su u Sarajevu organizovali događaj „Susreti nastavnika i nastavnica: naše male i velike reforme u učionici“.
+</p>
+<p className="mb-4 text-blueGray-500">
+Susreti su okupili predstavnike i predstavnice obrazovnih vlasti, nastavnike i nastavnice, te učenike i učenice širom BiH, kako bi podijelili svoje prakse i iskustva u provedbi kurikularne reforme u učionicama.
+</p>
+<p className="mb-4 text-blueGray-500">
+Ponosni smo što je naša profesorica matematike Lejla Hujdur, zajedno sa učenicama Ummom Avdić i Ajlom Ramić, imala priliku predstaviti čas zasnovan na istraživačkom pitanju: „Može li matematika biti igra?“. Riječ je o času na kojem su učenici drugog razreda naše škole igrali društvene igre koje su sami osmislili, te za koje su pripremili i rješavali zadatke iz oblasti stepenovanja i korjenovanja. Svi učenici bili su maksimalno angažovani u pripremi i igranju društvenih igara, a same igre se mogu primijeniti i u drugim nastavnim predmetima, uz prilagođavanje zadataka.
+</p>
+<p className="mb-4 text-blueGray-500">
+Ovo iskustvo još jednom potvrđuje da se kvalitetno obrazovanje odvija u učionicama u kojima učenici aktivno uče, a nastava je usmjerena ka ostvarivanju jasno definisanih ishoda učenja.
+</p>
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">𝑲𝒓𝒐𝒛 𝒆𝒅𝒖𝒌𝒂𝒄𝒊𝒋𝒖 𝒅𝒐 𝒃𝒐𝒍𝒋𝒆𝒈 𝒓𝒂𝒛𝒖𝒎𝒊𝒋𝒆𝒗𝒂𝒏𝒋𝒂 𝒑𝒐𝒓𝒆𝒛𝒏𝒐𝒈 𝒔𝒊𝒔𝒕𝒆𝒎𝒂
+
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                      <div>
+                        <Image src={care1} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={care2} alt="" />
+                    </div> 
+                     <div>
+                        <Image src={care3} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={care4} alt="" />
+                    </div> 
+                    
+                   
+            
+                    
+          
+
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+
+<p className="mb-4 text-blueGray-500">
+U Poreznoj upravi Federacije BiH 26. marta 2026. godine održana je edukativna radionica na temu „Porezna pismenost“ za srednjoškolce iz Sarajeva. Radionici su prisustvovali učenici i učenice naše škole u pratnji profesorice Lamije Šabanović.
+</p>
+<p className="mb-4 text-blueGray-500">
+Cilj radionice bio je unaprijediti razumijevanje poreza i osnovnih elemenata poreznog sistema. Predavanja su održali Fahra Ćatović, prof. dr. Edina Sudžuka i mr. iur. Haris Hadžijusufović.
+</p>
+<p className="mb-4 text-blueGray-500">
+Učenici i učenice su upoznati s pojmom porezne pismenosti, vrstama poreza i obavezama poreznih obveznika. Poseban naglasak stavljen je na značaj izdavanja fiskalnih računa i evidentiranja prometa.
+</p>
+<p className="mb-4 text-blueGray-500">
+Kroz primjere iz prakse i interaktivne zadatke učenici su aktivno učestvovali te dodatno razvili razumijevanje obrađenih tema. Radionica je doprinijela jačanju finansijske pismenosti i boljem razumijevanju uloge poreza u društvu.
+</p>
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">𝑺𝒓𝒆𝒅𝒏𝒋𝒂 𝒆𝒌𝒐𝒏𝒐𝒎𝒔𝒌𝒂 𝒔̌𝒌𝒐𝒍𝒂 𝑺𝒂𝒓𝒂𝒋𝒆𝒗𝒐 – 𝒅𝒐𝒎𝒂𝒄́𝒊𝒏 𝒌𝒂𝒏𝒕𝒐𝒏𝒂𝒍𝒏𝒐𝒈 𝒕𝒂𝒌𝒎𝒊𝒄̌𝒆𝒏𝒋𝒂 𝒊𝒛 𝒆𝒏𝒈𝒍𝒆𝒔𝒌𝒐𝒈 𝒋𝒆𝒛𝒊𝒌𝒂
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                      <div>
+                        <Image src={enge1} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={enge2} alt="" />
+                    </div> 
+                     <div>
+                        <Image src={enge3} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={enge4} alt="" />
+                    </div> 
+                    
+                   
+            
+                    
+          
+
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+
+<p className="mb-4 text-blueGray-500">
+Srednja ekonomska škola Sarajevo s ponosom ističe da je bila domaćin Kantonalnog takmičenja iz engleskog jezika za učenike i učenice srednjih škola.
+Ovogodišnje, 23. po redu takmičenje, u organizaciji Ministarstva za odgoj i obrazovanje Kantona Sarajevo i Instituta za razvoj preduniverzitetskog obrazovanja (IRPO), uz podršku naše škole kao domaćina, održano je 30. 3. 2026. godine.
+</p>
+<p className="mb-4 text-blueGray-500">
+Kao domaćin, škola je osigurala ravnopravne uvjete za sve učesnike i učesnice, uz jasno definisane procedure i organizaciju koja je omogućila nesmetano odvijanje svih aktivnosti. Posebna pažnja posvećena je stvaranju okruženja u kojem svaki učenik i učenica imaju jednake mogućnosti da pokažu svoje znanje.
+Takmičenje je okupilo veliki broj talentovanih i vrijednih učenika i učenica iz srednjih škola Kantona Sarajevo, koji su demonstrirali visok nivo znanja, razvijene jezičke kompetencije i ozbiljan pristup radu.
+Takmičenje je realizirano u pet kategorija:
+</p>
+<p className="mb-4 text-blueGray-500">
+° III razredi srednjih škola za stručno obrazovanje i obuku
+</p>
+<p className="mb-4 text-blueGray-500">
+° IV razredi srednjih škola za stručno obrazovanje i obuku
+</p>
+<p className="mb-4 text-blueGray-500">
+° III razredi gimnazija
+</p>
+<p className="mb-4 text-blueGray-500">
+° IV razredi gimnazija
+</p>
+<p className="mb-4 text-blueGray-500">
+° IV razredi gimnazija – nastava na engleskom jeziku
+</p>
+<p className="mb-4 text-blueGray-500">
+Srednja ekonomska škola Sarajevo nastavlja biti mjesto susreta znanja i talenata, aktivno doprinoseći razvoju obrazovanja i podržavajući učenike i učenice u njihovom napredovanju.
+Rang-liste objavljene su isti dan na web stranici Instituta.
+</p>
+<p className="mb-4 text-blueGray-500">
+Čestitamo pobjednicima, kao i svim učesnicima i učesnicama, na postignutim rezultatima, trudu i znanju koje su pokazali.
+Iskrene čestitke upućujemo i profesoricama i profesorima na predanom radu, podršci i mentorstvu.
+</p>
+
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">𝑷𝒐𝒔𝒋𝒆𝒕𝒂 𝑮𝒆𝒓𝒐𝒏𝒕𝒐𝒍𝒐𝒔̌𝒌𝒐𝒎 𝒄𝒆𝒏𝒕𝒓𝒖 𝒖 𝑵𝒆𝒅𝒛̌𝒂𝒓𝒊𝒄́𝒊𝒎𝒂 – 𝒎𝒂𝒍𝒊 𝒈𝒆𝒔𝒕, 𝒗𝒆𝒍𝒊𝒌𝒂 𝒓𝒂𝒅𝒐𝒔𝒕
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                      <div>
+                        <Image src={geocc1} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={geocc2} alt="" />
+                    </div> 
+                     <div>
+                        <Image src={geocc3} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={geocc4} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={geocc5} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={geocc6} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={geocc7} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={geocc8} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={geocc9} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={geocc10} alt="" />
+                    </div> 
+                   
+            
+                    
+          
+
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+
+<p className="mb-4 text-blueGray-500">
+Učenici i učenice prvog razreda Srednje ekonomske škole Sarajevo, u pratnji profesorice Senide Čeljo i školske bibliotekarke, posjetili su Gerontološki centar u Nedžarićima.
+</p>
+<p className="mb-4 text-blueGray-500">
+Kao i svake godine, posjeta je protekla u toploj i emotivnoj atmosferi. Učenici su za korisnike centra pripremili prigodne poklone, obišli ih u njihovim sobama te vrijeme proveli u razgovoru, pjesmi i druženju.
+</p>
+<p className="mb-4 text-blueGray-500">
+Vrijedan dio ove posjete bili su susreti i razgovori s korisnicima centra, koji su s našim učenicima podijelili zanimljive životne priče i iskustva. Takvi trenuci ostavili su snažan utisak na učenike, koji su iz centra otišli ispunjeni osjećajem zadovoljstva i sviješću o tome koliko malo pažnje može značiti drugima.
+</p>
+<p className="mb-4 text-blueGray-500">
+Posebno dirljiv bio je susret s dvojicom korisnika, Husejinom i Ismetom, bivšim učenicima Srednje ekonomske škole Sarajevo, koji su se s radošću prisjetili svojih školskih dana i zahvalili na posjeti.
+</p>
+<p className="mb-4 text-blueGray-500">
+Ova posjeta još jednom je podsjetila na važnost solidarnosti, empatije i međugeneracijskog povezivanja. Naši učenici obećali su da će se ponovo vratiti, noseći sa sobom lijepe uspomene i želju da ponovo obraduju svoje domaćine.
+
+</p>
+
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">𝑽𝑶𝑳𝑰𝑴 𝑴𝑨𝑻𝑬𝑴𝑨𝑻𝑰𝑲𝑼
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                      <div>
+                        <Image src={mat1} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={mat2} alt="" />
+                    </div> 
+                     <div>
+                        <Image src={mat3} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={mat4} alt="" />
+                    </div> 
+                     <div>
+                        <Image src={mat5} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={mat6} alt="" />
+                    </div> 
+                     <div>
+                        <Image src={mat7} alt="" />
+                    </div> 
+                   
+            
+                    
+          
+
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+
+<p className="mb-4 text-blueGray-500">
+U periodu od januara do kraja marta 2026. godine na Prirodno-matematičkom fakultetu održavao se naučno-popularni projekat „Volim matematiku“, koji ima za cilj popularizaciju matematike, razvoj logičkog razmišljanja te podsticanje istraživačkog i kreativnog rada kod mladih. Učenici naše škole, zajedno sa profesoricama Lejlom Hujdur i Aidom Šahović, učestvovali su u ovom projektu.
+</p>
+<p className="mb-4 text-blueGray-500">
+Kroz projekat učenici su imali priliku da, uz mentorstvo profesorica, prodube svoja znanja iz matematike, ali i da je sagledaju na drugačiji, zanimljiviji i praktičniji način. Rad na projektu obuhvatao je istraživanje različitih matematičkih tema, povezivanje matematike sa svakodnevnim životom, kao i razvijanje prezentacijskih i komunikacijskih vještina.
+</p>
+<p className="mb-4 text-blueGray-500">
+Poseban značaj projekta ogleda se u tome što su učenici aktivno učestvovali u pripremi i izradi svojih radova, a učenici drugog razreda — Ahmetagić Eman, Hajdarević Haris, Hadžić Zlatan, Džananović Almedina i Umma Avdić — imali su priliku predstaviti svoje istraživanje na završnoj manifestaciji održanoj 27. 3. 2026. godine na Prirodno-matematičkom fakultetu.
+</p>
+<p className="mb-4 text-blueGray-500">
+Ovaj projekat doprinio je jačanju samopouzdanja učenika, razvoju kritičkog mišljenja te dodatnoj motivaciji za dalji rad i usavršavanje. Istovremeno, omogućio je razmjenu iskustava, ideja i primjera dobre prakse među školama i učesnicima.
+</p>
+<p className="mb-4 text-blueGray-500">
+Ponosni smo na sve naše učenike, a posebne čestitke upućujemo našem učeniku 𝒁𝒍𝒂𝒕𝒂𝒏𝒖 𝑯𝒂𝒅𝒛̌𝒊𝒄́𝒖 za osvojenu nagradu za najbolje trominutno izlaganje u kategoriji učenika srednjih škola pod nazivom „RAG (Retrieval-Augmented Generation) kao problem vektorske sličnosti“. 
+Njihov uspjeh još je jedan pokazatelj da se rad, posvećenost i ljubav prema znanju uvijek prepoznaju i nagrađuju.
+</p>
+
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">𝑴𝒂𝒕𝒖𝒓𝒂𝒏𝒕𝒊 𝒏𝒂 𝑺𝑻𝑨𝑹𝒇𝒆𝒔𝒕𝒖 – 𝒌𝒐𝒓𝒂𝒌 𝒃𝒍𝒊𝒛̌𝒆 𝒖𝒔𝒑𝒋𝒆𝒔̌𝒏𝒐𝒋 𝒌𝒂𝒓𝒊𝒋𝒆𝒓𝒊
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                      <div>
+                        <Image src={nela1} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={nela2} alt="" />
+                    </div> 
+            
+                    
+          
+
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+
+<p className="mb-4 text-blueGray-500">
+Maturanti naše škole, u pratnji profesorice Nele Busuladžić, profesora Vedada Kobiljaka i pedagogice Delile Ramić, imali su priliku prisustvovati petom izdanju inspirativnog događaja STARfest, posvećenog karijernom razvoju mladih i pripremi za izazove savremenog tržišta rada.
+</p>
+<p className="mb-4 text-blueGray-500">
+Tokom događaja učenici su upoznati s ključnim trendovima koji oblikuju budućnost zapošljavanja, kao i s pitanjem kuda ide tržište rada u narednim godinama. Poseban naglasak stavljen je na razvoj vještina koje će biti presudne za uspjeh, poput digitalne pismenosti, komunikacijskih sposobnosti, timskog rada, kreativnog razmišljanja i prilagodljivosti.
+</p>
+<p className="mb-4 text-blueGray-500">
+U sklopu programa maturanti su učestvovali i u radionici koju je organizovala NLB Banka, gdje su imali priliku naučiti kako napisati kvalitetan i profesionalan CV, ali i kako se adekvatno pripremiti za razgovor za posao.
+</p>
+<p className="mb-4 text-blueGray-500">
+Učešće na ovakvim događajima predstavlja značajan doprinos profesionalnom usmjeravanju učenika te ih dodatno motiviše da aktivno planiraju svoju budućnost i razvijaju vještine potrebne za uspjeh u savremenom svijetu rada.
+</p>
+
+
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">𝑷𝒐𝒔𝒋𝒆𝒕𝒂 𝒊𝒛𝒍𝒐𝒛̌𝒃𝒊 „𝑨𝒈𝒂𝒊𝒏𝒔𝒕 𝑭𝒐𝒓𝒈𝒆𝒕𝒕𝒊𝒏𝒈 – 𝑭𝒐𝒓 𝑷𝒆𝒂𝒄𝒆 𝒂𝒏𝒅 𝑺𝒐𝒍𝒊𝒅𝒂𝒓𝒊𝒕𝒚 𝒊𝒏 𝑬𝒖𝒓𝒐𝒑𝒆“ / „𝑷𝒓𝒐𝒕𝒊𝒗 𝒛𝒂𝒃𝒐𝒓𝒂𝒗𝒂 – 𝒛𝒂 𝒎𝒊𝒓 𝒊 𝒔𝒐𝒍𝒊𝒅𝒂𝒓𝒏𝒐𝒔𝒕 𝒖 𝑬𝒗𝒓𝒐𝒑𝒊“
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                      <div>
+                        <Image src={pofa3} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={pofa4} alt="" />
+                    </div> 
+                      <div>
+                        <Image src={pofa5} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={pofa6} alt="" />
+                    </div> 
+                      <div>
+                        <Image src={pofa7} alt="" />
+                    </div> 
+            
+                    
+                    
+
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+
+<p className="mb-4 text-blueGray-500">
+Udruženje „Obrazovanje gradi Bosnu i Hercegovinu – Jovan Divjak“, u saradnji s Općinom Novo Sarajevo i Službom za boračko-invalidsku zaštitu, u Memorijalnom centru „Novo Sarajevo“ organiziralo je međunarodnu izložbu pod nazivom:
+</p>
+<p className="mb-4 text-blueGray-500">
+„Against Forgetting – For Peace and Solidarity in Europe“ / „Protiv zaborava – za mir i solidarnost u Evropi“.
+</p>
+<p className="mb-4 text-blueGray-500">
+Ova jedinstvena postavka rezultat je rada 178 mladih ljudi iz 14 zemalja koji su, umjesto da budu samo posmatrači, preuzeli ulogu kustosa i kreatora sadržaja. Kroz istraživanje ratnih zločina i kulture sjećanja 20. stoljeća – od Holokausta do genocida u Srebrenici – mladi su kreirali platformu za dijalog o miru i zajedničkim evropskim vrijednostima.
+</p>
+<p className="mb-4 text-blueGray-500">
+Teme izložbe obuhvataju genocid u Srebrenici, Holokaust u Mađarskoj, pokret otpora u Sloveniji tokom Drugog svjetskog rata, Nirnberški proces, logor Camp des Milles u Francuskoj te ukrajinske deportacije u Poljskoj.
+</p>
+<p className="mb-4 text-blueGray-500">
+Izložbu su, u pratnji profesorice historije Azemine Hujdur, posjetili učenici II-2 odjeljenja. Nakon izložbe i radionice, učenici su prisustvovali historijskom času koji je održao predsjednik Udruženja „Borci veterani 102. motorizovane brigade“, Nafija Šikalo.
+</p>
+
+
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">𝑷𝒐𝒔𝒋𝒆𝒕𝒂 <b>37.</b> 𝑺𝒂𝒓𝒂𝒋𝒆𝒗𝒔𝒌𝒐𝒎 𝒔𝒂𝒋𝒎𝒖 𝒌𝒏𝒋𝒊𝒈𝒂
+
+
+
+
+
+
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={knjige1} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={knjige2} alt="" />
+                    </div> 
+                    
+                    
+
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+
+<p className="mb-4 text-blueGray-500">
+Učenici i učenice prvih i drugih razreda naše škole, u pratnji profesora i profesorica, posjetili su u srijedu, 23. 4. 2026. godine, tradicionalni međunarodni Sarajevski sajam knjiga.
+</p>
+<p className="mb-4 text-blueGray-500">
+Ovogodišnji Sajam ponudio je veliki broj knjiga, izdavača i različitih promocija knjiga. Ovo je, kao i uvijek, bila izuzetna prilika i korisno iskustvo za razvijanje čitalačkih i stvaralačkih sposobnosti učenika i učenica.
+</p>
+<p className="mb-4 text-blueGray-500">
+Učenici i učenice su s velikim zanimanjem obilazili štandove, kupovali zanimljive knjige i druga izdanja te prisustvovali kreativnim radionicama. Moto ovogodišnjeg Sajma bio je „Put knjige“.
+</p>
+<p className="mb-4 text-blueGray-500">
+Vjerujemo da taj put knjige svake godine vodi i u našu školu, gdje knjiga uvijek ima svoju vjernu čitalačku publiku.
+</p>
+
+
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">𝑫𝑨𝑵 𝑷𝑳𝑨𝑵𝑬𝑻𝑬 𝒁𝑬𝑴𝑳𝑱𝑬
+
+
+
+
+
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={planete1} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={planete2} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={planete3} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={planete4} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={planete5} alt="" />
+                    </div> 
+                    
+                    
+
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+
+<p className="mb-4 text-blueGray-500">
+Povodom obilježavanja Dana planete Zemlje uspješno je realizovan projekat na temu „Moć kolektivne akcije“, u saradnji sa KJKP RAD.
+</p>
+<p className="mb-4 text-blueGray-500">
+U okviru ovog projekta učenici i učenice drugog i trećeg razreda, zajedno sa profesoricom Aidom Šahović, istraživali su i obrađivali temu reciklaže stakla. Kroz edukativne i praktične aktivnosti upoznali su se sa procesom reciklaže, njenim značajem za očuvanje okoliša, ali i načinima na koje se staklo može ponovo iskoristiti. Svoj kreativni doprinos dali su kroz izradu različitih predmeta od recikliranog stakla, pokazujući kako otpad može dobiti novu vrijednost.
+Radovi učenika i učenica predstavljeni su na izložbi održanoj u prostorijama reciklažnog dvorišta, gdje su posjetioci imali priliku upoznati se sa rezultatima njihovog rada, prezentacijom o recikliranju otpada, ali i značajem kolektivne akcije u zaštiti naše planete.
+Upućujemo iskrenu zahvalnost KJKP RAD-u na pozivu za učešće u projektu, koji za nas predstavlja dragocjeno iskustvo. Posebno nas raduje što smo bili dio aktivnosti koje promovišu odgovorno ponašanje prema prirodi i važnost zajedničkog djelovanja.</p>
+<p className="mb-4 text-blueGray-500">
+Dan planete Zemlje obilježen je i u prostorijama naše škole kroz izložbu učeničkih radova posvećenih očuvanju okoliša i prirode. Učenici i učenice prvog razreda, zajedno sa profesoricom ekologije Merimom Likić, predstavili su kreativne makete, modele gradova, Zemlje i ekoloških rješenja, pokazujući važnost reciklaže, zelenih navika i održivog razvoja.
+Prostor je bio ukrašen i plakatima sa porukama o zaštiti planete, što je dodatno naglasilo ekološku temu. 
+Izložba je bila prilika da učenici i učenice pokažu znanje, kreativnost i svijest o značaju očuvanja Zemlje za buduće generacije.
+</p>
+<p className="mb-4 text-blueGray-500">
+Čuvajmo našu planetu – svaki mali korak je važan!
+</p>
+
+
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">𝑶𝒃𝒊𝒍𝒋𝒆𝒛̌𝒂𝒗𝒂𝒏𝒋𝒆 𝑫𝒂𝒏𝒂 𝑨𝒓𝒎𝒊𝒋𝒆 𝑩𝒊𝑯: 𝒖𝒄̌𝒆𝒏𝒊𝒄𝒊 𝒏𝒋𝒆𝒈𝒖𝒋𝒖 𝒗𝒓𝒊𝒋𝒆𝒅𝒏𝒐𝒔𝒕𝒊 𝒔𝒍𝒐𝒃𝒐𝒅𝒆 𝒊 𝒛𝒂𝒋𝒆𝒅𝒏𝒊𝒔̌𝒕𝒗𝒂
+
+
+
+
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={armijee1} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={armijee2} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={armijee3} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={armijee4} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={armijee5} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={armijee6} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={armijee7} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={armijee8} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={armijee9} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={armijee10} alt="" />
+                    </div> 
+                    
+
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+
+<p className="mb-4 text-blueGray-500">
+Danas je na dostojanstven i emotivan način obilježen Dan Armije Bosne i Hercegovine, uz polaganje cvijeća kao znak dubokog poštovanja i zahvalnosti prema svim borcima koji su dali svoj doprinos u odbrani naše domovine.
+</p>
+<p className="mb-4 text-blueGray-500">
+U ovom značajnom događaju učestvovali su učenici i učenice JU Srednja ekonomska škola Sarajevo, njih oko 250, koji su zajedno sa svojim profesorima i profesoricama prisustvovali obilježavanju i položili cvijeće. Njihovo prisustvo i angažman predstavljaju snažnu poruku da mlade generacije nisu zaboravile vrijednosti slobode, hrabrosti i zajedništva na kojima je izgrađena naša država.
+</p>
+<p className="mb-4 text-blueGray-500">
+Kroz ovaj čin odavanja počasti, učenici su pokazali visok nivo svijesti o važnosti očuvanja historijskog pamćenja, kao i odgovornosti koju nose prema budućnosti. Njihovo učešće svjedoči o tome da se kultura sjećanja njeguje i prenosi dalje kroz obrazovanje i zajedničke aktivnosti koje imaju poseban značaj za društvo u cjelini.
+</p>
+<p className="mb-4 text-blueGray-500">
+Obilježavanje Dana Armije Bosne i Hercegovine nije samo prilika da se prisjetimo prošlosti, već i da obnovimo opredjeljenje za mir, toleranciju i međusobno uvažavanje. Neka nam ovaj dan bude trajni podsjetnik na snagu zajedništva i važnost izgradnje bolje i sigurnije budućnosti za sve građane Bosne i Hercegovine.
+</p>
+
+
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
