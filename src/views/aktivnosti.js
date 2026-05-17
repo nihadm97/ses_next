@@ -1909,7 +1909,7 @@ const Aktivnosti = () => {
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
-              <h6 className="text-xl mb-1 font-semibold text-center uppercase">𝒁𝒂𝒋𝒆𝒅𝒏𝒊𝒄̌𝒌𝒂 𝒂𝒌𝒄𝒊𝒋𝒂 𝒖𝒓𝒆đ𝒆𝒏𝒋𝒂 𝒊 𝒄̌𝒊𝒔̌𝒄́𝒆𝒏𝒋𝒂 𝒃𝒓𝒅𝒂 𝑯𝒖𝒎
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Zajednička akcija uređenja i čišćenja brda Hum
 
 
 
@@ -1992,7 +1992,7 @@ Iskreno se zahvaljujemo organizatorima na pozivu i uspješnoj realizaciji ove vr
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
-              <h6 className="text-xl mb-1 font-semibold text-center uppercase">𝑪𝒗𝒊𝒋𝒆𝒄́𝒆 𝒌𝒐𝒋𝒆 𝒐𝒔𝒕𝒂𝒋𝒆, 𝒕𝒓𝒂𝒈 𝒌𝒐𝒋𝒊 𝒏𝒆 𝒃𝒍𝒊𝒋𝒆𝒅𝒊
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Cvijeće koje ostaje, trag koji ne blijedi
 
 
 
@@ -2078,7 +2078,7 @@ Ovaj simboličan čin nije ukrasio samo prostor škole – unio je toplinu, živ
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
-              <h6 className="text-xl mb-1 font-semibold text-center uppercase">𝑺𝒖𝒔𝒓𝒆𝒕𝒊 𝒏𝒂𝒔𝒕𝒂𝒗𝒏𝒊𝒌𝒂 𝒊 𝒏𝒂𝒔𝒕𝒂𝒗𝒏𝒊𝒄𝒂: 𝒏𝒂𝒔̌𝒆 𝒎𝒂𝒍𝒆 𝒊 𝒗𝒆𝒍𝒊𝒌𝒆 𝒓𝒆𝒇𝒐𝒓𝒎𝒆 𝒖 𝒖𝒄̌𝒊𝒐𝒏𝒊𝒄𝒊
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Susreti nastavnika i nastavnica: naše male i velike reforme u učionici
 
 
 
@@ -2149,7 +2149,7 @@ Ovo iskustvo još jednom potvrđuje da se kvalitetno obrazovanje odvija u učion
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
-              <h6 className="text-xl mb-1 font-semibold text-center uppercase">𝑲𝒓𝒐𝒛 𝒆𝒅𝒖𝒌𝒂𝒄𝒊𝒋𝒖 𝒅𝒐 𝒃𝒐𝒍𝒋𝒆𝒈 𝒓𝒂𝒛𝒖𝒎𝒊𝒋𝒆𝒗𝒂𝒏𝒋𝒂 𝒑𝒐𝒓𝒆𝒛𝒏𝒐𝒈 𝒔𝒊𝒔𝒕𝒆𝒎𝒂
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Kroz edukaciju do boljeg razumijevanja poreznog sistema
 
 
 
@@ -2219,7 +2219,7 @@ Kroz primjere iz prakse i interaktivne zadatke učenici su aktivno učestvovali 
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
-              <h6 className="text-xl mb-1 font-semibold text-center uppercase">𝑺𝒓𝒆𝒅𝒏𝒋𝒂 𝒆𝒌𝒐𝒏𝒐𝒎𝒔𝒌𝒂 𝒔̌𝒌𝒐𝒍𝒂 𝑺𝒂𝒓𝒂𝒋𝒆𝒗𝒐 – 𝒅𝒐𝒎𝒂𝒄́𝒊𝒏 𝒌𝒂𝒏𝒕𝒐𝒏𝒂𝒍𝒏𝒐𝒈 𝒕𝒂𝒌𝒎𝒊𝒄̌𝒆𝒏𝒋𝒂 𝒊𝒛 𝒆𝒏𝒈𝒍𝒆𝒔𝒌𝒐𝒈 𝒋𝒆𝒛𝒊𝒌𝒂
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Srednja ekonomska škola Sarajevo – domaćin kantonalnog takmičenja iz engleskog jezika
 
 
 
@@ -2309,7 +2309,7 @@ Iskrene čestitke upućujemo i profesoricama i profesorima na predanom radu, pod
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
-              <h6 className="text-xl mb-1 font-semibold text-center uppercase">𝑷𝒐𝒔𝒋𝒆𝒕𝒂 𝑮𝒆𝒓𝒐𝒏𝒕𝒐𝒍𝒐𝒔̌𝒌𝒐𝒎 𝒄𝒆𝒏𝒕𝒓𝒖 𝒖 𝑵𝒆𝒅𝒛̌𝒂𝒓𝒊𝒄́𝒊𝒎𝒂 – 𝒎𝒂𝒍𝒊 𝒈𝒆𝒔𝒕, 𝒗𝒆𝒍𝒊𝒌𝒂 𝒓𝒂𝒅𝒐𝒔𝒕
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Posjeta Gerontološkom centru u Nedžarićima – mali gest, velika radost
 
 
 
@@ -2399,7 +2399,7 @@ Ova posjeta još jednom je podsjetila na važnost solidarnosti, empatije i među
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
-              <h6 className="text-xl mb-1 font-semibold text-center uppercase">𝑽𝑶𝑳𝑰𝑴 𝑴𝑨𝑻𝑬𝑴𝑨𝑻𝑰𝑲𝑼
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">VOLIM MATEMATIKU
 
 
 
@@ -2479,7 +2479,7 @@ Njihov uspjeh još je jedan pokazatelj da se rad, posvećenost i ljubav prema zn
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
-              <h6 className="text-xl mb-1 font-semibold text-center uppercase">𝑴𝒂𝒕𝒖𝒓𝒂𝒏𝒕𝒊 𝒏𝒂 𝑺𝑻𝑨𝑹𝒇𝒆𝒔𝒕𝒖 – 𝒌𝒐𝒓𝒂𝒌 𝒃𝒍𝒊𝒛̌𝒆 𝒖𝒔𝒑𝒋𝒆𝒔̌𝒏𝒐𝒋 𝒌𝒂𝒓𝒊𝒋𝒆𝒓𝒊
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Maturanti na STARfestu – korak bliže uspješnoj karijeri
 
 
 </h6>
@@ -2539,7 +2539,7 @@ Učešće na ovakvim događajima predstavlja značajan doprinos profesionalnom u
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
-              <h6 className="text-xl mb-1 font-semibold text-center uppercase">𝑷𝒐𝒔𝒋𝒆𝒕𝒂 𝒊𝒛𝒍𝒐𝒛̌𝒃𝒊 „𝑨𝒈𝒂𝒊𝒏𝒔𝒕 𝑭𝒐𝒓𝒈𝒆𝒕𝒕𝒊𝒏𝒈 – 𝑭𝒐𝒓 𝑷𝒆𝒂𝒄𝒆 𝒂𝒏𝒅 𝑺𝒐𝒍𝒊𝒅𝒂𝒓𝒊𝒕𝒚 𝒊𝒏 𝑬𝒖𝒓𝒐𝒑𝒆“ / „𝑷𝒓𝒐𝒕𝒊𝒗 𝒛𝒂𝒃𝒐𝒓𝒂𝒗𝒂 – 𝒛𝒂 𝒎𝒊𝒓 𝒊 𝒔𝒐𝒍𝒊𝒅𝒂𝒓𝒏𝒐𝒔𝒕 𝒖 𝑬𝒗𝒓𝒐𝒑𝒊“
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Posjeta izložbi „Against Forgetting – For Peace and Solidarity in Europe“ / „Protiv zaborava – za mir i solidarnost u Evropi“
 
 </h6>
             </span>
@@ -2610,7 +2610,7 @@ Izložbu su, u pratnji profesorice historije Azemine Hujdur, posjetili učenici 
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
-              <h6 className="text-xl mb-1 font-semibold text-center uppercase">𝑷𝒐𝒔𝒋𝒆𝒕𝒂 <b>37.</b> 𝑺𝒂𝒓𝒂𝒋𝒆𝒗𝒔𝒌𝒐𝒎 𝒔𝒂𝒋𝒎𝒖 𝒌𝒏𝒋𝒊𝒈𝒂
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Posjeta 37. Sarajevskom sajmu knjiga
 
 
 
@@ -2678,7 +2678,7 @@ Vjerujemo da taj put knjige svake godine vodi i u našu školu, gdje knjiga uvij
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
-              <h6 className="text-xl mb-1 font-semibold text-center uppercase">𝑫𝑨𝑵 𝑷𝑳𝑨𝑵𝑬𝑻𝑬 𝒁𝑬𝑴𝑳𝑱𝑬
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">DAN PLANETE ZEMLJE
 
 
 
@@ -2757,7 +2757,7 @@ Izložba je bila prilika da učenici i učenice pokažu znanje, kreativnost i sv
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
-              <h6 className="text-xl mb-1 font-semibold text-center uppercase">𝑶𝒃𝒊𝒍𝒋𝒆𝒛̌𝒂𝒗𝒂𝒏𝒋𝒆 𝑫𝒂𝒏𝒂 𝑨𝒓𝒎𝒊𝒋𝒆 𝑩𝒊𝑯: 𝒖𝒄̌𝒆𝒏𝒊𝒄𝒊 𝒏𝒋𝒆𝒈𝒖𝒋𝒖 𝒗𝒓𝒊𝒋𝒆𝒅𝒏𝒐𝒔𝒕𝒊 𝒔𝒍𝒐𝒃𝒐𝒅𝒆 𝒊 𝒛𝒂𝒋𝒆𝒅𝒏𝒊𝒔̌𝒕𝒗𝒂
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Obilježavanje Dana Armije BiH: učenici njeguju vrijednosti slobode i zajedništva
 
 
 
