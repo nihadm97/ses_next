@@ -1868,6 +1868,25 @@ import osce2 from '@/views/images/osce2.jpg';
 import osce3 from '@/views/images/osce3.jpg';
 import osce4 from '@/views/images/osce4.jpg';
 
+import cvi1 from '@/views/images/cvi1.jpg';
+import cvi2 from '@/views/images/cvi2.jpg';
+import cvi3 from '@/views/images/cvi3.jpg';
+import cvi4 from '@/views/images/cvi4.jpg';
+import cvi5 from '@/views/images/cvi5.jpg';
+import cvi6 from '@/views/images/cvi6.jpg';
+import cvi7 from '@/views/images/cvi7.jpg';
+import cvi8 from '@/views/images/cvi8.jpg';
+import cvi9 from '@/views/images/cvi9.jpg';
+
+import bah1 from '@/views/images/bah1.jpg';
+import bah2 from '@/views/images/bah2.jpg';
+import bah3 from '@/views/images/bah3.jpg';
+import bah4 from '@/views/images/bah4.jpg';
+import bah5 from '@/views/images/bah5.jpg';
+import bah6 from '@/views/images/bah6.jpg';
+import bah7 from '@/views/images/bah7.jpg';
+
+
 const Aktivnosti = () => {
   useEffect(() => {
     AOS.init({duration: 2000});
@@ -1887,6 +1906,175 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">𝒁𝒂𝒋𝒆𝒅𝒏𝒊𝒄̌𝒌𝒂 𝒂𝒌𝒄𝒊𝒋𝒂 𝒖𝒓𝒆đ𝒆𝒏𝒋𝒂 𝒊 𝒄̌𝒊𝒔̌𝒄́𝒆𝒏𝒋𝒂 𝒃𝒓𝒅𝒂 𝑯𝒖𝒎
+
+
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                      <div>
+                        <Image src={bah1} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={bah2} alt="" />
+                    </div> 
+                     <div>
+                        <Image src={bah3} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={bah4} alt="" />
+                    </div> 
+                                          <div>
+                        <Image src={bah5} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={bah6} alt="" />
+                    </div> 
+                     <div>
+                        <Image src={bah7} alt="" />
+                    </div> 
+                    
+                    
+                   
+            
+                    
+          
+
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+
+<p className="mb-4 text-blueGray-500">
+Povodom obilježavanja Dana Općine Novo Sarajevo, 15. maja 2026. godine, naši učenici učestvovali su u akciji čišćenja i uređenja brda Hum, koju je organizovao Odred izviđača „Pofalići – Novo Sarajevo“.
+</p>
+<p className="mb-4 text-blueGray-500">
+U akciji je učestvovalo nekoliko škola s područja Općine Novo Sarajevo, a okupljanje učesnika bilo je ispred Srednje ekonomske škole, odakle su učenici i učenice zajedno krenuli ka Humu, šaljući snažnu poruku zajedništva, odgovornosti i aktivnog učešća mladih u društveno korisnim aktivnostima.
+</p>
+<p className="mb-4 text-blueGray-500">
+Naši učenici i učenice su, u pratnji profesora Emira Ustavdića, s velikim entuzijazmom učestvovali u uređenju i čišćenju staza, pokazujući spremnost da svojim angažmanom doprinesu očuvanju prirode i ljepšem okruženju za sve građane.
+</p>
+<p className="mb-4 text-blueGray-500">
+Učešće u ovoj akciji još jednom je pokazalo da Srednja ekonomska škola, osim obrazovne, ima i važnu odgojnu ulogu u izgradnji odgovornih, savjesnih i aktivnih mladih ljudi. Kroz zajednički rad, druženje i boravak u prirodi, učenici su imali priliku razvijati osjećaj pripadnosti zajednici i ljubavi prema svom gradu i njegovim zelenim površinama.
+</p>
+<p className="mb-4 text-blueGray-500">
+Iskreno se zahvaljujemo organizatorima na pozivu i uspješnoj realizaciji ove vrijedne akcije, uz želju da ovakvih aktivnosti bude još više i u budućnosti. 
+</p>
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">𝑪𝒗𝒊𝒋𝒆𝒄́𝒆 𝒌𝒐𝒋𝒆 𝒐𝒔𝒕𝒂𝒋𝒆, 𝒕𝒓𝒂𝒈 𝒌𝒐𝒋𝒊 𝒏𝒆 𝒃𝒍𝒊𝒋𝒆𝒅𝒊
+
+
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                      <div>
+                        <Image src={cvi1} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={cvi2} alt="" />
+                    </div> 
+                     <div>
+                        <Image src={cvi3} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={cvi4} alt="" />
+                    </div> 
+                                          <div>
+                        <Image src={cvi5} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={cvi6} alt="" />
+                    </div> 
+                     <div>
+                        <Image src={cvi7} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={cvi8} alt="" />
+                    </div>
+                    <div>
+                        <Image src={cvi9} alt="" />
+                    </div> 
+                    
+                   
+            
+                    
+          
+
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+
+<p className="mb-4 text-blueGray-500">
+Pred sam kraj svog srednjoškolskog obrazovanja učenici i učenice IV-5 odjeljenja odlučili su ostaviti nešto više od uspomena – zasadili su cvijeće u školskom dvorištu kao simbol svog odlaska, ali i trajnog prisustva.
+</p>
+<p className="mb-4 text-blueGray-500">
+Ova lijepa inicijativa nastala je kao dio društveno-korisnog rada, ali je vrlo brzo prerasla u emotivan čin zajedništva, odgovornosti i zahvalnosti. Svaki zasađeni cvijet nosi posebnu priču – o prijateljstvima koja su se godinama gradila, o izazovima koji su savladani i o snovima koji tek čekaju da budu ostvareni.
+</p>
+<p className="mb-4 text-blueGray-500">
+Učenici su, uz podršku profesora, vlastitim trudom uredili dio školskog dvorišta, pokazujući kako male akcije mogu imati veliko značenje. Cvijeće koje su zasadili ostat će da raste i cvjeta kao podsjetnik budućim generacijama na jednu posebnu generaciju koja je odlučila iza sebe ostaviti nešto lijepo i trajno.
+</p>
+<p className="mb-4 text-blueGray-500">
+Ovaj simboličan čin nije ukrasio samo prostor škole – unio je toplinu, život i poruku da svako od nas može doprinijeti zajednici na svoj način. Dok se bliži trenutak rastanka, učenici i učenice četvrtog razreda mogu biti ponosni: iza njih ne ostaju samo uspomene, nego i trag koji će još dugo cvjetati. 
+</p>
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
