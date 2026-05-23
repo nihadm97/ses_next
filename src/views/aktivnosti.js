@@ -1886,6 +1886,22 @@ import bah5 from '@/views/images/bah5.jpg';
 import bah6 from '@/views/images/bah6.jpg';
 import bah7 from '@/views/images/bah7.jpg';
 
+import eksp1 from '@/views/images/eksp1.jpg';
+import eksp2 from '@/views/images/eksp2.jpg';
+import eksp3 from '@/views/images/eksp3.jpg';
+import eksp4 from '@/views/images/eksp4.jpg';
+import eksp5 from '@/views/images/eksp5.jpg';
+import eksp6 from '@/views/images/eksp6.jpg';
+import eksp7 from '@/views/images/eksp7.jpg';
+
+import mark1 from '@/views/images/mark1.jpg';
+import mark2 from '@/views/images/mark2.jpg';
+import mark3 from '@/views/images/mark3.jpg';
+import mark4 from '@/views/images/mark4.jpg';
+import mark5 from '@/views/images/mark5.jpg';
+import mark6 from '@/views/images/mark6.jpg';
+import mark7 from '@/views/images/mark7.jpg';
+import mark8 from '@/views/images/mark8.jpg';
 
 const Aktivnosti = () => {
   useEffect(() => {
@@ -1906,6 +1922,459 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Znanja za digitalno doba – radionice sa stručnjakom iz marketinga
+
+
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={mark1} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={mark2} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={mark3} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={mark8} alt="" />
+                    </div>
+                    <div>
+                        <Image src={mark4} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={mark5} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={mark6} alt="" />
+                    </div> 
+                     <div>
+                        <Image src={mark7} alt="" />
+                    </div> 
+                     
+
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+
+<p className="mb-4 text-blueGray-500">
+U okviru aktivnosti usmjerenih na razvoj savremenih znanja i vještina, učenici i učenice naše škole zajedno sa profesoricom Indirom Zeković imali su priliku učestvovati u seriji edukativnih
+radionica iz oblasti digitalnog marketinga koje je realizovala Digital2 pod vodstvom Melise Tolja, certificiranog profesionalnog coacha i stručnjaka za digitalni marketing.</p>
+<p className="mb-4 text-blueGray-500">
+Tokom radionica učenici su se upoznali sa osnovama digitalnog marketinga, značajem društvenih mreža u poslovnoj komunikaciji, kreiranjem kvalitetnog online sadržaja, osnovama brendiranja, kao i načinima promocije proizvoda i usluga u digitalnom okruženju.
+</p>
+<p className="mb-4 text-blueGray-500">
+Kroz praktične primjere, timski rad i interaktivne zadatke, učenici i učenice razvijali su kreativnost, komunikacijske vještine i razumijevanje savremenih marketinških trendova koji imaju sve veću ulogu na tržištu rada.
+</p>
+<p className="mb-4 text-blueGray-500">
+Poseban segment radionica odnosio se na razvoj poduzetničkih ideja, gdje su učenici uz stručno mentorstvo Melise Tolja koncipirali vlastite biznis planove koristeći Business Model Canvas pristup.
+</p>
+<p className="mb-4 text-blueGray-500">
+Na taj način učenici su učili kako razviti poslovnu ideju, definisati ciljnu grupu, kreirati vrijednosnu ponudu, planirati marketinške aktivnosti i analizirati mogućnosti razvoja poslovanja u savremenom digitalnom okruženju.
+</p>
+<p className="mb-4 text-blueGray-500">
+Poseban značaj radionica ogleda se u povezivanju teorijskih znanja sa stvarnim poslovnim iskustvima, čime su učenici dobili uvid u mogućnosti razvoja karijere u oblasti marketinga, poduzetništva i digitalnih komunikacija.
+</p>
+<p className="mb-4 text-blueGray-500">
+Zahvaljujemo se predavačici Melisi Tolja, konsultantici za poslovni razvoj i digitalne komunikacije, kao i agenciji Digital2 na inspirativnim predavanjima, korisnim savjetima i podršci mladima u sticanju novih znanja i kompetencija za budućnost. 
+</p>
+
+
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+        <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Učenje kroz historiju, sport, marketing i ekonomiju – posjeta Olimpijskom muzeju Sarajeva
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                                    <video src="/vucko1.mp4" width="800" height="600" controls="controls" className="w-full align-middle rounded-lg"/> 
+
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+Učenici i učenice naše škole, zajedno sa profesoricom Indirom Zeković, koji pohađaju nastavu iz marketinga, imali su priliku posjetiti Olimpijski muzej Sarajevo, mjesto koje čuva uspomenu na XIV Zimske olimpijske igre održane u Sarajevu 1984. godine, ali i bogatu sportsku i kulturnu tradiciju našeg grada.
+</p>
+<p className="mb-4 text-blueGray-500">
+Tokom posjete učenici su kroz zanimljive eksponate, fotografije, medalje, sportsku opremu i multimedijalne sadržaje upoznali značaj olimpijskog duha, vrijednosti zajedništva, tolerancije i sportskog fair-playa. Posebnu pažnju privukle su priče o uspjesima bosanskohercegovačkih sportista, kao i historijat razvoja zimskih sportova u Sarajevu.
+</p>
+<p className="mb-4 text-blueGray-500">
+Pored historijskog i kulturnog značaja, učenici su imali priliku analizirati i marketinški aspekt Olimpijskih igara u Sarajevu 1984. godine – od prepoznatljivog vizuelnog identiteta i maskote Vučka do promocije Sarajeva kao svjetske olimpijske destinacije. Razgovaralo se o značaju brendiranja događaja, ulozi medija, propagandnih materijala i načinu na koji su Olimpijske igre doprinijele promociji Sarajeva i Bosne i Hercegovine na međunarodnom nivou.
+</p>
+<p className="mb-4 text-blueGray-500">
+Poseban naglasak tokom posjete stavljen je na ekonomski i marketinški značaj Olimpijskih igara, koje su predstavljale jedan od najvažnijih međunarodnih događaja u historiji Sarajeva. 
+Učenici su razgovarali o tome kako veliki sportski događaji utiču na razvoj turizma, infrastrukture, privrede i međunarodnog imidža jedne države, kao i o važnosti marketinga u promociji grada, privlačenju investicija i stvaranju dugoročnog prepoznatljivog brenda.
+</p>
+<p className="mb-4 text-blueGray-500">
+Bila je ovo prilika da učenici povežu teorijska znanja iz marketinga i ekonomije sa konkretnim primjerima iz prakse, te da kroz iskustveno učenje bolje razumiju značaj organizacije velikih međunarodnih događaja.
+</p>
+<p className="mb-4 text-blueGray-500">
+Zahvaljujemo se osoblju muzeja na gostoprimstvu i inspirativnom predstavljanju bogate olimpijske priče našeg grada. 
+</p>
+
+</span>
+                  </div>
+                
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Kultura, tradicija i marketing u praksi – posjeta Svrzinoj kući
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                                    <video src="/inda1.mp4" width="800" height="600" controls="controls" className="w-full align-middle rounded-lg"/> 
+
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+Učenici i učenice naše škole, zajedno sa profesoricom Indirom Zeković, posjetili su Svrzinu kuću, jedan od najznačajnijih sačuvanih primjera tradicionalne bosanske gradske arhitekture iz osmanskog perioda i vrijedan dio kulturno-historijskog naslijeđa Sarajeva.
+</p>
+<p className="mb-4 text-blueGray-500">
+Tokom posjete učenici i učenice su imali priliku upoznati način života sarajevske muslimanske porodice iz 18. i 19. stoljeća, kroz autentičan enterijer, arhitekturu, predmete svakodnevne upotrebe i priče koje svjedoče o bogatoj tradiciji i kulturi našeg grada. Posebnu pažnju privukli su detalji tradicionalnog uređenja prostora, odvojenost muškog i ženskog dijela kuće, kao i značaj očuvanja kulturne baštine za buduće generacije.
+</p>
+<p className="mb-4 text-blueGray-500">
+Posjeta je imala i edukativni marketinški karakter, budući da su učenici dobili praktičan zadatak, marketinški izazov, zasnovan na konceptu Challenge Based Learning pristupa učenju. 
+Zadatak učenika bio je osmisliti kreativne marketinške prijedloge i aktivnosti koje bi doprinijele većoj promociji i unapređenju prihoda ovog muzejskog objekta.
+</p>
+<p className="mb-4 text-blueGray-500">
+Kroz timski rad i analizu učenici će razvijati ideje vezane za promociju kulturnog turizma, društvene mreže, organizaciju događaja, saradnju sa turističkim agencijama, kreiranje sadržaja za mlade posjetioce i druge savremene marketinške pristupe koji bi mogli povećati vidljivost i posjećenost muzeja.
+Na ovaj način učenici povezuju teorijska znanja iz marketinga sa stvarnim izazovima iz prakse, razvijajući kreativnost, poduzetnički duh i svijest o značaju očuvanja i promocije kulturno-historijskog naslijeđa Bosne i Hercegovine.
+</p>
+<p className="mb-4 text-blueGray-500">
+Zahvaljujemo se osoblju muzeja na gostoprimstvu i inspirativnom predstavljanju bogate historije i tradicije Sarajeva.
+</p>
+
+
+</span>
+                  </div>
+                
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Na izložbi “Collegium Artisticum 2026” – Kroz umjetnost do novih perspektiva
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                                    <video src="/posj1.mp4" width="800" height="600" controls="controls" className="w-full align-middle rounded-lg"/> 
+
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+Učenici i učenice II5 odjeljenja, zajedno s profesoricom Indirom Zeković, posjetili su 47. kolektivnu izložbu „Collegium Artisticum“ – jednu od najznačajnijih umjetničkih manifestacija u Bosni i Hercegovini, koja se tradicionalno organizuje povodom Dana Grada Sarajeva, u četvrtak, 23. aprila.
+</p>
+<p className="mb-4 text-blueGray-500">
+Izložba okuplja više od dvije stotine radova i pruža vrijedan uvid u savremenu likovnu scenu te različite umjetničke izraze. Tokom posjete, učenici i učenice imali su priliku upoznati se s aktuelnim tokovima u umjetnosti, razvijati estetsku percepciju te kritički promišljati o izloženim djelima.
+
+</p>
+<p className="mb-4 text-blueGray-500">
+Ova posjeta predstavlja važan korak u podsticanju interesovanja učenika za umjetnost i kulturu, kao i u razvijanju njihove kreativnosti i kulturne svijesti.
+</p>
+
+</span>
+                  </div>
+                
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Tragom kulturne historije Sarajeva – priča iz Despića kuće
+
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                                    <video src="/hist1.mp4" width="800" height="600" controls="controls" className="w-full align-middle rounded-lg"/> 
+
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+Učenici i učenice II-4 odjeljenja zajedno s profesoricom Indirom Zeković posjetili su Despića kuću u petak, 17. aprila. Ova kuća predstavlja jedan od najvažnijih sačuvanih primjera tradicionalne gradske arhitekture u Sarajevu i vrijedan je spomenik kulturno-historijskog naslijeđa Bosne i Hercegovine.
+</p>
+<p className="mb-4 text-blueGray-500">
+Smještena u starom dijelu grada, kuća je nekada bila dom ugledne sarajevske trgovačke porodice Despić, koja je imala značajnu ulogu u društvenom i kulturnom životu Sarajeva tokom 19. i početka 20. stoljeća.
+
+</p>
+<p className="mb-4 text-blueGray-500">
+Ono što Despića kuću čini posebno značajnom jeste činjenica da ona i danas svjedoči o načinu života građanskog sloja Sarajeva iz osmanskog i austrougarskog perioda. Originalni enterijer, sačuvani predmeti i autentičan ambijent omogućavaju posjetiocima da steknu jasniju sliku o svakodnevnom životu, običajima i vrijednostima tog vremena.
+</p>
+<p className="mb-4 text-blueGray-500">
+Poseban kulturni značaj kuće ogleda se i u njenoj ulozi u razvoju pozorišnog života u Sarajevu – upravo u Despića kući održavale su se prve privatne pozorišne predstave, što joj daje dodatni značaj u historiji bosanskohercegovačke kulture.
+</p>
+<p className="mb-4 text-blueGray-500">
+Danas Despića kuća ima važnu edukativnu ulogu jer učenicima približava kulturnu baštinu Sarajeva i podstiče svijest o važnosti očuvanja historijskih objekata kao dijela identiteta grada i države. 
+</p>
+<p className="mb-4 text-blueGray-500">
+Kroz stručno vođenje kustosa muzeja, učenici i učenice dodatno su proširili svoja znanja iz historije i kulture Bosne i Hercegovine.
+Ova edukativna posjeta doprinijela je razvijanju svijesti o važnosti očuvanja kulturne baštine te podstakla interesovanje učenika za lokalnu historiju i tradiciju.
+</p>
+</span>
+                  </div>
+                
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase"> 𝑻𝒆𝒉𝒏𝒊𝒄𝒊𝒋𝒂𝒅𝒂 <b>2026</b> – 𝑺𝑬𝑺̌ 𝒑𝒓𝒗𝒂 𝒖 𝒆𝒌𝒊𝒑𝒏𝒐𝒎 𝒑𝒍𝒂𝒔𝒎𝒂𝒏𝒖!!!!
+
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                                    <video src="/tech1.mp4" width="800" height="600" controls="controls" className="w-full align-middle rounded-lg"/> 
+
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+
+SRCE, SNAGA I TIM KOJI POBJEĐUJE!
+</p>
+<p className="mb-4 text-blueGray-500">
+Tehnicijada 2026 ostat će upisana zlatnim slovima u historiju naše škole!
+Učenici i učenice, zajedno sa profesorima Adnanom Čolićem, Tarikom Ljubovićem i profesoricom Ankicom Zulčić, ponosno su predstavljali našu školu na velikom sportskom događaju u Sarajevu, gdje su energija, zajedništvo i sportski duh ispunili svaki teren.
+</p>
+<p className="mb-4 text-blueGray-500">
+Naša ekipa pokazala je kako izgleda pravi školski tim – ujedinjen, motivisan i nepokolebljiv.
+Više od 2.000 učenika i učenica iz 21 škole takmičilo se u različitim sportovima, ali naši učenici i učenice pokazali su nešto posebno – srce ekipe, borbenost i nevjerovatnu posvećenost.
+Nogomet, košarka, odbojka, atletika, stoni tenis i šah bili su polja na kojima se nije mjerila samo snaga i vještina, nego i karakter, prijateljstvo i timski duh.</p>
+<p className="mb-4 text-blueGray-500">
+I upravo taj duh donio je rezultat na koji smo ponosni –
+🥇 PRVO MJESTO U EKIPNOM PLASMANU! 🥇</p>
+<p className="mb-4 text-blueGray-500">
+Ovo nije samo pobjeda u sportu.
+</p>
+<p className="mb-4 text-blueGray-500">
+Ovo je pobjeda zajedništva.
+</p>
+<p className="mb-4 text-blueGray-500">
+Pobjeda rada.
+</p>
+<p className="mb-4 text-blueGray-500">
+Pobjeda mladosti koja vjeruje u sebe.
+</p>
+<p className="mb-4 text-blueGray-500">
+Naši učenici i učenice pokazali su kako se nosi dres svoje škole – dostojanstveno, hrabro i sa osmijehom.
+💙 SEŠ – gdje tim postaje porodica, a trud postaje pobjeda.
+💙 Ponosni, složni i nepobjedivi – idemo dalje još jači!
+</p>
+</span>
+                  </div>
+                
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">SAJAM EKSPERT 2026
+
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={eksp1} alt="" />
+                    </div> 
+                  <div>
+                        <Image src={eksp2} alt="" />
+                    </div>
+                  <div>
+                        <Image src={eksp3} alt="" />
+                    </div> 
+                  <div>
+                        <Image src={eksp4} alt="" />
+                    </div>
+                  <div>
+                        <Image src={eksp5} alt="" />
+                    </div> 
+                  <div>
+                        <Image src={eksp6} alt="" />
+                    </div>
+                  <div>
+                        <Image src={eksp7} alt="" />
+                    </div> 
+            
+
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+
+U prepunom holu naše škole, svečano je otvoren i ovogodišnji sajam EKSPERT, koji je izazvao veliku pažnju posjetilaca. Bio je to, ujedno, i Dan otvorenih vrata.
+</p>
+<p className="mb-4 text-blueGray-500">
+Nakon kraćeg revijalnog dijela i toplih riječi dobrodošlice, vrpcu su presjekle direktorica Instituta za razvoj preduniverzitetskog obrazovanja, Senada Salihović, i direktorica Škole, Amira Kadrispahić.
+</p>
+<p className="mb-4 text-blueGray-500">
+Aula hola obilovala je štandovima Preduzeća za vježbu, gdje je kreativnost učenica i učenika došla do punog izražaja. Pečat ovogodišnjem Sajmu dali su učesnici i drugih škola: JU Srednja poslovno-komercijalna i trgovačka škola, Srednja škola primijenjenih umjetnosti, Sarajevo, JU Srednja ugostiteljsko-turistička škola, Sarajevo i JU Srednja škola Busovača.
+</p>
+<p className="mb-4 text-blueGray-500">
+Prostor fiskulturne sale, kojeg je, u centralnom dijelu, krasila bosanska soba u kojoj se služila bosanska kahva iz velike džezve, bio je ispunjen prelijepim štandovima naših partnera: Internacionalni univerzitet Travnik, Sparkasse banka, Ekonomski fakultet Univerziteta u Sarajevu, Internacionalni Burch Univerzitet (IBU), Internacionalni univerzitet u Sarajevu (IUS), Homework HUB, Turistička zajednica KS, University of Applied Sciences Baltazar, Zaprešić, Avdić 3A Podravka, Dobra knjiga, Naklada Mate, Neum, Porodično pčelarstvo Strgačina, Čarolija - svijeće, sapuni i soli, Ameline rukotvorine, MK Choco.
+</p>
+<p className="mb-4 text-blueGray-500">
+Sajam je i ove godine obogaćen edukativnim radionicama, koje su realizovali vrhunski ekonomski stručnjaci, kojima smo neizmijerno zahvalni za maksimalnu podršku i dugogodišnju saradnju:
+</p>
+<p className="mb-4 text-blueGray-500">
+Institucionalna mreža monetarne stabilnosti BiH – Agencija za bankarstvo, Centralna banka, Agencija za osiguranje depozita, Federalni zavod za statistiku, Marketinška agencija DIGITAL2.
+</p>
+<p className="mb-4 text-blueGray-500">
+U želji da osnovci i srednjoškolci, barem na trenutak, ne koriste mobitele te da osjete draž zajedničkog druženja i međusobne povezanosti, organizovali smo društvene igre, a za pripadnice ljepšeg spola šminkanje prirodnom kozmetikom i ukrašavanje kanom.
+</p>
+<p className="mb-4 text-blueGray-500">
+Zahvaljujemo svim učesnicima, koji su, na bilo koji način, doprinijeli uspješnoj realizaciji Sajma, a posebnu zahvalnost iskazujemo našim sponzorima: Union banci, Raiffeisen banci, Bambus cvjećari, Sarajevskoj pivari, mesari Semić, pekari Sito te medijskom sponzoru  – TVSA</p>
+
+</span>
+                  </div>
+                 <div className="w-full md:w-9/12 ml-auto mr-auto px-4" style={{paddingBottom: "5%"}}>    
+                  <video src="/eksp1.mp4" width="800" height="600" controls="controls" className="w-full align-middle rounded-lg"/> 
+                  
+          
+               
+           </div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
