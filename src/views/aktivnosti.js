@@ -1903,6 +1903,17 @@ import mark6 from '@/views/images/mark6.jpg';
 import mark7 from '@/views/images/mark7.jpg';
 import mark8 from '@/views/images/mark8.jpg';
 
+import smajkanov1 from '@/views/images/smajkanov1.jpg';
+import smajkanov2 from '@/views/images/smajkanov2.jpg';
+import smajkanov3 from '@/views/images/smajkanov3.jpg';
+
+import safet1 from '@/views/images/safet1.jpg';
+import safet2 from '@/views/images/safet2.jpg';
+import safet3 from '@/views/images/safet3.jpg';
+
+import ajla1 from '@/views/images/ajla1.jpg';
+import ajla2 from '@/views/images/ajla2.jpg';
+
 const Aktivnosti = () => {
   useEffect(() => {
     AOS.init({duration: 2000});
@@ -1922,6 +1933,196 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Ajla Ramić - 2. mjesto na kantonalnom takmičenju iz nastavnog predmeta Bosanski jezik i književnost, Hrvatski jezik i književnost, Srpski jezik i književnost
+
+
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={ajla1} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={ajla2} alt="" />
+                    </div> 
+                 
+                   
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+
+<p className="mb-4 text-blueGray-500">
+U organizaciji Ministarstva za odgoj i obrazovanje Kantona Sarajevo i Instituta za razvoj preduniverzitetskog obrazovanja Kantona Sarajevo, 7. maja 2026. godine, u prostorijama Četvrte gimnazije na Ilidži, održano je kantonalno takmičenje za učenike 2. razreda srednjih stručnih i tehničkih škola Kantona Sarajevo iz nastavnog predmeta Bosanski jezik i književnost, Hrvatski jezik i književnost, Srpski jezik i književnost.
+</p>
+<p className="mb-4 text-blueGray-500">
+Našu školu je uspješno predstavljala učenica II-3 razreda Ajla Ramić, osvojivši 2. mjesto, pod mentorstvom predmetne profesorice Dženane Tanović-Hamzić. 
+</p>
+<p className="mb-4 text-blueGray-500">
+Ovaj uspjeh potvrđuje dugogodišnji predan rad i kontinuiran uspjeh naše škole i naših učenika u oblastima književnosti, gramatike, pravopisa te funkcionalne i medijske pismenosti. 
+</p>
+<p className="mb-4 text-blueGray-500">
+Zahvaljujemo se na još jednoj značajnoj promociji naše škole i uvijek  se radujemo uspjesima naših učenika koji im otvaraju vrata ka univerzitetskom obrazovanju i društveno-korisnom radu i  angažmanu.</p>
+
+
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Učenici II-1 prisustvovali otkrivanju biste dr. Safvet-bega Bašagića
+
+
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={safet1} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={safet2} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={safet3} alt="" />
+                    </div> 
+                   
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+
+<p className="mb-4 text-blueGray-500">
+U Parku Jelene Vitas u Sarajevu 8. maja 2026. godine svečano je otkrivena bista dr. Safvet-bega Bašagića, jednog od najznačajnijih bosanskohercegovačkih i bošnjačkih kulturnih i književnih stvaralaca.
+</p>
+<p className="mb-4 text-blueGray-500">
+Ceremoniji su prisustvovali brojni zvaničnici Vlade Kantona Sarajevo, gradskih i općinskih struktura, kao i predstavnici osnovnih i srednjih škola.
+</p>
+<p className="mb-4 text-blueGray-500">
+Na poziv predsjednika Bošnjačke zajednice kulture, prof. dr. Sanjina Kodrića, čijom je inicijativom izrađena bista, učenici i učenice naše škole prisustvovali su ovom značajnom događaju.
+</p>
+<p className="mb-4 text-blueGray-500">
+Povodom 156. godišnjice rođenja našeg velikog pisca, čast da izradi bistu pripala je akademskom skulptoru i profesoru Adisu Lukaču. Profesorica Dženana Tanović-Hamzić održala je učenicima kraći čas o značaju ovog pisca, a učenici su posjetili i mezar dr. Safvet-bega Bašagića, koji se nalazi u haremu Gazi Husrev-begove džamije.
+</p>
+
+
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Promocija knjige „Smajkanov“ održana u Gazi Husrev-begovoj biblioteci
+
+
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={smajkanov1} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={smajkanov2} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={smajkanov3} alt="" />
+                    </div> 
+                   
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+
+<p className="mb-4 text-blueGray-500">
+U organizaciji biblioteka iz Tuzle i Sarajeva, 29. aprila 2026. godine u Sarajevu je promovisan roman „Smajkanov“ autora Fajke Kadrića. Promotori su istakli da autor u romanu govori o proboju iz Srebrenice i izlasku na slobodnu teritoriju u julu 1995. godine.
+</p>
+<p className="mb-4 text-blueGray-500">
+Autor je istakao da se, govoreći o genocidu počinjenom u zaštićenoj zoni Srebrenice, nije dovoljno govorilo o herojskim danima borbe za Srebrenicu i proboju do slobodne teritorije. Dodao je da važnost ove knjige leži u činjenici da je priča ispričana kroz lik junaka – čovjeka koji je sposoban da se nosi s nedaćama ne tražeći sažaljenje, ističući ponos svog naroda.
+</p>
+<p className="mb-4 text-blueGray-500">
+Naša škola je, na poziv Instituta za razvoj preduniverzitetskog obrazovanja Kantona Sarajevo, prisustvovala ovom edukativnom i emotivnom događaju. Učenici i učenice odjeljenja II-1 i II-2, u pratnji profesorica Dženane Tanović-Hamzić i Azemine Hujdur, bili su sretni što su prisustvovali ovoj promociji i da su važne poruke da se historijski dokazane činjenice ne smiju zaboraviti te da s ponosom trebamo gledati u budućnost jedine nam domovine Bosne i Hercegovine.
+</p>
+
+
+
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
