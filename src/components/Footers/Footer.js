@@ -32,7 +32,7 @@ export default function Footer() {
           <div className="flex flex-wrap text-center lg:text-left">
             <div className="w-full lg:w-6/12 px-4 ml-auto">
               <h4 className="text-4xl font-semibold">Pogledajte naš digitalni časopis!</h4><br></br>
-              <a href="https://www.canva.com/design/DAGIZScuSOo/YDj-eFsFkotbRdHBgJx85w/view?utm_content=DAGIZScuSOo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h09f5e91723#1" target="_blank" rel="noreferrer">
+              <a href="https://drive.google.com/file/d/1q0lWcdx707nYjSmvfc1mDwQNYXcKLes5/view?usp=sharing">
               <Image src={časopis} alt="Logo" className="lg:w-4/12 px-2 ml-auto inline-block"/></a>
               
             </div>
