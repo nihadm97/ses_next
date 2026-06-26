@@ -1914,6 +1914,25 @@ import safet3 from '@/views/images/safet3.jpg';
 import ajla1 from '@/views/images/ajla1.jpg';
 import ajla2 from '@/views/images/ajla2.jpg';
 
+import eminee1 from '@/views/images/eminee1.jpg';
+import eminee2 from '@/views/images/eminee2.jpg';
+
+import dipe1 from '@/views/images/dipe1.jpg';
+import dipe2 from '@/views/images/dipe2.jpg';
+import dipe3 from '@/views/images/dipe3.jpg';
+import dipe4 from '@/views/images/dipe4.jpg';
+import dipe5 from '@/views/images/dipe5.jpg';
+import dipe6 from '@/views/images/dipe6.jpg';
+import dipe7 from '@/views/images/dipe7.jpg';
+
+import festa1 from '@/views/images/festa1.jpg';
+import festa2 from '@/views/images/festa2.jpg';
+import festa3 from '@/views/images/festa3.jpg';
+
+import opk1 from '@/views/images/opk1.jpg';
+import opk2 from '@/views/images/opk2.jpg';
+import opk3 from '@/views/images/opk3.jpg';
+
 const Aktivnosti = () => {
   useEffect(() => {
     AOS.init({duration: 2000});
@@ -1933,6 +1952,337 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">SEŠ na Festivalu igara mladih!
+
+
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={festa1} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={festa2} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={festa3} alt="" />
+                    </div> 
+                   
+                   
+                 
+                   
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+
+<p className="mb-4 text-blueGray-500">
+U organizaciji Općine Novo Sarajevo, od 1. do 5. juna 2026. godine, održan je Festival igara mladih, sportsko-rekreativna manifestacija koja je okupila veliki broj učenika s područja općine s ciljem promocije sporta, zdravog načina života, druženja i timskog duha među mladima.
+Takmičenja su održana na Grbavici, u dvorištu JU OŠ Grbavica II, koje je tokom pet dana bilo mjesto susreta, sportskih nadmetanja i pozitivne energije. Festival je učenicima pružio priliku da pokažu svoje sportske vještine, razvijaju prijateljstva i steknu nova iskustva kroz različite sportske discipline.
+Naša Srednja ekonomska škola s ponosom je učestvovala u ovom značajnom događaju i dala svoj doprinos kroz takmičenja u atletici, fudbalu, košarci, stonom tenisu i štafetnim igrama. Tokom svih takmičarskih dana naši učenici pokazali su izuzetnu posvećenost, odgovornost, sportsko ponašanje i želju za ostvarivanjem što boljih rezultata.
+</p>
+<p className="mb-4 text-blueGray-500">
+Posebno smo ponosni na uspjehe naših ekipa. Nakon niza kvalitetnih nastupa i uzbudljivih utakmica, učenici naše škole osvojili su 𝒑𝒓𝒗𝒐 𝒎𝒋𝒆𝒔𝒕𝒐 𝒖 𝒇𝒖𝒅𝒃𝒂𝒍𝒖, demonstrirajući odličnu timsku igru, disciplinu i sportski duh. Jednako uspješni bili su i naši košarkaši, koji su zahvaljujući predanosti, zajedništvu i kvalitetnoj igri zasluženo osvojili 𝒑𝒓𝒗𝒐 𝒎𝒋𝒆𝒔𝒕𝒐 𝒖 𝒌𝒐𝒔̌𝒂𝒓𝒄𝒊.
+Naši učenici uspješno su predstavljali školu i u disciplinama atletike, stonog tenisa i štafetnih igara. Njihovo zalaganje, upornost i takmičarski duh doprinijeli su ukupnom uspjehu škole i još jednom pokazali da naši učenici ostvaruju zapažene rezultate, kako u obrazovanju tako i u sportu.
+Festival igara mladih još jednom je potvrdio koliko je sport važan za odrastanje i razvoj mladih ljudi. Kroz druženje, međusobno poštovanje, fer-plej i zajednički rad učenici su razvijali vrijednosti koje će ih pratiti i izvan sportskih terena.
+</p>
+<p className="mb-4 text-blueGray-500">
+Ostvareni uspjesi rezultat su predanog rada učenika, podrške nastavnika i zajedničkog zalaganja svih koji su učestvovali u pripremama za ovo takmičenje.
+👏 Čestitamo svim učesnicima Festivala igara mladih, a posebno našim osvajačima prvog mjesta u fudbalu i košarci. Želimo im mnogo uspjeha u budućim sportskim i životnim izazovima!
+🏆⚽🏀🏓🏃‍♀️🏃‍♂️Bravo za naše učenike koji su svojim trudom, talentom i sportskim duhom na najbolji način predstavili Srednju ekonomsku školu i učinili nas ponosnim! 
+</p>
+
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Dan kada se zatvaraju vrata jednog poglavlja, a otvaraju putevi ka snovima.
+
+
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={dipe1} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={dipe2} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={dipe3} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={dipe4} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={dipe5} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={dipe6} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={dipe7} alt="" />
+                    </div> 
+                   
+                 
+                   
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+
+<p className="mb-4 text-blueGray-500">
+U četvrtak, 18. juna 2026. godine, Srednja ekonomska škola, Sarajevo ispunila se ponosom, emocijama, osmijesima i ponekom suzom radosnicom povodom svečane dodjele diploma našim maturantima i maturanticama.
+Čini se kao da je jučer zazvonilo prvo školsko zvono koje ih je dočekalo na početku ovog putovanja, a danas ih ispraćamo kao mlade, odgovorne, obrazovane i ambiciozne ljude spremne da osvoje nove životne horizonte. Iza njih su godine ispunjene učenjem, odrastanjem, izazovima, uspjesima, prijateljstvima, ekskurzijama, školskim projektima i nezaboravnim trenucima, koji će zauvijek ostati dio njihovih najljepših uspomena.
+Svaka diploma koja je uručena nosi mnogo više od ocjena i uspješno završenih školskih obaveza. Ona predstavlja sate truda, odricanja, upornosti i vjerovanja u vlastite mogućnosti. Ona je dokaz da se rad, znanje i predanost uvijek isplate. 
+</p>
+<p className="mb-4 text-blueGray-500">
+Danas ne slavimo samo kraj srednjoškolskog obrazovanja. Slavimo mladost, snove, hrabrost da se krene naprijed i vjeru u budućnost. Posebno smo ponosni na generaciju koja je ostavila poseban trag u srcima svojih profesora, profesorica, razrednika, razrednica te svih zaposlenika i zaposlenica Škole.
+Dragi maturanti i maturantice, dok odlazite u susret fakultetima, karijerama i životnim izazovima, ponesite sa sobom znanje koje ste stekli, prijateljstva koja ste izgradili i vrijednosti koje će vas voditi kroz život. Neka vas prate radoznalost, hrabrost i vjera u sebe, čak i onda kada putevi budu neizvjesni.
+Znajte da će vrata vaše škole uvijek ostati otvorena za vas i da ćemo s ponosom pratiti svaki vaš uspjeh. Gdje god vas život odvede, dio vas zauvijek će ostati u učionicama, hodnicima i uspomenama Srednje ekonomske škole, Sarajevo.
+</p>
+<p className="mb-4 text-blueGray-500">
+Dragi maturanti i maturantice, ne opraštamo se od vas – samo vas ispraćamo prema novim snovima. Želimo da vam budućnost bude ispunjena srećom, uspjehom, ljubavlju i prilikama koje zaslužujete. Budite hrabri, budite svoji i nikada ne prestajte vjerovati da možete ostvariti sve što zamislite. Neka vam uspomene koje nosite iz naše škole budu svjetionik na vašem životnom putu, snaga u trenucima iskušenja i trajni podsjetnik na prijateljstva, znanje i vrijednosti koje ste ovdje stekli!
+Sretno, draga generacijo 2026. godine!
+Vaša škola i vaši profesori uvijek će biti ponosni na vas!
+</p>
+
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">EMIN DEMIĆ OSVOJIO BRONZANU MEDALJU NA EVROPSKOM KLUPSKOM PRVENSTVU U TAEKWONDOU!
+
+
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={eminee1} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={eminee2} alt="" />
+                    </div> 
+                 
+                   
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+
+<p className="mb-4 text-blueGray-500">
+S velikim ponosom dijelimo vijest o izuzetnom uspjehu našeg učenika Emina Demića iz II-2 odjeljenja, člana 𝑇𝑎𝑒𝑘𝑤𝑜𝑛𝑑𝑜 𝑘𝑙𝑢𝑏𝑎 𝑆̌𝑎𝑚𝑝𝑖𝑜𝑛, koji je na Evropskom klupskom prvenstvu u taekwondou, održanom od 18. do 20. juna 2026. godine u Sarajevu, osvojio bronzanu medalju u juniorskoj konkurenciji.
+</p>
+<p className="mb-4 text-blueGray-500">
+Ovo prestižno takmičenje okupilo je čak 1.737 takmičara iz 52 države i 480 klubova, što njegov uspjeh čini još značajnijim.
+Zahvaljujući dosadašnjim rezultatima i ostvarenim bodovima na evropskoj rang-listi, Emin trenutno zauzima drugo mjesto u Evropi u svojoj kategoriji te je uspješno izborio plasman na Evropsko U21 prvenstvo. Pred njim je i mogućnost nastupa na Olimpijadi mladih, koja će biti održana u novembru ove godine.
+</p>
+<p className="mb-4 text-blueGray-500">
+Na putu do evropske bronze ostvario je vrijedne pobjede nad predstavnicima Turske, a svojim odličnim nastupima osigurao mjesto na pobjedničkom postolju. U polufinalu je pružio sjajnu borbu i nakon izuzetno neizvjesnog meča osvojio bronzano odličje.
+Ovaj rezultat predstavlja krunu predanog rada, discipline, upornosti i sportskog duha te je razlog za ponos ne samo njegovog kluba, već i naše škole.
+</p>
+<p className="mb-4 text-blueGray-500">
+Čestitamo Eminu na ovom velikom uspjehu i želimo mu mnogo sreće, zdravlja i novih sportskih dostignuća na predstojećim evropskim i međunarodnim takmičenjima. Sigurni smo da je ovo tek jedan od mnogih uspjeha koji ga očekuju u budućnosti.
+Bravo, Emine, i sretno u nastavku sportske karijere!
+</p>
+
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Učenje kroz izazove u Sarajevskoj vijećnici – Kulturni marketing u praksi
+
+
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={opk1} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={opk2} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={opk3} alt="" />
+                    </div> 
+                 
+                   
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+
+<p className="mb-4 text-blueGray-500">
+Učenici i učenice II-4 odjeljenja i profesorica Indira Zeković posjetili su izložbu „Opkoljeno Sarajevo“ u Historijskom muzeju Bosne i Hercegovine, gdje su imali priliku upoznati se sa svakodnevnim životom građana Sarajeva tokom opsade.
+</p>
+<p className="mb-4 text-blueGray-500">
+Pored historijskog značaja, izložba pruža i vrijedan uvid u ekonomske izazove s kojima su se građani suočavali. Nestašice hrane, vode, električne energije i drugih osnovnih dobara dovele su do promjena u načinima proizvodnje, razmjene i potrošnje. Učenici su mogli uočiti kako su se u kriznim okolnostima razvijali alternativni oblici snabdijevanja, prilagođavanja i racionalnog upravljanja ograničenim resursima.
+</p>
+<p className="mb-4 text-blueGray-500">
+Posjeta je bila prilika da se teorijska znanja iz ekonomije povežu sa stvarnim životnim situacijama te da učenici bolje razumiju kako ekonomski procesi funkcionišu u vanrednim okolnostima. Istovremeno, upoznali su se s primjerima otpornosti, inovativnosti i solidarnosti građana Sarajeva u periodu velikih izazova.
+Kroz ovakve aktivnosti učimo da ekonomija nije samo skup brojeva i teorija, već nauka koja direktno utiče na svakodnevni život ljudi, posebno u vremenima krize.
+</p>
+
+
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Učenje kroz izazove u Sarajevskoj vijećnici – Kulturni marketing u praksi
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                                    <video src="/Muzej.mp4" width="800" height="600" controls="controls" className="w-full align-middle rounded-lg"/> 
+
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+Kako kulturne institucije mogu privući više posjetilaca i unaprijediti vlastite prihode?
+U okviru nastave i primjene savremenog pristupa 𝒖𝒄̌𝒆𝒏𝒋𝒖 𝒏𝒂 𝒃𝒂𝒛𝒊 𝒊𝒛𝒂𝒛𝒐𝒗𝒂 (𝑪𝒉𝒂𝒍𝒍𝒆𝒏𝒈𝒆-𝑩𝒂𝒔𝒆𝒅 𝑳𝒆𝒂𝒓𝒏𝒊𝒏𝒈, učenici i učenice II-5 odjeljenja, zajedno s profesoricom Indirom Zeković, posjetili su Sarajevsku vijećnicu, jedan od najznačajnijih simbola kulturne i historijske baštine Sarajeva.
+Posjeta je realizovana s ciljem povezivanja teorijskih znanja iz oblasti marketinga sa stvarnim poslovnim izazovima kulturnih institucija. Učenici su imali priliku upoznati se s historijskim značajem Vijećnice, njenom turističkom i kulturnom ulogom te analizirati načine na koje kulturne ustanove mogu unaprijediti svoju vidljivost, povećati broj posjetilaca i osigurati održive izvore finansiranja.
+</p>
+<p className="mb-4 text-blueGray-500">
+Kroz metodologiju učenja na bazi izazova učenici su istraživali konkretan problem: 𝑲𝒂𝒌𝒐 𝒑𝒐𝒗𝒆𝒄́𝒂𝒕𝒊 𝒑𝒓𝒊𝒉𝒐𝒅𝒆 𝒌𝒖𝒍𝒕𝒖𝒓𝒏𝒊𝒉 𝒊𝒏𝒔𝒕𝒊𝒕𝒖𝒄𝒊𝒋𝒂 𝒖𝒛 𝒐𝒄̌𝒖𝒗𝒂𝒏𝒋𝒆 𝒏𝒋𝒊𝒉𝒐𝒗𝒆 𝒌𝒖𝒍𝒕𝒖𝒓𝒏𝒆 𝒊 𝒅𝒓𝒖𝒔̌𝒕𝒗𝒆𝒏𝒆 𝒎𝒊𝒔𝒊𝒋𝒆? Tokom aktivnosti razvijali su ideje za promociju kulturnih sadržaja putem digitalnih kanala, kreiranje novih turističkih i edukativnih programa, unapređenje korisničkog iskustva te uspostavljanje saradnje s obrazovnim ustanovama, kompanijama i lokalnom zajednicom.
+Pored marketinškog aspekta, učenici su imali priliku upoznati bogato kulturno i historijsko naslijeđe Vijećnice kroz obilazak stalnih i tematskih postavki. Posjetili su 𝒌𝒐𝒍𝒆𝒌𝒄𝒊𝒋𝒖 𝑴𝒖𝒛𝒆𝒋𝒂 𝒔𝒂𝒗𝒓𝒆𝒎𝒆𝒏𝒆 𝒖𝒎𝒋𝒆𝒕𝒏𝒐𝒔𝒕𝒊 𝑨𝒓𝒔 𝑨𝒆𝒗𝒊, 𝒔𝒕𝒂𝒍𝒏𝒖 𝒊𝒛𝒍𝒐𝒛̌𝒃𝒆𝒏𝒖 𝒑𝒐𝒔𝒕𝒂𝒗𝒌𝒖 „𝑽𝒊𝒋𝒆𝒄́𝒏𝒊𝒄𝒂“, 𝒈𝒂𝒍𝒆𝒓𝒊𝒋𝒖 𝒑𝒐𝒓𝒕𝒓𝒆𝒕𝒂 𝒈𝒓𝒂𝒅𝒐𝒏𝒂𝒄̌𝒆𝒍𝒏𝒊𝒌𝒂 𝑺𝒂𝒓𝒂𝒋𝒆𝒗𝒂 𝒐𝒅 1878. 𝒈𝒐𝒅𝒊𝒏𝒆, 𝒔𝒐𝒃𝒖 „25. 𝒏𝒐𝒗𝒆𝒎𝒃𝒂𝒓“, 𝒎𝒆𝒎𝒐𝒓𝒊𝒋𝒂𝒍𝒏𝒖 𝒔𝒐𝒃𝒖 „𝑭𝒓𝒂𝒏𝒛 & 𝑺𝒐𝒑𝒉𝒊𝒆“ 𝒕𝒆 𝒔𝒕𝒂𝒍𝒏𝒖 𝒑𝒐𝒔𝒕𝒂𝒗𝒌𝒖 𝒇𝒓𝒂𝒈𝒎𝒆𝒏𝒂𝒕𝒂 𝑽𝒊𝒋𝒆𝒄́𝒏𝒊𝒄𝒆  pronađenih i sačuvanih tokom rekonstrukcije od 1996. do 2014. godine.
+Poseban doživljaj predstavljala je 𝒊𝒛𝒍𝒐𝒛̌𝒃𝒂 „𝑺𝒂𝒓𝒂𝒋𝒆𝒗𝒔𝒌𝒆 𝒌𝒖𝒄́𝒆“ izuzetnog akademskog slikara i grafičara Safeta Zeca, organizovana u okviru obilježavanja 𝟏𝟑𝟎 𝐠𝐨𝐝𝐢𝐧𝐚 𝐕𝐢𝐣𝐞𝐜́𝐧𝐢𝐜𝐞. Kroz motive starih kuća, prozora i avlija umjetnik oživljava atmosferu prošlih vremena, evocirajući duh starog Sarajeva, njegove mahale, dvorišta i porodični život. Njegova djela nisu samo prikazi arhitekture, već simboli sjećanja, identiteta i kulturnog naslijeđa.
+</p>
+<p className="mb-4 text-blueGray-500">
+U ambijentu koji spaja vrhunsku umjetnost i bogatu historiju, učenici su imali priliku promišljati o tome kako se kulturna baština može uspješno predstaviti savremenoj publici i kako marketing može doprinijeti očuvanju i promociji kulturnih vrijednosti.
+Ovakav oblik nastave omogućava učenicima da uče iz autentičnih situacija, razvijaju kritičko mišljenje, kreativnost i poduzetnički način razmišljanja te stečena znanja primjenjuju u rješavanju stvarnih izazova iz poslovnog i društvenog okruženja.
+Posjeta Vijećnici još jednom je pokazala da kulturne institucije nisu samo čuvari prošlosti, već i važni akteri razvoja kreativne ekonomije, turizma i savremenog marketinga.
+✨ 𝒁𝒏𝒂𝒏𝒋𝒆 𝒔𝒕𝒊𝒄̌𝒆𝒎𝒐 𝒊𝒔𝒕𝒓𝒂𝒛̌𝒊𝒗𝒂𝒏𝒋𝒆𝒎, 𝒂 𝒊𝒛𝒂𝒛𝒐𝒗𝒆 𝒑𝒓𝒆𝒕𝒗𝒂𝒓𝒂𝒎𝒐 𝒖 𝒑𝒓𝒊𝒍𝒊𝒌𝒆 𝒛𝒂 𝒖𝒄̌𝒆𝒏𝒋𝒆 𝒊 𝒓𝒂𝒛𝒗𝒐𝒋!
+</p>
+
+</span>
+                  </div>
+                
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
