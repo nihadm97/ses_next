@@ -1933,6 +1933,19 @@ import opk1 from '@/views/images/opk1.jpg';
 import opk2 from '@/views/images/opk2.jpg';
 import opk3 from '@/views/images/opk3.jpg';
 
+import marrr1 from '@/views/images/marrr1.jpg';
+import marrr2 from '@/views/images/marrr2.jpg';
+import marrr3 from '@/views/images/marrr3.jpg';
+import marrr4 from '@/views/images/marrr4.jpg';
+import marrr5 from '@/views/images/marrr5.jpg';
+import marrr6 from '@/views/images/marrr6.jpg';
+
+import mostbro1 from '@/views/images/mostbro1.jpg';
+import mostbro2 from '@/views/images/mostbro2.jpg';
+import mostbro3 from '@/views/images/mostbro3.jpg';
+import mostbro4 from '@/views/images/mostbro4.jpg';
+
+
 const Aktivnosti = () => {
   useEffect(() => {
     AOS.init({duration: 2000});
@@ -1952,6 +1965,198 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Vrijedna donacija za kabinete informatike naše škole
+
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={mostbro1} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={mostbro2} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={mostbro3} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={mostbro4} alt="" />
+                    </div> 
+                  
+                   
+                 
+                   
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+
+<p className="mb-4 text-blueGray-500">
+JU Srednja ekonomska škola Sarajevo s velikim zadovoljstvom izražava iskrenu zahvalnost udruženju 𝑴𝒐𝒔𝒕 𝑩𝒓𝒐, humanitarnoj organizaciji Bošnjaka u Danskoj, na vrijednoj donaciji stolica na točkiće za kabinete informatike.
+</p>
+<p className="mb-4 text-blueGray-500">
+Zahvaljujući ovoj donaciji, u potpunosti su opremljena sva četiri kabineta informatike, čime su dodatno unaprijeđeni uslovi za izvođenje savremene nastave i praktičnog rada. 
+Naši učenici i nastavnici sada imaju još funkcionalniji, ugodniji i podsticajniji prostor za sticanje znanja, razvoj digitalnih vještina i usvajanje kompetencija neophodnih za izazove današnjeg vremena.
+</p>
+<p className="mb-4 text-blueGray-500">
+Posebno nas raduje što postoje organizacije koje prepoznaju važnost ulaganja u obrazovanje i koje svojim djelovanjem daju snažan doprinos stvaranju kvalitetnijeg okruženja za odrastanje i 
+obrazovanje mladih generacija.
+</p>
+<p className="mb-4 text-blueGray-500">
+Od srca zahvaljujemo udruženju 𝑴𝒐𝒔𝒕 𝑩𝒓𝒐 na ukazanom povjerenju, nesebičnoj podršci i prijateljstvu koje gradimo kroz uspješnu saradnju. Vjerujemo da ćemo i u budućnosti zajednički realizovati projekte koji će doprinositi razvoju naše škole i stvaranju još boljih uslova za naše učenike.
+</p>
+<p className="mb-4 text-blueGray-500">
+Zajedno gradimo školu u kojoj je ulaganje u znanje ulaganje u budućnost. 
+</p>
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+    <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Marš mira Srebrenica 2026 – Koraci koji čuvaju sjećanje
+
+
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={marrr1} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={marrr2} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={marrr3} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={marrr4} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={marrr5} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={marrr6} alt="" />
+                    </div> 
+                   
+                   
+                 
+                   
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+
+<p className="mb-4 text-blueGray-500">
+Postoje putevi koji se ne prelaze samo nogama, već i srcem. 𝑀𝑎𝑟𝑠̌ 𝑚𝑖𝑟𝑎 upravo je jedan od njih.
+Naši učenici 𝑬𝒎𝒂𝒏 𝑶𝒓𝒖𝒄̌, 𝑲𝒆𝒓𝒊𝒎 𝑩𝒂𝒋𝒓𝒂𝒎𝒐𝒗𝒊𝒄́ 𝒊 𝑨𝒉𝒎𝒆𝒅 𝑭𝒆𝒋𝒛𝒂𝒈𝒊𝒄́ imali su čast učestvovati u 𝑀𝑎𝑟𝑠̌𝑢 𝑚𝑖𝑟𝑎 𝑆𝑟𝑒𝑏𝑟𝑒𝑛𝑖𝑐𝑎 2026, memorijalnom pohodu kojim se odaje počast žrtvama genocida u Srebrenici i čuva sjećanje na više od osam hiljada žrtava genocida.</p>
+<p className="mb-4 text-blueGray-500">
+Svaki pređeni kilometar bio je podsjetnik na važnost istine, ljudskog dostojanstva i odgovornosti da se prošlost nikada ne zaboravi.
+𝑴𝒊𝒏𝒊𝒔𝒕𝒂𝒓𝒔𝒕𝒗𝒐 𝒛𝒂 𝒐𝒅𝒈𝒐𝒋 𝒊 𝒐𝒃𝒓𝒂𝒛𝒐𝒗𝒂𝒏𝒋𝒆 𝑲𝒂𝒏𝒕𝒐𝒏𝒂 𝑺𝒂𝒓𝒂𝒋𝒆𝒗𝒐 𝒊 𝑰𝒏𝒔𝒕𝒊𝒕𝒖𝒕 𝒛𝒂 𝒓𝒂𝒛𝒗𝒐𝒋 𝒑𝒓𝒆𝒅𝒖𝒏𝒊𝒗𝒆𝒓𝒛𝒊𝒕𝒆𝒕𝒔𝒌𝒐𝒈 𝒐𝒃𝒓𝒂𝒛𝒐𝒗𝒂𝒏𝒋𝒂 𝑲𝒂𝒏𝒕𝒐𝒏𝒂 𝑺𝒂𝒓𝒂𝒋𝒆𝒗𝒐 (𝑰𝑹𝑷𝑶) i ove godine organizovali su učešće stotina srednjoškolaca i profesora u memorijalnom pohodu 𝑀𝑎𝑟𝑠̌ 𝑚𝑖𝑟𝑎, omogućavajući mladim generacijama da kroz lično iskustvo uče o značaju kulture sjećanja, mira, solidarnosti i međusobnog poštovanja.</p>
+<p className="mb-4 text-blueGray-500">
+S ponosom ističemo da su i učenici 𝑺𝒓𝒆𝒅𝒏𝒋𝒆 𝒆𝒌𝒐𝒏𝒐𝒎𝒔𝒌𝒆 𝒔̌𝒌𝒐𝒍𝒆 𝑺𝒂𝒓𝒂𝒋𝒆𝒗𝒐 bili dio ovog dostojanstvenog pohoda. Koordinatorica aktivnosti za našu školu bila je 𝑨𝒍𝒎𝒊𝒏𝒂 𝑯𝒐𝒅𝒛̌𝒊𝒄́, naša socijalna radnica, koja je svojim predanim radom, brigom i podrškom pratila učenike na ovom važnom putu.
+Na stazama kojima su nekada prolazili oni koji su tražili spas, naši učenici danas su koračali noseći poruku da istina živi kroz sjećanje, a sjećanje živi kroz mlade ljude koji su spremni učiti, razumjeti i čuvati vrijednosti mira i humanosti.
+</p>
+<p className="mb-4 text-blueGray-500">
+Ponosni smo na naše učenike koji su svojim dostojanstvenim učešćem pokazali zrelost, empatiju i duboko poštovanje prema žrtvama. Njihovi koraci nisu bili samo dio memorijalnog pohoda – bili su obećanje da će kultura sjećanja ostati trajna vrijednost koju će prenositi budućim generacijama.
+</p>
+
+
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+        <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">Svečano, dostojanstveno i nezaboravno!
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                                    <video src="/matura2026.mp4" width="800" height="600" controls="controls" className="w-full align-middle rounded-lg"/> 
+
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+<p className="mb-4 text-blueGray-500">
+Naši maturanti i maturantice generacije 2022–2026. obilježili su kraj srednjoškolskog obrazovanja svečanom maturskom proslavom u Hotelu Holiday.
+</p>
+<p className="mb-4 text-blueGray-500">
+Neka uspomene sa ove večeri ostanu trajni podsjetnik na prijateljstva, zajedništvo i godine provedene u školi. 
+</p>
+<p className="mb-4 text-blueGray-500">
+Svim maturantima želimo mnogo sreće, uspjeha i ostvarenih snova na njihovom budućem životnom i profesionalnom putu. 
+</p>
+
+</span>
+                  </div>
+                
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
