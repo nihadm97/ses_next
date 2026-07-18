@@ -1945,6 +1945,10 @@ import mostbro2 from '@/views/images/mostbro2.jpg';
 import mostbro3 from '@/views/images/mostbro3.jpg';
 import mostbro4 from '@/views/images/mostbro4.jpg';
 
+import adeja1 from '@/views/images/adeja1.jpg';
+import adeja2 from '@/views/images/adeja2.jpg';
+import adeja3 from '@/views/images/adeja3.jpg';
+
 
 const Aktivnosti = () => {
   useEffect(() => {
@@ -1965,6 +1969,81 @@ const Aktivnosti = () => {
   return (
     <>
     <Menu fixed/>
+      <section data-aos="fade-in" className="pb-20 bg-white w-full">
+          <div className="container mx-auto px-4">
+            <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
+              <h6 className="text-xl mb-1 font-semibold text-center uppercase">🌟 Naša učenica Adela Pajo među šest najboljih mladih poduzetnika i poduzetnica na Programu akceleratora omladinskog poduzetništva BiH Youth RISE! 🌟
+
+
+
+
+
+</h6>
+            </span>
+            <div className="flex flex-wrap">
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-lg">
+                  <div className="py-5 flex-auto">
+                  <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
+                      
+                  <div>
+                        <Image src={adeja1} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={adeja2} alt="" />
+                    </div> 
+                    <div>
+                        <Image src={adeja3} alt="" />
+                    </div> 
+                 
+                  
+                   
+                 
+                   
+                    
+                </Carousel>
+                    </div>
+                  </div>
+                </div>
+              <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
+                <div className="relative flex flex-col min-w-0 break-words bg-blueGray-200 w-full mb-8 shadow-">
+                  <div className="px-4 py-5 flex-auto">
+                  <span className="text-sm my-4 p-3 text-blueGray-700 rounded  border-solid border-blueGray-100">
+ 
+                  
+
+<p className="mb-4 text-blueGray-500">
+S velikim ponosom objavljujemo da je naša učenica Adela Pajo ostvarila izuzetan uspjeh na Programu akceleratora omladinskog poduzetništva BiH Youth RISE – Otpornost, inkluzija i održivo poduzetništvo mladih u BiH, osvojivši jednu od šest vrijednih nagrada u iznosu od 500 € za razvoj svoje poslovne ideje. 👏🏆
+</p>
+<p className="mb-4 text-blueGray-500">
+Posebno nas raduje što su Adela Pajo i Džejla Šarić iz Zenice proglašene pobjednicama SUMERO takmičenja za mlade poduzetnike i poduzetnice, čime je još jednom potvrđeno da se znanje, kreativnost i predan rad pretvaraju u konkretne rezultate.
+</p>
+<p className="mb-4 text-blueGray-500">
+Program je trajao tri mjeseca i okupio više od 100 mladih iz cijele Bosne i Hercegovine koji su kroz intenzivne edukacije, radionice i mentorski rad Melise Tolja, poduzetnice, konsultantice i business coacha, te Almira Paočića, magistra ekonomije, osnivača i direktora Centra za edukaciju i obrazovanje iz Tuzle, razvijali svoje poslovne ideje, usavršavali znanja iz marketinga, poslovnog modeliranja i finansijskog planiranja te pripremali završne prezentacije svojih projekata. Tokom programa, učesnici su svoje ideje dodatno unaprijedili i uspješno ih predstavili završnoj komisiji. Šest najboljih ideja nagrađeno je iznosom od po 500 €.
+</p>
+<p className="mb-4 text-blueGray-500">
+Podrška se ovdje ne završava! U narednom periodu nagrađeni učesnici nastavljaju rad na realizaciji svojih poslovnih ideja uz podršku mentora.
+</p>
+<p className="mb-4 text-blueGray-500">
+Kroz aktivno učešće u ovom inspirativnom programu, JU Srednja ekonomska škola Sarajevo pružila je učenicima priliku da razvijaju poduzetničke kompetencije. Aktivnosti u školi, pripremu, stručnu podršku i motivaciju učenicima za razvoj poduzetničkog razmišljanja tokom realizacije programa vodila je profesorica Indira Zeković.
+</p>
+<p className="mb-4 text-blueGray-500">
+Ovaj uspjeh potvrđuje da se znanje, kreativnost, upornost i kvalitetno mentorstvo pretvaraju u konkretne rezultate te predstavlja snažan poticaj svim mladima da vjeruju u svoje ideje i hrabro ih razvijaju.
+</p>
+<p className="mb-4 text-blueGray-500">
+Čestitamo našoj Adeli na ovom izvanrednom postignuću i želimo joj mnogo uspjeha u daljoj realizaciji njene poslovne ideje! 💙
+</p>
+<p className="mb-4 text-blueGray-500">
+👏 Čestitamo i svim učesnicima programa koji su pokazali da mladi u Bosni i Hercegovini posjeduju znanje, inovativnost i poduzetnički duh za stvaranje uspješne budućnosti.
+</p>
+</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
