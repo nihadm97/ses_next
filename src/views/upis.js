@@ -14,6 +14,7 @@ import historija1 from '@/views/images/historija1.webp';
 import historija2 from '@/views/images/historija2.webp';
 import historija3 from '@/views/images/historija3.webp';
 import historija4 from '@/views/images/historija4.webp';
+import upisnovo from '@/views/images/upisnovo.jpg';
 import Image from 'next/image';
 
 
@@ -52,10 +53,10 @@ export default function Upis() {
     setToSend({ ...toSend, [e.target.name]: e.target.value });
   };
   const myRef = useRef(null)
-  const executeScroll = () => myRef.current.scrollIntoView() 
+  const executeScroll = () => myRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
   return (
     <>
-      <UpisNavbar transparent />
+      <UpisNavbar />
       <main>
         <div className="relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-75" style={{marginTop:"-5%"}}>
           <div
@@ -111,8 +112,8 @@ export default function Upis() {
               
 
 
-              <div onClick={executeScroll} className="w-full md:w-4/12 px-4 text-center">
-                <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+              <div className="w-full md:w-4/12 px-4 text-center">
+                <button type="button" onClick={executeScroll} className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg cursor-pointer">
                   <div className="px-4 py-5 flex-auto">
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5  shadow-lg rounded-full" style={{backgroundColor: "rgb(146, 208, 80)"}}>
                       
@@ -122,7 +123,7 @@ export default function Upis() {
                     Škola topline, sigurnosti i odgovornosti
                     </p>
                   </div>
-                </div>
+                </button>
               </div>
             
 
@@ -166,36 +167,36 @@ Ovo odlikovanje bilo je priznanje za sve generacije učenika, profesora i drugih
               <div className="justify-center flex flex-wrap relative">
                 <div className="my-4 w-full lg:w-6/12 px-4">
                       <Image
-                        alt="..."
+                        alt="Historijska fotografija zgrade škole – fotografija 1"
                         src={historija1}
                         width={"500"}
                         height={"300"}
-                        className="max-w-full rounded-lg shadow-lg"
+                        className="h-auto max-w-full rounded-lg shadow-lg"
                       />
                   <br></br>
                   <Image
-                        alt="..."
+                        alt="Historijska fotografija zgrade škole – fotografija 2"
                         src={historija2}
                         width={"500"}
                         height={"300"}
-                        className="max-w-full rounded-lg shadow-lg"
+                        className="h-auto max-w-full rounded-lg shadow-lg"
                       />
                 </div>
                 <div className="my-4 w-full lg:w-6/12 px-4 lg:mt-16">
                 <Image
-                        alt="..."
+                        alt="Historijska fotografija zgrade škole – fotografija 3"
                         src={historija3}
                         width={"500"}
                         height={"300"}
-                        className="max-w-full rounded-lg shadow-lg"
+                        className="h-auto max-w-full rounded-lg shadow-lg"
                       />
                   <br></br>
                   <Image
-                        alt="..."
+                        alt="Historijska fotografija zgrade škole – fotografija 4"
                         src={historija4}
                         width={"500"}
                         height={"300"}
-                        className="max-w-full rounded-lg shadow-lg"
+                        className="h-auto max-w-full rounded-lg shadow-lg"
                       />
                 </div>
               </div>
@@ -217,17 +218,17 @@ Ovo odlikovanje bilo je priznanje za sve generacije učenika, profesora i drugih
                 Koje zvanje se stiče?
 
                 </p>
-                <Link href="/" className="text-xl mb-4 font-bold text-blueGray-700 mt-8">
+                <h3 className="text-xl mb-4 font-bold text-blueGray-700 mt-8">
                 Koje zvanje se stiče?
-                </Link>
+                </h3>
                 <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-600">
-                Završetkom Srednje ekonomske škole, Sarajevo učenici stiču zvanje ekonomski tehničar ili bankarski tehničar čime se ostavlja mogučnost učenicima da upišu fakultet koji žele. 
+                Završetkom Srednje ekonomske škole, Sarajevo učenici stiču zvanje ekonomski tehničar ili bankarski tehničar čime se ostavlja mogućnost učenicima da upišu fakultet koji žele.
                 </p>
               </div>
 
               <div className="w-full md:w-4/12 px-4 mr-auto ml-auto" >
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-lightBlue-500" style={{backgroundColor: '#92d050'}}>
-                <img src="/upisnovo.jpg" alt="Logo" width={"100"} height={"100"} className="w-full align-middle rounded-t-lg"/>
+                <Image src={upisnovo} alt="Maturanti Srednje ekonomske škole s certifikatima" className="w-full h-auto align-middle rounded-t-lg" />
                   <blockquote className="relative p-8 mb-4" >
                     <svg
                       preserveAspectRatio="none"
@@ -368,7 +369,7 @@ Ovo odlikovanje bilo je priznanje za sve generacije učenika, profesora i drugih
                     <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
                       Pošaljite nam poruku...
                     </p>
-                    <h3 style={{color: "black"}}>{toReceive}</h3>
+                    <h3 aria-live="polite" style={{color: "black"}}>{toReceive}</h3>
                     <div className="relative w-full mb-3 mt-8">
                       <label
                         className="block uppercase text-blueGray-600 text-xs font-bold mb-2"
@@ -377,6 +378,7 @@ Ovo odlikovanje bilo je priznanje za sve generacije učenika, profesora i drugih
                         IME I PREZIME
                       </label>
                       <input
+                        id="full-name"
                         type="text"
                         className="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
                         placeholder="Ime Prezimenić"
@@ -394,6 +396,7 @@ Ovo odlikovanje bilo je priznanje za sve generacije učenika, profesora i drugih
                         EMAIL
                       </label>
                       <input
+                        id="email"
                         type="email"
                         className="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
                         placeholder="vaš_email@gmail.com"
@@ -410,6 +413,7 @@ Ovo odlikovanje bilo je priznanje za sve generacije učenika, profesora i drugih
                         MOBITEL
                       </label>
                       <input
+                        id="mobile"
                         type="text"
                         className="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
                         placeholder="063/123-456"
@@ -427,6 +431,7 @@ Ovo odlikovanje bilo je priznanje za sve generacije učenika, profesora i drugih
                         PORUKA
                       </label>
                       <textarea
+                        id="message"
                         rows="4"
                         cols="80"
                         className="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"

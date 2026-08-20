@@ -28,12 +28,11 @@ import eu from '@/views/images/eu.png';
 export default function Index() {
 
   const [users, setUsers] = useState([]);
-  const usersCollectionRef = collection(db, "1");
 
   useEffect(() => {
     AOS.init({duration: 2000});
     const getUsers = async () => {
-      const data = await getDocs(usersCollectionRef);
+      const data = await getDocs(collection(db, "1"));
       setUsers(data.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
     };
 
@@ -41,11 +40,10 @@ export default function Index() {
   }, []);
 
   const [users1, setUsers1] = useState([]);
-  const usersCollectionRef1 = collection(db, "2");
 
   useEffect(() => {
     const getUsers1 = async () => {
-      const data = await getDocs(usersCollectionRef1);
+      const data = await getDocs(collection(db, "2"));
       setUsers1(data.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
     };
 
@@ -53,19 +51,6 @@ export default function Index() {
   }, []);
   const sortirani = [...users].sort((a, b) => b.Broj - a.Broj);
   const sortirani1 = [...users1].sort((a, b) => b.Broj - a.Broj);
-
-  const [isMobile, setIsMobile] = useState(false);
-
-  useEffect(() => {
-    const handleResize = () => {
-      setIsMobile(window.innerWidth <= 768); // Set the breakpoint for mobile screens
-    };
-
-    handleResize(); // Check screen size on component mount
-    window.addEventListener('resize', handleResize); // Add event listener on resize
-
-    return () => window.removeEventListener('resize', handleResize); // Clean up
-  }, []);
   
   return (
     <>
@@ -73,25 +58,25 @@ export default function Index() {
                backgroundSize: 'cover', alignSelf: 'center', minHeight: "800px"
             }}>
                 
-        <UpisNavbar fixed/>
-        <video src="/ses.mp4"  width="800" height="600" className="backgroundVideo" autoPlay playsinline loop muted/>
+        <UpisNavbar />
+        <video src="/ses.mp4" width="800" height="600" className="backgroundVideo hidden md:block" autoPlay playsInline loop muted/>
         <video src="/VideoP.mp4"  className="backgroundVideo block md:hidden"
         autoPlay
         loop
         muted
-        playsinline />
+        playsInline />
       
         <div className="container flex flex-wrap absolute">
       
 
           <div  className="flex flex-wrap py-2">
           <div className="w-full md:w-8/12 ml-20 lg:w-8/12 xl:w-8/12 px-10">
-            <div id = "div" className="sm:pt-0 rounded text-center lg:text-left hidden" style={{backgroundColor: "rgb(0, 0, 0, 0.5"}}>
+            <div id="div" className="sm:pt-0 rounded text-center lg:text-left hidden" style={{backgroundColor: "rgba(0, 0, 0, 0.5)"}}>
               <h2 className="font-serif text-4xl text-white">
               Dobro došli u Ekonomsku školu!
               </h2>
-              <b><p className="mt-4 text-lg leading-relaxed text-white">Čovjekov je odgoj ogledalo u kojem pokazuje svoj portret. Podučavanje je profesija koja podučava sve druge profesije.
-              </p></b>
+              <p className="mt-4 text-lg font-bold leading-relaxed text-white">Čovjekov je odgoj ogledalo u kojem pokazuje svoj portret. Podučavanje je profesija koja podučava sve druge profesije.
+              </p>
               <div className="mt-12">
                 {/*<Link
                   href="/upis"
@@ -105,8 +90,6 @@ export default function Index() {
               */}
                 <Link
                   href="/kontakt"
-                  target="_blank"
-                  rel="noreferrer"
                   className="github-star ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                   style={{backgroundColor: '#92d050'}} 
                 >
@@ -161,7 +144,7 @@ export default function Index() {
               </div>
               <h4 className="text-xl font-semibold uppercase mb-6" style={{color: "rgb(254, 125, 1)"}}>Informacije za učenike</h4>
             {sortirani.map(obj  => 
-                <div className="relative flex flex-col min-w-0 break-words w-full mb-2 rounded-lg">
+                <div key={obj.id} className="relative flex flex-col min-w-0 break-words w-full mb-2 rounded-lg">
                   <div className="flex-auto">
                   <a
                   className="font-bold text-blueGray-700 hover:text-blueGray-500 ease-linear transition-all duration-150"
@@ -184,7 +167,7 @@ export default function Index() {
               </div>
               <h4 className="text-xl font-semibold uppercase mb-6" style={{color: "#92d050"}}>Ostale informacije</h4>
             {sortirani1.map(obj  => 
-                <div className="relative flex flex-col min-w-0 break-words w-full mb-2 rounded-lg">
+                <div key={obj.id} className="relative flex flex-col min-w-0 break-words w-full mb-2 rounded-lg">
                   <div className="flex-auto">
                   <a
                   className="font-bold text-blueGray-700 hover:text-blueGray-500 ease-linear transition-all duration-150"
@@ -268,7 +251,7 @@ Učenici/ce, nastavnici/ce, obrazovne vlasti, svi akteri obrazovnog procesa, zaj
           <div className="container mx-auto px-4">
           <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
     <h6 className="text-xl mb-1 font-semibold uppercase mr-2">Gostovanje učenika i direktorice Škole u emisiji BH radija -Teen teens</h6></span>
-    <iframe width="100%" height="120" src="https://player-widget.mixcloud.com/widget/iframe/?hide_cover=1&feed=%2Fomladinski_program_bhrt%2Fteen-teens-16012025%2F" frameborder="0" ></iframe>
+    <iframe title="Teen Teens emisija BH radija" width="100%" height="120" src="https://player-widget.mixcloud.com/widget/iframe/?hide_cover=1&feed=%2Fomladinski_program_bhrt%2Fteen-teens-16012025%2F" frameBorder="0" ></iframe>
             </div>
           </section>
 
@@ -278,7 +261,7 @@ Učenici/ce, nastavnici/ce, obrazovne vlasti, svi akteri obrazovnog procesa, zaj
           <div className="flex flex-wrap items-center">
             <div className="w-11/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto -mt-32" style={{marginTop: "15%"}}>
               <div className="relative flex flex-col min-w-0 break-words bg-lightBlue w-full mb-6 shadow-lg rounded-lg bg-lightBlue-500" style={{backgroundColor: '#92d050'}}>
-              <img src="https://firebasestorage.googleapis.com/v0/b/obavijesti-b3310.appspot.com/o/biblioteka.webp?alt=media&token=95b9e38e-f127-4abf-9159-80485a526ff2" alt="Logo" width={"100"} height={"100"} className="w-full align-middle rounded-t-lg"/>
+              <Image src={biblioteka} alt="Školska biblioteka" className="w-full h-auto align-middle rounded-t-lg" />
                 <blockquote className="relative p-8 mb-4">
                   <svg
                     preserveAspectRatio="none"

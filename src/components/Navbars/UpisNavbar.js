@@ -1,17 +1,11 @@
-/*eslint-disable*/
 import React from "react";
-import Image from 'next/image';
-
-import etwi1 from './etwi1.webp';
-import etwi2 from './etwi2.webp';
 import Link from 'next/link';
-
-import erasmus from './erasmus.png';
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import NavbarSocialLinks from "./NavbarSocialLinks";
 
 
 
-export default function UpisNavbar(props) {
+export default function UpisNavbar() {
   const [menuOpen, setMenuOpen] = React.useState(false);
   return (
     <>
@@ -26,8 +20,11 @@ export default function UpisNavbar(props) {
                   type="button"
                   onClick={() => setMenuOpen(!menuOpen)}
                   style={{backgroundColor: '#92d050'}}
+                  aria-controls="glavna-navigacija"
+                  aria-expanded={menuOpen}
+                  aria-label={menuOpen ? "Zatvori navigaciju" : "Otvori navigaciju"}
                 >
-                  <i className="fas fa-bars"></i>
+                  <i className="fas fa-bars" aria-hidden="true"></i>
                 </button>
               </div>
               <div
@@ -36,7 +33,7 @@ export default function UpisNavbar(props) {
                   (menuOpen ? " flex" : " hidden")
                   
                 }
-                id="example-navbar-info"
+                id="glavna-navigacija"
               >
                 <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
                   <li className="nav-item">
@@ -94,59 +91,8 @@ export default function UpisNavbar(props) {
                     </Link>
                   </li>
                   <li className="flex items-center">
-                <a
-                  className="hover:text-blueGray-500 text-blueGray-700 flex items-center text-xs uppercase font-bold"
-                  href="https://www.facebook.com/Srednja-ekonomska-%C5%A1kola-Sarajevo-847192995623370/"
-                  target="_blank"
-                  rel="noreferrer"
-                  
-                >
-                  <i className="px-2 text-blueGray-400 fab fa-facebook text-lg leading-lg " />
-                  
-                </a>
-                <a
-                  className="hover:text-blueGray-500 text-blueGray-700 flex items-center text-xs uppercase font-bold"
-                  href="https://www.instagram.com/srednja_ekonomska_skola/"
-                  target="_blank"
-                  rel="noreferrer"
-                  
-                >
-                  <i className="px-2 text-blueGray-400 fab fa-instagram text-lg leading-lg " />
-                  
-                </a>
-                <a
-                  className="hover:text-blueGray-500 text-blueGray-700 flex items-center text-xs uppercase font-bold"
-                  href="https://school-education.ec.europa.eu/en/networking/schools-organisations/srednja-ekonomska-skola-sarajevo"
-                  target="_blank"
-                  rel="noreferrer"
-                  
-                >
-                  <Image src={etwi1} width="40" height="40"></Image>
-                  
-                </a>
-                <a
-                  className="hover:text-blueGray-500 text-blueGray-700 flex items-center text-xs uppercase font-bold"
-                  href="https://erasmus-plus.ec.europa.eu/"
-                  target="_blank"
-                  rel="noreferrer"
-                  
-                >
-                  <Image src={erasmus} width="40" height="40"></Image>
-                  
-                </a>
-                {/*
-                <a
-                  className="hover:text-blueGray-500 text-blueGray-700 flex items-center text-xs uppercase font-bold px-6"
-                  href="https://sites.google.com/ses.edu.ba/srednjaekonomskakola-etwinning/o-etwinningu"
-                  target="_blank"
-                  rel="noreferrer"
-                  
-                >
-                  <Image src={etwi2} width="30" height="30"></Image>
-                  
-                </a>
-              */}
-              </li>
+                    <NavbarSocialLinks />
+                  </li>
                 </ul>
               </div>
             </div>

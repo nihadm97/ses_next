@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 import { createPopper } from "@popperjs/core";
 
 const grupe = [
@@ -280,11 +279,11 @@ const grupe = [
   },
 ];
 
-export default function CardAkti({ color }) {
+export default function CardAkti({ color = "light" }) {
   const [otvorenMeni, setOtvorenMeni] = React.useState(null);
 
-  const dugmeRefovi = React.useRef(grupe.map(() => React.createRef()));
-  const meniRefovi = React.useRef(grupe.map(() => React.createRef()));
+  const dugmeRefovi = React.useRef([]);
+  const meniRefovi = React.useRef([]);
   const popperInstance = React.useRef(null);
 
   const otvoriMeni = (indeks) => {
@@ -294,8 +293,8 @@ export default function CardAkti({ color }) {
     }
 
     popperInstance.current = createPopper(
-      dugmeRefovi.current[indeks].current,
-      meniRefovi.current[indeks].current,
+      dugmeRefovi.current[indeks],
+      meniRefovi.current[indeks],
       {
         placement: "left-start",
         strategy: "fixed",
@@ -431,7 +430,9 @@ export default function CardAkti({ color }) {
                     <a
                       className="text-blueGray-500 py-1 px-3"
                       href="#pablo"
-                      ref={dugmeRefovi.current[indeks]}
+                      ref={(element) => {
+                        dugmeRefovi.current[indeks] = element;
+                      }}
                       onClick={(e) => {
                         e.preventDefault();
 
@@ -446,7 +447,9 @@ export default function CardAkti({ color }) {
                     </a>
 
                     <div
-                      ref={meniRefovi.current[indeks]}
+                      ref={(element) => {
+                        meniRefovi.current[indeks] = element;
+                      }}
                       className={
                         (otvorenMeni === indeks ? "block " : "hidden ") +
                         "bg-white text-base z-50 float-left py-2 list-none text-left rounded shadow-lg min-w-48"
@@ -482,11 +485,3 @@ export default function CardAkti({ color }) {
     </>
   );
 }
-
-CardAkti.defaultProps = {
-  color: "light",
-};
-
-CardAkti.propTypes = {
-  color: PropTypes.oneOf(["light", "dark"]),
-};

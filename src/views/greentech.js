@@ -7,8 +7,11 @@ import { Carousel } from 'react-responsive-carousel';
 import { useEffect } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import Image from 'next/image';
+import NextImage from 'next/image';
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import ManagedPostCard from "@/components/Content/ManagedPostCard";
+import ManagedPostsLoading from "@/components/Content/ManagedPostsLoading";
+import useManagedPosts from "@/hooks/useManagedPosts";
 
 
 import eu from '@/views/images/eu.png';
@@ -81,14 +84,24 @@ import slikaa8 from '@/views/images/8 federalno ministarstvo.jpg';
 import slikaa9 from '@/views/images/9 erasmus.jpg';
 
 
+const Image = ({ alt, ...props }) => (
+  <NextImage {...props} alt={alt || "Fotografija Green Tech projekta"} />
+);
+
 const GreenTech = () => {
   useEffect(() => {
     AOS.init({duration: 2000});
   }, []);
+  const { posts: managedPosts, isLoading: managedPostsLoading } = useManagedPosts(["greentech"]);
+
+  if (managedPostsLoading) {
+    return <><Menu /><ManagedPostsLoading /></>;
+  }
 
   return (
     <>
     <Menu fixed/>
+    {managedPosts.map((post) => <ManagedPostCard key={post.id} post={post} />)}
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
                   <div className="container mx-auto px-4">
                     <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
@@ -175,7 +188,7 @@ Zahvaljujemo svim partnerima, organizatorima, profesorima i učenicima za trud, 
                       <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                 <h6 className="text-xl mb-1 font-semibold uppercase mr-2">GTECH Završna javna konferencija: Obrazovanje za budućnost
              </h6>
-                <Image src={logo10} width="200" height="200" alt="" />
+                <Image src={logo10} alt="Green Tech Entrepreneurship Challenge Hub" style={{ width: 200, height: "auto" }} />
             </span>
                         <div className="flex flex-wrap">
                           <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
@@ -402,7 +415,7 @@ Zahvaljujemo svim partnerima, organizatorima, profesorima i učenicima za trud, 
                       <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                 <h6 className="text-xl mb-1 font-semibold uppercase mr-2">GTECH POST MOBILITY KONFERENCIJA U SREDNJOJ EKONOMSKOJ ŠKOLI, SARAJEVO
              </h6>
-                <Image src={logo10} width="200" height="200" alt="" />
+                <Image src={logo10} alt="Green Tech Entrepreneurship Challenge Hub" style={{ width: 200, height: "auto" }} />
             </span>
                         <div className="flex flex-wrap">
                           <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
@@ -489,7 +502,7 @@ Zahvaljujemo svim partnerima, organizatorima, profesorima i učenicima za trud, 
               <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
         <h6 className="text-xl mb-1 font-semibold uppercase mr-2">Predstavnice Srednje ekonomske škole, Sarajevo na stručno-edukativnim treninzima u Ljubljani i Varaždinu
      </h6>
-        <Image src={logo10} width="200" height="200" alt="" />
+        <Image src={logo10} alt="Green Tech Entrepreneurship Challenge Hub" style={{ width: 200, height: "auto" }} />
     </span>
                 <div className="flex flex-wrap">
                   <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
@@ -573,11 +586,11 @@ Zahvaljujemo svim partnerima, organizatorima, profesorima i učenicima za trud, 
           <div className="container mx-auto px-4">
           <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
 <div className="big-screen-only md:hidden">
-      <Image src={logo9} width="200" height="200" alt="" />
+      <Image src={logo9} alt="Program Erasmus+ Evropske unije" style={{ width: 200, height: "auto" }} />
     </div>
     <h6 className="text-xl mb-1 font-semibold uppercase mr-2">PARTNERI ERASMUS+ G-TECH PROJEKTA OKUPLJENI U LJUBLJANI
  </h6>
-    <Image src={logo10} width="200" height="200" alt="" />
+    <Image src={logo10} alt="Green Tech Entrepreneurship Challenge Hub" style={{ width: 200, height: "auto" }} />
 </span>
             <div className="flex flex-wrap">
               <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">

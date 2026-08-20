@@ -7,8 +7,11 @@ import { Carousel } from 'react-responsive-carousel';
 import { useEffect } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import Image from 'next/image';
+import NextImage from 'next/image';
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import ManagedPostCard from "@/components/Content/ManagedPostCard";
+import ManagedPostsLoading from "@/components/Content/ManagedPostsLoading";
+import useManagedPosts from "@/hooks/useManagedPosts";
 
 
 import eu from '@/views/images/eu.png';
@@ -79,14 +82,24 @@ import openn2 from '@/views/images/openn2.jpg';
 import openn3 from '@/views/images/openn3.jpg';
 
 
+const Image = ({ alt, ...props }) => (
+  <NextImage {...props} alt={alt || "Fotografija Open Future projekta"} />
+);
+
 const OpenFuture = () => {
   useEffect(() => {
     AOS.init({duration: 2000});
   }, []);
+  const { posts: managedPosts, isLoading: managedPostsLoading } = useManagedPosts(["openfuture"]);
+
+  if (managedPostsLoading) {
+    return <><Menu /><ManagedPostsLoading /></>;
+  }
 
   return (
     <>
     <Menu fixed/>
+    {managedPosts.map((post) => <ManagedPostCard key={post.id} post={post} />)}
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
               <div className="container mx-auto px-4">
                 <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
@@ -151,16 +164,16 @@ Na petom transnacionalnom sastanku, održanom nakon Konferencije, sumirani su re
     </span>
                       </div>
 
-                      <a href='https://drive.google.com/file/d/1QUmgyWtXH3hGQtT9fk4z2IMI5A2h7kz8/view?usp=sharing' target="_blank" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none ml-3 mr-3 mb-3 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+                      <a href='https://drive.google.com/file/d/1QUmgyWtXH3hGQtT9fk4z2IMI5A2h7kz8/view?usp=sharing' target="_blank" rel="noreferrer" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none ml-3 mr-3 mb-3 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                   style= {{backgroundColor: '#92d050'}} >Informativno-promotivni materijal</a>
 
-           <a href='https://drive.google.com/file/d/1Ys8LqW3Sqygzlkoji9d-q67XLvlqrTeK/view?usp=sharing' target="_blank" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none ml-3 mr-3 mb-3 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+           <a href='https://drive.google.com/file/d/1Ys8LqW3Sqygzlkoji9d-q67XLvlqrTeK/view?usp=sharing' target="_blank" rel="noreferrer" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none ml-3 mr-3 mb-3 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                   style= {{backgroundColor: '#92d050'}} >Materijal za obuku</a>
 
-<a href='https://drive.google.com/file/d/1Jb_YquT2VbrnbwFhWt6i95muc6iYBH1k/view?usp=sharing' target="_blank" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none ml-3 mr-3 mb-3 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+<a href='https://drive.google.com/file/d/1Jb_YquT2VbrnbwFhWt6i95muc6iYBH1k/view?usp=sharing' target="_blank" rel="noreferrer" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none ml-3 mr-3 mb-3 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                   style= {{backgroundColor: '#92d050'}} >Studija slučaja</a>
 
-<a href='https://drive.google.com/file/d/1rrdMiG00POTQiWzVkwY2gHK51KSY7y_P/view?usp=sharing' target="_blank" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none ml-3 mr-3 mb-3 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+<a href='https://drive.google.com/file/d/1rrdMiG00POTQiWzVkwY2gHK51KSY7y_P/view?usp=sharing' target="_blank" rel="noreferrer" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none ml-3 mr-3 mb-3 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                   style= {{backgroundColor: '#92d050'}} >Kurikulum Inovativno preduzetništvo</a>
 
 
@@ -195,7 +208,7 @@ Na petom transnacionalnom sastanku, održanom nakon Konferencije, sumirani su re
                         
 
                     </div>
-                    <a href='https://drive.google.com/file/d/1FFmH0x38WZsomoWrTamAM3g29VNGMP85/view?usp=sharing' target="_blank" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+                    <a href='https://drive.google.com/file/d/1FFmH0x38WZsomoWrTamAM3g29VNGMP85/view?usp=sharing' target="_blank" rel="noreferrer" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                   style= {{backgroundColor: '#92d050'}} >Preuzmi materijal</a>
 
                   </div>
@@ -224,7 +237,7 @@ Na petom transnacionalnom sastanku, održanom nakon Konferencije, sumirani su re
                         
 
                     </div>
-                    <a href='https://drive.google.com/file/d/15uASbjf-dnkWWd3uzq06NCdXgQ9j4se2/view?usp=sharing' target="_blank" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+                    <a href='https://drive.google.com/file/d/15uASbjf-dnkWWd3uzq06NCdXgQ9j4se2/view?usp=sharing' target="_blank" rel="noreferrer" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                   style= {{backgroundColor: '#92d050'}} >Preuzmi materijal</a>
 
                   </div>
@@ -253,7 +266,7 @@ Na petom transnacionalnom sastanku, održanom nakon Konferencije, sumirani su re
                         
 
                     </div>
-                    <a href='https://drive.google.com/file/d/1uYyT4v-4bDHHQpgqZRHiSKBytU_3vvN7/view?usp=sharing' target="_blank" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+                    <a href='https://drive.google.com/file/d/1uYyT4v-4bDHHQpgqZRHiSKBytU_3vvN7/view?usp=sharing' target="_blank" rel="noreferrer" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                   style= {{backgroundColor: '#92d050'}} >Preuzmi materijal</a>
 
                   </div>
@@ -282,7 +295,7 @@ Na petom transnacionalnom sastanku, održanom nakon Konferencije, sumirani su re
                         
 
                     </div>
-                    <a href='https://drive.google.com/file/d/1wEhlrWX4vyHBpBxj1nOW2jpZgKwYoSFF/view?usp=sharing' target="_blank" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+                    <a href='https://drive.google.com/file/d/1wEhlrWX4vyHBpBxj1nOW2jpZgKwYoSFF/view?usp=sharing' target="_blank" rel="noreferrer" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                   style= {{backgroundColor: '#92d050'}} >Preuzmi materijal</a>
 
                   </div>
@@ -311,7 +324,7 @@ Na petom transnacionalnom sastanku, održanom nakon Konferencije, sumirani su re
                         
 
                     </div>
-                    <a href='https://drive.google.com/file/d/1U9_wwmsb5AHIF0oYjqOZC20BvHxts-lE/view?usp=sharing' target="_blank" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+                    <a href='https://drive.google.com/file/d/1U9_wwmsb5AHIF0oYjqOZC20BvHxts-lE/view?usp=sharing' target="_blank" rel="noreferrer" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                   style= {{backgroundColor: '#92d050'}} >Preuzmi materijal</a>
 
                   </div>
@@ -340,7 +353,7 @@ Na petom transnacionalnom sastanku, održanom nakon Konferencije, sumirani su re
                         
 
                     </div>
-                    <a href='https://drive.google.com/file/d/1PO8bRi_Y1uzrSgg9C9C6hifEUcTsa5sj/view?usp=sharing' target="_blank" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+                    <a href='https://drive.google.com/file/d/1PO8bRi_Y1uzrSgg9C9C6hifEUcTsa5sj/view?usp=sharing' target="_blank" rel="noreferrer" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                   style= {{backgroundColor: '#92d050'}} >Preuzmi materijal</a>
 
                   </div>
@@ -369,7 +382,7 @@ Na petom transnacionalnom sastanku, održanom nakon Konferencije, sumirani su re
                         
 
                     </div>
-                    <a href='https://drive.google.com/file/d/1yfYd89AskFbZiKyo_mzyRDgbom3WLEzc/view?usp=sharing' target="_blank" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+                    <a href='https://drive.google.com/file/d/1yfYd89AskFbZiKyo_mzyRDgbom3WLEzc/view?usp=sharing' target="_blank" rel="noreferrer" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                   style= {{backgroundColor: '#92d050'}} >Preuzmi materijal</a>
 
                   </div>
@@ -496,7 +509,7 @@ Na petom transnacionalnom sastanku, održanom nakon Konferencije, sumirani su re
                         
 
                     </div>
-                    <a href='https://drive.google.com/file/d/1etJltFGpZjPERrShANs9fPjDg3vSkGQU/view?usp=sharing' target="_blank" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+                    <a href='https://drive.google.com/file/d/1etJltFGpZjPERrShANs9fPjDg3vSkGQU/view?usp=sharing' target="_blank" rel="noreferrer" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                   style= {{backgroundColor: '#92d050'}} >Preuzmi materijal</a>
 
                   </div>
@@ -526,7 +539,7 @@ Na petom transnacionalnom sastanku, održanom nakon Konferencije, sumirani su re
                         
 
                     </div>
-                    <a href='https://drive.google.com/file/d/13Ud1BUBEUn2P2J8KIDr5BXQUtV2-6e43/view?usp=sharing' target="_blank" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+                    <a href='https://drive.google.com/file/d/13Ud1BUBEUn2P2J8KIDr5BXQUtV2-6e43/view?usp=sharing' target="_blank" rel="noreferrer" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                   style= {{backgroundColor: '#92d050'}} >Preuzmi materijal</a>
 
                   </div>
@@ -555,7 +568,7 @@ Na petom transnacionalnom sastanku, održanom nakon Konferencije, sumirani su re
                         
 
                     </div>
-                    <a href='https://drive.google.com/file/d/1MAQZolq8LdUrhBUiVFyxcQ3ayDXH3-Ij/view?usp=sharing' target="_blank" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+                    <a href='https://drive.google.com/file/d/1MAQZolq8LdUrhBUiVFyxcQ3ayDXH3-Ij/view?usp=sharing' target="_blank" rel="noreferrer" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                   style= {{backgroundColor: '#92d050'}} >Preuzmi materijal</a>
 
                   </div>
@@ -602,7 +615,7 @@ Na petom transnacionalnom sastanku, održanom nakon Konferencije, sumirani su re
                   <br></br>
                         <p className="mb-4 text-blueGray-500">
                         </p>
-                        <a href='https://drive.google.com/file/d/1istCp683zCBa2py7hE1oDolTLy-L5_OY/view?usp=sharing' target="_blank" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+                        <a href='https://drive.google.com/file/d/1istCp683zCBa2py7hE1oDolTLy-L5_OY/view?usp=sharing' target="_blank" rel="noreferrer" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                   style= {{backgroundColor: '#92d050'}} >Preuzmi materijal</a>
 
 
@@ -638,7 +651,7 @@ Na petom transnacionalnom sastanku, održanom nakon Konferencije, sumirani su re
                         
 
                     </div>
-                    <a href='https://drive.google.com/file/d/17TKMVu-0V1-zrlriu2Xvy43gKKOn0lDo/view?usp=sharing' target="_blank" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+                    <a href='https://drive.google.com/file/d/17TKMVu-0V1-zrlriu2Xvy43gKKOn0lDo/view?usp=sharing' target="_blank" rel="noreferrer" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                   style= {{backgroundColor: '#92d050'}} >Preuzmi materijal</a>
 
                   </div>
@@ -667,7 +680,7 @@ Na petom transnacionalnom sastanku, održanom nakon Konferencije, sumirani su re
                         
 
                     </div>
-                    <a href='https://drive.google.com/file/d/1zaTBqSChpwMQsrf2elGWPpuYikBBsxGi/view?usp=sharing' target="_blank" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+                    <a href='https://drive.google.com/file/d/1zaTBqSChpwMQsrf2elGWPpuYikBBsxGi/view?usp=sharing' target="_blank" rel="noreferrer" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                   style= {{backgroundColor: '#92d050'}} >Preuzmi materijal</a>
 
                   </div>
@@ -778,7 +791,7 @@ Uspješna suradnja i angažman učenika i profesora u međunarodnim projektima d
                         
 
                     </div>
-                    <a href='https://drive.google.com/file/d/1Pa_F1_7Ws9Ne1QK_oD8tzvMNA-aCLzKl/view?usp=sharing' target="_blank" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+                    <a href='https://drive.google.com/file/d/1Pa_F1_7Ws9Ne1QK_oD8tzvMNA-aCLzKl/view?usp=sharing' target="_blank" rel="noreferrer" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                   style= {{backgroundColor: '#92d050'}} >Preuzmi materijal</a>
 
                   </div>
@@ -807,7 +820,7 @@ Uspješna suradnja i angažman učenika i profesora u međunarodnim projektima d
                         
 
                     </div>
-                    <a href='https://drive.google.com/file/d/1kfZdNoTXxz7DDypsmUw-ErVMyQkH8bpf/view?usp=sharing' target="_blank" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+                    <a href='https://drive.google.com/file/d/1kfZdNoTXxz7DDypsmUw-ErVMyQkH8bpf/view?usp=sharing' target="_blank" rel="noreferrer" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                   style= {{backgroundColor: '#92d050'}} >Preuzmi materijal</a>
 
                   </div>
@@ -836,7 +849,7 @@ Uspješna suradnja i angažman učenika i profesora u međunarodnim projektima d
                         
 
                     </div>
-                    <a href='https://drive.google.com/file/d/1RJSq3DFEv_U_oWDxdlqUz33gDBjldOt_/view?usp=sharing' target="_blank" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+                    <a href='https://drive.google.com/file/d/1RJSq3DFEv_U_oWDxdlqUz33gDBjldOt_/view?usp=sharing' target="_blank" rel="noreferrer" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                   style= {{backgroundColor: '#92d050'}} >Preuzmi materijal</a>
 
                   </div>
@@ -877,7 +890,7 @@ Uspješna suradnja i angažman učenika i profesora u međunarodnim projektima d
                   <br></br>
                         <p className="mb-4 text-blueGray-500">
                         </p>
-                        <a href='https://drive.google.com/file/d/1-g0RhcwcQKlX7vbOSq462IJjZI0UAxy6/view?usp=sharing' target="_blank" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+                        <a href='https://drive.google.com/file/d/1-g0RhcwcQKlX7vbOSq462IJjZI0UAxy6/view?usp=sharing' target="_blank" rel="noreferrer" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                   style= {{backgroundColor: '#92d050'}} >Preuzmi materijal</a>
 
 
@@ -907,7 +920,7 @@ Uspješna suradnja i angažman učenika i profesora u međunarodnim projektima d
                         <br></br>
                         <p className="mb-4 text-blueGray-500">
                         U ovom materijalu, saznaćete koje su to ključne preduzetničke kompetencije prema EntreComp modelu, kao i detaljne opise sa praktičnim primjerima svake od 15 kompetencija koje se smatraju ključnim za ovladavanje preduzetničkim načinom razmišljanja i promjenu stavova u funkciji preduzimanja inicijativa za stvaranje novih vrijednosti - umjesto klasičnih programa za osnivanje i upravljanje MSP (malim i srednjim preduzećima). </p>
-                        <a href='https://drive.google.com/file/d/1MvTUMEJReeD_SDWYNYMNHRA27wXgzowR/view?usp=sharing' target="_blank" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+                        <a href='https://drive.google.com/file/d/1MvTUMEJReeD_SDWYNYMNHRA27wXgzowR/view?usp=sharing' target="_blank" rel="noreferrer" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                   style= {{backgroundColor: '#92d050'}} >Preuzmi materijal</a>
 
                     </div>
@@ -926,7 +939,7 @@ Uspješna suradnja i angažman učenika i profesora u međunarodnim projektima d
                         <br></br>
                         <p className="mb-4 text-blueGray-500">
                         U ovom materijalu, kreiranom kao putokaz nastavnicima kako da uspješno organizuju radionice po modelu PBL (učenja zasnovanog na projektu), saznaćete, između ostalog, kako napraviti ravnotežu između izazova i podrške, kako uspostaviti povjerenje i otvoreni razgovor bez isticanja autoriteta, kako ohrabriti učešće svih bez auto-cenzure – uvođenjem prava na grešku, kako balansirati odnos između dominantnih i tihih učenika i kako stimulisati saradnju na zajedničkom rješavanju problema.</p>
-                        <a href='https://drive.google.com/file/d/16PGsODckTeTeBctJGEKnClJCUCRI-BkR/view?usp=sharing' target="_blank" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+                        <a href='https://drive.google.com/file/d/16PGsODckTeTeBctJGEKnClJCUCRI-BkR/view?usp=sharing' target="_blank" rel="noreferrer" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                   style= {{backgroundColor: '#92d050'}} >Preuzmi materijal</a>
 
                     </div>

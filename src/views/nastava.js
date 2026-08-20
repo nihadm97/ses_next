@@ -39,6 +39,7 @@ sljedećim dokumentima:
 Nastavni plan i program za zanimanje <strong>Ekonomski tehničar</strong> – 
 <a href="https://drive.google.com/file/d/16qIi3CF8izh3WMUv050QLf5uMqYm5Oh4/view?usp=sharing"
 target="_blank"
+rel="noreferrer"
 className="text-blue-600 hover:underline ml-1">
 Pregled dokumenta
 </a>
@@ -48,6 +49,7 @@ Pregled dokumenta
 Nastavni plan i program za zanimanje <strong>Bankarski tehničar</strong> – 
 <a href="https://drive.google.com/file/d/11ke8WSOzTdn4aEdBvA9d35PXtl-YXLB8/view?usp=sharing"
 target="_blank"
+rel="noreferrer"
 className="text-blue-600 hover:underline ml-1">
 Pregled dokumenta
 </a>
@@ -64,25 +66,25 @@ Nastava za opće obrazovne predmete se realizuje na osnovu odluka Ministarstva z
 <ul className="list-disc pl-6 space-y-2">
 
 <li>
-<a href="https://drive.google.com/file/d/1BEyBtIfU3smUYGDioj6qHqUPkD2Gi7e7/view?usp=sharing" target="_blank" className="text-blue-600 hover:underline">
+<a href="https://drive.google.com/file/d/1BEyBtIfU3smUYGDioj6qHqUPkD2Gi7e7/view?usp=sharing" target="_blank" rel="noreferrer" className="text-blue-600 hover:underline">
 Odluka o primjeni kurikuluma za I razred srednje škole
 </a>
 </li>
 
 <li>
-<a href="https://drive.google.com/file/d/1TytVEV0PDgHd3VJWosj_Df9-314WUs6N/view?usp=sharing" target="_blank" className="text-blue-600 hover:underline">
+<a href="https://drive.google.com/file/d/1TytVEV0PDgHd3VJWosj_Df9-314WUs6N/view?usp=sharing" target="_blank" rel="noreferrer" className="text-blue-600 hover:underline">
 Odluka o primjeni kurikuluma za II razred srednje škole
 </a>
 </li>
 
 <li>
-<a href="https://drive.google.com/file/d/1_GlJqzyL7EcnWgwdpUf0miwP3oM24LAr/view?usp=sharing" target="_blank" className="text-blue-600 hover:underline">
+<a href="https://drive.google.com/file/d/1_GlJqzyL7EcnWgwdpUf0miwP3oM24LAr/view?usp=sharing" target="_blank" rel="noreferrer" className="text-blue-600 hover:underline">
 Odluka o primjeni kurikuluma za III razred srednje škole
 </a>
 </li>
 
 <li>
-<a href="https://drive.google.com/file/d/1ZtU45YadYxoZDx1HiENLVgsliLYXpq6T/view?usp=sharing" target="_blank" className="text-blue-600 hover:underline">
+<a href="https://drive.google.com/file/d/1ZtU45YadYxoZDx1HiENLVgsliLYXpq6T/view?usp=sharing" target="_blank" rel="noreferrer" className="text-blue-600 hover:underline">
 Odluka o primjeni kurikuluma za IV razred srednje škole
 </a>
 </li>
@@ -94,7 +96,7 @@ Odluka o primjeni kurikuluma za IV razred srednje škole
 Stranica kurikuluma Kantona Sarajevo
 </h4>
 
-<a href="https://kurikulum.ks.gov.ba/bs" target="_blank" className="text-blue-600 hover:underline">
+<a href="https://kurikulum.ks.gov.ba/bs" target="_blank" rel="noreferrer" className="text-blue-600 hover:underline">
 Online platforma za kurikulum
 </a>
 

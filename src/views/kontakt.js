@@ -51,7 +51,7 @@ const Kontakt = () => {
           <div className="flex flex-wrap items-center">
           <MapExample />
           <form data-aos="fade-down" className="flex-auto p-5 lg:p-10" onSubmit={onSubmit}><br></br>
-                    <h3 style={{color: "black"}}>{toReceive}</h3>
+                    <h3 aria-live="polite" style={{color: "black"}}>{toReceive}</h3>
                     <div className="relative w-full mb-3 mt-8">
                       <label
                         className="block uppercase text-blueGray-600 text-xs font-bold mb-2"
@@ -60,6 +60,7 @@ const Kontakt = () => {
                         IME I PREZIME
                       </label>
                       <input
+                        id="full-name"
                         type="text"
                         className="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
                         placeholder="Ime Prezimenić"
@@ -77,6 +78,7 @@ const Kontakt = () => {
                         EMAIL
                       </label>
                       <input
+                        id="email"
                         type="email"
                         className="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
                         placeholder="vaš_email@gmail.com"
@@ -93,6 +95,7 @@ const Kontakt = () => {
                         MOBITEL
                       </label>
                       <input
+                        id="mobile"
                         type="text"
                         className="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
                         placeholder="063/123-456"
@@ -110,6 +113,7 @@ const Kontakt = () => {
                         PORUKA
                       </label>
                       <textarea
+                        id="message"
                         rows="4"
                         cols="80"
                         className="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
@@ -138,9 +142,9 @@ const Kontakt = () => {
                     <span className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full" style={{backgroundColor: 'rgb(254, 125, 1)'}}>
                     </span>
                   </div>
-                  <h6 class="text-xl font-semibold">Kontakt</h6>
-                  <p class="mt-2 mb-4 text-blueGray-500">Tehnički sekretar: +387 33 724 610</p>
-                  <p class="mt-2 mb-4 text-blueGray-500">Email: ses@ses.edu.ba</p>
+                  <h6 className="text-xl font-semibold">Kontakt</h6>
+                  <p className="mt-2 mb-4 text-blueGray-500">Tehnički sekretar: +387 33 724 610</p>
+                  <p className="mt-2 mb-4 text-blueGray-500">Email: ses@ses.edu.ba</p>
                     </div>
                   </div>
                 </div>
@@ -151,9 +155,9 @@ const Kontakt = () => {
                     <span className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full" style={{backgroundColor: '#92d050'}}>
                     </span>
                   </div>
-                  <h6 class="text-xl font-semibold">Ostalo</h6>
-                  <p class="mt-2 mb-4 text-blueGray-500">Fax: +387 33 724 618</p>
-                  <p class="mt-2 mb-4 text-blueGray-500">Uredništvo web stranice: web@ses.edu.ba</p>
+                  <h6 className="text-xl font-semibold">Ostalo</h6>
+                  <p className="mt-2 mb-4 text-blueGray-500">Fax: +387 33 724 618</p>
+                  <p className="mt-2 mb-4 text-blueGray-500">Uredništvo web stranice: web@ses.edu.ba</p>
                   </div>
                 </div>
               </div>

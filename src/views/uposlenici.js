@@ -3,8 +3,6 @@ import React from "react";
 import UpisNavbar from "@/components/Navbars/UpisNavbar";
 import Footer from "@/components/Footers/Footer.js";
 import direktorica from '@/views/images/direktorica.webp';
-import Background from '@/views/images/zeleno.webp'
-import Background1 from '@/views/images/zeleno1.webp'
 import Image from 'next/image';
 import { db } from "./firebase-config";
 import { collection, getDocs} from "firebase/firestore";
@@ -17,13 +15,11 @@ export default function Uposleni() {
     AOS.init({duration: 2000});
   }, []);
   const [users, setUsers] = useState([]);
-  const usersCollectionRef = collection(db, "uposlenici");
   const [users1, setUsers1] = useState([]);
-  const usersCollectionRef1 = collection(db, "saradnici");
 
   useEffect(() => {
     const getUsers = async () => {
-      const data = await getDocs(usersCollectionRef);
+      const data = await getDocs(collection(db, "uposlenici"));
       setUsers(data.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
     };
 
@@ -32,7 +28,7 @@ export default function Uposleni() {
 
   useEffect(() => {
     const getUsers = async () => {
-      const data = await getDocs(usersCollectionRef1);
+      const data = await getDocs(collection(db, "saradnici"));
       setUsers1(data.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
     };
 
@@ -41,7 +37,7 @@ export default function Uposleni() {
   const sortirani = [...users].sort((a, b) => a.Broj - b.Broj);
   return (
     <>
-      <UpisNavbar transparent/>
+      <UpisNavbar />
       <main className="profile-page" style={{marginTop:"-5%"}}>
         <section className="relative block h-500-px">
           <div
@@ -83,7 +79,7 @@ export default function Uposleni() {
                     <h3 className="text-4xl font-semibold leading-normal mb-2 text-blueGray-700 mb-2">
                     Amira Kadrispahić
                   </h3>
-                    <Image src={direktorica}/>
+                    <Image src={direktorica} alt="Direktorica Amira Kadrispahić" />
                     </div>
                   </div>
                 </div>
@@ -120,7 +116,7 @@ export default function Uposleni() {
                 </div>
                 
           {sortirani.map(obj  => 
-              <div data-aos="fade-down">
+              <div key={obj.id} data-aos="fade-down">
               <div className="relative inline-flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-xl rounded-lg -mt-64" style={{padding: "5%", marginBottom: "15%", backgroundImage: `url("/zeleno1.webp")`, backgroundSize: 'cover', marginTop:"-5%", alignSelf: 'center'}}>
               <div className="px-8">
                 <div className="flex flex-wrap justify-center">
@@ -129,7 +125,14 @@ export default function Uposleni() {
                     <h3 className="text-4xl font-semibold leading-normal mb-2 text-blueGray-700 mb-2">
                     {obj.Ime}
                   </h3>
-                    <img style={{minWidth:300, minHeight:200}} src={obj.Slika}/>
+                    {/* Fotografije dolaze dinamički iz Firestorea i mogu biti s različitih domena. */}
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      style={{ width: 300, maxWidth: "100%", height: "auto" }}
+                      src={obj.Slika}
+                      alt={obj.Ime ? `Fotografija: ${obj.Ime}` : "Fotografija uposlenika škole"}
+                      loading="lazy"
+                    />
                     </div>
                   </div>
                 </div>
@@ -148,7 +151,7 @@ export default function Uposleni() {
                 </div>
                 )}
               {users1.map(obj  => 
-              <div data-aos="fade-down">
+              <div key={obj.id} data-aos="fade-down">
               <div className="relative inline-flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-xl rounded-lg -mt-64" style={{padding: "5%", marginBottom: "15%", backgroundImage: `url("/zeleno1.webp")`, backgroundSize: 'cover', marginTop:"-5%", alignSelf: 'center'}}>
               <div className="px-8">
                 <div className="flex flex-wrap justify-center">
@@ -157,7 +160,14 @@ export default function Uposleni() {
                     <h3 className="text-4xl font-semibold leading-normal mb-2 text-blueGray-700 mb-2">
                     {obj.Ime}
                   </h3>
-                    <img style={{minWidth:300, minHeight:200}} src={obj.Slika}/>
+                    {/* Fotografije dolaze dinamički iz Firestorea i mogu biti s različitih domena. */}
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      style={{ width: 300, maxWidth: "100%", height: "auto" }}
+                      src={obj.Slika}
+                      alt={obj.Ime ? `Fotografija: ${obj.Ime}` : "Fotografija saradnika škole"}
+                      loading="lazy"
+                    />
                     </div>
                   </div>
                 </div>

@@ -1,5 +1,4 @@
 import React from "react";
-import brošura from './brošura.webp';
 import časopis from './Časopis.png';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -32,8 +31,8 @@ export default function Footer() {
           <div className="flex flex-wrap text-center lg:text-left">
             <div className="w-full lg:w-6/12 px-4 ml-auto">
               <h4 className="text-4xl font-semibold">Pogledajte naš digitalni časopis!</h4><br></br>
-              <a href="https://drive.google.com/file/d/1q0lWcdx707nYjSmvfc1mDwQNYXcKLes5/view?usp=sharing">
-              <Image src={časopis} alt="Logo" className="lg:w-4/12 px-2 ml-auto inline-block"/></a>
+              <a href="https://drive.google.com/file/d/1q0lWcdx707nYjSmvfc1mDwQNYXcKLes5/view?usp=sharing" target="_blank" rel="noreferrer">
+              <Image src={časopis} alt="QR kod za digitalni školski časopis" className="lg:w-4/12 h-auto px-2 ml-auto inline-block"/></a>
               
             </div>
             <div className="w-full lg:w-6/12 px-4">
@@ -42,18 +41,18 @@ export default function Footer() {
                   <br></br>
                   <ul className="list-unstyled">
                     <li>
-                      <a
+                      <span
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
                       >
                         JU Srednja ekonomska škola, Sarajevo
-                      </a>
+                      </span>
                     </li>
                     <li>
-                      <a
+                      <span
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
                       >
                         Zmaja od Bosne 39
-                      </a>
+                      </span>
                     </li>
                     <li>
                       <Link
@@ -116,7 +115,7 @@ export default function Footer() {
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
                         href="https://drive.google.com/file/d/1r4Cfg5sNGS8AGF8yw6uYojIBixihhP-2/view"
                       >
-                        Nabavka opreme za fuskulturnu salu
+                        Nabavka opreme za fiskulturnu salu
                       </a>
                     </li>
                     <li>

@@ -1,10 +1,9 @@
 import React from "react";
 import logo from './logo.png';
 import Link from 'next/link';
-import etwi1 from './etwi1.webp';
-import erasmus from './erasmus.png';
 import Image from 'next/image';
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import NavbarSocialLinks from "./NavbarSocialLinks";
 
 export default function Menu() {
   const [menuOpen, setMenuOpen] = React.useState(false);
@@ -19,15 +18,18 @@ export default function Menu() {
                 href="/"
                 className="text-blueGray-700 text-sm font-bold leading-relaxed inline-block mr-4 whitespace-nowrap uppercase"
               >
-                <Image src={logo} alt="Logo" width={"80"} height={"80"} />
+                <Image src={logo} alt="JU Srednja ekonomska škola Sarajevo" width={80} height={80} loading="eager" />
               </Link>
                 
                 <button
                   className="text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
                   type="button"
                   onClick={() => setMenuOpen(!menuOpen)}
+                  aria-controls="glavna-navigacija"
+                  aria-expanded={menuOpen}
+                  aria-label={menuOpen ? "Zatvori navigaciju" : "Otvori navigaciju"}
                 >
-                  <i className="fas fa-bars"></i>
+                  <i className="fas fa-bars" aria-hidden="true"></i>
                 </button>
               </div>
               <div
@@ -35,7 +37,7 @@ export default function Menu() {
                   "lg:flex flex-grow items-center" +
                   (menuOpen ? " flex" : " hidden")
                 }
-                id="example-navbar-info"
+                id="glavna-navigacija"
               >
                 <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
                   <li className="nav-item">
@@ -74,46 +76,8 @@ export default function Menu() {
                     </Link>
                   </li>
                   <li className="flex items-center">
-                <a
-                  className="hover:text-blueGray-500 text-blueGray-700 flex items-center text-xs uppercase font-bold"
-                  href="https://www.facebook.com/Srednja-ekonomska-%C5%A1kola-Sarajevo-847192995623370/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <i className="px-2 text-blueGray-400 fab fa-facebook text-lg leading-lg " />
-                  
-                </a>
-                <a
-                  className="hover:text-blueGray-500 text-blueGray-700 flex items-center text-xs uppercase font-bold"
-                  href="https://www.instagram.com/srednja_ekonomska_skola/"
-                  target="_blank"
-                  rel="noreferrer"
-                  
-                >
-                  <i className="px-2 text-blueGray-400 fab fa-instagram text-lg leading-lg " />
-                  
-                </a>
-                <a
-                  className="hover:text-blueGray-500 text-blueGray-700 flex items-center text-xs uppercase font-bold"
-                  href="https://school-education.ec.europa.eu/en/networking/schools-organisations/srednja-ekonomska-skola-sarajevo"
-                  target="_blank"
-                  rel="noreferrer"
-                  
-                >
-                  <Image src={etwi1} width="40" height="40"></Image>
-                  
-                </a>
-                <a
-                  className="hover:text-blueGray-500 text-blueGray-700 flex items-center text-xs uppercase font-bold"
-                  href="https://erasmus-plus.ec.europa.eu/"
-                  target="_blank"
-                  rel="noreferrer"
-                  
-                >
-                  <Image src={erasmus} width="40" height="40"></Image>
-                  
-                </a>
-              </li>
+                    <NavbarSocialLinks />
+                  </li>
                 </ul>
               </div>
             </div>

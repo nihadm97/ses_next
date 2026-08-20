@@ -7,9 +7,12 @@ import { Carousel } from 'react-responsive-carousel';
 import { db } from "./firebase-config";
 import { collection, getDocs} from "firebase/firestore";
 import { useState, useEffect } from "react";
-import Image from 'next/image';
+import NextImage from 'next/image';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import ManagedPostCard from "@/components/Content/ManagedPostCard";
+import ManagedPostsLoading from "@/components/Content/ManagedPostsLoading";
+import useManagedPosts from "@/hooks/useManagedPosts";
 import slika1 from '@/views/images/stem1.jpg';
 import slika2 from '@/views/images/stem2.jpg';
 import slika3 from '@/views/images/stem3.jpg';
@@ -726,21 +729,21 @@ import zadnje5 from '@/views/images/vjećnica.jpeg';
 
 import nadir1 from '@/views/images/viber_image_2024-06-12_10-30-42-139.jpg';
 import nadir2 from '@/views/images/viber_image_2024-06-12_10-30-20-885.jpg';
-import nadir3 from '@/views/images/zadnjee1.JPG';
-import nadir4 from '@/views/images/zadnjee2.JPG';
+import nadir3 from '@/views/images/zadnjee-1.jpg';
+import nadir4 from '@/views/images/zadnjee-2.jpg';
 import nadir5 from '@/views/images/zadnjee3.jpg';
 import nadir6 from '@/views/images/zadnjee4.jpg';
 
-import robotika1 from '@/views/images/DSC0334.JPG';
-import robotika2 from '@/views/images/DSC0333.JPG';
-import robotika3 from '@/views/images/DSC0314.JPG';
-import robotika4 from '@/views/images/DSC0320.JPG';
-import robotika5 from '@/views/images/DSC0321.JPG';
-import robotika6 from '@/views/images/DSC0332.JPG';
-import robotika7 from '@/views/images/DSC0336.JPG';
-import robotika8 from '@/views/images/DSC0342.JPG';
-import robotika9 from '@/views/images/DSC0343.JPG';
-import robotika10 from '@/views/images/DSC0328.JPG';
+import robotika1 from '@/views/images/dsc-0334.jpg';
+import robotika2 from '@/views/images/dsc-0333.jpg';
+import robotika3 from '@/views/images/dsc-0314.jpg';
+import robotika4 from '@/views/images/dsc-0320.jpg';
+import robotika5 from '@/views/images/dsc-0321.jpg';
+import robotika6 from '@/views/images/dsc-0332.jpg';
+import robotika7 from '@/views/images/dsc-0336.jpg';
+import robotika8 from '@/views/images/dsc-0342.jpg';
+import robotika9 from '@/views/images/dsc-0343.jpg';
+import robotika10 from '@/views/images/dsc-0328.jpg';
 
 import zadnjeee1 from '@/views/images/nake1.jpg';
 import zadnjeee2 from '@/views/images/nake2.jpg';
@@ -1172,18 +1175,18 @@ import sutka3 from '@/views/images/sutka3.jpg';
 import sutka4 from '@/views/images/sutka4.jpg';
 import sutka5 from '@/views/images/sutka5.jpg';
 
-import naidah1 from '@/views/images/naidah1.JPG';
-import naidah2 from '@/views/images/naidah2.JPG';
-import naidah3 from '@/views/images/naidah3.JPG';
-import naidah4 from '@/views/images/naidah4.JPG';
+import naidah1 from '@/views/images/naidah-1.jpg';
+import naidah2 from '@/views/images/naidah-2.jpg';
+import naidah3 from '@/views/images/naidah-3.jpg';
+import naidah4 from '@/views/images/naidah-4.jpg';
 import naidah5 from '@/views/images/naidah5.jpg';
 import naidah6 from '@/views/images/naidah6.jpg';
-import naidah7 from '@/views/images/naidah7.JPG';
-import naidah8 from '@/views/images/naidah8.JPG';
+import naidah7 from '@/views/images/naidah-7.jpg';
+import naidah8 from '@/views/images/naidah-8.jpg';
 import naidah9 from '@/views/images/naidah9.jpg';
 import naidah10 from '@/views/images/naidah10.jpg';
-import naidah11 from '@/views/images/naidah11.JPG';
-import naidah12 from '@/views/images/naidah12.JPG';
+import naidah11 from '@/views/images/naidah-11.jpg';
+import naidah12 from '@/views/images/naidah-12.jpg';
 
 import tur1 from '@/views/images/tur1.jpg';
 import tur2 from '@/views/images/tur2.jpg';
@@ -1949,26 +1952,75 @@ import adeja1 from '@/views/images/adeja1.jpg';
 import adeja2 from '@/views/images/adeja2.jpg';
 import adeja3 from '@/views/images/adeja3.jpg';
 
+const INITIAL_ACTIVITY_COUNT = 3;
+const ACTIVITY_BATCH_SIZE = 10;
+
+const Image = ({ alt, ...props }) => (
+  <NextImage {...props} alt={alt || "Fotografija uz objavljenu aktivnost"} />
+);
+
+function ActivityArchive({ children }) {
+  const [visibleCount, setVisibleCount] = useState(INITIAL_ACTIVITY_COUNT);
+  const activities = React.Children.toArray(children).filter(React.isValidElement);
+  const remainingCount = Math.max(activities.length - visibleCount, 0);
+  const nextBatchSize = Math.min(ACTIVITY_BATCH_SIZE, remainingCount);
+
+  useEffect(() => {
+    if (visibleCount > INITIAL_ACTIVITY_COUNT) {
+      AOS.refreshHard();
+    }
+  }, [visibleCount]);
+
+  return (
+    <>
+      {activities.slice(0, visibleCount)}
+      {remainingCount > 0 && (
+        <div className="flex justify-center bg-white pb-20 px-4">
+          <button
+            type="button"
+            className="text-white font-bold px-6 py-4 rounded shadow hover:shadow-lg ease-linear transition-all duration-150"
+            style={{ backgroundColor: "#92d050" }}
+            onClick={() =>
+              setVisibleCount((currentCount) =>
+                Math.min(currentCount + ACTIVITY_BATCH_SIZE, activities.length)
+              )
+            }
+            aria-label={`Prikaži narednih ${nextBatchSize} aktivnosti`}
+          >
+            Prikaži narednih {nextBatchSize} aktivnosti{" "}
+            <span aria-hidden="true">↓</span>
+          </button>
+        </div>
+      )}
+    </>
+  );
+}
+
 
 const Aktivnosti = () => {
   useEffect(() => {
     AOS.init({duration: 2000});
   }, []);
+  const { posts: managedPosts, isLoading: managedPostsLoading } = useManagedPosts(["aktivnosti"]);
   const [users, setUsers] = useState([]);
-  const usersCollectionRef = collection(db, "aktivnosti");
 
   useEffect(() => {
     const getUsers = async () => {
-      const data = await getDocs(usersCollectionRef);
+      const data = await getDocs(collection(db, "aktivnosti"));
       setUsers(data.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
     };
 
     getUsers();
   }, []);
+  if (managedPostsLoading) {
+    return <><Menu /><ManagedPostsLoading /></>;
+  }
   const sortirani = [...users].sort((a, b) => b.Broj - a.Broj);
   return (
     <>
-    <Menu fixed/>
+    <Menu />
+    <ActivityArchive>
+      {managedPosts.map((post) => <ManagedPostCard key={post.id} post={post} />)}
       <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
             <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
@@ -16721,7 +16773,8 @@ Učenici/ce su pokazali/e odličnu formu, utreniranost i izvedbu tehničkih elem
                   <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
                       
                   <div>
-                        <img src={"https://firebasestorage.googleapis.com/v0/b/obavijesti-b3310.appspot.com/o/Dan%20bijelih%20traka.jpg?alt=media&token=5cb0413e-e54c-44fd-9ccd-2ff859ff0216"} alt="" />
+                        {/* eslint-disable-next-line @next/next/no-img-element */}
+                        <img src={"https://firebasestorage.googleapis.com/v0/b/obavijesti-b3310.appspot.com/o/Dan%20bijelih%20traka.jpg?alt=media&token=5cb0413e-e54c-44fd-9ccd-2ff859ff0216"} alt="Obilježavanje Dana bijelih traka" loading="lazy" />
                     </div>
                     
                     
@@ -23164,13 +23217,16 @@ poslovne prakse, što će zasigurno doprinijeti njihovoj poslovnoj kreativnosti 
                   <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
                       
                     <div>
-                        <img src="https://firebasestorage.googleapis.com/v0/b/obavijesti-b3310.appspot.com/o/Gimnastika%201.jpg?alt=media&token=3b595afe-98b0-48c9-be7f-5b0f60e38fb3" alt="" />
+                        {/* eslint-disable-next-line @next/next/no-img-element */}
+                        <img src="https://firebasestorage.googleapis.com/v0/b/obavijesti-b3310.appspot.com/o/Gimnastika%201.jpg?alt=media&token=3b595afe-98b0-48c9-be7f-5b0f60e38fb3" alt="Zerina Zec na takmičenju OBUDA CUP 2023 – fotografija 1" loading="lazy" />
                     </div>
                     <div>
-                        <img src="https://firebasestorage.googleapis.com/v0/b/obavijesti-b3310.appspot.com/o/Gimnastika%203.jpg?alt=media&token=8728970f-8202-4f8e-bf53-b5ebed7d5071" alt="" />
+                        {/* eslint-disable-next-line @next/next/no-img-element */}
+                        <img src="https://firebasestorage.googleapis.com/v0/b/obavijesti-b3310.appspot.com/o/Gimnastika%203.jpg?alt=media&token=8728970f-8202-4f8e-bf53-b5ebed7d5071" alt="Zerina Zec na takmičenju OBUDA CUP 2023 – fotografija 2" loading="lazy" />
                     </div>
                     <div>
-                        <img src="https://firebasestorage.googleapis.com/v0/b/obavijesti-b3310.appspot.com/o/Gimnastika%204.jpg?alt=media&token=305fec67-6abf-426c-809d-18e5f7ba9777" alt="" />
+                        {/* eslint-disable-next-line @next/next/no-img-element */}
+                        <img src="https://firebasestorage.googleapis.com/v0/b/obavijesti-b3310.appspot.com/o/Gimnastika%204.jpg?alt=media&token=305fec67-6abf-426c-809d-18e5f7ba9777" alt="Zerina Zec na takmičenju OBUDA CUP 2023 – fotografija 3" loading="lazy" />
                     </div>
                     
                     
@@ -24162,7 +24218,7 @@ Kustos muzeja g-din Nermin Pustahija, prezentirao je učenicama i učenicima, iz
             </div>
             </div>
           </section>
-      {/*    
+      {/*
     {sortirani.map(obj  => 
       <section data-aos="fade-in" className="pb-20 bg-white w-full">
           <div className="container mx-auto px-4">
@@ -24205,6 +24261,7 @@ Kustos muzeja g-din Nermin Pustahija, prezentirao je učenicama i učenicima, iz
           </section>
           
 )}*/}
+    </ActivityArchive>
     <Footer />
     </>
   )

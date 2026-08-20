@@ -9,6 +9,9 @@ import { collection, getDocs} from "firebase/firestore";
 import { useState, useEffect } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import ManagedPostCard from "@/components/Content/ManagedPostCard";
+import ManagedPostsLoading from "@/components/Content/ManagedPostsLoading";
+import useManagedPosts from "@/hooks/useManagedPosts";
 import slika1 from '@/views/images/slika1.jpg';
 import slika2 from '@/views/images/slika2.jpg';
 import asa1 from '@/views/images/asa1.jpg';
@@ -18,7 +21,7 @@ import medijske0 from '@/views/images/medijske0.jpg';
 import medijske1 from '@/views/images/medijske1.jpg';
 import medijske2 from '@/views/images/medijske2.jpg';
 import medijske3 from '@/views/images/medijske3.jpg';
-import Image from 'next/image';
+import NextImage from 'next/image';
 
 import huba1 from '@/views/images/huba1.jpg';
 import huba2 from '@/views/images/huba2.jpg';
@@ -128,25 +131,74 @@ import slikaa7 from '@/views/images/7 sala.jpg';
 import slikaa8 from '@/views/images/8 federalno ministarstvo.jpg';
 import slikaa9 from '@/views/images/9 erasmus.jpg';
 
+const INITIAL_PROJECT_COUNT = 3;
+const PROJECT_BATCH_SIZE = 10;
+
+const Image = ({ alt, ...props }) => (
+  <NextImage {...props} alt={alt || "Fotografija uz objavljeni projekat"} />
+);
+
+function ProjectArchive({ children }) {
+  const [visibleCount, setVisibleCount] = useState(INITIAL_PROJECT_COUNT);
+  const projects = React.Children.toArray(children).filter(React.isValidElement);
+  const remainingCount = Math.max(projects.length - visibleCount, 0);
+  const nextBatchSize = Math.min(PROJECT_BATCH_SIZE, remainingCount);
+
+  useEffect(() => {
+    if (visibleCount > INITIAL_PROJECT_COUNT) {
+      AOS.refreshHard();
+    }
+  }, [visibleCount]);
+
+  return (
+    <>
+      {projects.slice(0, visibleCount)}
+      {remainingCount > 0 && (
+        <div className="flex justify-center bg-white pb-20 px-4">
+          <button
+            type="button"
+            className="text-white font-bold px-6 py-4 rounded shadow hover:shadow-lg ease-linear transition-all duration-150"
+            style={{ backgroundColor: "#92d050" }}
+            onClick={() =>
+              setVisibleCount((currentCount) =>
+                Math.min(currentCount + PROJECT_BATCH_SIZE, projects.length)
+              )
+            }
+            aria-label={`Prikaži narednih ${nextBatchSize} projekata`}
+          >
+            Prikaži narednih {nextBatchSize} projekata{" "}
+            <span aria-hidden="true">↓</span>
+          </button>
+        </div>
+      )}
+    </>
+  );
+}
+
 const Projekti = () => {
   useEffect(() => {
     AOS.init({duration: 2000});
   }, []);
+  const { posts: managedPosts, isLoading: managedPostsLoading } = useManagedPosts(["projekti", "etwinning"]);
   const [users, setUsers] = useState([]);
-  const usersCollectionRef = collection(db, "projekti");
 
   useEffect(() => {
     const getUsers = async () => {
-      const data = await getDocs(usersCollectionRef);
+      const data = await getDocs(collection(db, "projekti"));
       setUsers(data.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
     };
 
     getUsers();
   }, []);
+  if (managedPostsLoading) {
+    return <><ProjektiNavbar /><ManagedPostsLoading /></>;
+  }
   const sortirani = [...users].sort((a, b) => b.Broj - a.Broj);
   return (
     <>
-    <ProjektiNavbar fixed/>
+    <ProjektiNavbar />
+    <ProjectArchive>
+    {managedPosts.map((post) => <ManagedPostCard key={post.id} post={post} />)}
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
                   <div className="container mx-auto px-4">
                     <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
@@ -331,7 +383,7 @@ Zahvaljujemo svim partnerima, organizatorima, profesorima i učenicima za trud, 
                           <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                     <h6 className="text-xl mb-1 font-semibold uppercase mr-2">GTECH Završna javna konferencija: Obrazovanje za budućnost
                  </h6>
-                    <Image src={logo10} width="200" height="200" alt="" />
+                    <Image src={logo10} alt="Green Tech Entrepreneurship Challenge Hub" style={{ width: 200, height: "auto" }} />
                 </span>
                             <div className="flex flex-wrap">
                               <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
@@ -558,7 +610,7 @@ Zahvaljujemo svim partnerima, organizatorima, profesorima i učenicima za trud, 
                   <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
             <h6 className="text-xl mb-1 font-semibold uppercase mr-2">GTECH POST MOBILITY KONFERENCIJA U SREDNJOJ EKONOMSKOJ ŠKOLI, SARAJEVO
          </h6>
-            <Image src={logo10} width="200" height="200" alt="" />
+            <Image src={logo10} alt="Green Tech Entrepreneurship Challenge Hub" style={{ width: 200, height: "auto" }} />
         </span>
                     <div className="flex flex-wrap">
                       <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
@@ -645,7 +697,7 @@ Tokom radionice diskusije su bile usmjerene na integraciju zelenih tehnologija, 
                   <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
             <h6 className="text-xl mb-1 font-semibold uppercase mr-2">Predstavnice Srednje ekonomske škole, Sarajevo na stručno-edukativnim treninzima u Ljubljani i Varaždinu
          </h6>
-            <Image src={logo10} width="200" height="200" alt="" />
+            <Image src={logo10} alt="Green Tech Entrepreneurship Challenge Hub" style={{ width: 200, height: "auto" }} />
         </span>
                     <div className="flex flex-wrap">
                       <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
@@ -729,11 +781,11 @@ Tokom radionice diskusije su bile usmjerene na integraciju zelenih tehnologija, 
           <div className="container mx-auto px-4">
           <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
 <div className="big-screen-only md:hidden">
-      <Image src={logo9} width="200" height="200" alt="" />
+      <Image src={logo9} alt="Program Erasmus+ Evropske unije" style={{ width: 200, height: "auto" }} />
     </div>
     <h6 className="text-xl mb-1 font-semibold uppercase mr-2">PARTNERI ERASMUS+ G-TECH PROJEKTA OKUPLJENI U LJUBLJANI
  </h6>
-    <Image src={logo10} width="200" height="200" alt="" />
+    <Image src={logo10} alt="Green Tech Entrepreneurship Challenge Hub" style={{ width: 200, height: "auto" }} />
 </span>
             <div className="flex flex-wrap">
               <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
@@ -1301,16 +1353,20 @@ Sigurni smo da će i učenice/učenici škola učesnica, pored projektnih aktivn
                   <Carousel showThumbs={false} interval="10000" transitionTime="1000" infiniteLoop>
                       
                     <div>
-                        <img src="https://firebasestorage.googleapis.com/v0/b/obavijesti-b3310.appspot.com/o/Stednja%202.jpg?alt=media&token=b5134740-bd9e-48e1-9307-da1e948139ee" alt="" />
+                        {/* eslint-disable-next-line @next/next/no-img-element */}
+                        <img src="https://firebasestorage.googleapis.com/v0/b/obavijesti-b3310.appspot.com/o/Stednja%202.jpg?alt=media&token=b5134740-bd9e-48e1-9307-da1e948139ee" alt="Obilježavanje Svjetskog dana štednje – fotografija 1" loading="lazy" />
                     </div>
                     <div>
-                        <img src="https://firebasestorage.googleapis.com/v0/b/obavijesti-b3310.appspot.com/o/Stednja%203.jpg?alt=media&token=80629c3e-daa7-4869-8354-56975520504a" alt="" />
+                        {/* eslint-disable-next-line @next/next/no-img-element */}
+                        <img src="https://firebasestorage.googleapis.com/v0/b/obavijesti-b3310.appspot.com/o/Stednja%203.jpg?alt=media&token=80629c3e-daa7-4869-8354-56975520504a" alt="Obilježavanje Svjetskog dana štednje – fotografija 2" loading="lazy" />
                     </div>
                     <div>
-                        <img src="https://firebasestorage.googleapis.com/v0/b/obavijesti-b3310.appspot.com/o/Stednja%201.jpg?alt=media&token=b38553d5-5b52-4933-8688-8dbfd684cf41" alt="" />
+                        {/* eslint-disable-next-line @next/next/no-img-element */}
+                        <img src="https://firebasestorage.googleapis.com/v0/b/obavijesti-b3310.appspot.com/o/Stednja%201.jpg?alt=media&token=b38553d5-5b52-4933-8688-8dbfd684cf41" alt="Obilježavanje Svjetskog dana štednje – fotografija 3" loading="lazy" />
                     </div>
                     <div>
-                        <img src="https://firebasestorage.googleapis.com/v0/b/obavijesti-b3310.appspot.com/o/Stednja%204.jpg?alt=media&token=12aaed9f-87c3-46fc-989f-b24a37d92046" alt="" />
+                        {/* eslint-disable-next-line @next/next/no-img-element */}
+                        <img src="https://firebasestorage.googleapis.com/v0/b/obavijesti-b3310.appspot.com/o/Stednja%204.jpg?alt=media&token=12aaed9f-87c3-46fc-989f-b24a37d92046" alt="Obilježavanje Svjetskog dana štednje – fotografija 4" loading="lazy" />
                     </div>
                     
                     
@@ -1519,6 +1575,7 @@ Sigurni smo da će i učenice/učenici škola učesnica, pored projektnih aktivn
           </section>
           
 )}*/}
+    </ProjectArchive>
     <Footer />
     </>
   )

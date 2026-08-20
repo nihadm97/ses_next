@@ -7,8 +7,11 @@ import { Carousel } from 'react-responsive-carousel';
 import { useEffect } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import Image from 'next/image';
+import NextImage from 'next/image';
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import ManagedPostCard from "@/components/Content/ManagedPostCard";
+import ManagedPostsLoading from "@/components/Content/ManagedPostsLoading";
+import useManagedPosts from "@/hooks/useManagedPosts";
 
 
 import eu from '@/views/images/eu.png';
@@ -114,14 +117,24 @@ import slikaa7 from '@/views/images/7 sala.jpg';
 import slikaa8 from '@/views/images/8 federalno ministarstvo.jpg';
 import slikaa9 from '@/views/images/9 erasmus.jpg';
 
+const Image = ({ alt, ...props }) => (
+  <NextImage {...props} alt={alt || "Fotografija Erasmus+ projekta"} />
+);
+
 const Erasmus = () => {
   useEffect(() => {
     AOS.init({duration: 2000});
   }, []);
+  const { posts: managedPosts, isLoading: managedPostsLoading } = useManagedPosts(["erasmus"]);
+
+  if (managedPostsLoading) {
+    return <><Menu /><ManagedPostsLoading /></>;
+  }
 
   return (
     <>
     <Menu fixed/>
+    {managedPosts.map((post) => <ManagedPostCard key={post.id} post={post} />)}
     <section data-aos="fade-in" className="pb-20 bg-white w-full">
                   <div className="container mx-auto px-4">
                     <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100">
@@ -306,7 +319,7 @@ Zahvaljujemo svim partnerima, organizatorima, profesorima i učenicima za trud, 
                           <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                     <h6 className="text-xl mb-1 font-semibold uppercase mr-2">GTECH Završna javna konferencija: Obrazovanje za budućnost
                  </h6>
-                    <Image src={logo10} width="200" height="200" alt="" />
+                    <Image src={logo10} alt="Green Tech Entrepreneurship Challenge Hub" style={{ width: 200, height: "auto" }} />
                 </span>
                             <div className="flex flex-wrap">
                               <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
@@ -533,7 +546,7 @@ Zahvaljujemo svim partnerima, organizatorima, profesorima i učenicima za trud, 
                       <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                 <h6 className="text-xl mb-1 font-semibold uppercase mr-2">GTECH POST MOBILITY KONFERENCIJA U SREDNJOJ EKONOMSKOJ ŠKOLI, SARAJEVO
              </h6>
-                <Image src={logo10} width="200" height="200" alt="" />
+                <Image src={logo10} alt="Green Tech Entrepreneurship Challenge Hub" style={{ width: 200, height: "auto" }} />
             </span>
                         <div className="flex flex-wrap">
                           <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
@@ -620,7 +633,7 @@ Zahvaljujemo svim partnerima, organizatorima, profesorima i učenicima za trud, 
           <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
     <h6 className="text-xl mb-1 font-semibold uppercase mr-2">Predstavnice Srednje ekonomske škole, Sarajevo na stručno-edukativnim treninzima u Ljubljani i Varaždinu
  </h6>
-    <Image src={logo10} width="200" height="200" alt="" />
+    <Image src={logo10} alt="Green Tech Entrepreneurship Challenge Hub" style={{ width: 200, height: "auto" }} />
 </span>
             <div className="flex flex-wrap">
               <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
@@ -704,11 +717,11 @@ Srednja ekonomska škola, Sarajevo </p>
           <div className="container mx-auto px-4">
           <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
 <div className="big-screen-only md:hidden">
-      <Image src={logo9} width="200" height="200" alt="" />
+      <Image src={logo9} alt="Program Erasmus+ Evropske unije" style={{ width: 200, height: "auto" }} />
     </div>
     <h6 className="text-xl mb-1 font-semibold uppercase mr-2">PARTNERI ERASMUS+ G-TECH PROJEKTA OKUPLJENI U LJUBLJANI
  </h6>
-    <Image src={logo10} width="200" height="200" alt="" />
+    <Image src={logo10} alt="Green Tech Entrepreneurship Challenge Hub" style={{ width: 200, height: "auto" }} />
 </span>
             <div className="flex flex-wrap">
               <div className="lg:pt-12 pt-6 w-full px-6 text-center md:w-6/12">
@@ -970,7 +983,7 @@ Specijalna nagrada žirija je također otišla u ruke učenicama i učenicima na
                         
 
                     </div>
-                    <a href='https://drive.google.com/file/d/1Pa_F1_7Ws9Ne1QK_oD8tzvMNA-aCLzKl/view?usp=sharing' target="_blank" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+                    <a href='https://drive.google.com/file/d/1Pa_F1_7Ws9Ne1QK_oD8tzvMNA-aCLzKl/view?usp=sharing' target="_blank" rel="noreferrer" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                   style= {{backgroundColor: '#92d050'}} >Preuzmi materijal</a>
 
                   </div>
@@ -999,7 +1012,7 @@ Specijalna nagrada žirija je također otišla u ruke učenicama i učenicima na
                         
 
                     </div>
-                    <a href='https://drive.google.com/file/d/1kfZdNoTXxz7DDypsmUw-ErVMyQkH8bpf/view?usp=sharing' target="_blank" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+                    <a href='https://drive.google.com/file/d/1kfZdNoTXxz7DDypsmUw-ErVMyQkH8bpf/view?usp=sharing' target="_blank" rel="noreferrer" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                   style= {{backgroundColor: '#92d050'}} >Preuzmi materijal</a>
 
                   </div>
@@ -1028,7 +1041,7 @@ Specijalna nagrada žirija je također otišla u ruke učenicama i učenicima na
                         
 
                     </div>
-                    <a href='https://drive.google.com/file/d/1RJSq3DFEv_U_oWDxdlqUz33gDBjldOt_/view?usp=sharing' target="_blank" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+                    <a href='https://drive.google.com/file/d/1RJSq3DFEv_U_oWDxdlqUz33gDBjldOt_/view?usp=sharing' target="_blank" rel="noreferrer" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                   style= {{backgroundColor: '#92d050'}} >Preuzmi materijal</a>
 
                   </div>
@@ -1069,7 +1082,7 @@ Specijalna nagrada žirija je također otišla u ruke učenicama i učenicima na
                   <br></br>
                         <p className="mb-4 text-blueGray-500">
                         </p>
-                        <a href='https://drive.google.com/file/d/1-g0RhcwcQKlX7vbOSq462IJjZI0UAxy6/view?usp=sharing' target="_blank" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+                        <a href='https://drive.google.com/file/d/1-g0RhcwcQKlX7vbOSq462IJjZI0UAxy6/view?usp=sharing' target="_blank" rel="noreferrer" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                   style= {{backgroundColor: '#92d050'}} >Preuzmi materijal</a>
 
 
@@ -1099,7 +1112,7 @@ Specijalna nagrada žirija je također otišla u ruke učenicama i učenicima na
                         <br></br>
                         <p className="mb-4 text-blueGray-500">
                         U ovom materijalu, saznaćete koje su to ključne preduzetničke kompetencije prema EntreComp modelu, kao i detaljne opise sa praktičnim primjerima svake od 15 kompetencija koje se smatraju ključnim za ovladavanje preduzetničkim načinom razmišljanja i promjenu stavova u funkciji preduzimanja inicijativa za stvaranje novih vrijednosti - umjesto klasičnih programa za osnivanje i upravljanje MSP (malim i srednjim preduzećima). </p>
-                        <a href='https://drive.google.com/file/d/1MvTUMEJReeD_SDWYNYMNHRA27wXgzowR/view?usp=sharing' target="_blank" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+                        <a href='https://drive.google.com/file/d/1MvTUMEJReeD_SDWYNYMNHRA27wXgzowR/view?usp=sharing' target="_blank" rel="noreferrer" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                   style= {{backgroundColor: '#92d050'}} >Preuzmi materijal</a>
 
                     </div>
@@ -1118,7 +1131,7 @@ Specijalna nagrada žirija je također otišla u ruke učenicama i učenicima na
                         <br></br>
                         <p className="mb-4 text-blueGray-500">
                         U ovom materijalu, kreiranom kao putokaz nastavnicima kako da uspješno organizuju radionice po modelu PBL (učenja zasnovanog na projektu), saznaćete, između ostalog, kako napraviti ravnotežu između izazova i podrške, kako uspostaviti povjerenje i otvoreni razgovor bez isticanja autoriteta, kako ohrabriti učešće svih bez auto-cenzure – uvođenjem prava na grešku, kako balansirati odnos između dominantnih i tihih učenika i kako stimulisati saradnju na zajedničkom rješavanju problema.</p>
-                        <a href='https://drive.google.com/file/d/16PGsODckTeTeBctJGEKnClJCUCRI-BkR/view?usp=sharing' target="_blank" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+                        <a href='https://drive.google.com/file/d/16PGsODckTeTeBctJGEKnClJCUCRI-BkR/view?usp=sharing' target="_blank" rel="noreferrer" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                   style= {{backgroundColor: '#92d050'}} >Preuzmi materijal</a>
 
                     </div>
