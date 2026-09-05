@@ -1,70 +1,41 @@
-"use client"
-import React from "react";
-import { db } from "./firebase-config";
-import { collection, getDocs} from "firebase/firestore";
-import { useState, useEffect } from "react";
-import AOS from 'aos';
 import 'aos/dist/aos.css';
 import UpisNavbar from "@/components/Navbars/UpisNavbar";
 import Footer from "@/components/Footers/Footer.js";
+import AosInitializer from "@/components/Home/AosInitializer";
+import HomepageInfoLists from "@/components/Home/HomepageInfoLists";
 import biblioteka from '@/views/images/biblioteka.webp';
 import Link from 'next/link';
 import Image from 'next/image';
 import '@fortawesome/fontawesome-free/css/all.min.css';
-import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { Carousel } from 'react-responsive-carousel';
-import erasmus0 from '@/views/images/erasmus0.jpg';
-import erasmus1 from '@/views/images/erasmus1.jpg';
-import erasmus2 from '@/views/images/erasmu2.jpg';
-import erasmus3 from '@/views/images/erasmu3.jpg';
-import erasmus4 from '@/views/images/erasmu4.jpg';
-import erasmus5 from '@/views/images/erasmus5.jpg';
-import erasmus6 from '@/views/images/erasmus6.jpg';
-import erasmus7 from '@/views/images/erasmus7.jpg';
-import erasmus8 from '@/views/images/erasmus8.jpg';
-
-import eu from '@/views/images/eu.png';
 
 export default function Index() {
-
-  const [users, setUsers] = useState([]);
-
-  useEffect(() => {
-    AOS.init({duration: 2000});
-    const getUsers = async () => {
-      const data = await getDocs(collection(db, "1"));
-      setUsers(data.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
-    };
-
-    getUsers();
-  }, []);
-
-  const [users1, setUsers1] = useState([]);
-
-  useEffect(() => {
-    const getUsers1 = async () => {
-      const data = await getDocs(collection(db, "2"));
-      setUsers1(data.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
-    };
-
-    getUsers1();
-  }, []);
-  const sortirani = [...users].sort((a, b) => b.Broj - a.Broj);
-  const sortirani1 = [...users1].sort((a, b) => b.Broj - a.Broj);
-  
   return (
     <>
+      <AosInitializer />
       <section id="pocetna" className="header relative  flex h-screen bg-center" style={{
                backgroundSize: 'cover', alignSelf: 'center', minHeight: "800px"
             }}>
                 
         <UpisNavbar />
-        <video src="/ses.mp4" width="800" height="600" className="backgroundVideo hidden md:block" autoPlay playsInline loop muted/>
-        <video src="/VideoP.mp4"  className="backgroundVideo block md:hidden"
-        autoPlay
-        loop
-        muted
-        playsInline />
+        <video
+          className="backgroundVideo"
+          autoPlay
+          playsInline
+          loop
+          muted
+          aria-hidden="true"
+        >
+          <source
+            src="/VideoP.mp4?v=2"
+            type="video/mp4"
+            media="(max-width: 767px)"
+          />
+          <source
+            src="/ses.mp4?v=2"
+            type="video/mp4"
+            media="(min-width: 768px)"
+          />
+        </video>
       
         <div className="container flex flex-wrap absolute">
       
@@ -136,55 +107,7 @@ export default function Index() {
           <div className="flex flex-wrap justify-center bg-white shadow-xl rounded-lg py-16 px-12 relative z-10"> 
       <section className="bg-white w-full">
           <div className="container mx-auto px-4">
-            <div className="flex flex-wrap">
-              <div data-aos="fade-in" className="w-full text-center md:w-6/12 mt-4">
-              <div>
-                    <span className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full" style={{backgroundColor: "rgb(254, 125, 1)"}}>
-                    </span>
-              </div>
-              <h4 className="text-xl font-semibold uppercase mb-6" style={{color: "rgb(254, 125, 1)"}}>Informacije za učenike</h4>
-            {sortirani.map(obj  => 
-                <div key={obj.id} className="relative flex flex-col min-w-0 break-words w-full mb-2 rounded-lg">
-                  <div className="flex-auto">
-                  <a
-                  className="font-bold text-blueGray-700 hover:text-blueGray-500 ease-linear transition-all duration-150"
-                  href={obj.Link}
-                  target="_blank"
-                  rel="noreferrer"
-                  
-                >
-                  {obj.Naslov}
-                  
-                </a>
-                  
-                    </div>
-                  </div>)}
-                </div>
-              <div data-aos="fade-in" className="w-full text-center md:w-6/12 mt-4">
-              <div>
-                    <span className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full" style={{backgroundColor: '#92d050'}}>
-                    </span>
-              </div>
-              <h4 className="text-xl font-semibold uppercase mb-6" style={{color: "#92d050"}}>Ostale informacije</h4>
-            {sortirani1.map(obj  => 
-                <div key={obj.id} className="relative flex flex-col min-w-0 break-words w-full mb-2 rounded-lg">
-                  <div className="flex-auto">
-                  <a
-                  className="font-bold text-blueGray-700 hover:text-blueGray-500 ease-linear transition-all duration-150"
-                  href={obj.Link}
-                  target="_blank"
-                  rel="noreferrer"
-                  
-                >
-                  {obj.Naslov}
-                  
-                </a>
-                  
-                    </div>
-                  </div>)}
-              </div>
-              
-            </div>
+            <HomepageInfoLists />
             </div>
           </section>
           
@@ -211,6 +134,7 @@ export default function Index() {
       <iframe 
         width="560" 
         height="315" 
+        loading="lazy"
         src="https://www.youtube.com/embed/gGFvORbUSJU?si=gMi7STfVE0m_2m_Z" 
         title="YouTube video player" 
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
@@ -251,7 +175,7 @@ Učenici/ce, nastavnici/ce, obrazovne vlasti, svi akteri obrazovnog procesa, zaj
           <div className="container mx-auto px-4">
           <span className="text-sm block my-4 p-3 text-blueGray-700 rounded border border-solid border-blueGray-100" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
     <h6 className="text-xl mb-1 font-semibold uppercase mr-2">Gostovanje učenika i direktorice Škole u emisiji BH radija -Teen teens</h6></span>
-    <iframe title="Teen Teens emisija BH radija" width="100%" height="120" src="https://player-widget.mixcloud.com/widget/iframe/?hide_cover=1&feed=%2Fomladinski_program_bhrt%2Fteen-teens-16012025%2F" frameBorder="0" ></iframe>
+    <iframe title="Teen Teens emisija BH radija" width="100%" height="120" loading="lazy" src="https://player-widget.mixcloud.com/widget/iframe/?hide_cover=1&feed=%2Fomladinski_program_bhrt%2Fteen-teens-16012025%2F" frameBorder="0" ></iframe>
             </div>
           </section>
 
