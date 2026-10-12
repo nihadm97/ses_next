@@ -80,7 +80,7 @@ export default function Navbar() {
                       TERMINI KONSULTACIJA
                     </a>
                   </li>
-                  <li className="nav-item">
+                  {/* <li className="nav-item">
                     <a
                       className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
                       href="https://drive.google.com/file/d/1mpY0Ri9wgvlbjo3eeHmmwtUpsIw018xs/view?usp=sharing"
@@ -100,6 +100,7 @@ export default function Navbar() {
                       ČLANOVI VIJEĆA UČENIKA
                     </a>
                   </li>
+                  */}
                   <li className="flex items-center">
                     <NavbarSocialLinks />
                   </li>
